@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": null,
+  "updated": "2026-09-21",
   "totals": {
     "predictions": 0,
     "hits": 0,
@@ -13,6 +13,10 @@
     {
       "date": "2026-09-21",
       "entry": "FINE initialisiert. Anlageuniversum: Mix DAX/US/Indizes, 2–3 Werte pro Tag. Baseline-Phase: Prognosen ohne historische Kalibrierung."
+    },
+    {
+      "date": "2026-09-21",
+      "entry": "Testlauf: Probe-Prognose für 22.09.2026 (DAX, SAP, NVIDIA). Auswahl-Logik: DAX nach GD100-Halt + Montaserholung moderat steigend; SAP als Momentum-Wert der Vorwoche; NVIDIA nach 4 Gewinntagen neutral (Mean-Reversion-Annahme). Kalibrierung: Bandbreiten bewusst eher eng angesetzt, um Trefferquote später sauber messen zu können."
     }
   ]
 }
