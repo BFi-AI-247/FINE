@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "timezone": "Europe/Berlin",
+  "slots": {
+    "morning": "08:30",
+    "noon": "14:00",
+    "evening": "22:00"
+  },
+  "universe": {
+    "indices": [
+      "DAX",
+      "MDAX",
+      "EuroStoxx 50",
+      "S&P 500",
+      "Nasdaq 100",
+      "Dow Jones"
+    ],
+    "equities_de": [
+      "SAP",
+      "Siemens",
+      "Allianz",
+      "Deutsche Telekom",
+      "Infineon",
+      "Airbus",
+      "Munich Re",
+      "BASF"
+    ],
+    "equities_us": [
+      "Apple",
+      "Microsoft",
+      "NVIDIA",
+      "Alphabet",
+      "Amazon",
+      "Meta",
+      "Tesla",
+      "Broadcom"
+    ]
+  },
+  "rules": {
+    "picksPerDay": "2-3",
+    "mix": "mindestens 1 Index und 1 Aktie; Mix DE/US",
+    "predictionFormat": "Richtung (steigt/fällt/neutral), erwartete Bandbreite in %, Konfidenz 0-100%, Begründung mit Quellen",
+    "reviewScoring": "Treffer wenn Richtung korrekt und Kurs in oder nahe Bandbreite; Fehlerquote wird je Wertetyp und Marktphase getrackt"
+  }
+}
