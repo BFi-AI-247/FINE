@@ -1,4 +1,46 @@
 {
   "version": 1,
-  "days": []
+  "days": [
+    {
+      "date": "2026-09-21",
+      "title": "Probe-Prognose (Testlauf) für Dienstag, 22.09.2026",
+      "test": true,
+      "note": "Testlauf zum Aufsetzen von FINE. Erste reguläre Prognose folgt am 22.09.2026 durch den Morgen-Job.",
+      "picks": [
+        {
+          "name": "DAX",
+          "type": "index",
+          "direction": "up",
+          "bandLow": 0,
+          "bandHigh": 0.8,
+          "confidence": 55,
+          "reason": "Freitag bei 25.304,06 Punkten (-1,60%) nach Hexensabbat-Verfall, aber GD100 (25.286) gehalten und Montaserholung auf ~25.570. supported durch niedrigere Öl-Nervosität? Vorsicht: Woche geprägt von Ifo, PMIs, Trump-Xi-Gipfel; XTB/UBS sehen Charttechnik weiter leicht bärisch unter SMA50. Erwartung: moderate Erholung fortgesetzt, +0,0% bis +0,8%. Quellen: broker-test.de, 4investors.de (UBS), XTB.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "SAP",
+          "type": "equity_de",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1.2,
+          "confidence": 60,
+          "reason": "Stärkster TecDAX-Wert der Vorwoche (+3,31%), Montag erneut zu den Tagesgewinnern (+1,1% auf 185,12 EUR). Cloud-Wachstum intakt, Analysten überwiegend kaufseitig (MarketBeat: Moderate Buy). Kurzfristiges Momentum positiv trotz Rücksetzer am Freitag auf 182,60 EUR. Erwartung: +0,2% bis +1,2%. Quellen: finanzen.ch, ad-hoc-news.de, boerse.de.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "NVIDIA",
+          "type": "equity_us",
+          "direction": "flat",
+          "bandLow": -0.5,
+          "bandHigh": 1,
+          "confidence": 50,
+          "reason": "Vier Gewinntage in Folge, Freitag +1,34% auf 222,27 USD; Jensen Huang: doppelt so viele Chip-Verkäufe nächstes Jahr erwartet (CNBC). Nach Seriengewinnen Pause wahrscheinlich; Marktumfeld (Zinsen, Geopolitik) gemischt. Erwartung: Seitwärts bis leicht positiv, -0,5% bis +1,0%. Quellen: stockinvest.us, CNBC.",
+          "status": "open",
+          "reviews": []
+        }
+      ]
+    }
+  ]
 }
