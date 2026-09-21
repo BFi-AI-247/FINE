@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FINE — Financial Information Neural Engine</title>
+<style>
+  :root { --bg:#0d1117; --card:#161b22; --border:#30363d; --text:#e6edf3; --muted:#8b949e; --green:#3fb950; --red:#f85149; --amber:#d29922; --blue:#58a6ff; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:-apple-system,'Segoe UI',Roboto,sans-serif; background:var(--bg); color:var(--text); padding:24px; max-width:1100px; margin:0 auto; }
+  header { display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:8px; margin-bottom:20px; }
+  h1 { font-size:1.6em; letter-spacing:.5px; }
+  h1 span { color:var(--blue); }
+  .sub { color:var(--muted); font-size:.85em; }
+  .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin-bottom:24px; }
+  .card { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:16px; text-align:center; }
+  .card .v { font-size:1.8em; font-weight:700; }
+  .card .l { color:var(--muted); font-size:.8em; text-transform:uppercase; letter-spacing:.5px; margin-top:4px; }
+  h2 { font-size:1.1em; margin:28px 0 12px; color:var(--blue); }
+  .day { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:18px; margin-bottom:16px; }
+  .day h3 { font-size:1em; display:flex; justify-content:space-between; flex-wrap:wrap; gap:6px; }
+  .date { color:var(--muted); font-weight:400; font-size:.85em; }
+  .picks { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:10px; margin-top:12px; }
+  .pick { background:var(--bg); border:1px solid var(--border); border-radius:8px; padding:12px; }
+  .pick .head { display:flex; justify-content:space-between; align-items:baseline; }
+  .pick .name { font-weight:700; }
+  .badge { font-size:.75em; padding:2px 8px; border-radius:99px; font-weight:600; }
+  .badge.up { background:#1b3a25; color:var(--green); } .badge.down { background:#3d1a19; color:var(--red); } .badge.flat { background:#3a2e14; color:var(--amber); }
+  .badge.hit { background:#1b3a25; color:var(--green); } .badge.partial { background:#3a2e14; color:var(--amber); } .badge.miss { background:#3d1a19; color:var(--red); } .badge.open { background:#1c2a3d; color:var(--blue); }
+  .meta { color:var(--muted); font-size:.8em; margin-top:6px; line-height:1.5; }
+  .reason { font-size:.85em; margin-top:8px; line-height:1.5; }
+  .reviews { margin-top:10px; border-top:1px dashed var(--border); padding-top:8px; font-size:.82em; }
+  .reviews b { color:var(--blue); }
+  .log { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:16px; }
+  .log li { margin:8px 0 8px 18px; font-size:.88em; line-height:1.5; }
+  .log .d { color:var(--muted); font-size:.85em; }
+  .disclaimer { margin-top:28px; padding:14px; border:1px solid var(--amber); border-radius:10px; font-size:.8em; color:var(--muted); line-height:1.6; }
+  .loading { color:var(--muted); padding:40px; text-align:center; }
+  a { color:var(--blue); }
+</style>
+</head>
+<body>
+<header>
+  <h1>📈 <span>FINE</span> — Financial Information Neural Engine</h1>
+  <div class="sub">Tagesprognosen mit Review · Mo–Fr · Slots 08:30 / 14:00 / 22:00 (Europe/Berlin)</div>
+</header>
+
+<div class="cards" id="stats"></div>
+<h2>Prognosen &amp; Reviews</h2>
+<div id="days"><div class="loading">Lade Daten …</div></div>
+<h2>🧠 Lern-Log</h2>
+<ul class="log" id="log"></ul>
+
+<div class="disclaimer">⚠️ <b>Disclaimer:</b> FINE ist ein KI-Experiment zur Bewertung von KI-generierten Börsenprognosen. Alle Inhalte sind keine Anlageberatung und keine Kauf- oder Verkaufsempfehlung. Kursdaten können verzögert sein.</div>
+
+<script>
+const BASE = 'data/';
+async function loadJSON(p){ const r = await fetch(BASE+p); if(!r.ok) return null; return r.json(); }
+const fmtPct = x => (x==null?'—':(x>0?'+':'')+x.toFixed(2)+'%');
+
+function renderStats(s){
+  const t = s?.totals || {predictions:0,hits:0,partial:0,misses:0,hitRate:null};
+  const rate = t.hitRate!=null ? (t.hitRate*100).toFixed(1)+'%' : '—';
+  const cells = [
+    [t.predictions,'Prognosen'],[rate,'Trefferquote'],[t.hits,'Treffer'],[t.partial,'Teilweise'],[t.misses,'Daneben']
+  ];
+  document.getElementById('stats').innerHTML = cells.map(c=>'<div class="card"><div class="v">'+c[0]+'</div><div class="l">'+c[1]+'</div></div>').join('');
+}
+
+function badge(cls,txt){ return '<span class="badge '+cls+'">'+txt+'</span>'; }
+function dirBadge(d){ return d==='up'?badge('up','▲ steigt'):d==='down'?badge('down','▼ fällt'):badge('flat','► neutral'); }
+function statusBadge(st){
+  const m = {hit:['hit','✓ Treffer'],partial:['partial','◐ teilweise'],miss:['miss','✗ daneben'],open:['open','⏳ offen']};
+  const [c,t] = m[st]||m.open; return badge(c,t);
+}
+
+function renderDay(day){
+  const picks = (day.picks||[]).map(p=>{
+    let revs = '';
+    if(p.reviews?.length){
+      revs = '<div class="reviews">' + p.reviews.map(r=>'<div><b>'+r.slot+':</b> '+esc(r.text)+'</div>').join('') + '</div>';
+    }
+    const band = p.bandLow!=null ? ' · Bandbreite '+fmtPct(p.bandLow)+' bis '+fmtPct(p.bandHigh) : '';
+    return '<div class="pick"><div class="head"><span class="name">'+esc(p.name)+'</span>'+dirBadge(p.direction)+' '+statusBadge(p.status)+'</div>'
+      +'<div class="meta">Konfidenz: '+(p.confidence!=null?p.confidence+'%':'—')+band+(p.actual!=null?' · Tatsächlich: '+fmtPct(p.actual):'')+'</div>'
+      +'<div class="reason">'+esc(p.reason||'')+'</div>'+revs+'</div>';
+  }).join('');
+  return '<div class="day"><h3>'+esc(day.title||day.date)+'<span class="date">'+esc(day.date)+'</span></h3><div class="picks">'+picks+'</div></div>';
+}
+
+function esc(s){ return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+(async ()=>{
+  const [pred, stats] = await Promise.all([loadJSON('predictions.json'), loadJSON('stats.json')]);
+  renderStats(stats);
+  const days = pred?.days||[];
+  document.getElementById('days').innerHTML = days.length ? days.slice().reverse().map(renderDay).join('') : '<div class="loading">Noch keine Prognosen. Der erste Morgen-Job startet am nächsten Handelstag.</div>';
+  const log = stats?.learningLog||[];
+  document.getElementById('log').innerHTML = log.slice().reverse().map(l=>'<li><span class="d">'+esc(l.date)+'</span> — '+esc(l.entry)+'</li>').join('') || '<li>Noch keine Einträge.</li>';
+})();
+</script>
+</body>
+</html>
