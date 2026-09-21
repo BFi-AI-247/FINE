@@ -17,6 +17,10 @@
     {
       "date": "2026-09-21",
       "entry": "Testlauf: Probe-Prognose für 22.09.2026 (DAX, SAP, NVIDIA). Auswahl-Logik: DAX nach GD100-Halt + Montaserholung moderat steigend; SAP als Momentum-Wert der Vorwoche; NVIDIA nach 4 Gewinntagen neutral (Mean-Reversion-Annahme). Kalibrierung: Bandbreiten bewusst eher eng angesetzt, um Trefferquote später sauber messen zu können."
+    },
+    {
+      "date": "2026-09-21",
+      "entry": "Abend-Job: Keine Bewertung möglich — der einzige Tageseintrag ist eine Probe-Prognose für den 22.09.2026 (DAX, SAP, NVIDIA, alle status=open). Schlusskurse für den 22.09. liegen noch nicht vor; ggf. Faking von actual/status unterlassen. Erste reguläre Bewertung erfolgt im Abend-Job am 22.09.2026. Lernfortschritt/Prozess-Erkenntnis: Datumslogik der Picks prüfen, bevor bewertet wird — Picks gehören immer zum Prognosetag, nicht zum Erstellungstag. Heuristik unverändert (zu wenig Datenpunkte)."
     }
   ]
 }
