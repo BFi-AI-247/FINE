@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "updated": null,
+  "totals": {
+    "predictions": 0,
+    "hits": 0,
+    "partial": 0,
+    "misses": 0,
+    "hitRate": null
+  },
+  "byInstrumentType": {},
+  "learningLog": [
+    {
+      "date": "2026-09-21",
+      "entry": "FINE initialisiert. Anlageuniversum: Mix DAX/US/Indizes, 2–3 Werte pro Tag. Baseline-Phase: Prognosen ohne historische Kalibrierung."
+    }
+  ]
+}
