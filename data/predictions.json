@@ -41,6 +41,45 @@
           "reviews": []
         }
       ]
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Erste reguläre Tagesprognose: Rally-Fortsetzung vor Trump-Xi-Gipfel",
+      "picks": [
+        {
+          "name": "DAX",
+          "type": "index",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 0.9,
+          "confidence": 60,
+          "reason": "Vortagesschluss 25.576,79 Punkte (+1,1%) nach freundlichem US-Börsenschluss (S&P 500 +1,49% auf 7.764,70; Nasdaq Rekord +2,26% auf 27,122). X-DAX/Prognosen zum Tagesstart bereits ca. +1,2% bei 25.608 Punkten. Rückläufige Ölpreise (WTI -3% auf ~97 USD) und sinkende Anleiherenditen entlasten; Optimismus vor Trump-Xi-Gipfel (23.-25.09.). Risiko: Konjunkturdaten (Ifo, PMIs) und Nachfrage nach周一-Rally. Erwartung: +0,2% bis +0,9% (moderate Fortsetzung). Quellen: ad-hoc-news.de/Xetra, Investrade, CNBC, BNN Bloomberg, finanzen.net Tagesvorschau.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "SAP",
+          "type": "equity_de",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1,
+          "confidence": 62,
+          "reason": "Montagsschluss 184,87 EUR (+0,96%), erneut Tagesgewinner im DAX-Umfeld; Bank of America hob Kursziel auf 226 EUR an. Cloud-Momentum intakt, Aktie lief zuletzt konsistent über dem Markt. US-Tech-Rally (Nasdaq +2,26%) gibt zusätzliche Vorgabe. Erwartung: +0,2% bis +1,0%. Quellen: ad-hoc-news.de (Xetra-Daten), finanzen.ch.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "NVIDIA",
+          "type": "equity_us",
+          "direction": "up",
+          "bandLow": 0,
+          "bandHigh": 1.5,
+          "confidence": 55,
+          "reason": "Schlusskurs Montag 225,14 USD (+1,29%) bei Nasdaq-Rekordschluss; AI-/Chip-Rally breit (AMD erreicht 1 Billion USD Marktkapitalisierung). Erste Group hob EPS-Schätzung FY2027 auf 9,24 USD an, Konsens-Kursziel 324,34 USD. Öl-Rückgang und Zinsentlastung stützen Tech; fifth Gewinntag in Folge macht enges oberes Band notwendig - Mean-Reversion-Risiko. Erwartung: 0,0% bis +1,5%. Quellen: ad-hoc-news.de, Goldesel, boerse.de.",
+          "status": "open",
+          "reviews": []
+        }
+      ]
     }
   ]
 }
