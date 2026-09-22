@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FINE — Prognose-Analyse</title>
+<style>
+  :root { --bg:#0d1117; --card:#161b22; --border:#30363d; --text:#e6edf3; --muted:#8b949e; --blue:#58a6ff; --green:#3fb950; --red:#f85149; --amber:#d29922; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:-apple-system,'Segoe UI',Roboto,sans-serif; background:var(--bg); color:var(--text); padding:24px; max-width:1200px; margin:0 auto; }
+  h1 { font-size:1.4em; margin-bottom:4px; } h1 span { color:var(--blue); }
+  .sub { color:var(--muted); font-size:.85em; margin-bottom:16px; }
+  a { color:var(--blue); text-decoration:none; }
+  .back { display:inline-block; margin-bottom:14px; font-size:.9em; }
+  .filters { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:14px; }
+  .filters select, .filters input { background:var(--card); border:1px solid var(--border); color:var(--text); padding:8px 10px; border-radius:8px; font-size:.85em; }
+  .filters input { min-width:180px; }
+  table { width:100%; border-collapse:collapse; background:var(--card); border:1px solid var(--border); border-radius:10px; overflow:hidden; font-size:.85em; }
+  th, td { padding:8px 10px; text-align:right; border-bottom:1px solid var(--border); white-space:nowrap; }
+  th:first-child, td:first-child, th:nth-child(2), td:nth-child(2) { text-align:left; }
+  th { background:#1c2431; cursor:pointer; user-select:none; color:var(--blue); font-weight:600; }
+  th:hover { background:#232d3d; }
+  th .arrow { font-size:.75em; margin-left:4px; color:var(--muted); }
+  tr:hover td { background:#1a2129; }
+  .pos { color:var(--green); } .neg { color:var(--red); } .neu { color:var(--amber); }
+  .pf { color:var(--blue); font-weight:700; }
+  .badge { padding:2px 8px; border-radius:99px; font-size:.78em; font-weight:600; }
+  .b-hit { background:#1b3a25; color:var(--green); } .b-partial { background:#3a2e14; color:var(--amber); } .b-miss { background:#3d1a19; color:var(--red); } .b-open { background:#1c2a3d; color:var(--blue); }
+  .summary { margin:14px 0; font-size:.85em; color:var(--muted); }
+  .disclaimer { margin-top:24px; padding:12px; border:1px solid var(--amber); border-radius:10px; font-size:.75em; color:var(--muted); }
+  .empty { color:var(--muted); padding:30px; text-align:center; }
+</style>
+</head>
+<body>
+<a class="back" href="index.html">← Dashboard</a> · <a href="archiv.html">Archiv</a> · <a href="blog.html">Blog</a>
+<h1>🔬 <span>FINE</span> — Prognose-Analyse</h1>
+<div class="sub">Alle Prognosen tabellarisch — sortier- und filterbar (nur Zahlen, keine Begründungstexte)</div>
+
+<div class="filters">
+  <input type="text" id="f-text" placeholder="Titel suchen …">
+  <select id="f-name"><option value="">Alle Titel</option></select>
+  <select id="f-dir"><option value="">Richtung: alle</option><option value="up">▲ steigt</option><option value="down">▼ fällt</option><option value="flat">► neutral</option></select>
+  <select id="f-status"><option value="">Status: alle</option><option value="hit">Treffer</option><option value="partial">Teilweise</option><option value="miss">Daneben</option><option value="open">Offen</option></select>
+  <select id="f-type"><option value="">Typ: alle</option><option value="index">Index</option><option value="equity_de">Aktie DE</option><option value="equity_us">Aktie US</option></select>
+  <select id="f-pf"><option value="">Herkunft: alle</option><option value="yes">Nur Portfolio</option><option value="no">Ohne Portfolio</option></select>
+</div>
+<div class="summary" id="summary"></div>
+<div style="overflow-x:auto"><table id="tbl">
+  <thead><tr>
+    <th data-k="date">Datum<span class="arrow"></span></th>
+    <th data-k="name">Titel<span class="arrow"></span></th>
+    <th data-k="type">Typ<span class="arrow"></span></th>
+    <th data-k="pf">Depot<span class="arrow"></span></th>
+    <th data-k="direction">Richtung<span class="arrow"></span></th>
+    <th data-k="bandLow">Band unten %<span class="arrow"></span></th>
+    <th data-k="bandHigh">Band oben %<span class="arrow"></span></th>
+    <th data-k="confidence">Konfidenz %<span class="arrow"></span></th>
+    <th data-k="actual">Tatsächlich %<span class="arrow"></span></th>
+    <th data-k="status">Status<span class="arrow"></span></th>
+  </tr></thead>
+  <tbody id="rows"></tbody>
+</table></div>
+<div class="disclaimer">⚠️ FINE ist ein KI-Experiment. Keine Anlageberatung, keine Kauf-/Verkaufsempfehlung. Kursdaten können verzögert sein.</div>
+
+<script>
+let DATA = [], sortKey = 'date', sortAsc = false;
+const esc = s => String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const pct = x => x==null?'—':(x>0?'+':'')+x.toFixed(2);
+const dirTxt = d => d==='up'?'<span class="pos">▲</span>':d==='down'?'<span class="neg">▼</span>':'<span class="neu">►</span>';
+const stBadge = s => { const m={hit:['b-hit','✓'],partial:['b-partial','◐'],miss:['b-miss','✗'],open:['b-open','⏳']}; const [c,t]=m[s]||m.open; return '<span class="badge '+c+'">'+t+'</span>'; };
+
+(async () => {
+  const pred = await fetch('data/predictions.json').then(r=>r.json());
+  const stats = await fetch('data/stats.json').then(r=>r.json()).catch(()=>null);
+  const names = new Set();
+  for (const day of pred.days||[]) for (const p of day.picks||[]) {
+    names.add(p.name);
+    DATA.push({ date: day.date, name: p.name, type: p.type||'', pf: !!p.fromPortfolio, direction: p.direction,
+      bandLow: p.bandLow, bandHigh: p.bandHigh, confidence: p.confidence, actual: p.actual, status: p.status||'open' });
+  }
+  const sel = document.getElementById('f-name');
+  [...names].sort().forEach(n => { const o=document.createElement('option'); o.textContent=n; sel.appendChild(o); });
+  document.getElementById('summary').textContent = 'Zeitraum: ' + (pred.days?.[0]?.date||'—') + ' bis ' + (pred.days?.[pred.days.length-1]?.date||'—') + ' · ' + DATA.length + ' Prognosen · Trefferquote gesamt: ' + (stats?.totals?.hitRate!=null ? (stats.totals.hitRate*100).toFixed(1)+'%' : '—');
+  render();
+
+  document.querySelectorAll('th').forEach(th => th.addEventListener('click', () => {
+    const k = th.dataset.k;
+    if (sortKey===k) sortAsc=!sortAsc; else { sortKey=k; sortAsc=true; }
+    render();
+  }));
+  ['f-text','f-name','f-dir','f-status','f-type','f-pf'].forEach(id => document.getElementById(id).addEventListener('input', render));
+})();
+
+function render() {
+  document.querySelectorAll('th').forEach(th => th.querySelector('.arrow').textContent = th.dataset.k===sortKey ? (sortAsc?'▲':'▼') : '');
+  const ft = document.getElementById('f-text').value.toLowerCase();
+  const fn = document.getElementById('f-name').value;
+  const fd = document.getElementById('f-dir').value;
+  const fs = document.getElementById('f-status').value;
+  const fty = document.getElementById('f-type').value;
+  const fpf = document.getElementById('f-pf').value;
+  let rows = DATA.filter(r =>
+    (!ft || r.name.toLowerCase().includes(ft)) && (!fn || r.name===fn) &&
+    (!fd || r.direction===fd) && (!fs || r.status===fs) && (!fty || r.type===fty) &&
+    (!fpf || (fpf==='yes' ? r.pf : !r.pf)));
+  rows.sort((a,b) => {
+    const va=a[sortKey], vb=b[sortKey];
+    const c = (va==null?-Infinity:va) < (vb==null?-Infinity:vb) ? -1 : (va==null?-Infinity:va) > (vb==null?-Infinity:vb) ? 1 : 0;
+    return sortAsc?c:-c;
+  });
+  document.getElementById('rows').innerHTML = rows.map(r =>
+    '<tr><td>'+esc(r.date)+'</td><td>'+esc(r.name)+'</td><td>'+esc(r.type)+'</td><td>'+(r.pf?'<span class="pf">★</span>':'')+'</td>'
+    +'<td>'+dirTxt(r.direction)+'</td><td>'+pct(r.bandLow)+'</td><td>'+pct(r.bandHigh)+'</td><td>'+(r.confidence??'—')+'</td>'
+    +'<td class="'+(r.actual>0?'pos':r.actual<0?'neg':'')+'">'+pct(r.actual)+'</td><td>'+stBadge(r.status)+'</td></tr>'
+  ).join('') || '<tr><td colspan="10" class="empty">Keine Treffer für die Filter.</td></tr>';
+  document.getElementById('summary').dataset.filtered = rows.length;
+}
+</script>
+</body>
+</html>
