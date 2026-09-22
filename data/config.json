@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "timezone": "Europe/Berlin",
   "slots": {
     "morning": "08:30",
@@ -60,8 +60,31 @@
     "bias": "Aufwärts-Fokus: Werte mit erwarteter positiver Tagesentwicklung identifizieren (direction 'up' bevorzugt; 'down'/'flat' nur bei klaren Gegenargumenten).",
     "blog": "Täglich redaktioneller Blog-Beitrag (posts/<JJJJ-MM-TT>-<slot>.html + posts/manifest.json), Stil wie RADAR 724, unveränderlich nach Veröffentlichung."
   },
+  "scoring": {
+    "principle": "Asymmetrisch, da FINE Upsides sucht: Überschreiten des oberen Bandes nach oben ist ERFOLG (Übererfüllung), kein Fehler.",
+    "upPicks": {
+      "exceeded": "actual > bandHigh UND actual > 0 → 'hit' mit Flag overshoot:true (Übererfüllt)",
+      "inBand": "bandLow <= actual <= bandHigh → 'hit'",
+      "nearMiss": "0 <= actual < bandLow → 'partial' (knapp verfehlt)",
+      "miss": "actual < 0 → 'miss' (Richtung falsch)"
+    },
+    "flatDownPicks": {
+      "exceeded": "actual > bandHigh → 'hit' mit overshoot:true (Chance größer als gedacht — im Sinne des Aufwärts-Fokus)",
+      "inBand": "→ 'hit'",
+      "below": "actual < bandLow → 'partial' bzw. bei duidlicher Fehlrichtung 'miss'"
+    },
+    "antiSandbagging": {
+      "minBandHigh": {
+        "index": 1,
+        "equity": 1.5,
+        "note": "Oberes Band mindestens dieses Wertes in % — Tiefbieten ist unzulässig, wir suchen Konfidenz auf hohe Steigerungen."
+      },
+      "boldnessTracking": "stats.boldness: Ø bandHigh und Ø actual je Monat tracken — systematisch zu niedrige Bänder werden im Lern-Log als Kalibrierungsfehler markiert.",
+      "confidenceRule": "Hohe Konfidenz erfordert ambitioniertes oberes Band; Konfidenz und Bandbreite müssen zusammen erzählt werden (Band 0,2-0,5% mit Konfidenz 80 ist widersprüchlich)."
+    }
+  },
   "rules": {
     "predictionFormat": "Richtung (up/down/flat), erwartete Bandbreite in %, Konfidenz 0-100%, Begründung mit Quellen",
-    "reviewScoring": "hit = Richtung korrekt und Kurs in/nahe Bandbreite; partial = Richtung korrekt, außerhalb; miss = Richtung falsch. Track je Wertetyp/Portfolio-Herkunft."
+    "statsInvariants": "test:true zählt nie in totals; hitRate immer Bruch 0-1"
   }
 }
