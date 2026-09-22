@@ -1,10 +1,20 @@
 {
-  "version": 4,
+  "version": 5,
   "timezone": "Europe/Berlin",
   "slots": {
     "morning": "08:30",
     "noon": "14:00",
     "evening": "22:00"
+  },
+  "process": {
+    "principle": "SCREEN VOR PICK: Der Morgen-Job screent ZUERST den Gesamtmarkt (Indizes, Sektoren, movers, News-Treiber, Termine) und LEITET daraus die Tages-Chancen ab. Picks sind das ERGEBNIS des Screenings — keine festen Beobachtungslisten, keine Lieblingswerte, kein dauerhaftes Verfolgen einzelner Aktien.",
+    "screening": [
+      "1. Marktüberblick: Vortag global (DAX, S&P, Nasdaq, Asien), Futures/Pre-Market, Öl/Zinsen/FX",
+      "2. Treiber des Tages: News, Termine (Ifo, Fed, Earnings), Sektor-Bewegungen",
+      "3. Opportunity-Scan: Wo liegt heute die höchste Wahrscheinlichkeit einer positiven Tagesbewegung? (Momentum-Fortsetzung, News-Katalysatoren, Sektor-Stärke)",
+      "4. ERST DANN Picks ableiten — Dokumentation der Screening-Ergebnisse im Prognose-Text"
+    ],
+    "portfolioNote": "Auch die 2 Depot-Picks werden nach Opportunität gewählt (welche Depot-Titel haben heute den besten Wind?), nicht nach Sympathie oder Besitz."
   },
   "universe": {
     "indices": [
@@ -42,17 +52,17 @@
       {
         "role": "portfolio",
         "count": 2,
-        "rule": "aus data/portfolio.json wählen (fromPortfolio: true); Aufwärts-Fokus bevorzugt"
+        "rule": "aus data/portfolio.json nach Tages-Opportunität wählen (fromPortfolio: true)"
       },
       {
         "role": "fixed-index",
         "count": 2,
-        "rule": "immer DAX und S&P 500"
+        "rule": "immer DAX und S&P 500 (Benchmark-Charakter)"
       },
       {
         "role": "free",
         "count": 1,
-        "rule": "frei wählbar aus dem Universum, NICHT aus dem Portfolio"
+        "rule": "frei nach Screening aus dem Universum, NICHT aus dem Portfolio"
       }
     ]
   },
@@ -63,28 +73,22 @@
   "scoring": {
     "principle": "Asymmetrisch, da FINE Upsides sucht: Überschreiten des oberen Bandes nach oben ist ERFOLG (Übererfüllung), kein Fehler.",
     "upPicks": {
-      "exceeded": "actual > bandHigh UND actual > 0 → 'hit' mit Flag overshoot:true (Übererfüllt)",
+      "exceeded": "actual > bandHigh UND actual > 0 → 'hit' mit overshoot:true (Übererfüllt)",
       "inBand": "bandLow <= actual <= bandHigh → 'hit'",
       "nearMiss": "0 <= actual < bandLow → 'partial' (knapp verfehlt)",
       "miss": "actual < 0 → 'miss' (Richtung falsch)"
     },
-    "flatDownPicks": {
-      "exceeded": "actual > bandHigh → 'hit' mit overshoot:true (Chance größer als gedacht — im Sinne des Aufwärts-Fokus)",
-      "inBand": "→ 'hit'",
-      "below": "actual < bandLow → 'partial' bzw. bei duidlicher Fehlrichtung 'miss'"
-    },
     "antiSandbagging": {
       "minBandHigh": {
         "index": 1,
-        "equity": 1.5,
-        "note": "Oberes Band mindestens dieses Wertes in % — Tiefbieten ist unzulässig, wir suchen Konfidenz auf hohe Steigerungen."
+        "equity": 1.5
       },
-      "boldnessTracking": "stats.boldness: Ø bandHigh und Ø actual je Monat tracken — systematisch zu niedrige Bänder werden im Lern-Log als Kalibrierungsfehler markiert.",
-      "confidenceRule": "Hohe Konfidenz erfordert ambitioniertes oberes Band; Konfidenz und Bandbreite müssen zusammen erzählt werden (Band 0,2-0,5% mit Konfidenz 80 ist widersprüchlich)."
+      "boldnessTracking": "stats.boldness: Ø bandHigh und Ø actual tracken.",
+      "confidenceRule": "Hohe Konfidenz erfordert ambitioniertes oberes Band."
     }
   },
   "rules": {
-    "predictionFormat": "Richtung (up/down/flat), erwartete Bandbreite in %, Konfidenz 0-100%, Begründung mit Quellen",
+    "predictionFormat": "Richtung (up/down/flat), Bandbreite in %, Konfidenz 0-100%, Begründung mit Quellen; Screening-Ergebnis zuerst!",
     "statsInvariants": "test:true zählt nie in totals; hitRate immer Bruch 0-1"
   }
 }
