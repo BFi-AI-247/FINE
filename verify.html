@@ -37,11 +37,26 @@
 <script>
 const OWNER='BFi-AI-247', REPO='FINE', PATH='data/predictions.json', BRANCH='main';
 const esc = s => String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-// Marktfenster (Europe/Berlin): Prognose-Commit muss vor 09:00 MEZ desselben Tages liegen
+// Marktfenster (Europe/Berlin): Prognose-Commit muss vor 09:00 Uhr Berliner Zeit desselben Tages liegen
+// Sommer-/winterzeitbewusst: Offset für das Prognosedatum ermitteln, nicht fest kodiert (Revision_F2, 22.09.2026)
+function berlinOffsetMinutes(dateStr){
+  // Offset von Europe/Berlin am betreffenden Datum via Intl bestimmen
+  const probe = new Date(dateStr + 'T12:00:00Z'); // Mittag UTC → sicher im betreffenden lokalen Tag
+  const fmt = new Intl.DateTimeFormat('en-US', { timeZone: 'Europe/Berlin', timeZoneName: 'longOffset' });
+  const tz = fmt.formatToParts(probe).find(p => p.type === 'timeZoneName').value; // z. B. "GMT+02:00"
+  const m = tz.match(/GMT([+-])(\d{1,2})(?::(\d{2}))?/);
+  if (!m) return 60; // Fallback: MEZ (+60)
+  const sign = m[1] === '-' ? -1 : 1;
+  return sign * ((+m[2]) * 60 + (m[3] ? +m[3] : 0));
+}
+function marketOpenBerlinUTC(dateStr){
+  // 09:00 Europe/Berlin als UTC-Date
+  return new Date(dateStr + 'T09:00:00Z').getTime() - berlinOffsetMinutes(dateStr) * 60000;
+}
 function marketOpenCET(dateStr){
-  // 09:00 Berlin = 07:00 UTC (Sommerzeit 08:00→Summer MEZ=UTC+2)
-  const d = new Date(dateStr + 'T07:00:00Z');
-  return d.toISOString().slice(0,16).replace('T',' ') + ' UTC';
+  // Anzeige der Grenze (lokale Berliner Zeit + UTC)
+  const utc = new Date(marketOpenBerlinUTC(dateStr));
+  return '09:00 Berlin = ' + utc.toISOSTring().slice(0,16).replace('T',' ') + ' UTC';
 }
 (async () => {
   const out = document.getElementById('out');
@@ -64,7 +79,7 @@ function marketOpenCET(dateStr){
       const c = await fetch('https://api.github.com/repos/'+OWNER+'/'+REPO+'/commits/'+entry.commitSha).then(r=>r.ok?r.json():null);
       if (!c) { nBad++; html += '<div class="row bad"><h2>'+esc(entry.date)+'<span class="st bad">✗ Commit nicht gefunden</span></h2><ul><li class="bad">Chain-Eintrag verweist auf nicht existierenden Commit — chain.json wurde manipuliert oder Commit gelöscht.</li></ul></div>'; continue; }
       const commitDate = new Date(c.commit.committer.date);
-      const limit = new Date(entry.date + 'T07:00:00Z'); // 09:00 Berlin (Sommerzeit)
+      const limit = marketOpenBerlinUTC(entry.date); // 09:00 Europe/Berlin, sommer-/winterzeitbewusst
       const beforeOpen = commitDate <= limit;
       // 2) predictions.json bei diesem Commit-Ref laden
       const f = await fetch('https://api.github.com/repos/'+OWNER+'/'+REPO+'/contents/'+PATH+'?ref='+entry.commitSha).then(r=>r.ok?r.json():null);
