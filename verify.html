@@ -56,7 +56,7 @@ function marketOpenBerlinUTC(dateStr){
 function marketOpenCET(dateStr){
   // Anzeige der Grenze (lokale Berliner Zeit + UTC)
   const utc = new Date(marketOpenBerlinUTC(dateStr));
-  return '09:00 Berlin = ' + utc.toISOSTring().slice(0,16).replace('T',' ') + ' UTC';
+  return '09:00 Berlin = ' + utc.toISOString().slice(0,16).replace('T',' ') + ' UTC';
 }
 (async () => {
   const out = document.getElementById('out');
