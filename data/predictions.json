@@ -53,7 +53,7 @@
           "bandLow": 0.2,
           "bandHigh": 0.9,
           "confidence": 60,
-          "reason": "Vortagesschluss 25.576,79 Punkte (+1,1%) nach freundlichem US-Börsenschluss (S&P 500 +1,49% auf 7.764,70; Nasdaq Rekord +2,26% auf 27,122). X-DAX/Prognosen zum Tagesstart bereits ca. +1,2% bei 25.608 Punkten. Rückläufige Ölpreise (WTI -3% auf ~97 USD) und sinkende Anleiherenditen entlasten; Optimismus vor Trump-Xi-Gipfel (23.-25.09.). Risiko: Konjunkturdaten (Ifo, PMIs) und Nachfrage nach周一-Rally. Erwartung: +0,2% bis +0,9% (moderate Fortsetzung). Quellen: ad-hoc-news.de/Xetra, Investrade, CNBC, BNN Bloomberg, finanzen.net Tagesvorschau.",
+          "reason": "Vortagesschluss 25.576,79 Punkte (+1,1%) nach freundlichem US-Börsenschluss (S&P 500 +1,49% auf 7.764,70; Nasdaq Rekord +2,26% auf 27.122). X-DAX/Tagesvorschau bereits ca. +1,2% bei 25.608 Punkten. Rückläufige Ölpreise (WTI -3% auf ~97 USD) und sinkende Anleiherenditen entlasten; Optimismus vor Trump-Xi-Gipfel (23.-25.09.). Risiko: Konjunkturdaten (Ifo, PMIs) und Ermüdung nach der Montagsrally. Erwartung: +0,2% bis +0,9% (moderate Fortsetzung). Quellen: ad-hoc-news.de/Xetra, Investrade, CNBC, BNN Bloomberg, finanzen.net Tagesvorschau.",
           "status": "open",
           "reviews": []
         },
@@ -75,7 +75,7 @@
           "bandLow": 0,
           "bandHigh": 1.5,
           "confidence": 55,
-          "reason": "Schlusskurs Montag 225,14 USD (+1,29%) bei Nasdaq-Rekordschluss; AI-/Chip-Rally breit (AMD erreicht 1 Billion USD Marktkapitalisierung). Erste Group hob EPS-Schätzung FY2027 auf 9,24 USD an, Konsens-Kursziel 324,34 USD. Öl-Rückgang und Zinsentlastung stützen Tech; fifth Gewinntag in Folge macht enges oberes Band notwendig - Mean-Reversion-Risiko. Erwartung: 0,0% bis +1,5%. Quellen: ad-hoc-news.de, Goldesel, boerse.de.",
+          "reason": "Schlusskurs Montag 225,14 USD (+1,29%) bei Nasdaq-Rekordschluss; AI-/Chip-Rally breit (AMD erreicht 1 Billion USD Marktkapitalisierung). Erste Group hob EPS-Schätzung FY2027 auf 9,24 USD an, Konsens-Kursziel 324,34 USD. Öl-Rückgang und Zinsentlastung stützen Tech; fünfter Gewinntag in Folge macht enges oberes Band notwendig - Mean-Reversion-Risiko. Erwartung: 0,0% bis +1,5%. Quellen: ad-hoc-news.de, Goldesel, boerse.de.",
           "status": "open",
           "reviews": []
         }
