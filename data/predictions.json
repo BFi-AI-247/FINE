@@ -15,8 +15,14 @@
           "bandHigh": 0.8,
           "confidence": 55,
           "reason": "Freitag bei 25.304,06 Punkten (-1,60%) nach Hexensabbat-Verfall, aber GD100 (25.286) gehalten und Montaserholung auf ~25.570. supported durch niedrigere Öl-Nervosität? Vorsicht: Woche geprägt von Ifo, PMIs, Trump-Xi-Gipfel; XTB/UBS sehen Charttechnik weiter leicht bärisch unter SMA50. Erwartung: moderate Erholung fortgesetzt, +0,0% bis +0,8%. Quellen: broker-test.de, 4investors.de (UBS), XTB.",
-          "status": "open",
-          "reviews": []
+          "status": "hit",
+          "reviews": [
+            {
+              "slot": "Abend",
+              "text": "Testlauf-Bewertung: Schluss 25.578,85 Punkte (Xetra), +0,02% zum Vortag — innerhalb der Bandbreite 0,0% bis +0,8%, Richtung up korrekt: Hit. Quelle: ad-hoc-news.de (Xetra-Schlussberichte 22.09.2026)."
+            }
+          ],
+          "actual": 0.02
         },
         {
           "name": "SAP",
@@ -26,8 +32,14 @@
           "bandHigh": 1.2,
           "confidence": 60,
           "reason": "Stärkster TecDAX-Wert der Vorwoche (+3,31%), Montag erneut zu den Tagesgewinnern (+1,1% auf 185,12 EUR). Cloud-Wachstum intakt, Analysten überwiegend kaufseitig (MarketBeat: Moderate Buy). Kurzfristiges Momentum positiv trotz Rücksetzer am Freitag auf 182,60 EUR. Erwartung: +0,2% bis +1,2%. Quellen: finanzen.ch, ad-hoc-news.de, boerse.de.",
-          "status": "open",
-          "reviews": []
+          "status": "hit",
+          "reviews": [
+            {
+              "slot": "Abend",
+              "text": "Testlauf-Bewertung: Schluss 186,32 Euro (Xetra, Tageshoch), +0,79% zum Vortages-Xetra-Schluss 184,87 Euro — innerhalb der Bandbreite +0,2% bis +1,2%, Richtung up korrekt: Hit. Quelle: ad-hoc-news.de (Xetra-Schluss 22.09.2026)."
+            }
+          ],
+          "actual": 0.79
         },
         {
           "name": "NVIDIA",
@@ -37,8 +49,14 @@
           "bandHigh": 1,
           "confidence": 50,
           "reason": "Vier Gewinntage in Folge, Freitag +1,34% auf 222,27 USD; Jensen Huang: doppelt so viele Chip-Verkäufe nächstes Jahr erwartet (CNBC). Nach Seriengewinnen Pause wahrscheinlich; Marktumfeld (Zinsen, Geopolitik) gemischt. Erwartung: Seitwärts bis leicht positiv, -0,5% bis +1,0%. Quellen: stockinvest.us, CNBC.",
-          "status": "open",
-          "reviews": []
+          "status": "miss",
+          "reviews": [
+            {
+              "slot": "Abend",
+              "text": "Testlauf-Bewertung: Schluss 227,38 USD an der Nasdaq, +2,30% zum Vortagesschluss 225,14 USD — als 'flat' prognostiziert, tatsächlich klar gestiegen (sechster Gewinntag in Folge): Miss. Mean-Reversion-Annahme nach vier Gewinntagen wurde widerlegt. Quelle: ad-hoc-news.de (22:31 MESZ, 22.09.2026)."
+            }
+          ],
+          "actual": 2.3
         }
       ]
     },
@@ -54,14 +72,18 @@
           "bandHigh": 0.9,
           "confidence": 60,
           "reason": "Vortagesschluss 25.576,79 Punkte (+1,1%) nach freundlichem US-Börsenschluss (S&P 500 +1,49% auf 7.764,70; Nasdaq Rekord +2,26% auf 27.122). X-DAX/Tagesvorschau bereits ca. +1,2% bei 25.608 Punkten. Rückläufige Ölpreise (WTI -3% auf ~97 USD) und sinkende Anleiherenditen entlasten; Optimismus vor Trump-Xi-Gipfel (23.-25.09.). Risiko: Konjunkturdaten (Ifo, PMIs) und Ermüdung nach der Montagsrally. Erwartung: +0,2% bis +0,9% (moderate Fortsetzung). Quellen: ad-hoc-news.de/Xetra, Investrade, CNBC, BNN Bloomberg, finanzen.net Tagesvorschau.",
-          "status": "open",
+          "status": "partial",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 MESZ: DAX notiert um 12:09 Uhr via Xetra bei 25.748,39 Punkten, +0,68% zum Vortag (Tageshoch 25.752,81, Tagesstief 25.423,07 — schwacher Start mit -0,4%, dann Drehung ins Plus). Prognose +0,2% bis +0,9%: aktuell im Band, Richtung stimmt. Quelle: finanzen.ch (Börse Frankfurt, 22.09.26)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 25.578,85 Punkte (Xetra), +0,02% zum Vortagesschluss (Eröffnung 25.592,98) — Richtung up korrekt, aber knapp unter der Bandbreite +0,2% bis +0,9%: partial. Nach der Montagsrally nur Konsolidierung auf hohem Niveau; das frühe Tageshoch (ca. 25.719) wurde nicht gehalten. Quelle: ad-hoc-news.de (Xetra-Schlussberichte 22.09.2026)."
             }
           ],
-          "actual": 0.68
+          "actual": 0.02
         },
         {
           "name": "SAP",
@@ -71,14 +93,18 @@
           "bandHigh": 1,
           "confidence": 62,
           "reason": "Montagsschluss 184,87 EUR (+0,96%), erneut Tagesgewinner im DAX-Umfeld; Bank of America hob Kursziel auf 226 EUR an. Cloud-Momentum intakt, Aktie lief zuletzt konsistent über dem Markt. US-Tech-Rally (Nasdaq +2,26%) gibt zusätzliche Vorgabe. Erwartung: +0,2% bis +1,0%. Quellen: ad-hoc-news.de (Xetra-Daten), finanzen.ch.",
-          "status": "open",
+          "status": "hit",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 MESZ: SAP-Aktie bei 185,14 Euro (13:35 Uhr), +1,28% zum Vortagesschluss 184,87 Euro. Prognose +0,2% bis +1,0%: Richtung korrekt, liegt aber leicht über dem oberen Bandrand. Quelle: boerse.de (Xetra-Kurs, 22.09.26, 13:35)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 186,32 Euro (Xetra, auf Tageshoch geschlossen), +0,79% zum Vortages-Xetra-Schluss 184,87 Euro — innerhalb der Bandbreite +0,2% bis +1,0%, Richtung up korrekt: Hit. Schwacher Start (182,40 Euro am Vormittag) drehte im Tagesverlauf deutlich. Hinweis: ad-hoc-news nennt je nach Referenzschluss +1,89% (ggü. 182,86 Euro); maßgeblich ist hier der konsistente Xetra-Vortagesschluss. Quellen: ad-hoc-news.de (Xetra-Schluss 22.09.2026), boerse.de, finanzen.ch."
             }
           ],
-          "actual": 1.28
+          "actual": 0.79
         },
         {
           "name": "NVIDIA",
@@ -88,14 +114,18 @@
           "bandHigh": 1.5,
           "confidence": 55,
           "reason": "Schlusskurs Montag 225,14 USD (+1,29%) bei Nasdaq-Rekordschluss; AI-/Chip-Rally breit (AMD erreicht 1 Billion USD Marktkapitalisierung). Erste Group hob EPS-Schätzung FY2027 auf 9,24 USD an, Konsens-Kursziel 324,34 USD. Öl-Rückgang und Zinsentlastung stützen Tech; fünfter Gewinntag in Folge macht enges oberes Band notwendig - Mean-Reversion-Risiko. Erwartung: 0,0% bis +1,5%. Quellen: ad-hoc-news.de, Goldesel, boerse.de.",
-          "status": "open",
+          "status": "partial",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 MESZ: US-Handel läuft gerade an (Handelsstart 15:30 MESZ); NVDA notiert im frühen Pre-Market/Eröffnungsbereich bei 226,73 USD, rund -0,21% zum zuletzt gemeldeten Schluss von 227,38 USD (Datenstand 8:09 Uhr EDT / 14:09 MESZ). Prognose 0,0% bis +1,5%: aktuell knapp unter dem Band, leichte Konsolidierung nach fünf Gewinntag in Folge — Mean-Reversion-Risiko zeigt sich. Quelle: Finanzdatensuche (Realtime-Quote NVDA, 22.09.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 227,38 USD an der Nasdaq, +2,30% zum Vortagesschluss 225,14 USD — Richtung up korrekt, aber deutlich über dem oberen Bandrand von +1,5%: partial. Sechster Gewinntag in Folge; der Mean-Reversion-Respekt (unteres Band bei 0,0%) war zu vorsichtig, AI-Momentum dominierte. Quellen: ad-hoc-news.de (22:31 MESZ, 22.09.2026), Robinhood (Tagesspanne 221,56-228,50 USD)."
             }
           ],
-          "actual": -0.21
+          "actual": 2.3
         }
       ]
     }
