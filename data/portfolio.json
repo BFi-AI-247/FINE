@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "note": "Platzhalter — hier werden Björns Portfoliotitel eingetragen (Name, Symbol, Börse). Sobald >=2 Titel vorhanden sind, muss der Morgen-Job mind. 2 Tages-Picks daraus wählen (aus data/config.json: priorities.portfolio).",
+  "titles": []
+}
