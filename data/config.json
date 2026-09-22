@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "timezone": "Europe/Berlin",
   "slots": {
     "morning": "08:30",
@@ -7,14 +7,14 @@
     "evening": "22:00"
   },
   "process": {
-    "principle": "SCREEN VOR PICK: Der Morgen-Job screent ZUERST den Gesamtmarkt (Indizes, Sektoren, movers, News-Treiber, Termine) und LEITET daraus die Tages-Chancen ab. Picks sind das ERGEBNIS des Screenings — keine festen Beobachtungslisten, keine Lieblingswerte, kein dauerhaftes Verfolgen einzelner Aktien.",
+    "principle": "SCREEN VOR PICK: Der Morgen-Job screent ZUERST den Gesamtmarkt und leitet daraus die Tages-Chancen ab. Picks sind das ERGEBNIS des Screenings — keine festen Beobachtungslisten, keine Lieblingswerte.",
     "screening": [
-      "1. Marktüberblick: Vortag global (DAX, S&P, Nasdaq, Asien), Futures/Pre-Market, Öl/Zinsen/FX",
-      "2. Treiber des Tages: News, Termine (Ifo, Fed, Earnings), Sektor-Bewegungen",
-      "3. Opportunity-Scan: Wo liegt heute die höchste Wahrscheinlichkeit einer positiven Tagesbewegung? (Momentum-Fortsetzung, News-Katalysatoren, Sektor-Stärke)",
-      "4. ERST DANN Picks ableiten — Dokumentation der Screening-Ergebnisse im Prognose-Text"
+      "1. Marktüberblick: Vortag global, Futures/Pre-Market, Öl/Zinsen/FX",
+      "2. Treiber des Tages: News, Termine, Sektoren",
+      "3. Opportunity-Scan: höchste Wahrscheinlichkeit positiver Tagesbewegung",
+      "4. ERST DANN Picks ableiten — Screening dokumentieren"
     ],
-    "portfolioNote": "Auch die 2 Depot-Picks werden nach Opportunität gewählt (welche Depot-Titel haben heute den besten Wind?), nicht nach Sympathie oder Besitz."
+    "portfolioNote": "Depot-Picks nach Opportunität, nicht nach Besitz."
   },
   "universe": {
     "indices": [
@@ -48,50 +48,55 @@
   },
   "picks": {
     "total": 5,
+    "pickClassField": "JE Pick pflicht: pickClass = 'benchmark' | 'portfolio' | 'free'",
     "schema": [
       {
         "role": "portfolio",
         "count": 2,
-        "rule": "aus data/portfolio.json nach Tages-Opportunität wählen (fromPortfolio: true)"
+        "pickClass": "portfolio",
+        "rule": "aus data/portfolio.json nach Tages-Opportunität (fromPortfolio: true)"
       },
       {
         "role": "fixed-index",
         "count": 2,
-        "rule": "immer DAX und S&P 500 (Benchmark-Charakter, KEINE echte Pick-Entscheidung)"
+        "pickClass": "benchmark",
+        "rule": "immer DAX und S&P 500"
       },
       {
         "role": "free",
         "count": 1,
-        "rule": "frei nach Screening aus dem Universum, NICHT aus dem Portfolio"
+        "pickClass": "free",
+        "rule": "frei nach Screening, NICHT aus dem Portfolio"
       }
     ]
   },
+  "stats": {
+    "split": "Statistik IMMER getrennt ausweisen: benchmark (DAX+S&P500) vs picks (portfolio+free). Sektionen in stats.json: totals (gesamt), benchmark, picks, byPickClass, byInstrumentType. Trefferquote im Dashboard: 2 Zeilen."
+  },
   "priorities": {
-    "bias": "Aufwärts-Fokus: Werte mit erwarteter positiver Tagesentwicklung identifizieren (direction 'up' bevorzugt; 'down'/'flat' nur bei klaren Gegenargumenten).",
-    "blog": "Täglich redaktioneller Blog-Beitrag (posts/<JJJJ-MM-TT>-<slot>.html + posts/manifest.json), Stil wie RADAR 724, unveränderlich nach Veröffentlichung."
+    "bias": "Aufwärts-Fokus (up bevorzugt).",
+    "blog": "Täglich Blog-Beitrag, RADAR-724-Stil, unveränderlich."
   },
   "scoring": {
-    "principle": "Asymmetrisch, da FINE Upsides sucht: Überschreiten des oberen Bandes nach oben ist ERFOLG (Übererfüllung), kein Fehler.",
+    "principle": "Asymmetrisch: Überschreiten des oberen Bandes nach oben = Übererfüllung (hit, overshoot:true).",
     "upPicks": {
-      "exceeded": "actual > bandHigh UND actual > 0 → 'hit' mit overshoot:true (Übererfüllt)",
-      "inBand": "bandLow <= actual <= bandHigh → 'hit'",
-      "nearMiss": "0 <= actual < bandLow → 'partial' (knapp verfehlt)",
-      "miss": "actual < 0 → 'miss' (Richtung falsch)"
+      "exceeded": "actual > bandHigh && actual > 0 → hit+overshoot",
+      "inBand": "→ hit",
+      "nearMiss": "0 <= actual < bandLow → partial",
+      "miss": "actual < 0 → miss"
     },
     "antiSandbagging": {
-      "scope": "Nur für echte Picks (portfolio + free). Fix-Indizes (DAX, S&P 500) sind Benchmarks — dort gilt KEINE Mindest-Band-Regel und kein Boldness-Druck; dort ist eine realistische, enge Bandbreite korrekt.",
+      "scope": "NUR echte Picks (portfolio, free). Benchmarks: realistische enge Bänder korrekt.",
       "minBandHigh": {
         "pickIndex": 1,
-        "pickEquity": 1.5,
-        "fixedBenchmark": null,
-        "note": "Mindest-oberband nur bei selbst gewählten Picks. DAX/S&P-500-Fixprognosen: bandbreite frei nach realistischer Tagesrange."
+        "pickEquity": 1.5
       },
-      "boldnessTracking": "stats.boldness: Ø bandHigh und Ø actual tracken — NUR über echte Picks (ohne Fix-Indizes).",
-      "confidenceRule": "Hohe Konfidenz erfordert ambitioniertes oberes Band — nur bei Picks."
+      "boldnessTracking": "stats.boldness nur über Picks.",
+      "confidenceRule": "Konfidenz und Band konsistent (nur Picks)."
     }
   },
   "rules": {
-    "predictionFormat": "Richtung (up/down/flat), Bandbreite in %, Konfidenz 0-100%, Begründung mit Quellen; Screening-Ergebnis zuerst!",
-    "statsInvariants": "test:true zählt nie in totals; hitRate immer Bruch 0-1; overshoot = hit"
+    "predictionFormat": "Richtung, Bandbreite %, Konfidenz, Begründung mit Quellen; Screening zuerst; pickClass Pflichtfeld.",
+    "statsInvariants": "test:true nie in totals; hitRate Bruch 0-1; overshoot = hit"
   }
 }
