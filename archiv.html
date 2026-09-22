@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FINE — Archiv</title>
+<style>
+  :root { --bg:#0d1117; --card:#161b22; --border:#30363d; --text:#e6edf3; --muted:#8b949e; --blue:#58a6ff; --green:#3fb950; --red:#f85149; --amber:#d29922; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:-apple-system,'Segoe UI',Roboto,sans-serif; background:var(--bg); color:var(--text); padding:24px; max-width:1100px; margin:0 auto; }
+  h1 { font-size:1.4em; margin-bottom:4px; } h1 span { color:var(--blue); }
+  .sub { color:var(--muted); font-size:.85em; margin-bottom:16px; }
+  a { color:var(--blue); text-decoration:none; }
+  .back { display:inline-block; margin-bottom:14px; font-size:.9em; }
+  .day { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:16px; margin-bottom:14px; }
+  .day h2 { font-size:.95em; color:var(--blue); display:flex; justify-content:space-between; flex-wrap:wrap; gap:6px; }
+  .date { color:var(--muted); font-weight:400; font-size:.85em; }
+  table { width:100%; border-collapse:collapse; margin-top:10px; font-size:.83em; }
+  th, td { padding:7px 9px; text-align:right; border-bottom:1px solid var(--border); white-space:nowrap; }
+  th:first-child, td:first-child { text-align:left; }
+  th { color:var(--muted); font-weight:600; border-bottom:1px solid var(--border); }
+  .pos { color:var(--green); } .neg { color:var(--red); }
+  .badge { padding:2px 8px; border-radius:99px; font-size:.78em; font-weight:600; }
+  .b-hit { background:#1b3a25; color:var(--green); } .b-partial { background:#3a2e14; color:var(--amber); } .b-miss { background:#3d1a19; color:var(--red); } .b-open { background:#1c2a3d; color:var(--blue); }
+  .disclaimer { margin-top:24px; padding:12px; border:1px solid var(--amber); border-radius:10px; font-size:.75em; color:var(--muted); }
+  .empty { color:var(--muted); padding:30px; text-align:center; }
+</style>
+</head>
+<body>
+<a class="back" href="index.html">← Dashboard</a> · <a href="analyse.html">Analyse</a> · <a href="blog.html">Blog</a>
+<h1>🗄️ <span>FINE</span> — Prognose-Archiv</h1>
+<div class="sub">Alle Prognose-Tage chronologisch, kompakt (neueste zuerst)</div>
+<div id="days"><div class="empty">Lade Daten …</div></div>
+<div class="disclaimer">⚠️ FINE ist ein KI-Experiment. Keine Anlageberatung. Kursdaten können verzögert sein.</div>
+<script>
+const esc = s => String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const pct = x => x==null?'—':(x>0?'+':'')+x.toFixed(2)+'%';
+const stBadge = s => { const m={hit:['b-hit','✓ Treffer'],partial:['b-partial','◐ teilweise'],miss:['b-miss','✗ daneben'],open:['b-open','⏳ offen']}; const [c,t]=m[s]||m.open; return '<span class="badge '+c+'">'+t+'</span>'; };
+(async () => {
+  const pred = await fetch('data/predictions.json').then(r=>r.json());
+  const days = pred.days||[];
+  document.getElementById('days').innerHTML = days.length ? days.slice().reverse().map(day => {
+    const rows = (day.picks||[]).map(p =>
+      '<tr><td>'+esc(p.name)+(p.fromPortfolio?' <span style="color:var(--blue)">★</span>':'')+'</td>'
+      +'<td>'+(p.direction==='up'?'<span class="pos">▲</span>':p.direction==='down'?'<span class="neg">▼</span>':'►')+'</td>'
+      +'<td>'+pct(p.bandLow)+'</td><td>'+pct(p.bandHigh)+'</td><td>'+(p.confidence??'—')+'</td>'
+      +'<td class="'+(p.actual>0?'pos':p.actual<0?'neg':'')+'">'+pct(p.actual)+'</td><td>'+stBadge(p.status)+'</td></tr>'
+    ).join('');
+    return '<div class="day"><h2>'+esc(day.title||day.date)+'<span class="date">'+esc(day.date)+'</span></h2>'
+      +'<table><tr><th>Titel</th><th>Richtung</th><th>Band u.</th><th>Band o.</th><th>Konf. %</th><th>Tatsächl.</th><th>Status</th></tr>'+rows+'</table></div>';
+  }).join('') : '<div class="empty">Noch keine Prognosen.</div>';
+})();
+</script>
+</body>
+</html>
