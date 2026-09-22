@@ -20,12 +20,18 @@
   .card .l { color:var(--muted); font-size:.8em; text-transform:uppercase; letter-spacing:.5px; margin-top:4px; }
   .cards.bench .card { border-color:#2c4a6e; }
   .cards.picks .card { border-color:#2c6e3f; }
-  .slim { display:flex; flex-wrap:wrap; align-items:baseline; gap:2px 18px; margin-bottom:8px; padding:5px 12px; background:var(--card); border-radius:8px; font-size:.78em; white-space:nowrap; }
-  .slim.picks { border:1px solid #2c6e3f; }
-  .slim.bench { border:1px solid #2c4a6e; }
-  .slim .sv { font-weight:700; font-size:1.05em; }
-  .slim .sl { color:var(--muted); text-transform:uppercase; letter-spacing:.5px; font-size:.85em; }
-  h2 { font-size:1.1em; margin:28px 0 12px; color:var(--blue); }
+  .stattable { width:100%; border-collapse:collapse; margin:0 0 10px; font-size:.82em; background:var(--card); border:1px solid var(--border); border-radius:8px; overflow:hidden; }
+  .stattable th, .stattable td { padding:6px 10px; text-align:center; white-space:nowrap; }
+  .stattable thead th { color:var(--muted); font-size:.85em; text-transform:uppercase; letter-spacing:.5px; font-weight:600; background:var(--bg); border-bottom:1px solid var(--border); }
+  .stattable tbody th { text-align:left; font-weight:700; }
+  .stattable .rowsub { color:var(--muted); font-weight:400; font-size:.85em; }
+  .stattable td { font-weight:700; }
+  .stattable .row-picks th, .stattable .row-picks td:first-child { border-left:3px solid #2c6e3f; }
+  .stattable .row-picks th { border-left:3px solid #2c6e3f; }
+  .stattable .row-bench th { border-left:3px solid #2c4a6e; }
+  .stattable tbody tr + tr td, .stattable tbody tr + tr th { border-top:1px solid var(--border); }
+  h2 { font-size:1.1em; margin
+:28px 0 12px; color:var(--blue); }
   .more { font-size:.85em; margin:-4px 0 16px; } .more a { color:var(--blue); text-decoration:none; }
   .day { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:18px; margin-bottom:16px; }
   .day h3 { font-size:1em; display:flex; justify-content:space-between; flex-wrap:wrap; gap:6px; }
@@ -45,7 +51,8 @@
   .log { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:16px; }
   .log li { margin:8px 0 8px 18px; font-size:.88em; line-height:1.5; }
   .log .d { color:var(--muted); font-size:.85em; }
-  .disclaimer { margin-top:28px; padding:14px; border:1px solid var(--amber); border-radius:10px; font-size:.8em; color:var(--muted); line-height:1.6; }
+  .disclaimer { margin-top:28px; padding:14px; border:1px solid var(--amber); border-radius:10px; font-size:.8em; color:var(--muted); line-height:1.6
+; }
   .loading { color:var(--muted); padding:40px; text-align:center; }
   a { color:var(--blue); }
 </style>
@@ -59,10 +66,13 @@
 
 <div class="grouplbl">Gesamt</div>
 <div class="cards" id="stats-total"></div>
-<div class="grouplbl">🎯 Picks — Opportunity-Finding (Depot ★ + frei)</div>
-<div class="slim picks" id="stats-picks"></div>
-<div class="grouplbl">📐 Benchmarks — Markt-Lese-Qualität (DAX + S&amp;P 500, enge Bänder korrekt)</div>
-<div class="slim bench" id="stats-bench"></div>
+<table class="stattable">
+  <thead><tr><th>Klasse</th><th>Anzahl</th><th>Trefferquote</th><th>Treffer</th><th>Teilweise</th><th>Daneben</th></tr></thead>
+  <tbody>
+    <tr class="row-picks"><th>🎯 Picks <span class="rowsub">(Depot ★ + frei)</span></th><td id="picks-n"></td><td id="picks-rate"></td><td id="picks-hits"></td><td id="picks-partial"></td><td id="picks-misses"></td></tr>
+    <tr class="row-bench"><th>📐 Benchmarks <span class="rowsub">(DAX + S&amp;P 500)</span></th><td id="bench-n"></td><td id="bench-rate"></td><td id="bench-hits"></td><td id="bench-partial"></td><td id="bench-misses"></td></tr>
+  </tbody>
+</table>
 
 <h2>Prognosen &amp; Reviews <span style="font-weight:400;font-size:.7em">(letzte 5 Tage)</span></h2>
 <div id="days"><div class="loading">Lade Daten …</div></div>
@@ -84,16 +94,18 @@ function renderCards(el, t, labels){
     [t?.predictions ?? 0, labels[0]], [rate!=null?(rate*100).toFixed(1)+'%':'—','Trefferquote'],
     [t?.hits ?? 0,'Treffer'], [t?.partial ?? 0,'Teilweise'], [t?.misses ?? 0,'Daneben']
   ];
-  document.getElementById(el).innerHTML = cells.map(c=>'<div class="card"><div class="v">'+c[0]+'</div><div class="l">'+c[1]+'</div></div>').join('');
+  document.getElementById(el).innerHTML = cells
+.map(c=>'<div class="card"><div class="v">'+c[0]+'</div><div class="l">'+c[1]+'</div></div>').join('');
 }
 
-function renderSlim(el, t, title){
+function renderTableRow(prefix, t){
   const rate = normRate(t?.hitRate);
-  const cells = [
-    [t?.predictions ?? 0, title],[rate!=null?(rate*100).toFixed(1)+'%':'—','Trefferquote'],
-    [t?.hits ?? 0,'Treffer'],[t?.partial ?? 0,'Teilweise'],[t?.misses ?? 0,'Daneben']
-  ];
-  document.getElementById(el).innerHTML = '<span class="sv">'+title+' '+cells[0][0]+'</span>' + cells.slice(1).map(c=>' <span class="sv">'+c[0]+'</span> <span class="sl">'+c[1]+'</span>').join(' ');
+  const set = (id, v) => { const el = document.getElementById(prefix+'-'+id); if (el) el.textContent = v; };
+  set('n', t?.predictions ?? 0);
+  set('rate', rate!=null?(rate*100).toFixed(1)+'%':'—');
+  set('hits', t?.hits ?? 0);
+  set('partial', t?.partial ?? 0);
+  set('misses', t?.misses ?? 0);
 }
 
 function badge(cls,txt){ return '<span class="badge '+cls+'">'+txt+'</span>'; }
@@ -117,7 +129,8 @@ function renderDay(day){
     else if (p.pickClass==='benchmark') cls = ' · <b style="color:var(--muted)">Benchmark</b>';
     else if (p.fromPortfolio) cls = ' · <b style="color:var(--blue)">Depot ★</b>';
     return '<div class="pick"><div class="head"><span class="name">'+esc(p.name)+'</span>'+dirBadge(p.direction)+' '+statusBadge(p.status)+'</div>'
-      +'<div class="meta">Konfidenz: '+(p.confidence!=null?p.confidence+'%':'—')+band+(p.actual!=null?' · Tatsächlich: '+fmtPct(p.actual):'')+cls+'</div>'
+      +'<div class="meta">Konfiden
+z: '+(p.confidence!=null?p.confidence+'%':'—')+band+(p.actual!=null?' · Tatsächlich: '+fmtPct(p.actual):'')+cls+'</div>'
       +'<div class="reason">'+esc(p.reason||'')+'</div>'+revs+'</div>';
   }).join('');
   return '<div class="day"><h3>'+esc(day.title||day.date)+testBadge+'<span class="date">'+esc(day.date)+'</span></h3><div class="picks">'+picks+'</div></div>';
@@ -129,8 +142,8 @@ function esc(s){ return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&l
   try {
     const [pred, stats] = await Promise.all([loadJSON('predictions.json'), loadJSON('stats.json')]);
     renderCards('stats-total', stats?.totals, ['Prognosen']);
-    renderSlim('stats-picks', stats?.picks, 'Picks');
-    renderSlim('stats-bench', stats?.benchmark, 'Benchmarks');
+    renderTableRow('picks', stats?.picks);
+    renderTableRow('bench', stats?.benchmark);
     const days = pred?.days||[];
     document.getElementById('days').innerHTML = days.length ? days.slice(-5).reverse().map(renderDay).join('') : '<div class="loading">Noch keine Prognosen.</div>';
     const log = stats?.learningLog||[];
