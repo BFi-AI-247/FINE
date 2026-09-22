@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "timezone": "Europe/Berlin",
   "slots": {
     "morning": "08:30",
@@ -57,7 +57,7 @@
       {
         "role": "fixed-index",
         "count": 2,
-        "rule": "immer DAX und S&P 500 (Benchmark-Charakter)"
+        "rule": "immer DAX und S&P 500 (Benchmark-Charakter, KEINE echte Pick-Entscheidung)"
       },
       {
         "role": "free",
@@ -79,16 +79,19 @@
       "miss": "actual < 0 → 'miss' (Richtung falsch)"
     },
     "antiSandbagging": {
+      "scope": "Nur für echte Picks (portfolio + free). Fix-Indizes (DAX, S&P 500) sind Benchmarks — dort gilt KEINE Mindest-Band-Regel und kein Boldness-Druck; dort ist eine realistische, enge Bandbreite korrekt.",
       "minBandHigh": {
-        "index": 1,
-        "equity": 1.5
+        "pickIndex": 1,
+        "pickEquity": 1.5,
+        "fixedBenchmark": null,
+        "note": "Mindest-oberband nur bei selbst gewählten Picks. DAX/S&P-500-Fixprognosen: bandbreite frei nach realistischer Tagesrange."
       },
-      "boldnessTracking": "stats.boldness: Ø bandHigh und Ø actual tracken.",
-      "confidenceRule": "Hohe Konfidenz erfordert ambitioniertes oberes Band."
+      "boldnessTracking": "stats.boldness: Ø bandHigh und Ø actual tracken — NUR über echte Picks (ohne Fix-Indizes).",
+      "confidenceRule": "Hohe Konfidenz erfordert ambitioniertes oberes Band — nur bei Picks."
     }
   },
   "rules": {
     "predictionFormat": "Richtung (up/down/flat), Bandbreite in %, Konfidenz 0-100%, Begründung mit Quellen; Screening-Ergebnis zuerst!",
-    "statsInvariants": "test:true zählt nie in totals; hitRate immer Bruch 0-1"
+    "statsInvariants": "test:true zählt nie in totals; hitRate immer Bruch 0-1; overshoot = hit"
   }
 }
