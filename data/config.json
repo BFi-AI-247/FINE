@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "timezone": "Europe/Berlin",
   "slots": {
     "morning": "08:30",
@@ -36,15 +36,32 @@
       "Broadcom"
     ]
   },
+  "picks": {
+    "total": 5,
+    "schema": [
+      {
+        "role": "portfolio",
+        "count": 2,
+        "rule": "aus data/portfolio.json wählen (fromPortfolio: true); Aufwärts-Fokus bevorzugt"
+      },
+      {
+        "role": "fixed-index",
+        "count": 2,
+        "rule": "immer DAX und S&P 500"
+      },
+      {
+        "role": "free",
+        "count": 1,
+        "rule": "frei wählbar aus dem Universum, NICHT aus dem Portfolio"
+      }
+    ]
+  },
   "priorities": {
     "bias": "Aufwärts-Fokus: Werte mit erwarteter positiver Tagesentwicklung identifizieren (direction 'up' bevorzugt; 'down'/'flat' nur bei klaren Gegenargumenten).",
-    "portfolio": "PFLICHT ab Verfügbarkeit: mind. 2 Titel pro Tag aus Björns Portfolio (data/portfolio.json). Status: Portfolio-Datei noch nicht eingespielt — Nutzer muss sie bereitstellen.",
-    "blog": "Täglich redaktioneller Blog-Beitrag (blog.html + posts/<JJJJ-MM-TT>-<slot>.html), Stil wie RADAR 724: sauberes HTML, Meta-Zeile mit exakter Ausführungszeit, unveränderlich nach Veröffentlichung."
+    "blog": "Täglich redaktioneller Blog-Beitrag (posts/<JJJJ-MM-TT>-<slot>.html + posts/manifest.json), Stil wie RADAR 724, unveränderlich nach Veröffentlichung."
   },
   "rules": {
-    "picksPerDay": "2-3",
-    "mix": "mind. 1 Index und 1 Aktie; Mix DE/US; sobald vorhanden: mind. 2 Titel aus Björns Portfolio",
     "predictionFormat": "Richtung (up/down/flat), erwartete Bandbreite in %, Konfidenz 0-100%, Begründung mit Quellen",
-    "reviewScoring": "Treffer wenn Richtung korrekt und Kurs in oder nahe Bandbreite; Fehlerquote je Wertetyp und Marktphase getrackt"
+    "reviewScoring": "hit = Richtung korrekt und Kurs in/nahe Bandbreite; partial = Richtung korrekt, außerhalb; miss = Richtung falsch. Track je Wertetyp/Portfolio-Herkunft."
   }
 }
