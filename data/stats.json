@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "updated": "2026-09-22",
   "totals": {
     "predictions": 3,
@@ -8,6 +8,24 @@
     "misses": 0,
     "hitRate": 0.6667,
     "directionCorrect": 3,
+    "overshoots": 1
+  },
+  "benchmark": {
+    "note": "Fix-Indizes DAX + S&P 500 — misst Markt-Lese-Qualität. Enge, realistische Bänder korrekt; kein Mut-Kriterium.",
+    "predictions": 1,
+    "hits": 0,
+    "partial": 1,
+    "misses": 0,
+    "hitRate": 0,
+    "overshoots": 0
+  },
+  "picks": {
+    "note": "Echte Picks: 2× Depot + 1 frei — misst Opportunity-Finding. Mindest-Band + Boldness gelten hier.",
+    "predictions": 2,
+    "hits": 2,
+    "partial": 0,
+    "misses": 0,
+    "hitRate": 1,
     "overshoots": 1
   },
   "byInstrumentType": {
@@ -36,38 +54,62 @@
       "overshoots": 1
     }
   },
+  "byPickClass": {
+    "benchmark": {
+      "predictions": 1,
+      "hits": 0,
+      "partial": 1,
+      "misses": 0,
+      "hitRate": 0
+    },
+    "portfolio": {
+      "predictions": 0,
+      "hits": 0,
+      "partial": 0,
+      "misses": 0,
+      "hitRate": null
+    },
+    "free": {
+      "predictions": 2,
+      "hits": 2,
+      "partial": 0,
+      "misses": 0,
+      "hitRate": 1
+    }
+  },
   "boldness": {
-    "note": "Mut-Metrik gegen Tiefbieten: Ø oberes Band vs. Ø tatsächliches Ergebnis",
-    "avgBandHigh": 1.13,
-    "avgActual": 1.04,
+    "note": "Mut-Metrik gegen Tiefbieten — NUR echte Picks (Benchmark-Indizes ausgeschlossen).",
+    "avgBandHigh": 1.25,
+    "avgActual": 1.55,
     "months": []
   },
   "rules": {
-    "excludeFromTotals": "Tages-Einträge mit test:true zählen NIE in totals/byInstrumentType (nur Anzeige).",
+    "excludeFromTotals": "Tages-Einträge mit test:true zählen NIE in totals/benchmark/picks/byInstrumentType (nur Anzeige).",
     "hitRateFormat": "hitRate ist IMMER ein Bruch 0-1.",
-    "overshoot": "actual > bandHigh bei up-Picks = 'hit' + overshoot:true (Übererfüllung — gewollt, da FINE Upsides sucht).",
-    "minBandHigh": "Oberes Band mind. 1,0% (Index) / 1,5% (Aktie) — kein Tiefbieten."
+    "overshoot": "actual > bandHigh bei up-Picks = 'hit' + overshoot:true (Übererfüllung — gewollt).",
+    "minBandHigh": "Oberes Band mind. 1,0% (gewählter Index) / 1,5% (Aktie) — NUR echte Picks; DAX/S&P-500-Benchmarks: realistische Tagesrange.",
+    "pickClass": "pickClass je Pick: 'benchmark' (fix DAX/S&P 500) | 'portfolio' (Depot ★) | 'free' (frei gewählt). Pflichtfeld ab sofort; Abends-Update verteilt counters auf benchmark/picks/byPickClass."
   },
   "learningLog": [
     {
       "date": "2026-09-21",
-      "entry": "FINE initialisiert. Anlageuniversum: Mix DAX/US/Indizes, 2–3 Werte pro Tag. Baseline-Phase."
+      "entry": "FINE initialisiert. Baseline-Phase."
     },
     {
       "date": "2026-09-21",
-      "entry": "Testlauf: Probe-Prognose für 22.09.2026 (DAX, SAP, NVIDIA); Testlauf zählt nie in die Statistik."
+      "entry": "Testlauf: Probe-Prognose für 22.09.2026 (zählt nicht in Statistik)."
     },
     {
       "date": "2026-09-22",
-      "entry": "Morgen-Job (erste reguläre Prognose): DAX, SAP, NVIDIA — Aufwärts-Fokus nach Montagsrally, fallenden Ölpreisen, Trump-Xi-Optimismus."
+      "entry": "Morgen-Job (erste reguläre Prognose): DAX, SAP, NVIDIA — Aufwärts-Fokus nach Montagsrally."
     },
     {
       "date": "2026-09-22",
-      "entry": "Abend-Review nach NEUEM asymmetrischen Scoring-Modell: 2 Treffer (NVIDIA übererfüllt +2,30% > Band 1,5%; SAP im Band +0,79%), 1 knapp verfehlt (DAX +0,02% < Untergrenze +0,2%). Richtung 3/3 korrekt. Kalibrierung: DAX-Untergrenze bei Konsolidierung künftig 0,0%; oberes Band bei intaktem Momentum mutiger (NVIDIA wäre bei Band bis 3% Volltreffer gewesen — Anti-Tiefbietungs-Regel mind. 1,5% für Aktien greift künftig von Anfang an)."
+      "entry": "Abend-Review nach Upside-Scoring: 2 Treffer (NVIDIA übererfüllt, SAP), 1 knapp verfehlt (DAX-Benchmark +0,02% < Band). Richtung 3/3. Kalibrierung: Benchmark-Bänder realistisch eng lassen; Pick-Bänder bei intaktem Momentum mutiger (minBandHigh 1,5% für Aktien greift)."
     },
     {
       "date": "2026-09-22",
-      "entry": "SCORING-UPDATE (Admin/Nutzer): Asymmetrisches Upside-Scoring eingeführt — Überschreiten des oberen Bandes nach oben ist Übererfüllung (hit, overshoot:true), kein partial. Gegengewicht gegen Tiefbieten: Mindest-BandHigh 1,0%/1,5% + Boldness-Tracking (Ø BandHigh vs. Ø actual). Historie des 22.09. entsprechend neu bewertet."
+      "entry": "STATISTIK-SPLIT (Admin/Nutzer): Trefferquoten ab sofort getrennt nach Benchmark (DAX/S&P 500 = Markt-Lese-Qualität) und Picks (Depot+frei = Opportunity-Finding) — im stats.json (Sektionen benchmark/picks/byPickClass) und im Dashboard getrennt ausgewiesen. Pick-Feld pickClass wird Pflicht."
     }
   ]
 }
