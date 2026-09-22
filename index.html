@@ -20,6 +20,11 @@
   .card .l { color:var(--muted); font-size:.8em; text-transform:uppercase; letter-spacing:.5px; margin-top:4px; }
   .cards.bench .card { border-color:#2c4a6e; }
   .cards.picks .card { border-color:#2c6e3f; }
+  .slim { display:flex; flex-wrap:wrap; align-items:baseline; gap:2px 18px; margin-bottom:8px; padding:5px 12px; background:var(--card); border-radius:8px; font-size:.78em; white-space:nowrap; }
+  .slim.picks { border:1px solid #2c6e3f; }
+  .slim.bench { border:1px solid #2c4a6e; }
+  .slim .sv { font-weight:700; font-size:1.05em; }
+  .slim .sl { color:var(--muted); text-transform:uppercase; letter-spacing:.5px; font-size:.85em; }
   h2 { font-size:1.1em; margin:28px 0 12px; color:var(--blue); }
   .more { font-size:.85em; margin:-4px 0 16px; } .more a { color:var(--blue); text-decoration:none; }
   .day { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:18px; margin-bottom:16px; }
@@ -50,14 +55,14 @@
   <h1>📈 <span>FINE</span> — Financial Information Neural Engine</h1>
   <nav class="nav"><a href="analyse.html">🔬 Analyse</a><a href="archiv.html">🗄️ Archiv</a><a href="blog.html">📝 Blog</a><a href="verify.html">🔒 Integrität</a></nav>
 </header>
-<div class="sub">Tagesprognosen mit Review · Mo–Fr · Slots 08:30 / 14:00 / 22:00 (Europe/Berlin) · 5 Picks: 2× Depot ★ · DAX · S&amp;P 500 · 1 frei</div>
+<div class="sub">Tagesprognosen mit Review · Mo–Fr · Slots 08:30 / 14:00 / 22:00 (Europe/Berlin) · 5 Picks: 2× Depot ★ · DAX &amp; S&amp;P 500 · 1 frei</div>
 
 <div class="grouplbl">Gesamt</div>
 <div class="cards" id="stats-total"></div>
 <div class="grouplbl">🎯 Picks — Opportunity-Finding (Depot ★ + frei)</div>
-<div class="cards picks" id="stats-picks"></div>
+<div class="slim picks" id="stats-picks"></div>
 <div class="grouplbl">📐 Benchmarks — Markt-Lese-Qualität (DAX + S&amp;P 500, enge Bänder korrekt)</div>
-<div class="cards bench" id="stats-bench"></div>
+<div class="slim bench" id="stats-bench"></div>
 
 <h2>Prognosen &amp; Reviews <span style="font-weight:400;font-size:.7em">(letzte 5 Tage)</span></h2>
 <div id="days"><div class="loading">Lade Daten …</div></div>
@@ -80,6 +85,15 @@ function renderCards(el, t, labels){
     [t?.hits ?? 0,'Treffer'], [t?.partial ?? 0,'Teilweise'], [t?.misses ?? 0,'Daneben']
   ];
   document.getElementById(el).innerHTML = cells.map(c=>'<div class="card"><div class="v">'+c[0]+'</div><div class="l">'+c[1]+'</div></div>').join('');
+}
+
+function renderSlim(el, t, title){
+  const rate = normRate(t?.hitRate);
+  const cells = [
+    [t?.predictions ?? 0, title],[rate!=null?(rate*100).toFixed(1)+'%':'—','Trefferquote'],
+    [t?.hits ?? 0,'Treffer'],[t?.partial ?? 0,'Teilweise'],[t?.misses ?? 0,'Daneben']
+  ];
+  document.getElementById(el).innerHTML = '<span class="sv">'+title+' '+cells[0][0]+'</span>' + cells.slice(1).map(c=>' <span class="sv">'+c[0]+'</span> <span class="sl">'+c[1]+'</span>').join(' ');
 }
 
 function badge(cls,txt){ return '<span class="badge '+cls+'">'+txt+'</span>'; }
@@ -115,8 +129,8 @@ function esc(s){ return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&l
   try {
     const [pred, stats] = await Promise.all([loadJSON('predictions.json'), loadJSON('stats.json')]);
     renderCards('stats-total', stats?.totals, ['Prognosen']);
-    renderCards('stats-picks', stats?.picks, ['Picks']);
-    renderCards('stats-bench', stats?.benchmark, ['Benchmarks']);
+    renderSlim('stats-picks', stats?.picks, 'Picks');
+    renderSlim('stats-bench', stats?.benchmark, 'Benchmarks');
     const days = pred?.days||[];
     document.getElementById('days').innerHTML = days.length ? days.slice(-5).reverse().map(renderDay).join('') : '<div class="loading">Noch keine Prognosen.</div>';
     const log = stats?.learningLog||[];
