@@ -1,7 +1,7 @@
 {
   "version": 1,
   "note": "Integritäts-Chain (append-only): commitSha = GitHub-Commit der Morgen-Prognose (data/predictions.json). Zeitstempel des Commits liegt vor Börsenbeginn und ist von GitHub extern gesetzt — nachträgliches Ändern der Prognose-Felder erzeugt einen neuen Commit und wird von verify.html rot markiert. Agenten: NUR anfügen, niemals Einträge ändern.",
-  "rules": "Morgen-Job: nach dem Commit von predictions.json den Commit-SHA (aus der create_or_update_file-Antwort oder via list_commits/API) hier als neuen Eintrag anfügen. Abend/Mittag-Job: keine Änderungen an chain.json außer dem Anfügen eigener Review-Commits ist NICHT nötig — nur Morgen. Unveränderlich nach Anlage: direction, bandLow, bandHigh, confidence, reason je Pick.",
+  "rules": "Regeln: (1) Append-only — bestehende Einträge niemals ändern oder löschen. (2) Nur der Morgen-Job fügt Einträge an: nach dem Commit von predictions.json trägt er den Commit-SHA (aus der create_or_update_file-Antwort oder via list_commits/API) als neuen Eintrag ein. (3) Mittag-/Abend-Job: keine Schreibzugriffe auf chain.json. Unveränderlich nach Anlage: name, direction, bandLow, bandHigh, confidence, reason, pickClass je Pick (identisch zur Kernfeld-Prüfung in verify.html).",
   "days": [
     {
       "date": "2026-09-21",
