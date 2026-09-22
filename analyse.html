@@ -25,7 +25,8 @@
   .pos { color:var(--green); } .neg { color:var(--red); } .neu { color:var(--amber); }
   .pf { color:var(--blue); font-weight:700; }
   .badge { padding:2px 8px; border-radius:99px; font-size:.78em; font-weight:600; }
-  .b-hit { background:#1b3a25; color:var(--green); } .b-partial { background:#3a2e14; color:var(--amber); } .b-miss { background:#3d1a19; color:var(--red); } .b-open { background:#1c2a3d; color:var(--blue); }
+  .b-hit { background:#1b3a25; color:var(--green); } .b-partial { background:#3a2e14; color:var(-
+-amber); } .b-miss { background:#3d1a19; color:var(--red); } .b-open { background:#1c2a3d; color:var(--blue); }
   .summary { margin:14px 0; font-size:.85em; color:var(--muted); }
   .disclaimer { margin-top:24px; padding:12px; border:1px solid var(--amber); border-radius:10px; font-size:.75em; color:var(--muted); }
   .empty { color:var(--muted); padding:30px; text-align:center; }
@@ -52,7 +53,8 @@
     <th data-k="type">Typ<span class="arrow"></span></th>
     <th data-k="pf">Depot<span class="arrow"></span></th>
     <th data-k="direction">Richtung<span class="arrow"></span></th>
-    <th data-k="bandLow">Band unten %<span class="arrow"></span></th>
+   
+ <th data-k="bandLow">Band unten %<span class="arrow"></span></th>
     <th data-k="bandHigh">Band oben %<span class="arrow"></span></th>
     <th data-k="confidence">Konfidenz %<span class="arrow"></span></th>
     <th data-k="actual">Tatsächlich %<span class="arrow"></span></th>
@@ -75,12 +77,13 @@ const stBadge = s => { const m={hit:['b-hit','✓'],partial:['b-partial','◐'],
   const names = new Set();
   for (const day of pred.days||[]) for (const p of day.picks||[]) {
     names.add(p.name);
-    DATA.push({ date: day.date, name: p.name, type: p.type||'', pf: !!p.fromPortfolio, direction: p.direction,
+    DATA.push({ date: day.date, test: !!day.test, name: p.name, type: p.type||'', pf: !!p.fromPortfolio, direction: p.direction,
       bandLow: p.bandLow, bandHigh: p.bandHigh, confidence: p.confidence, actual: p.actual, status: p.status||'open' });
   }
   const sel = document.getElementById('f-name');
   [...names].sort().forEach(n => { const o=document.createElement('option'); o.textContent=n; sel.appendChild(o); });
-  document.getElementById('summary').textContent = 'Zeitraum: ' + (pred.days?.[0]?.date||'—') + ' bis ' + (pred.days?.[pred.days.length-1]?.date||'—') + ' · ' + DATA.length + ' Prognosen · Trefferquote gesamt: ' + (stats?.totals?.hitRate!=null ? (stats.totals.hitRate*100).toFixed(1)+'%' : '—');
+  document.getElementById('summary').textContent = 'Zeitraum: ' + (pred.days?.[0]?.date||'—') + ' bis ' + (pred.days?.[pred.days.length-1]?.date||'—') + ' · ' + DATA.length + ' Prognosen · Trefferquote gesamt: ' +
+ (stats?.totals?.hitRate!=null ? ((stats.totals.hitRate>1?stats.totals.hitRate/100:stats.totals.hitRate)*100).toFixed(1)+'%' : '—');
   render();
 
   document.querySelectorAll('th').forEach(th => th.addEventListener('click', () => {
@@ -109,11 +112,12 @@ function render() {
     return sortAsc?c:-c;
   });
   document.getElementById('rows').innerHTML = rows.map(r =>
-    '<tr><td>'+esc(r.date)+'</td><td>'+esc(r.name)+'</td><td>'+esc(r.type)+'</td><td>'+(r.pf?'<span class="pf">★</span>':'')+'</td>'
+    '<tr><td>'+esc(r.date)+'</td><td>'+esc(r.name)+(r.test?' ⚠️TEST':'')+'</td><td>'+esc(r.type)+'</td><td>'+(r.pf?'<span class="pf">★</span>':'')+'</td>'
     +'<td>'+dirTxt(r.direction)+'</td><td>'+pct(r.bandLow)+'</td><td>'+pct(r.bandHigh)+'</td><td>'+(r.confidence??'—')+'</td>'
     +'<td class="'+(r.actual>0?'pos':r.actual<0?'neg':'')+'">'+pct(r.actual)+'</td><td>'+stBadge(r.status)+'</td></tr>'
   ).join('') || '<tr><td colspan="10" class="empty">Keine Treffer für die Filter.</td></tr>';
-  document.getElementById('summary').dataset.filtered = rows.length;
+  document.getElementById('summary').dataset.filtered = rows.leng
+th;
 }
 </script>
 </body>
