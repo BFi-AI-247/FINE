@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FINE — Börsen-Blog</title>
+<style>
+  :root { --bg:#0d1117; --card:#161b22; --border:#30363d; --text:#e6edf3; --muted:#8b949e; --blue:#58a6ff; --green:#3fb950; --red:#f85149; --amber:#d29922; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:-apple-system,'Segoe UI',Roboto,sans-serif; background:var(--bg); color:var(--text); padding:24px; max-width:860px; margin:0 auto; line-height:1.65; }
+  a { color:var(--blue); text-decoration:none; } a:hover { text-decoration:underline; }
+  header { border-bottom:1px solid var(--border); padding-bottom:16px; margin-bottom:24px; }
+  h1 { font-size:1.5em; } h1 span { color:var(--blue); }
+  .sub { color:var(--muted); font-size:.85em; margin-top:4px; }
+  .back { font-size:.85em; margin-bottom:16px; display:inline-block; }
+  article { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:20px 24px; margin-bottom:18px; }
+  article h2 { font-size:1.1em; margin-bottom:6px; }
+  article h2 a { color:var(--text); } article h2 a:hover { color:var(--blue); }
+  .meta { color:var(--muted); font-size:.8em; margin-bottom:10px; }
+  .excerpt { font-size:.92em; color:#c9d1d9; }
+  .disclaimer { margin-top:28px; padding:14px; border:1px solid var(--amber); border-radius:10px; font-size:.8em; color:var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <h1>📝 <span>FINE</span> — Börsen-Blog</h1>
+  <div class="sub">Tägliche Prognose-Artikel &amp; Reviews · Mo–Fr · KI-Experiment, keine Anlageberatung</div>
+</header>
+<a class="back" href="index.html">← Zurück zum Dashboard</a>
+<div id="posts"><p style="color:var(--muted)">Beiträge werden unten geladen …</p></div>
+<div class="disclaimer">⚠️ <b>Disclaimer:</b> FINE ist ein KI-Experiment. Alle Inhalte sind keine Anlageberatung und keine Kauf- oder Verkaufsempfehlung. Kursdaten können verzögert sein.</div>
+<script>
+(async () => {
+  const manifest = await fetch('posts/manifest.json').then(r => r.ok ? r.json() : {posts:[]}).catch(() => ({posts:[]}));
+  const el = document.getElementById('posts');
+  if (!manifest.posts.length) { el.innerHTML = '<p style="color:var(--muted)">Noch keine Beiträge. Der erste erscheint mit dem nächsten Morgen-Job.</p>'; return; }
+  el.innerHTML = manifest.posts.slice().reverse().map(p =>
+    '<article><h2><a href="posts/'+p.file+'">'+p.title+'</a></h2><div class="meta">'+p.meta+'</div><div class="excerpt">'+p.excerpt+'</div></article>'
+  ).join('');
+})();
+</script>
+</body>
+</html>
