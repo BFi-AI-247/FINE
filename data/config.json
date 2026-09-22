@@ -1,18 +1,23 @@
 {
-  "version": 7,
+  "version": 8,
   "timezone": "Europe/Berlin",
   "slots": {
     "morning": "08:30",
     "noon": "14:00",
     "evening": "22:00"
   },
+  "integrity": {
+    "principle": "Prognose-Unveränderlichkeit: Die Kernfelder jedes Picks (name, direction, bandLow, bandHigh, confidence, reason, pickClass) sind NACH dem Morgen-Commit unveränderlich. Reviews/actual/status/overshoot dürfen ergänzt werden (das ist der Review-Prozess).",
+    "chain": "data/chain.json ist append-only: Der Morgen-Job fügt nach seinem predictions.json-Commit einen Eintrag {date, commitSha} an (Commit-SHA aus der create_or_update_file-Antwort; falls nicht geliefert, via GitHub-API list_commits ermitteln). Bestehende Einträge NIEMALS ändern. verify.html prüft live: Commit-Zeitstempel vor Börsenbeginn + Kernfelder byte-genau.",
+    "noRetroactive": "Niemals vergangene Tage 'korrigieren', selbst bei offensichtlichen Fehlern — Fehler gehören zur Messung. Korrekturen nur als neuer Lern-Log-Eintrag in stats.json."
+  },
   "process": {
-    "principle": "SCREEN VOR PICK: Der Morgen-Job screent ZUERST den Gesamtmarkt und leitet daraus die Tages-Chancen ab. Picks sind das ERGEBNIS des Screenings — keine festen Beobachtungslisten, keine Lieblingswerte.",
+    "principle": "SCREEN VOR PICK: Erst den Markt screenen, dann Picks ableiten. Keine festen Beobachtungslisten.",
     "screening": [
-      "1. Marktüberblick: Vortag global, Futures/Pre-Market, Öl/Zinsen/FX",
-      "2. Treiber des Tages: News, Termine, Sektoren",
-      "3. Opportunity-Scan: höchste Wahrscheinlichkeit positiver Tagesbewegung",
-      "4. ERST DANN Picks ableiten — Screening dokumentieren"
+      "1. Marktüberblick",
+      "2. Treiber des Tages",
+      "3. Opportunity-Scan",
+      "4. Picks ableiten und dokumentieren"
     ],
     "portfolioNote": "Depot-Picks nach Opportunität, nicht nach Besitz."
   },
@@ -71,7 +76,7 @@
     ]
   },
   "stats": {
-    "split": "Statistik IMMER getrennt ausweisen: benchmark (DAX+S&P500) vs picks (portfolio+free). Sektionen in stats.json: totals (gesamt), benchmark, picks, byPickClass, byInstrumentType. Trefferquote im Dashboard: 2 Zeilen."
+    "split": "Statistik getrennt: benchmark vs picks (Sektionen in stats.json)."
   },
   "priorities": {
     "bias": "Aufwärts-Fokus (up bevorzugt).",
@@ -80,23 +85,23 @@
   "scoring": {
     "principle": "Asymmetrisch: Überschreiten des oberen Bandes nach oben = Übererfüllung (hit, overshoot:true).",
     "upPicks": {
-      "exceeded": "actual > bandHigh && actual > 0 → hit+overshoot",
-      "inBand": "→ hit",
-      "nearMiss": "0 <= actual < bandLow → partial",
-      "miss": "actual < 0 → miss"
+      "exceeded": "hit+overshoot",
+      "inBand": "hit",
+      "nearMiss": "partial",
+      "miss": "miss"
     },
     "antiSandbagging": {
-      "scope": "NUR echte Picks (portfolio, free). Benchmarks: realistische enge Bänder korrekt.",
+      "scope": "NUR echte Picks.",
       "minBandHigh": {
         "pickIndex": 1,
         "pickEquity": 1.5
       },
       "boldnessTracking": "stats.boldness nur über Picks.",
-      "confidenceRule": "Konfidenz und Band konsistent (nur Picks)."
+      "confidenceRule": "Konfidenz und Band konsistent."
     }
   },
   "rules": {
     "predictionFormat": "Richtung, Bandbreite %, Konfidenz, Begründung mit Quellen; Screening zuerst; pickClass Pflichtfeld.",
-    "statsInvariants": "test:true nie in totals; hitRate Bruch 0-1; overshoot = hit"
+    "statsInvariants": "test:true nie in totals; hitRate Bruch 0-1; overshoot = hit; chain append-only"
   }
 }
