@@ -29,6 +29,7 @@
   .badge { font-size:.75em; padding:2px 8px; border-radius:99px; font-weight:600; }
   .badge.up { background:#1b3a25; color:var(--green); } .badge.down { background:#3d1a19; color:var(--red); } .badge.flat { background:#3a2e14; color:var(--amber); }
   .badge.hit { background:#1b3a25; color:var(--green); } .badge.partial { background:#3a2e14; color:var(--amber); } .badge.miss { background:#3d1a19; color:var(--red); } .badge.open { background:#1c2a3d; color:var(--blue); }
+  .badge.test { background:#2d2a14; color:var(--amber); border:1px dashed var(--amber); }
   .meta { color:var(--muted); font-size:.8em; margin-top:6px; line-height:1.5; }
   .reason { font-size:.85em; margin-top:8px; line-height:1.5; }
   .reviews { margin-top:10px; border-top:1px dashed var(--border); padding-top:8px; font-size:.82em; }
@@ -64,7 +65,8 @@ const fmtPct = x => (x==null?'—':(x>0?'+':'')+x.toFixed(2)+'%');
 
 function renderStats(s){
   const t = s?.totals || {predictions:0,hits:0,partial:0,misses:0,hitRate:null};
-  const rate = t.hitRate!=null ? (t.hitRate*100).toFixed(1)+'%' : '—';
+  let hr = t.hitRate; if (hr!=null && hr>1) hr = hr/100;   // Normalisierung: hitRate kann als Bruch (0-1) oder Prozent (>1) vorliegen
+  const rate = hr!=null ? (hr*100).toFixed(1)+'%' : '—';
   const cells = [
     [t.predictions,'Prognosen'],[rate,'Trefferquote'],[t.hits,'Treffer'],[t.partial,'Teilweise'],[t.misses,'Daneben']
   ];
@@ -79,6 +81,7 @@ function statusBadge(st){
 }
 
 function renderDay(day){
+  const testBadge = day.test ? '<span class="badge test">TESTLAUF — zählt nicht in die Statistik</span>' : '';
   const picks = (day.picks||[]).map(p=>{
     let revs = '';
     if(p.reviews?.length){
@@ -90,7 +93,7 @@ function renderDay(day){
       +'<div class="meta">Konfidenz: '+(p.confidence!=null?p.confidence+'%':'—')+band+(p.actual!=null?' · Tatsächlich: '+fmtPct(p.actual):'')+pf+'</div>'
       +'<div class="reason">'+esc(p.reason||'')+'</div>'+revs+'</div>';
   }).join('');
-  return '<div class="day"><h3>'+esc(day.title||day.date)+'<span class="date">'+esc(day.date)+'</span></h3><div class="picks">'+picks+'</div></div>';
+  return '<div class="day"><h3>'+esc(day.title||day.date)+testBadge+'<span class="date">'+esc(day.date)+'</span></h3><div class="picks">'+picks+'</div></div>';
 }
 
 function esc(s){ return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
