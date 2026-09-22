@@ -55,7 +55,13 @@
           "confidence": 60,
           "reason": "Vortagesschluss 25.576,79 Punkte (+1,1%) nach freundlichem US-Börsenschluss (S&P 500 +1,49% auf 7.764,70; Nasdaq Rekord +2,26% auf 27.122). X-DAX/Tagesvorschau bereits ca. +1,2% bei 25.608 Punkten. Rückläufige Ölpreise (WTI -3% auf ~97 USD) und sinkende Anleiherenditen entlasten; Optimismus vor Trump-Xi-Gipfel (23.-25.09.). Risiko: Konjunkturdaten (Ifo, PMIs) und Ermüdung nach der Montagsrally. Erwartung: +0,2% bis +0,9% (moderate Fortsetzung). Quellen: ad-hoc-news.de/Xetra, Investrade, CNBC, BNN Bloomberg, finanzen.net Tagesvorschau.",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ: DAX notiert um 12:09 Uhr via Xetra bei 25.748,39 Punkten, +0,68% zum Vortag (Tageshoch 25.752,81, Tagesstief 25.423,07 — schwacher Start mit -0,4%, dann Drehung ins Plus). Prognose +0,2% bis +0,9%: aktuell im Band, Richtung stimmt. Quelle: finanzen.ch (Börse Frankfurt, 22.09.26)."
+            }
+          ],
+          "actual": 0.68
         },
         {
           "name": "SAP",
@@ -66,7 +72,13 @@
           "confidence": 62,
           "reason": "Montagsschluss 184,87 EUR (+0,96%), erneut Tagesgewinner im DAX-Umfeld; Bank of America hob Kursziel auf 226 EUR an. Cloud-Momentum intakt, Aktie lief zuletzt konsistent über dem Markt. US-Tech-Rally (Nasdaq +2,26%) gibt zusätzliche Vorgabe. Erwartung: +0,2% bis +1,0%. Quellen: ad-hoc-news.de (Xetra-Daten), finanzen.ch.",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ: SAP-Aktie bei 185,14 Euro (13:35 Uhr), +1,28% zum Vortagesschluss 184,87 Euro. Prognose +0,2% bis +1,0%: Richtung korrekt, liegt aber leicht über dem oberen Bandrand. Quelle: boerse.de (Xetra-Kurs, 22.09.26, 13:35)."
+            }
+          ],
+          "actual": 1.28
         },
         {
           "name": "NVIDIA",
@@ -77,7 +89,13 @@
           "confidence": 55,
           "reason": "Schlusskurs Montag 225,14 USD (+1,29%) bei Nasdaq-Rekordschluss; AI-/Chip-Rally breit (AMD erreicht 1 Billion USD Marktkapitalisierung). Erste Group hob EPS-Schätzung FY2027 auf 9,24 USD an, Konsens-Kursziel 324,34 USD. Öl-Rückgang und Zinsentlastung stützen Tech; fünfter Gewinntag in Folge macht enges oberes Band notwendig - Mean-Reversion-Risiko. Erwartung: 0,0% bis +1,5%. Quellen: ad-hoc-news.de, Goldesel, boerse.de.",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ: US-Handel läuft gerade an (Handelsstart 15:30 MESZ); NVDA notiert im frühen Pre-Market/Eröffnungsbereich bei 226,73 USD, rund -0,21% zum zuletzt gemeldeten Schluss von 227,38 USD (Datenstand 8:09 Uhr EDT / 14:09 MESZ). Prognose 0,0% bis +1,5%: aktuell knapp unter dem Band, leichte Konsolidierung nach fünf Gewinntag in Folge — Mean-Reversion-Risiko zeigt sich. Quelle: Finanzdatensuche (Realtime-Quote NVDA, 22.09.2026)."
+            }
+          ],
+          "actual": -0.21
         }
       ]
     }
