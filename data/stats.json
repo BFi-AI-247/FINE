@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-21",
+  "updated": "2026-09-22",
   "totals": {
     "predictions": 0,
     "hits": 0,
@@ -21,6 +21,10 @@
     {
       "date": "2026-09-21",
       "entry": "Abend-Job: Keine Bewertung möglich — der einzige Tageseintrag ist eine Probe-Prognose für den 22.09.2026 (DAX, SAP, NVIDIA, alle status=open). Schlusskurse für den 22.09. liegen noch nicht vor; ggf. Faking von actual/status unterlassen. Erste reguläre Bewertung erfolgt im Abend-Job am 22.09.2026. Lernfortschritt/Prozess-Erkenntnis: Datumslogik der Picks prüfen, bevor bewertet wird — Picks gehören immer zum Prognosetag, nicht zum Erstellungstag. Heuristik unverändert (zu wenig Datenpunkte)."
+    },
+    {
+      "date": "2026-09-22",
+      "entry": "Morgen-Job (erste reguläre Prognose): Auswahl DAX, SAP, NVIDIA. Begründung: Nach Montagsrally (DAX +1,1%, S&P +1,49%, Nasdaq-Rekord +2,26%) bei fallenden Ölpreisen (WTI ~97 USD, -3%) und sinkenden Renditen liegt der Aufwärts-Fokus nahe; Trump-Xi-Gipfel (23.-25.09.) dämpft Handelsrisko-Erwartungen. SAP als stärkster DE-Momentum-Wert (BofA-Kursziel 226 EUR), NVIDIA als AI-Rally-Treiber mit frisch erhöhten EPS-Schätzungen (Erste Group) — dort aber fünfter Gewinntag in Folge, daher Band nach unten bei 0,0% gehalten (Mean-Reversion-Respekt). DE/US-Mix erfüllt (1 Index, 1 DE-Aktie, 1 US-Aktie). Portfolio-Pflicht entfällt (portfolio.json noch leer). Bandbreiten erneut moderat-eng für saubere Baseline-Messung; Konfidenz 55-62 wegen fehlender Track-Record-Kalibrierung."
     }
   ]
 }
