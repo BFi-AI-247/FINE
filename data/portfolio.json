@@ -1,5 +1,468 @@
 {
   "version": 1,
-  "note": "Platzhalter — hier werden Björns Portfoliotitel eingetragen (Name, Symbol, Börse). Sobald >=2 Titel vorhanden sind, muss der Morgen-Job mind. 2 Tages-Picks daraus wählen (aus data/config.json: priorities.portfolio).",
-  "titles": []
+  "note": "Björns Depot-Titel (vertraulich: nur Titel/Symbol/Cluster — keine Bestände, Stückzahlen oder Werte). Quelle: Depot_1.csv, Stand 22.09.2026.",
+  "titles": [
+    {
+      "name": "Adidas",
+      "country": "DE",
+      "industry": "Consumer Goods",
+      "cluster": "CYC",
+      "symbol": "FRA:ADS"
+    },
+    {
+      "name": "Airbus SE",
+      "country": "NL",
+      "industry": "Aviation",
+      "cluster": "GRO",
+      "symbol": "FRA:AIR"
+    },
+    {
+      "name": "Allianz",
+      "country": "DE",
+      "industry": "Finance",
+      "cluster": "DIV",
+      "symbol": "FRA:ALV"
+    },
+    {
+      "name": "ALPHABET C",
+      "country": "US",
+      "industry": "Tech",
+      "cluster": "GRO",
+      "symbol": "GOOG"
+    },
+    {
+      "name": "ALPHABET A",
+      "country": "US",
+      "industry": "Tech",
+      "cluster": "GRO",
+      "symbol": "GOOGL"
+    },
+    {
+      "name": "Amazon",
+      "country": "US",
+      "industry": "Tech",
+      "cluster": "GRO",
+      "symbol": "AMZN"
+    },
+    {
+      "name": "AMD",
+      "country": "US",
+      "industry": "Tech",
+      "cluster": "GRO",
+      "symbol": "AMD"
+    },
+    {
+      "name": "Amgen",
+      "country": "US",
+      "industry": "Pharma+Bio",
+      "cluster": "DIV",
+      "symbol": "AMGN"
+    },
+    {
+      "name": "Apple",
+      "country": "US",
+      "industry": "Tech",
+      "cluster": "GRO",
+      "symbol": "AAPL"
+    },
+    {
+      "name": "ASML",
+      "country": "NL",
+      "industry": "Industry",
+      "cluster": "GRO",
+      "symbol": "ETR:ASME"
+    },
+    {
+      "name": "Astrazeneca",
+      "country": "UK",
+      "industry": "Pharma+Bio",
+      "cluster": "DIV",
+      "symbol": "FRA:ZEG"
+    },
+    {
+      "name": "AT+T",
+      "country": "US",
+      "industry": "Tech",
+      "cluster": "DIV",
+      "symbol": "T"
+    },
+    {
+      "name": "Bank of America",
+      "country": "US",
+      "industry": "Finance",
+      "cluster": "DIV",
+      "symbol": "BAC"
+    },
+    {
+      "name": "Barrick Gold Corp",
+      "country": "CA",
+      "industry": "Industry",
+      "cluster": "CYC",
+      "symbol": "ABR0"
+    },
+    {
+      "name": "BASF",
+      "country": "DE",
+      "industry": "Industry",
+      "cluster": "DIV",
+      "symbol": "FRA:BAS"
+    },
+    {
+      "name": "BCO Santander",
+      "country": "ES",
+      "industry": "Finance",
+      "cluster": "DIV",
+      "symbol": "FRA:BSD2"
+    },
+    {
+      "name": "Berkshire",
+      "country": "US",
+      "industry": "Finance",
+      "cluster": "BAS",
+      "symbol": "NYSE:BRK.B"
+    },
+    {
+      "name": "BNP Paribas",
+      "country": "FR",
+      "industry": "Finance",
+      "cluster": "DIV",
+      "symbol": "BNP"
+    },
+    {
+      "name": "Bombardier SV Rg-B",
+      "country": "CA",
+      "industry": "Aviation",
+      "cluster": "GRO",
+      "symbol": "FRA:BBDC"
+    },
+    {
+      "name": "Broadcom",
+      "country": "US",
+      "industry": "Tech",
+      "cluster": "GRO",
+      "symbol": "AVGO"
+    },
+    {
+      "name": "Coca Cola Co.",
+      "country": "US",
+      "industry": "Food",
+      "cluster": "DIV",
+      "symbol": "KO"
+    },
+    {
+      "name": "Coinbase",
+      "country": "US",
+      "industry": "Finance",
+      "cluster": "GRO",
+      "symbol": "COIN"
+    },
+    {
+      "name": "Deutsche Telekom AG",
+      "country": "DE",
+      "industry": "Tech",
+      "cluster": "DIV",
+      "symbol": "FRA:DTE"
+    },
+    {
+      "name": "Duerr AG",
+      "country": "DE",
+      "industry": "Industry",
+      "cluster": "DIV",
+      "symbol": "ETR:DUE"
+    },
+    {
+      "name": "Evotec",
+      "country": "DE",
+      "industry": "Pharma+Bio",
+      "cluster": "GRO",
+      "symbol": "ETR:EVT"
+    },
+    {
+      "name": "First Majestic Silver",
+      "country": "CA",
+      "industry": "Industry",
+      "cluster": "CYC",
+      "symbol": "FRA:FMV"
+    },
+    {
+      "name": "Generali",
+      "country": "IT",
+      "industry": "Finance",
+      "cluster": "DIV",
+      "symbol": "FRA:ASG"
+    },
+    {
+      "name": "Gilead Sciences",
+      "country": "US",
+      "industry": "Pharma+Bio",
+      "cluster": "GRO",
+      "symbol": "GILD"
+    },
+    {
+      "name": "GlaxoSmithKline",
+      "country": "UK",
+      "industry": "Pharma+Bio",
+      "cluster": "DIV",
+      "symbol": "FRA:GS71"
+    },
+    {
+      "name": "Hannover Rück",
+      "country": "DE",
+      "industry": "Finance",
+      "cluster": "DIV",
+      "symbol": "FRA:HNR1"
+    },
+    {
+      "name": "HSBC",
+      "country": "UK",
+      "industry": "Finance",
+      "cluster": "DIV",
+      "symbol": "FRA:HBC1"
+    },
+    {
+      "name": "Iberdrola",
+      "country": "ES",
+      "industry": "Industry",
+      "cluster": "GRO",
+      "symbol": "ETR:IBE1"
+    },
+    {
+      "name": "Infineon",
+      "country": "DE",
+      "industry": "Tech",
+      "cluster": "GRO",
+      "symbol": "FRA:IFX"
+    },
+    {
+      "name": "ING Groep N.V.",
+      "country": "NL",
+      "industry": "Finance",
+      "cluster": "DIV",
+      "symbol": "FRA:INN1"
+    },
+    {
+      "name": "IBM",
+      "country": "US",
+      "industry": "Tech",
+      "cluster": "GRO",
+      "symbol": "IBM"
+    },
+    {
+      "name": "IONQ",
+      "country": "US",
+      "industry": "Tech",
+      "cluster": "GRO",
+      "symbol": "IONQ"
+    },
+    {
+      "name": "Lockheed Martin",
+      "country": "US",
+      "industry": "Industry",
+      "cluster": "DIV",
+      "symbol": "LMT"
+    },
+    {
+      "name": "Lufthansa",
+      "country": "DE",
+      "industry": "Aviation",
+      "cluster": "CYC",
+      "symbol": "FRA:LHA"
+    },
+    {
+      "name": "McDonald's",
+      "country": "US",
+      "industry": "Food",
+      "cluster": "DIV",
+      "symbol": "FRA:MDO"
+    },
+    {
+      "name": "Mercedes-Benz GRP",
+      "country": "DE",
+      "industry": "Industry",
+      "cluster": "DIV",
+      "symbol": "ETR:MBG"
+    },
+    {
+      "name": "META PLATF. A",
+      "country": "US",
+      "industry": "Tech",
+      "cluster": "GRO",
+      "symbol": "META"
+    },
+    {
+      "name": "Microsoft Corp.",
+      "country": "US",
+      "industry": "Tech",
+      "cluster": "GRO",
+      "symbol": "MSFT"
+    },
+    {
+      "name": "Mowi",
+      "country": "NO",
+      "industry": "Food",
+      "cluster": "DIV",
+      "symbol": "FRA:PND"
+    },
+    {
+      "name": "MUENCH.RUECKVERS",
+      "country": "DE",
+      "industry": "Finance",
+      "cluster": "DIV",
+      "symbol": "FRA:MUV2"
+    },
+    {
+      "name": "Novo-Nordisk",
+      "country": "DK",
+      "industry": "Pharma+Bio",
+      "cluster": "GRO",
+      "symbol": "NVO"
+    },
+    {
+      "name": "Nvidia",
+      "country": "US",
+      "industry": "Tech",
+      "cluster": "GRO",
+      "symbol": "FRA:NVD"
+    },
+    {
+      "name": "Obayashi",
+      "country": "JP",
+      "industry": "Industry",
+      "cluster": "GRO",
+      "symbol": "OBYCF"
+    },
+    {
+      "name": "OHB",
+      "country": "DE",
+      "industry": "Tech",
+      "cluster": "GRO",
+      "symbol": "OHB"
+    },
+    {
+      "name": "Palantir Technologies INC",
+      "country": "US",
+      "industry": "Tech",
+      "cluster": "GRO",
+      "symbol": "PLTR"
+    },
+    {
+      "name": "Procter & Gamble",
+      "country": "US",
+      "industry": "Consumer Goods",
+      "cluster": "DIV",
+      "symbol": "FRA:PRG"
+    },
+    {
+      "name": "Rheinmetall AG",
+      "country": "DE",
+      "industry": "Industry",
+      "cluster": "GRO",
+      "symbol": "ETR:RHM"
+    },
+    {
+      "name": "Rio Tinto (UK)",
+      "country": "UK",
+      "industry": "Industry",
+      "cluster": "DIV",
+      "symbol": "FRA:RIO1"
+    },
+    {
+      "name": "Sanofi",
+      "country": "FR",
+      "industry": "Pharma+Bio",
+      "cluster": "DIV",
+      "symbol": "ETR:SNW"
+    },
+    {
+      "name": "SAP AG",
+      "country": "DE",
+      "industry": "Tech",
+      "cluster": "GRO",
+      "symbol": "FRA:SAP"
+    },
+    {
+      "name": "Siemens",
+      "country": "DE",
+      "industry": "Industry",
+      "cluster": "DIV",
+      "symbol": "FRA:SIE"
+    },
+    {
+      "name": "Sony",
+      "country": "JP",
+      "industry": "Tech",
+      "cluster": "GRO",
+      "symbol": "FRA:SON1"
+    },
+    {
+      "name": "SpaceX",
+      "country": "US",
+      "industry": "Tech",
+      "cluster": "GRO",
+      "symbol": "SPCX"
+    },
+    {
+      "name": "Swiss Re",
+      "country": "CH",
+      "industry": "Finance",
+      "cluster": "DIV",
+      "symbol": "SREN"
+    },
+    {
+      "name": "Tesla Inc.",
+      "country": "US",
+      "industry": "Industry",
+      "cluster": "GRO",
+      "symbol": "TSLA"
+    },
+    {
+      "name": "Unilever N.V.",
+      "country": "NL",
+      "industry": "Food",
+      "cluster": "CYC",
+      "symbol": "NYSE:UL"
+    },
+    {
+      "name": "Visa",
+      "country": "US",
+      "industry": "Finance",
+      "cluster": "DIV",
+      "symbol": "V"
+    },
+    {
+      "name": "Volkswagen St.",
+      "country": "DE",
+      "industry": "Industry",
+      "cluster": "DIV",
+      "symbol": "FRA:VOW"
+    },
+    {
+      "name": "Zalando",
+      "country": "DE",
+      "industry": "Tech",
+      "cluster": "GRO",
+      "symbol": "ETR:ZAL"
+    },
+    {
+      "name": "Amundi ETF MSCI World Ex EMU",
+      "country": "INT",
+      "industry": "Finance",
+      "cluster": "BAS",
+      "symbol": "FRA:ACM9"
+    },
+    {
+      "name": "ISHS IV-AUTO.+ROBOTIC.ETF",
+      "country": "INT",
+      "industry": "Finance",
+      "cluster": "GRO",
+      "symbol": null
+    },
+    {
+      "name": "ISHSIV-MSCI WLD.sRI U.DLD",
+      "country": "INT",
+      "industry": "Finance",
+      "cluster": "BAS",
+      "symbol": "FRA:2B7J"
+    }
+  ]
 }
