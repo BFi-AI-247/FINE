@@ -23,15 +23,13 @@
   .stattable { width:100%; border-collapse:collapse; margin:0 0 10px; font-size:.82em; background:var(--card); border:1px solid var(--border); border-radius:8px; overflow:hidden; }
   .stattable th, .stattable td { padding:6px 10px; text-align:center; white-space:nowrap; }
   .stattable thead th { color:var(--muted); font-size:.85em; text-transform:uppercase; letter-spacing:.5px; font-weight:600; background:var(--bg); border-bottom:1px solid var(--border); }
-  .stattable tbody th { text-align:left; font-weight:700; }
+  .stattable tbody th { text-align:left; font-weight:700; white-space:normal; }
   .stattable .rowsub { color:var(--muted); font-weight:400; font-size:.85em; }
   .stattable td { font-weight:700; }
-  .stattable .row-picks th, .stattable .row-picks td:first-child { border-left:3px solid #2c6e3f; }
   .stattable .row-picks th { border-left:3px solid #2c6e3f; }
   .stattable .row-bench th { border-left:3px solid #2c4a6e; }
-  .stattable tbody tr + tr td, .stattable tbody tr + tr th { border-top:1px solid var(--border); }
-  h2 { font-size:1.1em; margin
-:28px 0 12px; color:var(--blue); }
+  .stattable tbody tr + tr th, .stattable tbody tr + tr td { border-top:1px solid var(--border); }
+  h2 { font-size:1.1em; margin:28px 0 12px; color:var(--blue); }
   .more { font-size:.85em; margin:-4px 0 16px; } .more a { color:var(--blue); text-decoration:none; }
   .day { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:18px; margin-bottom:16px; }
   .day h3 { font-size:1em; display:flex; justify-content:space-between; flex-wrap:wrap; gap:6px; }
@@ -51,8 +49,7 @@
   .log { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:16px; }
   .log li { margin:8px 0 8px 18px; font-size:.88em; line-height:1.5; }
   .log .d { color:var(--muted); font-size:.85em; }
-  .disclaimer { margin-top:28px; padding:14px; border:1px solid var(--amber); border-radius:10px; font-size:.8em; color:var(--muted); line-height:1.6
-; }
+  .disclaimer { margin-top:28px; padding:14px; border:1px solid var(--amber); border-radius:10px; font-size:.8em; color:var(--muted); line-height:1.6; }
   .loading { color:var(--muted); padding:40px; text-align:center; }
   a { color:var(--blue); }
 </style>
@@ -66,6 +63,7 @@
 
 <div class="grouplbl">Gesamt</div>
 <div class="cards" id="stats-total"></div>
+<div class="grouplbl">Klassen-Statistik</div>
 <table class="stattable">
   <thead><tr><th>Klasse</th><th>Anzahl</th><th>Trefferquote</th><th>Treffer</th><th>Teilweise</th><th>Daneben</th></tr></thead>
   <tbody>
@@ -94,8 +92,7 @@ function renderCards(el, t, labels){
     [t?.predictions ?? 0, labels[0]], [rate!=null?(rate*100).toFixed(1)+'%':'—','Trefferquote'],
     [t?.hits ?? 0,'Treffer'], [t?.partial ?? 0,'Teilweise'], [t?.misses ?? 0,'Daneben']
   ];
-  document.getElementById(el).innerHTML = cells
-.map(c=>'<div class="card"><div class="v">'+c[0]+'</div><div class="l">'+c[1]+'</div></div>').join('');
+  document.getElementById(el).innerHTML = cells.map(c=>'<div class="card"><div class="v">'+c[0]+'</div><div class="l">'+c[1]+'</div></div>').join('');
 }
 
 function renderTableRow(prefix, t){
@@ -129,8 +126,7 @@ function renderDay(day){
     else if (p.pickClass==='benchmark') cls = ' · <b style="color:var(--muted)">Benchmark</b>';
     else if (p.fromPortfolio) cls = ' · <b style="color:var(--blue)">Depot ★</b>';
     return '<div class="pick"><div class="head"><span class="name">'+esc(p.name)+'</span>'+dirBadge(p.direction)+' '+statusBadge(p.status)+'</div>'
-      +'<div class="meta">Konfiden
-z: '+(p.confidence!=null?p.confidence+'%':'—')+band+(p.actual!=null?' · Tatsächlich: '+fmtPct(p.actual):'')+cls+'</div>'
+      +'<div class="meta">Konfidenz: '+(p.confidence!=null?p.confidence+'%':'—')+band+(p.actual!=null?' · Tatsächlich: '+fmtPct(p.actual):'')+cls+'</div>'
       +'<div class="reason">'+esc(p.reason||'')+'</div>'+revs+'</div>';
   }).join('');
   return '<div class="day"><h3>'+esc(day.title||day.date)+testBadge+'<span class="date">'+esc(day.date)+'</span></h3><div class="picks">'+picks+'</div></div>';
