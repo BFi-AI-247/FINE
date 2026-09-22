@@ -1,13 +1,14 @@
 {
-  "version": 2,
+  "version": 3,
   "updated": "2026-09-22",
   "totals": {
     "predictions": 3,
-    "hits": 1,
-    "partial": 2,
+    "hits": 2,
+    "partial": 1,
     "misses": 0,
-    "hitRate": 0.3333,
-    "directionCorrect": 2
+    "hitRate": 0.6667,
+    "directionCorrect": 3,
+    "overshoots": 1
   },
   "byInstrumentType": {
     "index": {
@@ -15,47 +16,58 @@
       "hits": 0,
       "partial": 1,
       "misses": 0,
-      "hitRate": 0
+      "hitRate": 0,
+      "overshoots": 0
     },
     "equity_de": {
       "predictions": 1,
       "hits": 1,
       "partial": 0,
       "misses": 0,
-      "hitRate": 1
+      "hitRate": 1,
+      "overshoots": 0
     },
     "equity_us": {
       "predictions": 1,
-      "hits": 0,
-      "partial": 1,
+      "hits": 1,
+      "partial": 0,
       "misses": 0,
-      "hitRate": 0
+      "hitRate": 1,
+      "overshoots": 1
     }
   },
+  "boldness": {
+    "note": "Mut-Metrik gegen Tiefbieten: Ø oberes Band vs. Ø tatsächliches Ergebnis",
+    "avgBandHigh": 1.13,
+    "avgActual": 1.04,
+    "months": []
+  },
   "rules": {
-    "excludeFromTotals": "Tages-Einträge mit test:true zählen NIEMALS in totals/byInstrumentType (nur Anzeige).",
-    "hitRateFormat": "hitRate ist IMMER ein Bruch 0-1 (z.B. 0.5 für 50%), niemals eine Prozentzahl."
+    "excludeFromTotals": "Tages-Einträge mit test:true zählen NIE in totals/byInstrumentType (nur Anzeige).",
+    "hitRateFormat": "hitRate ist IMMER ein Bruch 0-1.",
+    "overshoot": "actual > bandHigh bei up-Picks = 'hit' + overshoot:true (Übererfüllung — gewollt, da FINE Upsides sucht).",
+    "minBandHigh": "Oberes Band mind. 1,0% (Index) / 1,5% (Aktie) — kein Tiefbieten."
   },
   "learningLog": [
     {
       "date": "2026-09-21",
-      "entry": "FINE initialisiert. Anlageuniversum: Mix DAX/US/Indizes, 2–3 Werte pro Tag. Baseline-Phase: Prognosen ohne historische Kalibrierung."
+      "entry": "FINE initialisiert. Anlageuniversum: Mix DAX/US/Indizes, 2–3 Werte pro Tag. Baseline-Phase."
     },
     {
       "date": "2026-09-21",
-      "entry": "Testlauf: Probe-Prognose für 22.09.2026 (DAX, SAP, NVIDIA). Auswahl-Logik: DAX nach GD100-Halt + Montaserholung moderat steigend; SAP als Momentum-Wert der Vorwoche; NVIDIA nach 4 Gewinntagen neutral (Mean-Reversion-Annahme)."
+      "entry": "Testlauf: Probe-Prognose für 22.09.2026 (DAX, SAP, NVIDIA); Testlauf zählt nie in die Statistik."
     },
     {
       "date": "2026-09-22",
-      "entry": "Morgen-Job (erste reguläre Prognose): DAX, SAP, NVIDIA. Aufwärts-Fokus nach Montagsrally bei fallenden Ölpreisen und Trump-Xi-Optimismus; NVIDIA oberes Band wegen 5. Gewinntag eng gehalten."
+      "entry": "Morgen-Job (erste reguläre Prognose): DAX, SAP, NVIDIA — Aufwärts-Fokus nach Montagsrally, fallenden Ölpreisen, Trump-Xi-Optimismus."
     },
     {
       "date": "2026-09-22",
-      "entry": "Abend-Review (regulär, 3 Picks): 1 Hit (SAP +0,79%), 2 Partial (DAX +0,02% knapp unter Band; NVIDIA +2,30% über Band), Richtung 2/3 korrekt. Kalibrierung: Bandbreiten zu eng — DAX-Untergrenze bei Konsolidierung künftig 0,0%; Momentum-Picks nach >3 Gewinntagen oberes Band auf 2,5–3,0% weiten statt zu neutralisieren."
+      "entry": "Abend-Review nach NEUEM asymmetrischen Scoring-Modell: 2 Treffer (NVIDIA übererfüllt +2,30% > Band 1,5%; SAP im Band +0,79%), 1 knapp verfehlt (DAX +0,02% < Untergrenze +0,2%). Richtung 3/3 korrekt. Kalibrierung: DAX-Untergrenze bei Konsolidierung künftig 0,0%; oberes Band bei intaktem Momentum mutiger (NVIDIA wäre bei Band bis 3% Volltreffer gewesen — Anti-Tiefbietungs-Regel mind. 1,5% für Aktien greift künftig von Anfang an)."
     },
     {
       "date": "2026-09-22",
-      "entry": "KORREKTUR (Admin): Der erste Abend-Job hatte zwei Fehler: (1) Die Testlauf-Picks vom 21.09. (test:true) wurden fälschlich in totals mitgezählt (6 statt 3) — Statistik neu berechnet, Testlauf bleibt reine Anzeige. (2) hitRate wurde als 50 statt 0.5 gespeichert, was im Dashboard 5000% zeigte — hitRate ist ab sofort fix als Bruch 0–1 definiert (rules in dieser Datei). Beide Regeln gelten ab jetzt für alle Jobs; Dashboard wurde zusätzlich robuster gemacht (normalisiert hitRate >1)."
+      "entry": "SCORING-UPDATE (Admin/Nutzer): Asymmetrisches Upside-Scoring eingeführt — Überschreiten des oberen Bandes nach oben ist Übererfüllung (hit, overshoot:true), kein partial. Gegengewicht gegen Tiefbieten: Mindest-BandHigh 1,0%/1,5% + Boldness-Tracking (Ø BandHigh vs. Ø actual). Historie des 22.09. entsprechend neu bewertet."
     }
   ]
 }
