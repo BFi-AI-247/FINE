@@ -51,7 +51,7 @@
           "bandLow": -0.5,
           "bandHigh": 1,
           "confidence": 50,
-          "reason": "Vier Gewinntage in Folge; nach Seriengewinnen Pause wahrscheinlich. Erwartung: -0,5% bis +1,0%. Quellen: stockinvest.us, CNBC.",
+          "reason": "Vier Gewinnt\nage in Folge; nach Seriengewinnen Pause wahrscheinlich. Erwartung: -0,5% bis +1,0%. Quellen: stockinvest.us, CNBC.",
           "status": "hit",
           "overshoot": true,
           "actual": 2.3,
@@ -92,7 +92,7 @@
         },
         {
           "name": "SAP",
-          "type": "equity_de",
+          "type": "equ\nity_de",
           "pickClass": "free",
           "direction": "up",
           "bandLow": 0.2,
@@ -131,7 +131,7 @@
             },
             {
               "slot": "Abend",
-              "text": "Schluss 227,38 USD, +2,30% — ÜBER dem oberen Bandrand +1,5%: Übererfüllung (hit, overshoot). Upside-Scoring: voller Treffer — Chance war größer als prognostiziert. Kalibrierung: oberes Band bei intaktem Momentum mutiger. Quelle: ad-hoc-news.de (22:31 MESZ, 22.09.2026)."
+              "text": "Schluss 227,38 USD, +2,30% — ÜBER dem oberen Bandrand +1,5%: Übererfüllung (hit, overshoot). Upside-Scoring: voller Treffer — Chance war größer als prognostiziert. Kalibrierung: oberes Band bei intaktem Momentum mutiger. Quelle: ad-hoc-news.de (22:31\n MESZ, 22.09.2026)."
             }
           ]
         }
