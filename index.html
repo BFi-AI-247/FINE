@@ -12,6 +12,7 @@
   h1 { font-size:1.6em; letter-spacing:.5px; }
   h1 span { color:var(--blue); }
   .sub { color:var(--muted); font-size:.85em; }
+  .nav a { color:var(--blue); text-decoration:none; font-size:.9em; }
   .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin-bottom:24px; }
   .card { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:16px; text-align:center; }
   .card .v { font-size:1.8em; font-weight:700; }
@@ -42,8 +43,9 @@
 <body>
 <header>
   <h1>📈 <span>FINE</span> — Financial Information Neural Engine</h1>
-  <div class="sub">Tagesprognosen mit Review · Mo–Fr · Slots 08:30 / 14:00 / 22:00 (Europe/Berlin)</div>
+  <nav class="nav"><a href="blog.html">📝 Börsen-Blog →</a></nav>
 </header>
+<div class="sub" style="margin:-12px 0 20px">Tagesprognosen mit Review · Mo–Fr · Slots 08:30 / 14:00 / 22:00 (Europe/Berlin)</div>
 
 <div class="cards" id="stats"></div>
 <h2>Prognosen &amp; Reviews</h2>
@@ -81,8 +83,9 @@ function renderDay(day){
       revs = '<div class="reviews">' + p.reviews.map(r=>'<div><b>'+r.slot+':</b> '+esc(r.text)+'</div>').join('') + '</div>';
     }
     const band = p.bandLow!=null ? ' · Bandbreite '+fmtPct(p.bandLow)+' bis '+fmtPct(p.bandHigh) : '';
+    const pf = p.fromPortfolio ? ' · <b style="color:var(--blue)">Portfolio</b>' : '';
     return '<div class="pick"><div class="head"><span class="name">'+esc(p.name)+'</span>'+dirBadge(p.direction)+' '+statusBadge(p.status)+'</div>'
-      +'<div class="meta">Konfidenz: '+(p.confidence!=null?p.confidence+'%':'—')+band+(p.actual!=null?' · Tatsächlich: '+fmtPct(p.actual):'')+'</div>'
+      +'<div class="meta">Konfidenz: '+(p.confidence!=null?p.confidence+'%':'—')+band+(p.actual!=null?' · Tatsächlich: '+fmtPct(p.actual):'')+pf+'</div>'
       +'<div class="reason">'+esc(p.reason||'')+'</div>'+revs+'</div>';
   }).join('');
   return '<div class="day"><h3>'+esc(day.title||day.date)+'<span class="date">'+esc(day.date)+'</span></h3><div class="picks">'+picks+'</div></div>';
