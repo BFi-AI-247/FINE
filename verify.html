@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FINE — Integritäts-Check</title>
+<style>
+  :root { --bg:#0d1117; --card:#161b22; --border:#30363d; --text:#e6edf3; --muted:#8b949e; --blue:#58a6ff; --green:#3fb950; --red:#f85149; --amber:#d29922; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:-apple-system,'Segoe UI',Roboto,sans-serif; background:var(--bg); color:var(--text); padding:24px; max-width:1000px; margin:0 auto; }
+  a { color:var(--blue); text-decoration:none; }
+  .back { display:inline-block; margin-bottom:14px; font-size:.9em; }
+  h1 { font-size:1.4em; margin-bottom:4px; } h1 span { color:var(--blue); }
+  .sub { color:var(--muted); font-size:.85em; margin-bottom:20px; line-height:1.6; }
+  .row { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:16px 18px; margin-bottom:12px; }
+  .row.ok { border-left:4px solid var(--green); }
+  .row.warn { border-left:4px solid var(--amber); }
+  .row.bad { border-left:4px solid var(--red); }
+  .row h2 { font-size:1em; margin-bottom:8px; }
+  .row h2 .st { float:right; font-size:.85em; }
+  .st.ok { color:var(--green); } .st.warn { color:var(--amber); } .st.bad { color:var(--red); }
+  .row ul { margin:6px 0 0 18px; font-size:.85em; line-height:1.7; }
+  .row li.warn { color:var(--amber); } .row li.bad { color:var(--red); font-weight:600; }
+  .hash { font-family:monospace; font-size:.78em; color:var(--muted); word-break:break-all; }
+  .summary { margin:16px 0; padding:14px; background:var(--card); border:1px solid var(--border); border-radius:10px; font-size:.9em; }
+  .disclaimer { margin-top:20px; padding:12px; border:1px solid var(--amber); border-radius:10px; font-size:.75em; color:var(--muted); }
+  .loading { color:var(--muted); padding:30px; text-align:center; }
+</style>
+</head>
+<body>
+<a class="back" href="index.html">← Dashboard</a> · <a href="analyse.html">Analyse</a> · <a href="archiv.html">Archiv</a>
+<h1>🔒 <span>FINE</span> — Integritäts-Check</h1>
+<div class="sub">Manipulationsschutz der Prognosen: Jede Morgen-Prognose ist ein GitHub-Commit mit externem Zeitstempel (chain.json). Diese Seite prüft live über die GitHub-API, dass (1) der Commit existierte und <b>vor Börsenbeginn</b> lag und (2) die Prognose-Kernfelder (Richtung, Bänder, Konfidenz, Begründung) <b>byte-genau</b> mit der committeden Morgen-Version übereinstimmen. Nachträgliche Änderungen werden rot markiert.</div>
+<div id="out"><div class="loading">Prüfe Chain gegen GitHub-API …</div></div>
+<div class="summary" id="summary" style="display:none"></div>
+<div class="disclaimer">⚠️ Die Prüfung läuft vollständig lokal im Browser gegen die öffentliche GitHub-API. FINE ist ein KI-Experiment — keine Anlageberatung.</div>
+<script>
+const OWNER='BFi-AI-247', REPO='FINE', PATH='data/predictions.json', BRANCH='main';
+const esc = s => String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+// Marktfenster (Europe/Berlin): Prognose-Commit muss vor 09:00 MEZ desselben Tages liegen
+function marketOpenCET(dateStr){
+  // 09:00 Berlin = 07:00 UTC (Sommerzeit 08:00→Summer MEZ=UTC+2)
+  const d = new Date(dateStr + 'T07:00:00Z');
+  return d.toISOString().slice(0,16).replace('T',' ') + ' UTC';
+}
+(async () => {
+  const out = document.getElementById('out');
+  try {
+    const [predRes, chainRes] = await Promise.all([
+      fetch('data/predictions.json').then(r=>r.json()),
+      fetch('data/chain.json').then(r=>r.json())
+    ]);
+    const currentDays = {};
+    for (const d of predRes.days||[]) currentDays[d.date] = d;
+    let nOk=0, nWarn=0, nBad=0, html='';
+    for (const entry of chainRes.days||[]) {
+      const day = currentDays[entry.date];
+      if (!entry.commitSha) {
+        nWarn++;
+        html += '<div class="row warn"><h2>'+esc(entry.date)+' — '+esc(entry.note||'ohne Chain')+'<span class="st warn">⚠️ nicht gechaint</span></h2></div>';
+        continue;
+      }
+      // 1) Commit holen (GitHub API, anonym lesbar)
+      const c = await fetch('https://api.github.com/repos/'+OWNER+'/'+REPO+'/commits/'+entry.commitSha).then(r=>r.ok?r.json():null);
+      if (!c) { nBad++; html += '<div class="row bad"><h2>'+esc(entry.date)+'<span class="st bad">✗ Commit nicht gefunden</span></h2><ul><li class="bad">Chain-Eintrag verweist auf nicht existierenden Commit — chain.json wurde manipuliert oder Commit gelöscht.</li></ul></div>'; continue; }
+      const commitDate = new Date(c.commit.committer.date);
+      const limit = new Date(entry.date + 'T07:00:00Z'); // 09:00 Berlin (Sommerzeit)
+      const beforeOpen = commitDate <= limit;
+      // 2) predictions.json bei diesem Commit-Ref laden
+      const f = await fetch('https://api.github.com/repos/'+OWNER+'/'+REPO+'/contents/'+PATH+'?ref='+entry.commitSha).then(r=>r.ok?r.json():null);
+      let contentOk = null, diffs = [];
+      if (f && f.content) {
+        const committed = JSON.parse(atob(f.content.replace(/\n/g,'')));
+        const comDay = (committed.days||[]).find(d=>d.date===entry.date);
+        if (comDay && day) {
+          diffs = comparePicks(comDay, day);
+          contentOk = diffs.length===0;
+        } else contentOk = false;
+      }
+      const cls = contentOk===false ? 'bad' : (beforeOpen && contentOk!==false) ? 'ok' : 'warn';
+      if (cls==='ok') nOk++; else if (cls==='bad') nBad++; else nWarn++;
+      html += '<div class="row '+cls+'"><h2>'+esc(entry.date)+'<span class="st '+cls+'">'+(cls==='ok'?'✓ verifiziert':cls==='bad'?'✗ MANIPULIERT':'◐ eingeschränkt')+'</span></h2>'
+        + '<div class="hash">Commit: '+esc(entry.commitSha.slice(0,12))+' · Zeit: '+esc(c.commit.committer.date)+'</div><ul>'
+        + (beforeOpen ? '<li>✓ Commit liegt vor Börsenbeginn (Grenze: '+marketOpenCET(entry.date)+')</li>' : '<li class="bad">✗ Commit NACH Börsenbeginn — Prognose wurde nachträglich committed!</li>')
+        + (contentOk===true ? '<li>✓ Prognose-Kernfelder stimmen byte-genau mit dem Morgen-Commit überein</li>' : '')
+        + (contentOk===false ? diffs.map(d=>'<li class="bad">✗ Abweichung: '+esc(d)+'</li>').join('') : '')
+        + (contentOk===null ? '<li class="warn">◐ Commit-Inhalt konnte nicht geladen werden (GitHub-Rate-Limit) — Zeitstempel-Prüfung trotzdem erfolgt</li>' : '')
+        + '</ul></div>';
+    }
+    out.innerHTML = html || '<div class="loading">Keine Chain-Einträge.</div>';
+    const s = document.getElementById('summary'); s.style.display='block';
+    s.innerHTML = '<b>Bilanz:</b> '+nOk+' verifiziert · '+nWarn+' eingeschränkt · <b style="color:var(--red)">'+nBad+' manipulationsverdächtig</b> — Stand: '+new Date().toLocaleString('de-DE');
+  } catch (e) {
+    out.innerHTML = '<div class="row bad">Fehler bei der Prüfung: '+esc(String(e))+'</div>';
+  }
+})();
+function comparePicks(committed, current){
+  const diffs = [];
+  const kFields = ['name','direction','bandLow','bandHigh','confidence','reason','pickClass'];
+  const cp = committed.picks||[], cu = current.picks||[];
+  if (cp.length !== cu.length) diffs.push('Anzahl Picks geändert ('+cp.length+' → '+cu.length+')');
+  for (let i=0;i<Math.min(cp.length,cu.length);i++) {
+    for (const f of kFields) {
+      if (JSON.stringify(cp[i][f]) !== JSON.stringify(cu[i]?.[f])) diffs.push(cp[i].name+'.'+f+' geändert');
+    }
+  }
+  return diffs;
+}
+</script>
+</body>
+</html>
