@@ -1,36 +1,40 @@
 {
-  "version": 1,
+  "version": 2,
   "updated": "2026-09-22",
   "totals": {
-    "predictions": 6,
-    "hits": 3,
+    "predictions": 3,
+    "hits": 1,
     "partial": 2,
-    "misses": 1,
-    "hitRate": 50,
-    "directionCorrect": 5
+    "misses": 0,
+    "hitRate": 0.3333,
+    "directionCorrect": 2
   },
   "byInstrumentType": {
     "index": {
-      "predictions": 2,
-      "hits": 1,
-      "partial": 1,
-      "misses": 0,
-      "hitRate": 50
-    },
-    "equity_de": {
-      "predictions": 2,
-      "hits": 2,
-      "partial": 0,
-      "misses": 0,
-      "hitRate": 100
-    },
-    "equity_us": {
-      "predictions": 2,
+      "predictions": 1,
       "hits": 0,
       "partial": 1,
-      "misses": 1,
+      "misses": 0,
+      "hitRate": 0
+    },
+    "equity_de": {
+      "predictions": 1,
+      "hits": 1,
+      "partial": 0,
+      "misses": 0,
+      "hitRate": 1
+    },
+    "equity_us": {
+      "predictions": 1,
+      "hits": 0,
+      "partial": 1,
+      "misses": 0,
       "hitRate": 0
     }
+  },
+  "rules": {
+    "excludeFromTotals": "Tages-Einträge mit test:true zählen NIEMALS in totals/byInstrumentType (nur Anzeige).",
+    "hitRateFormat": "hitRate ist IMMER ein Bruch 0-1 (z.B. 0.5 für 50%), niemals eine Prozentzahl."
   },
   "learningLog": [
     {
@@ -39,19 +43,19 @@
     },
     {
       "date": "2026-09-21",
-      "entry": "Testlauf: Probe-Prognose für 22.09.2026 (DAX, SAP, NVIDIA). Auswahl-Logik: DAX nach GD100-Halt + Montaserholung moderat steigend; SAP als Momentum-Wert der Vorwoche; NVIDIA nach 4 Gewinntagen neutral (Mean-Reversion-Annahme). Kalibrierung: Bandbreiten bewusst eher eng angesetzt, um Trefferquote später sauber messen zu können."
-    },
-    {
-      "date": "2026-09-21",
-      "entry": "Abend-Job: Keine Bewertung möglich — der einzige Tageseintrag ist eine Probe-Prognose für den 22.09.2026 (DAX, SAP, NVIDIA, alle status=open). Schlusskurse für den 22.09. liegen noch nicht vor; ggf. Faking von actual/status unterlassen. Erste reguläre Bewertung erfolgt im Abend-Job am 22.09.2026. Lernfortschritt/Prozess-Erkenntnis: Datumslogik der Picks prüfen, bevor bewertet wird — Picks gehören immer zum Prognosetag, nicht zum Erstellungstag. Heuristik unverändert (zu wenig Datenpunkte)."
+      "entry": "Testlauf: Probe-Prognose für 22.09.2026 (DAX, SAP, NVIDIA). Auswahl-Logik: DAX nach GD100-Halt + Montaserholung moderat steigend; SAP als Momentum-Wert der Vorwoche; NVIDIA nach 4 Gewinntagen neutral (Mean-Reversion-Annahme)."
     },
     {
       "date": "2026-09-22",
-      "entry": "Morgen-Job (erste reguläre Prognose): Auswahl DAX, SAP, NVIDIA. Begründung: Nach Montagsrally (DAX +1,1%, S&P +1,49%, Nasdaq-Rekord +2,26%) bei fallenden Ölpreisen (WTI ~97 USD, -3%) und sinkenden Renditen liegt der Aufwärts-Fokus nahe; Trump-Xi-Gipfel (23.-25.09.) dämpft Handelsrisko-Erwartungen. SAP als stärkster DE-Momentum-Wert (BofA-Kursziel 226 EUR), NVIDIA als AI-Rally-Treiber mit frisch erhöhten EPS-Schätzungen (Erste Group) — dort aber fünfter Gewinntag in Folge, daher Band nach unten bei 0,0% gehalten (Mean-Reversion-Respekt). DE/US-Mix erfüllt (1 Index, 1 DE-Aktie, 1 US-Aktie). Portfolio-Pflicht entfällt (portfolio.json noch leer). Bandbreiten erneut moderat-eng für saubere Baseline-Messung; Konfidenz 55-62 wegen fehlender Track-Record-Kalibrierung."
+      "entry": "Morgen-Job (erste reguläre Prognose): DAX, SAP, NVIDIA. Aufwärts-Fokus nach Montagsrally bei fallenden Ölpreisen und Trump-Xi-Optimismus; NVIDIA oberes Band wegen 5. Gewinntag eng gehalten."
     },
     {
       "date": "2026-09-22",
-      "entry": "Abend-Review (erster bewerteter Handelstag, inkl. Testlauf-Picks für den 22.09.): 6 Prognosen — 3 Hits (DAX-Test, SAP-Test, SAP), 2 Partial (DAX +0,02% knapp unter Band, NVIDIA +2,30% über Band), 1 Miss (NVIDIA-Testlauf 'flat' bei +2,30%). Richtung in 5 von 6 Fällen korrekt — Aufwärts-Fokus validiert. Kalibrierungs-Erkenntnisse: (1) Bandbreiten zu eng: DAX-Untergrenze von +0,2% nach starker Vortagsrally zu optimistisch — künftig Untergrenze 0,0% bei Konsolidierungskonstellationen. (2) Mean-Reversion-Annahme bei Seriengewinnern (NVIDIA, 6. Gewinntag +2,30%) widerlegt — bei intaktem AI-Momentum künftig oberes Band auf 2,5-3,0% weiten statt unteres Band abzusenken. (3) SAP-Bewertung: konsistente Xetra-Referenzkurse verwenden (Vortagesschluss 184,87 EUR), Quellen-Diskrepanzen im Review dokumentieren. Heuristik-Änderung: Momentum-Picks nach >3 Gewinntagen nicht neutralisieren, sondern Band nach oben öffnen. Portfolio-Pflicht weiterhin inaktiv (portfolio.json leer)."
+      "entry": "Abend-Review (regulär, 3 Picks): 1 Hit (SAP +0,79%), 2 Partial (DAX +0,02% knapp unter Band; NVIDIA +2,30% über Band), Richtung 2/3 korrekt. Kalibrierung: Bandbreiten zu eng — DAX-Untergrenze bei Konsolidierung künftig 0,0%; Momentum-Picks nach >3 Gewinntagen oberes Band auf 2,5–3,0% weiten statt zu neutralisieren."
+    },
+    {
+      "date": "2026-09-22",
+      "entry": "KORREKTUR (Admin): Der erste Abend-Job hatte zwei Fehler: (1) Die Testlauf-Picks vom 21.09. (test:true) wurden fälschlich in totals mitgezählt (6 statt 3) — Statistik neu berechnet, Testlauf bleibt reine Anzeige. (2) hitRate wurde als 50 statt 0.5 gespeichert, was im Dashboard 5000% zeigte — hitRate ist ab sofort fix als Bruch 0–1 definiert (rules in dieser Datei). Beide Regeln gelten ab jetzt für alle Jobs; Dashboard wurde zusätzlich robuster gemacht (normalisiert hitRate >1)."
     }
   ]
 }
