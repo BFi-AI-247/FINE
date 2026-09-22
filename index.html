@@ -13,10 +13,13 @@
   h1 span { color:var(--blue); }
   .nav a { color:var(--blue); text-decoration:none; font-size:.9em; margin-left:14px; }
   .sub { color:var(--muted); font-size:.85em; margin-bottom:20px; }
-  .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin-bottom:24px; }
+  .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin-bottom:10px; }
   .card { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:16px; text-align:center; }
   .card .v { font-size:1.8em; font-weight:700; }
   .card .l { color:var(--muted); font-size:.8em; text-transform:uppercase; letter-spacing:.5px; margin-top:4px; }
+  .cards.bench .card { border-color:#2c4a6e; }
+  .cards.picks .card { border-color:#2c6e3f; }
+  .grouplbl { font-size:.75em; color:var(--muted); text-transform:uppercase; letter-spacing:1px; margin:18px 0 8px; }
   h2 { font-size:1.1em; margin:28px 0 12px; color:var(--blue); }
   .more { font-size:.85em; margin:-4px 0 16px; } .more a { color:var(--blue); text-decoration:none; }
   .day { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:18px; margin-bottom:16px; }
@@ -30,6 +33,7 @@
   .badge.up { background:#1b3a25; color:var(--green); } .badge.down { background:#3d1a19; color:var(--red); } .badge.flat { background:#3a2e14; color:var(--amber); }
   .badge.hit { background:#1b3a25; color:var(--green); } .badge.partial { background:#3a2e14; color:var(--amber); } .badge.miss { background:#3d1a19; color:var(--red); } .badge.open { background:#1c2a3d; color:var(--blue); }
   .badge.test { background:#2d2a14; color:var(--amber); border:1px dashed var(--amber); }
+  .badge.pf { background:#1c2a3d; color:var(--blue); }
   .meta { color:var(--muted); font-size:.8em; margin-top:6px; line-height:1.5; }
   .reason { font-size:.85em; margin-top:8px; line-height:1.5; }
   .reviews { margin-top:10px; border-top:1px dashed var(--border); padding-top:8px; font-size:.82em; }
@@ -49,7 +53,13 @@
 </header>
 <div class="sub">Tagesprognosen mit Review · Mo–Fr · Slots 08:30 / 14:00 / 22:00 (Europe/Berlin) · 5 Picks: 2× Depot ★ · DAX · S&amp;P 500 · 1 frei</div>
 
-<div class="cards" id="stats"></div>
+<div class="grouplbl">Gesamt</div>
+<div class="cards" id="stats-total"></div>
+<div class="grouplbl">🎯 Picks — Opportunity-Finding (Depot ★ + frei)</div>
+<div class="cards picks" id="stats-picks"></div>
+<div class="grouplbl">📐 Benchmarks — Markt-Lese-Qualität (DAX + S&amp;P 500, enge Bänder korrekt)</div>
+<div class="cards bench" id="stats-bench"></div>
+
 <h2>Prognosen &amp; Reviews <span style="font-weight:400;font-size:.7em">(letzte 5 Tage)</span></h2>
 <div id="days"><div class="loading">Lade Daten …</div></div>
 <p class="more"><a href="archiv.html">Alle Tage im Archiv →</a></p>
@@ -62,15 +72,15 @@
 const BASE = 'data/';
 async function loadJSON(p){ const r = await fetch(BASE+p); if(!r.ok) return null; return r.json(); }
 const fmtPct = x => (x==null?'—':(x>0?'+':'')+x.toFixed(2)+'%');
+const normRate = hr => hr==null ? null : (hr>1 ? hr/100 : hr);
 
-function renderStats(s){
-  const t = s?.totals || {predictions:0,hits:0,partial:0,misses:0,hitRate:null};
-  let hr = t.hitRate; if (hr!=null && hr>1) hr = hr/100;   // Normalisierung: hitRate kann als Bruch (0-1) oder Prozent (>1) vorliegen
-  const rate = hr!=null ? (hr*100).toFixed(1)+'%' : '—';
+function renderCards(el, t, labels){
+  const rate = normRate(t?.hitRate);
   const cells = [
-    [t.predictions,'Prognosen'],[rate,'Trefferquote'],[t.hits,'Treffer'],[t.partial,'Teilweise'],[t.misses,'Daneben']
+    [t?.predictions ?? 0, labels[0]], [rate!=null?(rate*100).toFixed(1)+'%':'—','Trefferquote'],
+    [t?.hits ?? 0,'Treffer'], [t?.partial ?? 0,'Teilweise'], [t?.misses ?? 0,'Daneben']
   ];
-  document.getElementById('stats').innerHTML = cells.map(c=>'<div class="card"><div class="v">'+c[0]+'</div><div class="l">'+c[1]+'</div></div>').join('');
+  document.getElementById(el).innerHTML = cells.map(c=>'<div class="card"><div class="v">'+c[0]+'</div><div class="l">'+c[1]+'</div></div>').join('');
 }
 
 function badge(cls,txt){ return '<span class="badge '+cls+'">'+txt+'</span>'; }
@@ -88,9 +98,13 @@ function renderDay(day){
       revs = '<div class="reviews">' + p.reviews.map(r=>'<div><b>'+r.slot+':</b> '+esc(r.text)+'</div>').join('') + '</div>';
     }
     const band = p.bandLow!=null ? ' · Bandbreite '+fmtPct(p.bandLow)+' bis '+fmtPct(p.bandHigh) : '';
-    const pf = p.fromPortfolio ? ' · <b style="color:var(--blue)">Depot ★</b>' : '';
+    let cls = '';
+    if (p.pickClass==='portfolio') cls = ' · <b style="color:var(--blue)">Depot ★</b>';
+    else if (p.pickClass==='free') cls = ' · <b style="color:var(--green)">Frei</b>';
+    else if (p.pickClass==='benchmark') cls = ' · <b style="color:var(--muted)">Benchmark</b>';
+    else if (p.fromPortfolio) cls = ' · <b style="color:var(--blue)">Depot ★</b>';
     return '<div class="pick"><div class="head"><span class="name">'+esc(p.name)+'</span>'+dirBadge(p.direction)+' '+statusBadge(p.status)+'</div>'
-      +'<div class="meta">Konfidenz: '+(p.confidence!=null?p.confidence+'%':'—')+band+(p.actual!=null?' · Tatsächlich: '+fmtPct(p.actual):'')+pf+'</div>'
+      +'<div class="meta">Konfidenz: '+(p.confidence!=null?p.confidence+'%':'—')+band+(p.actual!=null?' · Tatsächlich: '+fmtPct(p.actual):'')+cls+'</div>'
       +'<div class="reason">'+esc(p.reason||'')+'</div>'+revs+'</div>';
   }).join('');
   return '<div class="day"><h3>'+esc(day.title||day.date)+testBadge+'<span class="date">'+esc(day.date)+'</span></h3><div class="picks">'+picks+'</div></div>';
@@ -100,9 +114,11 @@ function esc(s){ return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&l
 
 (async ()=>{
   const [pred, stats] = await Promise.all([loadJSON('predictions.json'), loadJSON('stats.json')]);
-  renderStats(stats);
+  renderCards('stats-total', stats?.totals, ['Prognosen']);
+  renderCards('stats-picks', stats?.picks, ['Picks']);
+  renderCards('stats-bench', stats?.benchmark, ['Benchmarks']);
   const days = pred?.days||[];
-  document.getElementById('days').innerHTML = days.length ? days.slice(-5).reverse().map(renderDay).join('') : '<div class="loading">Noch keine Prognosen. Der erste Morgen-Job startet am nächsten Handelstag.</div>';
+  document.getElementById('days').innerHTML = days.length ? days.slice(-5).reverse().map(renderDay).join('') : '<div class="loading">Noch keine Prognosen.</div>';
   const log = stats?.learningLog||[];
   document.getElementById('log').innerHTML = log.slice().reverse().map(l=>'<li><span class="d">'+esc(l.date)+'</span> — '+esc(l.entry)+'</li>').join('') || '<li>Noch keine Einträge.</li>';
 })();
