@@ -2,13 +2,36 @@
   "version": 1,
   "updated": "2026-09-22",
   "totals": {
-    "predictions": 0,
-    "hits": 0,
-    "partial": 0,
-    "misses": 0,
-    "hitRate": null
+    "predictions": 6,
+    "hits": 3,
+    "partial": 2,
+    "misses": 1,
+    "hitRate": 50,
+    "directionCorrect": 5
   },
-  "byInstrumentType": {},
+  "byInstrumentType": {
+    "index": {
+      "predictions": 2,
+      "hits": 1,
+      "partial": 1,
+      "misses": 0,
+      "hitRate": 50
+    },
+    "equity_de": {
+      "predictions": 2,
+      "hits": 2,
+      "partial": 0,
+      "misses": 0,
+      "hitRate": 100
+    },
+    "equity_us": {
+      "predictions": 2,
+      "hits": 0,
+      "partial": 1,
+      "misses": 1,
+      "hitRate": 0
+    }
+  },
   "learningLog": [
     {
       "date": "2026-09-21",
@@ -25,6 +48,10 @@
     {
       "date": "2026-09-22",
       "entry": "Morgen-Job (erste reguläre Prognose): Auswahl DAX, SAP, NVIDIA. Begründung: Nach Montagsrally (DAX +1,1%, S&P +1,49%, Nasdaq-Rekord +2,26%) bei fallenden Ölpreisen (WTI ~97 USD, -3%) und sinkenden Renditen liegt der Aufwärts-Fokus nahe; Trump-Xi-Gipfel (23.-25.09.) dämpft Handelsrisko-Erwartungen. SAP als stärkster DE-Momentum-Wert (BofA-Kursziel 226 EUR), NVIDIA als AI-Rally-Treiber mit frisch erhöhten EPS-Schätzungen (Erste Group) — dort aber fünfter Gewinntag in Folge, daher Band nach unten bei 0,0% gehalten (Mean-Reversion-Respekt). DE/US-Mix erfüllt (1 Index, 1 DE-Aktie, 1 US-Aktie). Portfolio-Pflicht entfällt (portfolio.json noch leer). Bandbreiten erneut moderat-eng für saubere Baseline-Messung; Konfidenz 55-62 wegen fehlender Track-Record-Kalibrierung."
+    },
+    {
+      "date": "2026-09-22",
+      "entry": "Abend-Review (erster bewerteter Handelstag, inkl. Testlauf-Picks für den 22.09.): 6 Prognosen — 3 Hits (DAX-Test, SAP-Test, SAP), 2 Partial (DAX +0,02% knapp unter Band, NVIDIA +2,30% über Band), 1 Miss (NVIDIA-Testlauf 'flat' bei +2,30%). Richtung in 5 von 6 Fällen korrekt — Aufwärts-Fokus validiert. Kalibrierungs-Erkenntnisse: (1) Bandbreiten zu eng: DAX-Untergrenze von +0,2% nach starker Vortagsrally zu optimistisch — künftig Untergrenze 0,0% bei Konsolidierungskonstellationen. (2) Mean-Reversion-Annahme bei Seriengewinnern (NVIDIA, 6. Gewinntag +2,30%) widerlegt — bei intaktem AI-Momentum künftig oberes Band auf 2,5-3,0% weiten statt unteres Band abzusenken. (3) SAP-Bewertung: konsistente Xetra-Referenzkurse verwenden (Vortagesschluss 184,87 EUR), Quellen-Diskrepanzen im Review dokumentieren. Heuristik-Änderung: Momentum-Picks nach >3 Gewinntagen nicht neutralisieren, sondern Band nach oben öffnen. Portfolio-Pflicht weiterhin inaktiv (portfolio.json leer)."
     }
   ]
 }
