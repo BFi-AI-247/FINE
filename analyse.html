@@ -31,7 +31,7 @@
 </style>
 </head>
 <body>
-<a class="back" href="index.html">← Dashboard</a> · <a href="archiv.html">Archiv</a> · <a href="blog.html">Blog</a>
+<a class="back" href="index.html">← Dashboard</a> · <a href="archiv.html">Archiv</a> · <a href="blog.html">Blog</a> · <a href="verify.html">🔒 Integrität</a>
 <h1>🔬 <span>FINE</span> — Prognose-Analyse</h1>
 <div class="sub">Alle Prognosen tabellarisch — sortier- und filterbar (nur Zahlen, keine Begründungstexte)</div>
 
@@ -68,30 +68,35 @@ const pct = x => x==null?'—':(x>0?'+':'')+x.toFixed(2);
 const dirTxt = d => d==='up'?'<span class="pos">▲</span>':d==='down'?'<span class="neg">▼</span>':'<span class="neu">►</span>';
 const clsTxt = c => c==='benchmark'?'📐':c==='portfolio'?'★':c==='free'?'🎯':'—';
 const stBadge = s => { const m={hit:['b-hit','✓'],partial:['b-partial','◐'],miss:['b-miss','✗'],open:['b-open','⏳']}; const [c,t]=m[s]||m.open; return '<span class="badge '+c+'">'+t+'</span>'; };
+const normRate = hr => hr==null ? null : (hr>1 ? hr/100 : hr);
 
 (async () => {
-  const pred = await fetch('data/predictions.json').then(r=>r.json());
-  const stats = await fetch('data/stats.json').then(r=>r.json()).catch(()=>null);
-  const names = new Set();
-  for (const day of pred.days||[]) for (const p of day.picks||[]) {
-    names.add(p.name);
-    DATA.push({ date: day.date, test: !!day.test, name: p.name, type: p.type||'',
-      cls: p.pickClass || (p.fromPortfolio ? 'portfolio' : ''),
-      direction: p.direction, bandLow: p.bandLow, bandHigh: p.bandHigh,
-      confidence: p.confidence, actual: p.actual, status: p.status||'open' });
-  }
-  const sel = document.getElementById('f-name');
-  [...names].sort().forEach(n => { const o=document.createElement('option'); o.textContent=n; sel.appendChild(o); });
-  const hr = stats?.totals?.hitRate;
-  document.getElementById('summary').textContent = 'Zeitraum: ' + (pred.days?.[0]?.date||'—') + ' bis ' + (pred.days?.[pred.days.length-1]?.date||'—') + ' · ' + DATA.length + ' Prognosen · Trefferquote gesamt: ' + (hr!=null ? ((hr>1?hr/100:hr)*100).toFixed(1)+'%' : '—') + (stats?.picks ? ' · Picks: ' + (stats.picks.hitRate!=null ? ((stats.picks.hitRate>1?stats.picks.hitRate/100:stats.picks.hitRate)*100).toFixed(1)+'%' : '—') : '') + (stats?.benchmark ? ' · Benchmarks: ' + (stats.benchmark.hitRate!=null ? ((stats.benchmark.hitRate>1?stats.benchmark.hitRate/100:stats.benchmark.hitRate)*100).toFixed(1)+'%' : '—') : '');
-  render();
-
-  document.querySelectorAll('th').forEach(th => th.addEventListener('click', () => {
-    const k = th.dataset.k;
-    if (sortKey===k) sortAsc=!sortAsc; else { sortKey=k; sortAsc=true; }
+  try {
+    const pred = await fetch('data/predictions.json').then(r=>r.json());
+    const stats = await fetch('data/stats.json').then(r=>r.json()).catch(()=>null);
+    const names = new Set();
+    for (const day of pred.days||[]) for (const p of day.picks||[]) {
+      names.add(p.name);
+      DATA.push({ date: day.date, test: !!day.test, name: p.name, type: p.type||'',
+        cls: p.pickClass || (p.fromPortfolio ? 'portfolio' : ''),
+        direction: p.direction, bandLow: p.bandLow, bandHigh: p.bandHigh,
+        confidence: p.confidence, actual: p.actual, status: p.status||'open' });
+    }
+    const sel = document.getElementById('f-name');
+    [...names].sort().forEach(n => { const o=document.createElement('option'); o.textContent=n; sel.appendChild(o); });
+    const fmtRate = hr => hr!=null ? (normRate(hr)*100).toFixed(1)+'%' : '—';
+    document.getElementById('summary').textContent = 'Zeitraum: ' + (pred.days?.[0]?.date||'—') + ' bis ' + (pred.days?.[pred.days.length-1]?.date||'—') + ' · ' + DATA.length + ' Prognosen · Gesamt: ' + fmtRate(stats?.totals?.hitRate) + ' · Picks: ' + fmtRate(stats?.picks?.hitRate) + ' · Benchmarks: ' + fmtRate(stats?.benchmark?.hitRate);
     render();
-  }));
-  ['f-text','f-name','f-dir','f-status','f-type','f-cls'].forEach(id => document.getElementById(id).addEventListener('input', render));
+
+    document.querySelectorAll('th').forEach(th => th.addEventListener('click', () => {
+      const k = th.dataset.k;
+      if (sortKey===k) sortAsc=!sortAsc; else { sortKey=k; sortAsc=true; }
+      render();
+    }));
+    ['f-text','f-name','f-dir','f-status','f-type','f-cls'].forEach(id => document.getElementById(id).addEventListener('input', render));
+  } catch (e) {
+    document.getElementById('summary').textContent = 'Fehler beim Laden: ' + String(e);
+  }
 })();
 
 function render() {
@@ -107,8 +112,7 @@ function render() {
     (!fd || r.direction===fd) && (!fs || r.status===fs) && (!fty || r.type===fty) &&
     (!fcls || (fcls==='test' ? r.test : r.cls===fcls)));
   rows.sort((a,b) => {
-    const va=a[sortKey], vb=b[sortKey];
-    const na = va==null?-Infinity:va, nb = vb==null?-Infinity:vb;
+    const na = a[sortKey]==null?-Infinity:a[sortKey], nb = b[sortKey]==null?-Infinity:b[sortKey];
     const c = na < nb ? -1 : na > nb ? 1 : 0;
     return sortAsc?c:-c;
   });
