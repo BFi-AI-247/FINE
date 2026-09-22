@@ -25,7 +25,8 @@
   .day { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:18px; margin-bottom:16px; }
   .day h3 { font-size:1em; display:flex; justify-content:space-between; flex-wrap:wrap; gap:6px; }
   .date { color:var(--muted); font-weight:400; font-size:.85em; }
-  .picks { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:10px; margin-top:12px; }
+  .picks { 
+display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:10px; margin-top:12px; }
   .pick { background:var(--bg); border:1px solid var(--border); border-radius:8px; padding:12px; }
   .pick .head { display:flex; justify-content:space-between; align-items:baseline; gap:6px; flex-wrap:wrap; }
   .pick .name { font-weight:700; }
@@ -49,9 +50,10 @@
 <body>
 <header>
   <h1>📈 <span>FINE</span> — Financial Information Neural Engine</h1>
-  <nav class="nav"><a href="analyse.html">🔬 Analyse</a><a href="archiv.html">🗄️ Archiv</a><a href="blog.html">📝 Blog</a></nav>
+  <nav class="nav"><a href="analyse.html">🔬 Analyse</a><a href="archiv.html">🗄️ Archiv</a><a href="blog.html">📝 Blog</a><a href="verify.html">🔒 Integrität</a></nav>
 </header>
-<div class="sub">Tagesprognosen mit Review · Mo–Fr · Slots 08:30 / 14:00 / 22:00 (Europe/Berlin) · 5 Picks: 2× Depot ★ · DAX · S&amp;P 500 · 1 frei</div>
+<div class="sub">Tagesprognosen mit Revie
+w · Mo–Fr · Slots 08:30 / 14:00 / 22:00 (Europe/Berlin) · 5 Picks: 2× Depot ★ · DAX · S&amp;P 500 · 1 frei</div>
 
 <div class="grouplbl">Gesamt</div>
 <div class="cards" id="stats-total"></div>
@@ -86,7 +88,8 @@ function renderCards(el, t, labels){
 function badge(cls,txt){ return '<span class="badge '+cls+'">'+txt+'</span>'; }
 function dirBadge(d){ return d==='up'?badge('up','▲ steigt'):d==='down'?badge('down','▼ fällt'):badge('flat','► neutral'); }
 function statusBadge(st){
-  const m = {hit:['hit','✓ Treffer'],partial:['partial','◐ teilweise'],miss:['miss','✗ daneben'],open:['open','⏳ offen']};
+  const m = {hit:['hit','✓ Treffer'],partial:['partial','◐ teilweise'],miss:[
+'miss','✗ daneben'],open:['open','⏳ offen']};
   const [c,t] = m[st]||m.open; return badge(c,t);
 }
 
@@ -118,7 +121,8 @@ function esc(s){ return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&l
   renderCards('stats-picks', stats?.picks, ['Picks']);
   renderCards('stats-bench', stats?.benchmark, ['Benchmarks']);
   const days = pred?.days||[];
-  document.getElementById('days').innerHTML = days.length ? days.slice(-5).reverse().map(renderDay).join('') : '<div class="loading">Noch keine Prognosen.</div>';
+  document.getElementById('days').innerHTML = days.length ? days.slice(-5).reve
+rse().map(renderDay).join('') : '<div class="loading">Noch keine Prognosen.</div>';
   const log = stats?.learningLog||[];
   document.getElementById('log').innerHTML = log.slice().reverse().map(l=>'<li><span class="d">'+esc(l.date)+'</span> — '+esc(l.entry)+'</li>').join('') || '<li>Noch keine Einträge.</li>';
 })();
