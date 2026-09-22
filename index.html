@@ -13,20 +13,19 @@
   h1 span { color:var(--blue); }
   .nav a { color:var(--blue); text-decoration:none; font-size:.9em; margin-left:14px; }
   .sub { color:var(--muted); font-size:.85em; margin-bottom:20px; }
+  .grouplbl { font-size:.75em; color:var(--muted); text-transform:uppercase; letter-spacing:1px; margin:18px 0 8px; }
   .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin-bottom:10px; }
   .card { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:16px; text-align:center; }
   .card .v { font-size:1.8em; font-weight:700; }
   .card .l { color:var(--muted); font-size:.8em; text-transform:uppercase; letter-spacing:.5px; margin-top:4px; }
   .cards.bench .card { border-color:#2c4a6e; }
   .cards.picks .card { border-color:#2c6e3f; }
-  .grouplbl { font-size:.75em; color:var(--muted); text-transform:uppercase; letter-spacing:1px; margin:18px 0 8px; }
   h2 { font-size:1.1em; margin:28px 0 12px; color:var(--blue); }
   .more { font-size:.85em; margin:-4px 0 16px; } .more a { color:var(--blue); text-decoration:none; }
   .day { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:18px; margin-bottom:16px; }
   .day h3 { font-size:1em; display:flex; justify-content:space-between; flex-wrap:wrap; gap:6px; }
   .date { color:var(--muted); font-weight:400; font-size:.85em; }
-  .picks { 
-display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:10px; margin-top:12px; }
+  .picks { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:10px; margin-top:12px; }
   .pick { background:var(--bg); border:1px solid var(--border); border-radius:8px; padding:12px; }
   .pick .head { display:flex; justify-content:space-between; align-items:baseline; gap:6px; flex-wrap:wrap; }
   .pick .name { font-weight:700; }
@@ -34,7 +33,6 @@ display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:10px
   .badge.up { background:#1b3a25; color:var(--green); } .badge.down { background:#3d1a19; color:var(--red); } .badge.flat { background:#3a2e14; color:var(--amber); }
   .badge.hit { background:#1b3a25; color:var(--green); } .badge.partial { background:#3a2e14; color:var(--amber); } .badge.miss { background:#3d1a19; color:var(--red); } .badge.open { background:#1c2a3d; color:var(--blue); }
   .badge.test { background:#2d2a14; color:var(--amber); border:1px dashed var(--amber); }
-  .badge.pf { background:#1c2a3d; color:var(--blue); }
   .meta { color:var(--muted); font-size:.8em; margin-top:6px; line-height:1.5; }
   .reason { font-size:.85em; margin-top:8px; line-height:1.5; }
   .reviews { margin-top:10px; border-top:1px dashed var(--border); padding-top:8px; font-size:.82em; }
@@ -52,8 +50,7 @@ display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:10px
   <h1>📈 <span>FINE</span> — Financial Information Neural Engine</h1>
   <nav class="nav"><a href="analyse.html">🔬 Analyse</a><a href="archiv.html">🗄️ Archiv</a><a href="blog.html">📝 Blog</a><a href="verify.html">🔒 Integrität</a></nav>
 </header>
-<div class="sub">Tagesprognosen mit Revie
-w · Mo–Fr · Slots 08:30 / 14:00 / 22:00 (Europe/Berlin) · 5 Picks: 2× Depot ★ · DAX · S&amp;P 500 · 1 frei</div>
+<div class="sub">Tagesprognosen mit Review · Mo–Fr · Slots 08:30 / 14:00 / 22:00 (Europe/Berlin) · 5 Picks: 2× Depot ★ · DAX · S&amp;P 500 · 1 frei</div>
 
 <div class="grouplbl">Gesamt</div>
 <div class="cards" id="stats-total"></div>
@@ -88,8 +85,7 @@ function renderCards(el, t, labels){
 function badge(cls,txt){ return '<span class="badge '+cls+'">'+txt+'</span>'; }
 function dirBadge(d){ return d==='up'?badge('up','▲ steigt'):d==='down'?badge('down','▼ fällt'):badge('flat','► neutral'); }
 function statusBadge(st){
-  const m = {hit:['hit','✓ Treffer'],partial:['partial','◐ teilweise'],miss:[
-'miss','✗ daneben'],open:['open','⏳ offen']};
+  const m = {hit:['hit','✓ Treffer'],partial:['partial','◐ teilweise'],miss:['miss','✗ daneben'],open:['open','⏳ offen']};
   const [c,t] = m[st]||m.open; return badge(c,t);
 }
 
@@ -116,15 +112,18 @@ function renderDay(day){
 function esc(s){ return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
 
 (async ()=>{
-  const [pred, stats] = await Promise.all([loadJSON('predictions.json'), loadJSON('stats.json')]);
-  renderCards('stats-total', stats?.totals, ['Prognosen']);
-  renderCards('stats-picks', stats?.picks, ['Picks']);
-  renderCards('stats-bench', stats?.benchmark, ['Benchmarks']);
-  const days = pred?.days||[];
-  document.getElementById('days').innerHTML = days.length ? days.slice(-5).reve
-rse().map(renderDay).join('') : '<div class="loading">Noch keine Prognosen.</div>';
-  const log = stats?.learningLog||[];
-  document.getElementById('log').innerHTML = log.slice().reverse().map(l=>'<li><span class="d">'+esc(l.date)+'</span> — '+esc(l.entry)+'</li>').join('') || '<li>Noch keine Einträge.</li>';
+  try {
+    const [pred, stats] = await Promise.all([loadJSON('predictions.json'), loadJSON('stats.json')]);
+    renderCards('stats-total', stats?.totals, ['Prognosen']);
+    renderCards('stats-picks', stats?.picks, ['Picks']);
+    renderCards('stats-bench', stats?.benchmark, ['Benchmarks']);
+    const days = pred?.days||[];
+    document.getElementById('days').innerHTML = days.length ? days.slice(-5).reverse().map(renderDay).join('') : '<div class="loading">Noch keine Prognosen.</div>';
+    const log = stats?.learningLog||[];
+    document.getElementById('log').innerHTML = log.slice().reverse().map(l=>'<li><span class="d">'+esc(l.date)+'</span> — '+esc(l.entry)+'</li>').join('') || '<li>Noch keine Einträge.</li>';
+  } catch (e) {
+    document.getElementById('days').innerHTML = '<div class="loading">Fehler beim Laden der Daten: ' + String(e) + '</div>';
+  }
 })();
 </script>
 </body>
