@@ -111,6 +111,10 @@
     {
       "date": "2026-09-22",
       "entry": "RESTORE (Lead_F1): Revision_F2 hatte config.json auf v2 und stats/predictions auf veraltete Abend-Job-Versionen zurückgerollt — dabei waren stats.json und predictions.json INVALID (Zeilenumbrüche in JSON-Strings; Dashboard zeigte 'Lade Daten…' endlos, hitRate-5000%-Bug war zurück). Stand wiederhergestellt: config v8, stats v4 (Split benchmark/picks), predictions mit pickClass/Upside-Scoring, Verify-Link im Dashboard. Lehre: Vor jedem Commit JSON parse-validieren; niemals auf alten Dateistand zurückrollen, ohne die Config-Version zu prüfen."
+    },
+    {
+      "date": "2026-09-23",
+      "entry": "Morgen-Job 23.09.2026: Screen vor Pick — Öl unter 100 USD (Iran-Gespräche an den UN), Trump-Xi-Staatsbesuch, Halbleiter-/AI-Momentum (Nasdaq Rekord, Memory-Rallye um Micron/Sandisk) → klares Aufwärts-Tagesbild mit Futures-Bestätigung (DAX-Future +0,3–0,4 %). 5 Picks: Benchmarks DAX und S&P 500; Depot-Picks Infineon (größter Xi-Hebel im DAX, Winbond-Deal für DRAM-Sparte) und SAP (KI-Software-Wind, BoA-Kursziel 226 EUR); freier Pick Nasdaq 100 (AI-Trade, Meta Connect am Abend). Lektion aus NVDA-Overshoot vom Vortag angewendet: Bänder der echten Picks mutiger gesetzt (bandHigh 1,8–3,0 % statt 1,0 %)."
     }
   ]
 }
