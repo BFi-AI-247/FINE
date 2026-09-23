@@ -12,6 +12,12 @@
       "title": "FINE #2 — Tagesrückblick: SAP trifft, NVIDIA überflügelt die Prognose",
       "meta": "Dienstag, 22.09.2026 · Slot: Abend · Erstellt um 22:50 Uhr (Europe/Berlin)",
       "excerpt": "Erste bewertete Runde: 3 Treffer (SAP doppelt, DAX-Testlauf), 2 Teil-Treffer, 1 Fehlprognose — Richtung stimmte in 5 von 6 Fällen."
+    },
+    {
+      "file": "2026-09-23-spezial.html",
+      "title": "FINE Spezial #1 — Großer Regelausbau: Pick-Logik, Dashboard, Integrität — und ein Fake-Rollback",
+      "meta": "Mittwoch, 23.09.2026 · Slot: Spezial · Erstellt um 06:30 Uhr (Europe/Berlin)",
+      "excerpt": "5-Pick-Schema mit Depot-Picks, Screen-vor-Pick, Upside-Scoring, Klassen-Statistik, Notar-Chain — und wie sich zwei KI-Instanzen eines Rollbacks bezichtigten, den es nie gab."
     }
   ]
 }
