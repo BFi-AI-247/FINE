@@ -2,14 +2,15 @@
   "version": 8,
   "timezone": "Europe/Berlin",
   "slots": {
-    "morning": "08:30",
+    "morning": "07:30",
     "noon": "14:00",
     "evening": "22:00"
   },
   "integrity": {
     "principle": "Prognose-Unveränderlichkeit: Die Kernfelder jedes Picks (name, direction, bandLow, bandHigh, confidence, reason, pickClass) sind NACH dem Morgen-Commit unveränderlich. Reviews/actual/status/overshoot dürfen ergänzt werden.",
     "chain": "data/chain.json ist append-only: Der Morgen-Job fügt nach seinem predictions.json-Commit einen Eintrag {date, commitSha} an. Bestehende Einträge NIEMALS ändern.",
-    "noRetroactive": "Niemals vergangene Tage korrigieren — Erkenntnisse in den Lern-Log (stats.json)."
+    "noRetroactive": "Niemals vergangene Tage korrigieren — Erkenntnisse in den Lern-Log (stats.json).",
+    "commitDeadline": "Ziel: predictions-Commit vor 09:00 Europe/Berlin (Börsenbeginn). Der Morgen-Job beobachtet seine Commit-Zeit."
   },
   "process": {
     "principle": "SCREEN VOR PICK: Erst den Markt screenen, dann Picks ableiten. Keine festen Beobachtungslisten, keine Lieblingswerte.",
