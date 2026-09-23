@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 9,
   "timezone": "Europe/Berlin",
   "slots": {
     "morning": "07:30",
@@ -53,12 +53,12 @@
     ]
   },
   "picks": {
-    "total": 5,
-    "pickClassField": "JE Pick pflicht: pickClass = benchmark | portfolio | free",
+    "total": 8,
+    "pickClassField": "JE Pick Pflicht: pickClass = benchmark | portfolio | free. Schema seit v9 (23.09.2026): 2 benchmark + 3 portfolio + 3 free = 8 Picks (vorher 2+2+1).",
     "schema": [
       {
         "role": "portfolio",
-        "count": 2,
+        "count": 3,
         "pickClass": "portfolio",
         "rule": "aus data/portfolio.json nach Tages-Opportunität (fromPortfolio: true)"
       },
@@ -70,7 +70,7 @@
       },
       {
         "role": "free",
-        "count": 1,
+        "count": 3,
         "pickClass": "free",
         "rule": "frei nach Screening aus dem Universum, NICHT aus dem Portfolio"
       }
