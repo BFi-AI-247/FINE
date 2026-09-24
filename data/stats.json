@@ -1,1 +1,138 @@
-{"version":4,"updated":"2026-09-23","totals":{"predictions":8,"hits":3,"partial":1,"misses":4,"hitRate":0.375,"overshoots":1,"directionCorrect":4},"benchmark":{"note":"Fix-Indizes DAX + S&P 500 — misst Markt-Lese-Qualität. Enge, realistische Bänder korrekt; kein Mut-Kriterium.","predictions":3,"hits":0,"partial":1,"misses":2,"hitRate":0,"overshoots":0},"picks":{"note":"Echte Picks: 2x Depot + 1 frei — misst Opportunity-Finding. Mindest-Band + Boldness gelten hier.","predictions":5,"hits":3,"partial":0,"misses":2,"hitRate":0.6,"overshoots":1},"byInstrumentType":{"index":{"predictions":4,"hits":0,"partial":1,"misses":3,"hitRate":0,"overshoots":0},"equity_de":{"predictions":3,"hits":2,"partial":0,"misses":1,"hitRate":0.6667,"overshoots":0},"equity_us":{"predictions":1,"hits":1,"partial":0,"misses":0,"hitRate":1,"overshoots":1}},"byPickClass":{"benchmark":{"predictions":3,"hits":0,"partial":1,"misses":2,"hitRate":0,"overshoots":0},"portfolio":{"predictions":2,"hits":1,"partial":0,"misses":1,"hitRate":0.5,"overshoots":0},"free":{"predictions":3,"hits":2,"partial":0,"misses":1,"hitRate":0.6667,"overshoots":1}},"boldness":{"note":"Mut-Metrik gegen Tiefbieten — NUR echte Picks (Benchmark-Indizes ausgeschlossen).","avgBandHigh":1.76,"avgActual":0.14,"months":[{"month":"2026-09","picks":5,"avgBandHigh":1.76,"avgActual":0.14}]},"rules":{"excludeFromTotals":"Tages-Einträge mit test:true zählen NIE in totals/benchmark/picks/byInstrumentType (nur Anzeige).","hitRateFormat":"hitRate ist IMMER ein Bruch 0-1 (z.B. 0.5 für 50%).","overshoot":"actual > bandHigh bei up-Picks = 'hit' + overshoot:true (Übererfüllung — gewollt).","minBandHigh":"Oberes Band mind. 1,0% (gewählter Index) / 1,5% (Aktie) — NUR echte Picks; DAX/S&P-500-Benchmarks: realistische Tagesrange.","pickClass":"pickClass je Pick: benchmark | portfolio | free — Pflichtfeld.","jsonHygiene":"NIEMALS rohe Zeilenumbrüche oder Steuerzeichen in JSON-Strings schreiben — JSON.stringify escaped automatisch; nur maschinell erzeugtes JSON committen und vor dem Commit parse-validieren."},"learningLog":[{"date":"2026-09-21","entry":"FINE initialisiert. Baseline-Phase."},{"date":"2026-09-21","entry":"Testlauf: Probe-Prognose für 22.09.2026 (zählt nicht in Statistik)."},{"date":"2026-09-22","entry":"Morgen-Job (erste reguläre Prognose): DAX, SAP, NVIDIA — Aufwärts-Fokus nach Montagsrally."},{"date":"2026-09-22","entry":"Abend-Review nach Upside-Scoring: 2 Treffer (NVIDIA übererfüllt +2,30%, SAP +0,79%), 1 knapp verfehlt (DAX-Benchmark +0,02% unter Untergrenze). Richtung 3/3. Kalibrierung: Pick-Bänder bei intaktem Momentum mutiger."},{"date":"2026-09-22","entry":"RESTORE (Lead_F1): Revision_F2 hatte config.json auf v2 und stats/predictions auf veraltete Abend-Job-Versionen zurückgerollt — dabei waren stats.json und predictions.json INVALID (Zeilenumbrüche in JSON-Strings; Dashboard zeigte 'Lade Daten…' endlos, hitRate-5000%-Bug war zurück). Stand wiederhergestellt: config v8, stats v4 (Split benchmark/picks), predictions mit pickClass/Upside-Scoring, Verify-Link im Dashboard. Lehre: Vor jedem Commit JSON parse-validieren; niemals auf alten Dateistand zurückrollen, ohne die Config-Version zu prüfen."},{"date":"2026-09-23","entry":"Morgen-Job 23.09.2026: Screen vor Pick — Öl unter 100 USD (Iran-Gespräche an den UN), Trump-Xi-Staatsbesuch, Halbleiter-/AI-Momentum (Nasdaq Rekord, Memory-Rallye um Micron/Sandisk) → klares Aufwärts-Tagesbild mit Futures-Bestätigung (DAX-Future +0,3–0,4 %). 5 Picks: Benchmarks DAX und S&P 500; Depot-Picks Infineon (größter Xi-Hebel im DAX, Winbond-Deal für DRAM-Sparte) und SAP (KI-Software-Wind, BoA-Kursziel 226 EUR); freier Pick Nasdaq 100 (AI-Trade, Meta Connect am Abend). Lektion aus NVDA-Overshoot vom Vortag angewendet: Bänder der echten Picks mutiger gesetzt (bandHigh 1,8–3,0 % statt 1,0 %)."},{"date":"2026-09-23","entry":"Abend-Review 23.09.: 1/5 Treffer (nur SAP +0,87%), 4 Misses, Richtung 1/5 — schwächster Tag seit Start. Ursachen: Morgen-Futures (+0,3–0,4%) und Öl-Entspannung wurden vom Zinsmarkt überlagert (10-Jahres-Treasury-Yield auf Mehrjahreshoch nach schwacher Auktion und starken PMIs; AI-Gewinnmitnahmen, Alphabet −3,73%). Kalibrierungs-Anpassungen: (1) Rendite-/Auktions-Signale künftig fest im Morgen-Screening verankern — Futures-Indikation nur als Sekundärsignal. (2) Konfidenz bei reinen Event-Hoffnungen (Xi-Besuch) ohne Bestätigung kürzen. (3) Boldness war korrekt (Ø bandHigh 1,76% bei echten Picks — kein Tiefbieten); das Problem war die Richtungsannahme, nicht die Bandbreite. (4) Datenqualität: Vortagesschluss künftig über zwei unabhängige Quellen verifizieren — SAP-Morgen-Dokumentation nannte 186,32 EUR, tatsächlicher 22.09.-Xetra-Schluss war 182,52 EUR; Bewertung erfolgte am echten Vortagesschluss. (5) Benchmark-Lese-Qualität fällt auf 0 Treffer bei 3 Versuchen — enge Bänder um DAX/S&P 500 scheiterten an volatilen Zinstagen; Richtungswahrscheinlichkeit bei Renditedruck herabstufen."}]}
+{
+  "version": 4,
+  "updated": "2026-09-23",
+  "totals": {
+    "predictions": 8,
+    "hits": 3,
+    "partial": 1,
+    "misses": 4,
+    "hitRate": 0.375,
+    "overshoots": 1,
+    "directionCorrect": 4
+  },
+  "benchmark": {
+    "note": "Fix-Indizes DAX + S&P 500 — misst Markt-Lese-Qualität. Enge, realistische Bänder korrekt; kein Mut-Kriterium.",
+    "predictions": 3,
+    "hits": 0,
+    "partial": 1,
+    "misses": 2,
+    "hitRate": 0,
+    "overshoots": 0
+  },
+  "picks": {
+    "note": "Echte Picks: 2x Depot + 1 frei — misst Opportunity-Finding. Mindest-Band + Boldness gelten hier.",
+    "predictions": 5,
+    "hits": 3,
+    "partial": 0,
+    "misses": 2,
+    "hitRate": 0.6,
+    "overshoots": 1
+  },
+  "byInstrumentType": {
+    "index": {
+      "predictions": 4,
+      "hits": 0,
+      "partial": 1,
+      "misses": 3,
+      "hitRate": 0,
+      "overshoots": 0
+    },
+    "equity_de": {
+      "predictions": 3,
+      "hits": 2,
+      "partial": 0,
+      "misses": 1,
+      "hitRate": 0.6667,
+      "overshoots": 0
+    },
+    "equity_us": {
+      "predictions": 1,
+      "hits": 1,
+      "partial": 0,
+      "misses": 0,
+      "hitRate": 1,
+      "overshoots": 1
+    }
+  },
+  "byPickClass": {
+    "benchmark": {
+      "predictions": 3,
+      "hits": 0,
+      "partial": 1,
+      "misses": 2,
+      "hitRate": 0,
+      "overshoots": 0
+    },
+    "portfolio": {
+      "predictions": 2,
+      "hits": 1,
+      "partial": 0,
+      "misses": 1,
+      "hitRate": 0.5,
+      "overshoots": 0
+    },
+    "free": {
+      "predictions": 3,
+      "hits": 2,
+      "partial": 0,
+      "misses": 1,
+      "hitRate": 0.6667,
+      "overshoots": 1
+    }
+  },
+  "boldness": {
+    "note": "Mut-Metrik gegen Tiefbieten — NUR echte Picks (Benchmark-Indizes ausgeschlossen).",
+    "avgBandHigh": 1.76,
+    "avgActual": 0.14,
+    "months": [
+      {
+        "month": "2026-09",
+        "picks": 5,
+        "avgBandHigh": 1.76,
+        "avgActual": 0.14
+      }
+    ]
+  },
+  "rules": {
+    "excludeFromTotals": "Tages-Einträge mit test:true zählen NIE in totals/benchmark/picks/byInstrumentType (nur Anzeige).",
+    "hitRateFormat": "hitRate ist IMMER ein Bruch 0-1 (z.B. 0.5 für 50%).",
+    "overshoot": "actual > bandHigh bei up-Picks = 'hit' + overshoot:true (Übererfüllung — gewollt).",
+    "minBandHigh": "Oberes Band mind. 1,0% (gewählter Index) / 1,5% (Aktie) — NUR echte Picks; DAX/S&P-500-Benchmarks: realistische Tagesrange.",
+    "pickClass": "pickClass je Pick: benchmark | portfolio | free — Pflichtfeld.",
+    "jsonHygiene": "NIEMALS rohe Zeilenumbrüche oder Steuerzeichen in JSON-Strings schreiben — JSON.stringify escaped automatisch; nur maschinell erzeugtes JSON committen und vor dem Commit parse-validieren."
+  },
+  "learningLog": [
+    {
+      "date": "2026-09-21",
+      "entry": "FINE initialisiert. Baseline-Phase."
+    },
+    {
+      "date": "2026-09-21",
+      "entry": "Testlauf: Probe-Prognose für 22.09.2026 (zählt nicht in Statistik)."
+    },
+    {
+      "date": "2026-09-22",
+      "entry": "Morgen-Job (erste reguläre Prognose): DAX, SAP, NVIDIA — Aufwärts-Fokus nach Montagsrally."
+    },
+    {
+      "date": "2026-09-22",
+      "entry": "Abend-Review nach Upside-Scoring: 2 Treffer (NVIDIA übererfüllt +2,30%, SAP +0,79%), 1 knapp verfehlt (DAX-Benchmark +0,02% unter Untergrenze). Richtung 3/3. Kalibrierung: Pick-Bänder bei intaktem Momentum mutiger."
+    },
+    {
+      "date": "2026-09-22",
+      "entry": "RESTORE (Lead_F1): Revision_F2 hatte config.json auf v2 und stats/predictions auf veraltete Abend-Job-Versionen zurückgerollt — dabei waren stats.json und predictions.json INVALID (Zeilenumbrüche in JSON-Strings; Dashboard zeigte 'Lade Daten…' endlos, hitRate-5000%-Bug war zurück). Stand wiederhergestellt: config v8, stats v4 (Split benchmark/picks), predictions mit pickClass/Upside-Scoring, Verify-Link im Dashboard. Lehre: Vor jedem Commit JSON parse-validieren; niemals auf alten Dateistand zurückrollen, ohne die Config-Version zu prüfen."
+    },
+    {
+      "date": "2026-09-23",
+      "entry": "Morgen-Job 23.09.2026: Screen vor Pick — Öl unter 100 USD (Iran-Gespräche an den UN), Trump-Xi-Staatsbesuch, Halbleiter-/AI-Momentum (Nasdaq Rekord, Memory-Rallye um Micron/Sandisk) → klares Aufwärts-Tagesbild mit Futures-Bestätigung (DAX-Future +0,3–0,4 %). 5 Picks: Benchmarks DAX und S&P 500; Depot-Picks Infineon (größter Xi-Hebel im DAX, Winbond-Deal für DRAM-Sparte) und SAP (KI-Software-Wind, BoA-Kursziel 226 EUR); freier Pick Nasdaq 100 (AI-Trade, Meta Connect am Abend). Lektion aus NVDA-Overshoot vom Vortag angewendet: Bänder der echten Picks mutiger gesetzt (bandHigh 1,8–3,0 % statt 1,0 %)."
+    },
+    {
+      "date": "2026-09-23",
+      "entry": "Abend-Review 23.09.: 1/5 Treffer (nur SAP +0,87%), 4 Misses, Richtung 1/5 — schwächster Tag seit Start. Ursachen: Morgen-Futures (+0,3–0,4%) und Öl-Entspannung wurden vom Zinsmarkt überlagert (10-Jahres-Treasury-Yield auf Mehrjahreshoch nach schwacher Auktion und starken PMIs; AI-Gewinnmitnahmen, Alphabet −3,73%). Kalibrierungs-Anpassungen: (1) Rendite-/Auktions-Signale künftig fest im Morgen-Screening verankern — Futures-Indikation nur als Sekundärsignal. (2) Konfidenz bei reinen Event-Hoffnungen (Xi-Besuch) ohne Bestätigung kürzen. (3) Boldness war korrekt (Ø bandHigh 1,76% bei echten Picks — kein Tiefbieten); das Problem war die Richtungsannahme, nicht die Bandbreite. (4) Datenqualität: Vortagesschluss künftig über zwei unabhängige Quellen verifizieren — SAP-Morgen-Dokumentation nannte 186,32 EUR, tatsächlicher 22.09.-Xetra-Schluss war 182,52 EUR; Bewertung erfolgte am echten Vortagesschluss. (5) Benchmark-Lese-Qualität fällt auf 0 Treffer bei 3 Versuchen — enge Bänder um DAX/S&P 500 scheiterten an volatilen Zinstagen; Richtungswahrscheinlichkeit bei Renditedruck herabstufen."
+    },
+    {
+      "date": "2026-09-24",
+      "entry": "Morgen-Job 24.09. (erster Lauf im 8-Pick-Schema): Screen vor Pick — Zins-Schock vom Vortag als Primärsignal verankert (10J-Treasury 5,11 %, höchstes seit 2007; 5J erstmals seit 2007 über 5 %; Brent wieder über 100 USD), Futures nur noch sekundär — genau die Lehre aus dem 23.09.-Review. Benchmarks zurückhaltend: DAX knapp up (Ifo-Verbesserung erwartet, Truce-Verlängerung um 2 Monate bis 10.01.2027), S&P 500 bewusst flat (Renditedruck + Öl-Inflation), Nasdaq 100 flat nach AI-Gewinnmitnahmen. Depot-Picks erstmals 3 statt 2 — alle nach Tages-Opportunität im Zins-Umfeld gewählt: Munich Re und Allianz als Rendite-Profiteure (Wiederanlage-Zinsertrag), Rheinmetall als zinsunempfindlicher Verteidigungswert. Freie Picks: Siemens (Ifo-Träger), EuroStoxx 50 (weniger US-Zins-getrieben), Nasdaq 100 (flat, breites Band). Hypothese: Anlagestile Rotationsgewinner (Versicherer/Verteidigung/Industrie) statt Momentum-Tech heute die bessere Chance."
+    }
+  ]
+}
