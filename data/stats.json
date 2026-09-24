@@ -1,49 +1,49 @@
 {
   "version": 4,
-  "updated": "2026-09-23",
+  "updated": "2026-09-24",
   "totals": {
-    "predictions": 8,
-    "hits": 3,
+    "predictions": 16,
+    "hits": 8,
     "partial": 1,
-    "misses": 4,
-    "hitRate": 0.375,
-    "overshoots": 1,
-    "directionCorrect": 4
+    "misses": 7,
+    "hitRate": 0.5,
+    "overshoots": 2,
+    "directionCorrect": 9
   },
   "benchmark": {
     "note": "Fix-Indizes DAX + S&P 500 — misst Markt-Lese-Qualität. Enge, realistische Bänder korrekt; kein Mut-Kriterium.",
-    "predictions": 3,
-    "hits": 0,
+    "predictions": 5,
+    "hits": 1,
     "partial": 1,
-    "misses": 2,
-    "hitRate": 0,
+    "misses": 3,
+    "hitRate": 0.2,
     "overshoots": 0
   },
   "picks": {
     "note": "Echte Picks: 2x Depot + 1 frei — misst Opportunity-Finding. Mindest-Band + Boldness gelten hier.",
-    "predictions": 5,
-    "hits": 3,
+    "predictions": 11,
+    "hits": 7,
     "partial": 0,
-    "misses": 2,
-    "hitRate": 0.6,
-    "overshoots": 1
+    "misses": 4,
+    "hitRate": 0.6364,
+    "overshoots": 2
   },
   "byInstrumentType": {
     "index": {
-      "predictions": 4,
-      "hits": 0,
+      "predictions": 8,
+      "hits": 2,
       "partial": 1,
-      "misses": 3,
-      "hitRate": 0,
+      "misses": 5,
+      "hitRate": 0.25,
       "overshoots": 0
     },
     "equity_de": {
-      "predictions": 3,
-      "hits": 2,
+      "predictions": 7,
+      "hits": 5,
       "partial": 0,
-      "misses": 1,
-      "hitRate": 0.6667,
-      "overshoots": 0
+      "misses": 2,
+      "hitRate": 0.7143,
+      "overshoots": 1
     },
     "equity_us": {
       "predictions": 1,
@@ -56,40 +56,40 @@
   },
   "byPickClass": {
     "benchmark": {
-      "predictions": 3,
-      "hits": 0,
+      "predictions": 5,
+      "hits": 1,
       "partial": 1,
-      "misses": 2,
-      "hitRate": 0,
+      "misses": 3,
+      "hitRate": 0.2,
       "overshoots": 0
     },
     "portfolio": {
-      "predictions": 2,
-      "hits": 1,
+      "predictions": 5,
+      "hits": 3,
       "partial": 0,
-      "misses": 1,
-      "hitRate": 0.5,
-      "overshoots": 0
+      "misses": 2,
+      "hitRate": 0.6,
+      "overshoots": 1
     },
     "free": {
-      "predictions": 3,
-      "hits": 2,
+      "predictions": 6,
+      "hits": 4,
       "partial": 0,
-      "misses": 1,
+      "misses": 2,
       "hitRate": 0.6667,
       "overshoots": 1
     }
   },
   "boldness": {
     "note": "Mut-Metrik gegen Tiefbieten — NUR echte Picks (Benchmark-Indizes ausgeschlossen).",
-    "avgBandHigh": 1.76,
-    "avgActual": 0.14,
+    "avgBandHigh": 1.7273,
+    "avgActual": 0.0536,
     "months": [
       {
         "month": "2026-09",
-        "picks": 5,
-        "avgBandHigh": 1.76,
-        "avgActual": 0.14
+        "picks": 11,
+        "avgBandHigh": 1.7273,
+        "avgActual": 0.0536
       }
     ]
   },
@@ -133,6 +133,10 @@
     {
       "date": "2026-09-24",
       "entry": "Morgen-Job 24.09. (erster Lauf im 8-Pick-Schema): Screen vor Pick — Zins-Schock vom Vortag als Primärsignal verankert (10J-Treasury 5,11 %, höchstes seit 2007; 5J erstmals seit 2007 über 5 %; Brent wieder über 100 USD), Futures nur noch sekundär — genau die Lehre aus dem 23.09.-Review. Benchmarks zurückhaltend: DAX knapp up (Ifo-Verbesserung erwartet, Truce-Verlängerung um 2 Monate bis 10.01.2027), S&P 500 bewusst flat (Renditedruck + Öl-Inflation), Nasdaq 100 flat nach AI-Gewinnmitnahmen. Depot-Picks erstmals 3 statt 2 — alle nach Tages-Opportunität im Zins-Umfeld gewählt: Munich Re und Allianz als Rendite-Profiteure (Wiederanlage-Zinsertrag), Rheinmetall als zinsunempfindlicher Verteidigungswert. Freie Picks: Siemens (Ifo-Träger), EuroStoxx 50 (weniger US-Zins-getrieben), Nasdaq 100 (flat, breites Band). Hypothese: Anlagestile Rotationsgewinner (Versicherer/Verteidigung/Industrie) statt Momentum-Tech heute die bessere Chance."
+    },
+    {
+      "date": "2026-09-24",
+      "entry": "Abend-Review 24.09. (8-Pick-Schema, erster voller Lauf): 5/8 Treffer (davon 1 Übererfüllung: Munich Re +1,99 % über bandHigh +1,8 %), 0 partial, 3 Misses, Richtung 5/8 — nach dem schwächsten Tag (1/5 am 23.09.) der bislang beste. Was lief gut: (1) Die am 23.09. gelernte Vorsicht — S&P 500 und Nasdaq 100 bewusst flat statt up — traf exakt (beide im Band). (2) Die Zinsprofiteur-Rotation im Depot-Teil: Munich Re (Overshoot) und Allianz (Hit) bestätigten die These, Siemens als Konjunktur-Profiteur traf ebenfalls. Was schlecht lief: DAX-up trotz Renditehoch (−0,57 %, Miss) — Ifo- und Truce-Stützen waren zu schwach gegen Öl (+4 %) und Zinsen; EuroStoxx 50 mit derselben Logik (−0,43 %, Miss); Rheinmetall (−3,41 %, Miss) — branchenweite Gewinnmitnahmen bei Rüstungswerten unterschätzt. Kalibrierungs-Anpassungen: (1) Bei Renditen auf Mehrjahrshochs künftig KEINE up-Benchmark ohne harten Tages-Katalysator — Zins-/Öl-Druck ist ein Richtungssignal, nicht nur Rauschen. (2) Zinsprofiteur-Hebel (Versicherer) als Depot-Pick-Muster validiert — weiterverfolgen, solange Renditen auf Hochs verharren. (3) Sektor-Momentum schlägt Einzeltitel-Story: bei branchenweiten Rücksetzern (Rüstung) Story-Picks meiden. (4) Boldness korrekt: Ø bandHigh 1,73 % vs. Ø actual 0,05 % — kein Tiefbieten; die Übererfüllung bei Munich Re zeigt, dass obere Bänder bei intakter These sogar noch Spielraum nach oben haben."
     }
   ]
 }
