@@ -269,7 +269,13 @@
           "confidence": 52,
           "reason": "Screening 24.09.2026: Zins-Schock vom Vortag prägt den Morgen — 10-Jahres-Treasury bei 5,11 % (höchstes Niveau seit 2007, TheStreet/Yahoo Finance), 5-Jahres-Rendite erstmals seit 2007 über 5 %, Brent erneut über 100 USD (Nov.-Kontrakt 23.09.: 103,08 USD, +3,9 %; heute Indikation ~100,7 USD, finanzen.net). Vortag: S&P 500 -0,75 % (7.706,03), Nasdaq Composite -1,13 %, Dow -0,68 % (51.503), DAX -0,66 % (25.410,63 Xetra). Stützen heute: US-China-Handels-Waffenstillstand um zwei Monate bis 10.01.2027 verlängert (Schatzkanzler Bessent, Reuters) während des Xi-Staatsbesuchs (23.-25.09.); Ifo-Index 10:00 Uhr mit erwartet fünfter Verbesserung in Folge (89,0 nach 88,8, dpa-AFX/n-tv); DAX-Indikation Morgen leicht plus (~25.443). US-Termine: Jobless Claims 14:30, Neubauverkäufe 16:00, Costco-Quartalszahlen abends. Konsequenz aus dem Lern-Log vom 23.09.: Anleiherenditen als Primärsignal, Futures nur sekundär; hence S&P 500 und Nasdaq 100 zurückhaltend, Fokus auf Zinsprofiteure (Versicherer) und Konjunktur-Profiteure (Ifo). DAX-Benchmark (realistische enge Bandbreite, kein Mut-Kriterium): Ifo-Verbesserung erwartet, Truce-Verlängerung und leichte Morgen-Indikation (~25.443 nach 25.410,63) sprechen für moderate Erholung; Zins-/Öl-Druck begrenzt den Spielraum. Erwartung: +0,0 % bis +0,7 %. Quellen: Trading Economics (US-Daten), Yahoo Finance, finanzen.net Tagesvorschau 24.09., n-tv Börsen-Tag.",
           "status": "open",
-          "reviews": []
+          "actual": -0.3,
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00-Slot: DAX ca. -0,3% auf rund 25.334 Punkte (Donnerstagmittag, Dow Jones Newswire via finanzen.at; via Xetra um 12:09 Uhr -0,49% auf 25.286,96 Punkte, finanzen.ch). Der erwartete Ifo-Impuls zeigt am Markt kaum Wirkung — Brent bei rund 105 USD und 10-Jahres-Treasury bei 5,12% dominieren. Prognose war up +0,0% bis +0,7%: aktuell knapp außerhalb des Bands, Richtung bislang falsch; Abend bewertet. Quelle: finanzen.at/finanzen.ch (24.09.2026)."
+            }
+          ]
         },
         {
           "name": "S&P 500",
@@ -281,7 +287,13 @@
           "confidence": 50,
           "reason": "Screening 24.09.2026: Zins-Schock vom Vortag prägt den Morgen — 10-Jahres-Treasury bei 5,11 % (höchstes Niveau seit 2007, TheStreet/Yahoo Finance), 5-Jahres-Rendite erstmals seit 2007 über 5 %, Brent erneut über 100 USD (Nov.-Kontrakt 23.09.: 103,08 USD, +3,9 %; heute Indikation ~100,7 USD, finanzen.net). Vortag: S&P 500 -0,75 % (7.706,03), Nasdaq Composite -1,13 %, Dow -0,68 % (51.503), DAX -0,66 % (25.410,63 Xetra). Stützen heute: US-China-Handels-Waffenstillstand um zwei Monate bis 10.01.2027 verlängert (Schatzkanzler Bessent, Reuters) während des Xi-Staatsbesuchs (23.-25.09.); Ifo-Index 10:00 Uhr mit erwartet fünfter Verbesserung in Folge (89,0 nach 88,8, dpa-AFX/n-tv); DAX-Indikation Morgen leicht plus (~25.443). US-Termine: Jobless Claims 14:30, Neubauverkäufe 16:00, Costco-Quartalszahlen abends. Konsequenz aus dem Lern-Log vom 23.09.: Anleiherenditen als Primärsignal, Futures nur sekundär; hence S&P 500 und Nasdaq 100 zurückhaltend, Fokus auf Zinsprofiteure (Versicherer) und Konjunktur-Profiteure (Ifo). S&P-500-Benchmark: Truce-Verlängerung stützt, aber 10-Jahres-Rendite auf 19-Jahres-Hoch (5,11 %) und Öl-Inflationssorgen (Fed-Hike-Erwartungen nach starken PMIs, Trading Economics) wiegen schwer; CFD-Indikation 24.09. -0,09 % (7.699, Trading Economics). Gegenargumente gegen up sind klar dokumentiert → flat. Erwartung: -0,4 % bis +0,5 %. Quellen: Yahoo Finance, Investopedia, Trading Economics.",
           "status": "open",
-          "reviews": []
+          "actual": -0.51,
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00-Slot (US-Handel erst ab 15:30 MESZ): S&P-500-E-Minis ca. -0,51% bzw. -40 Punkte (13:32 MEZ, Economic Times; CNBC nennt -0,6%), implied Open ~7.660-7.670 nach Vortagesschluss 7.706,03. Renditedruck (10-Jahres 5,12%) und Öl (~105 USD) wiegen trotz Xi-Truce-Verlängerung schwer. Prognose flat -0,4% bis +0,5%: Futures knapp unter bandLow, flat-These aber weiterhin plausibel. Quelle: Economic Times/CNBC (24.09.2026)."
+            }
+          ]
         },
         {
           "name": "Munich Re",
@@ -294,7 +306,13 @@
           "confidence": 60,
           "reason": "Screening 24.09.2026: Zins-Schock vom Vortag prägt den Morgen — 10-Jahres-Treasury bei 5,11 % (höchstes Niveau seit 2007, TheStreet/Yahoo Finance), 5-Jahres-Rendite erstmals seit 2007 über 5 %, Brent erneut über 100 USD (Nov.-Kontrakt 23.09.: 103,08 USD, +3,9 %; heute Indikation ~100,7 USD, finanzen.net). Vortag: S&P 500 -0,75 % (7.706,03), Nasdaq Composite -1,13 %, Dow -0,68 % (51.503), DAX -0,66 % (25.410,63 Xetra). Stützen heute: US-China-Handels-Waffenstillstand um zwei Monate bis 10.01.2027 verlängert (Schatzkanzler Bessent, Reuters) während des Xi-Staatsbesuchs (23.-25.09.); Ifo-Index 10:00 Uhr mit erwartet fünfter Verbesserung in Folge (89,0 nach 88,8, dpa-AFX/n-tv); DAX-Indikation Morgen leicht plus (~25.443). US-Termine: Jobless Claims 14:30, Neubauverkäufe 16:00, Costco-Quartalszahlen abends. Konsequenz aus dem Lern-Log vom 23.09.: Anleiherenditen als Primärsignal, Futures nur sekundär; hence S&P 500 und Nasdaq 100 zurückhaltend, Fokus auf Zinsprofiteure (Versicherer) und Konjunktur-Profiteure (Ifo). Depot-Pick (Opportunität, nicht Besitz): Rückversicherer gehören zu den wenigen klaren Profiteuren steigender Anleiherenditen (höhere Wiederanlagerträge auf das riesige Zinsbuch); Munich Re notierte am 22.09. bei 501,80 EUR (Xetra) und zeigte sich im gestrigen Zins-Rücksetzer-Tag mit +0,8 % widerstandsfähig nahe der Jahresspanne (boerse.de/finanzen.net). Erwartung: +0,2 % bis +1,8 % (Aktie, Mindest-Band 1,5 %). Quellen: boerse.de, finanzen.net (22./23.09.2026).",
           "status": "open",
-          "reviews": []
+          "actual": 0.8,
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00-Slot: Münchener Rück ca. 506,40 EUR, rund +0,8% vs. Xetra-Schluss 502,60 EUR (12:47 Uhr, wallstreet-online; finanzen.net Mittagsliste: +0,92% auf 507,20 EUR). Die Zinsprofiteur-These für Versicherer bestätigt sich bislang. Prognose up +0,2% bis +1,8%: mitten im Band, Richtung korrekt — auf Kurs zum Hit. Quelle: wallstreet-online/finanzen.net (24.09.2026)."
+            }
+          ]
         },
         {
           "name": "Allianz",
@@ -307,7 +325,13 @@
           "confidence": 55,
           "reason": "Screening 24.09.2026: Zins-Schock vom Vortag prägt den Morgen — 10-Jahres-Treasury bei 5,11 % (höchstes Niveau seit 2007, TheStreet/Yahoo Finance), 5-Jahres-Rendite erstmals seit 2007 über 5 %, Brent erneut über 100 USD (Nov.-Kontrakt 23.09.: 103,08 USD, +3,9 %; heute Indikation ~100,7 USD, finanzen.net). Vortag: S&P 500 -0,75 % (7.706,03), Nasdaq Composite -1,13 %, Dow -0,68 % (51.503), DAX -0,66 % (25.410,63 Xetra). Stützen heute: US-China-Handels-Waffenstillstand um zwei Monate bis 10.01.2027 verlängert (Schatzkanzler Bessent, Reuters) während des Xi-Staatsbesuchs (23.-25.09.); Ifo-Index 10:00 Uhr mit erwartet fünfter Verbesserung in Folge (89,0 nach 88,8, dpa-AFX/n-tv); DAX-Indikation Morgen leicht plus (~25.443). US-Termine: Jobless Claims 14:30, Neubauverkäufe 16:00, Costco-Quartalszahlen abends. Konsequenz aus dem Lern-Log vom 23.09.: Anleiherenditen als Primärsignal, Futures nur sekundär; hence S&P 500 und Nasdaq 100 zurückhaltend, Fokus auf Zinsprofiteure (Versicherer) und Konjunktur-Profiteure (Ifo). Depot-Pick (Opportunität): Nach dem -3,35 %-Rücksetzer vom Dienstag auf 430,20 EUR (finanzen.net) und Stabilisierung über der Trendlinie bietet die Allianz Rebound-Potenzial; als Versicherer profitiert sie strukturell von höheren Renditen (Zinsertrag Lebens-/Schadengeschäft), was im Zins-Umfeld ein klares Gegenlager zum Tech-Stress ist. Erwartung: +0,2 % bis +2,0 %. Quellen: finanzen.net (22.09.2026), aktien.guide (23.09.2026).",
           "status": "open",
-          "reviews": []
+          "actual": 0.99,
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00-Slot: Allianz ca. 417,20 EUR, +0,99% (finanzen.net Mittagsliste der EuroStoxx-50-Werte) — klarer Rebound nach dem -3,97%-Rücksetzer vom 23.09. auf 413,10 EUR. Zinsprofiteur-These greift. Prognose up +0,2% bis +2,0%: im Band, Richtung korrekt; für bandHigh (+2,0%) fehlt noch Rückenwind. Quelle: finanzen.net (24.09.2026)."
+            }
+          ]
         },
         {
           "name": "Rheinmetall",
@@ -320,7 +344,13 @@
           "confidence": 55,
           "reason": "Screening 24.09.2026: Zins-Schock vom Vortag prägt den Morgen — 10-Jahres-Treasury bei 5,11 % (höchstes Niveau seit 2007, TheStreet/Yahoo Finance), 5-Jahres-Rendite erstmals seit 2007 über 5 %, Brent erneut über 100 USD (Nov.-Kontrakt 23.09.: 103,08 USD, +3,9 %; heute Indikation ~100,7 USD, finanzen.net). Vortag: S&P 500 -0,75 % (7.706,03), Nasdaq Composite -1,13 %, Dow -0,68 % (51.503), DAX -0,66 % (25.410,63 Xetra). Stützen heute: US-China-Handels-Waffenstillstand um zwei Monate bis 10.01.2027 verlängert (Schatzkanzler Bessent, Reuters) während des Xi-Staatsbesuchs (23.-25.09.); Ifo-Index 10:00 Uhr mit erwartet fünfter Verbesserung in Folge (89,0 nach 88,8, dpa-AFX/n-tv); DAX-Indikation Morgen leicht plus (~25.443). US-Termine: Jobless Claims 14:30, Neubauverkäufe 16:00, Costco-Quartalszahlen abends. Konsequenz aus dem Lern-Log vom 23.09.: Anleiherenditen als Primärsignal, Futures nur sekundär; hence S&P 500 und Nasdaq 100 zurückhaltend, Fokus auf Zinsprofiteure (Versicherer) und Konjunktur-Profiteure (Ifo). Depot-Pick (Opportunität): Verteidigungstitel sind zins- und ölunempfindlicher als der Breitmarkt; nach -3,1 % auf 7-Tage-Sicht konsolidiert die Aktie um 1.000 EUR (Realtime ~1.001,60 EUR, +0,65 % in 24 h, wallstreet-online) — Verteidigungsmomentum und europäische Aufrüstungsnachfrage intakt. Erwartung: +0,3 % bis +2,5 %. Quellen: wallstreet-online, Tradegate (23./24.09.2026).",
           "status": "open",
-          "reviews": []
+          "actual": -2.7,
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00-Slot: Rheinmetall ca. 996,80 EUR, rund -2,7% vs. Xetra-Schluss 1.025,00 EUR (12:43 Uhr, wallstreet-online; finanzen.net Mittagsliste: -3,04% auf 993,80 EUR). Die These der Zins-/Ölunempfindlichkeit von Verteidigungstiteln hält nicht: Brent ~105 USD und Renditedruck treffen die Aktie hart. Prognose up +0,3% bis +2,5%: klar außerhalb des Bands, Richtung bislang falsch — wird als Messung am Abend stehen gelassen. Quelle: wallstreet-online/finanzen.net (24.09.2026)."
+            }
+          ]
         },
         {
           "name": "Siemens",
@@ -332,7 +362,13 @@
           "confidence": 58,
           "reason": "Screening 24.09.2026: Zins-Schock vom Vortag prägt den Morgen — 10-Jahres-Treasury bei 5,11 % (höchstes Niveau seit 2007, TheStreet/Yahoo Finance), 5-Jahres-Rendite erstmals seit 2007 über 5 %, Brent erneut über 100 USD (Nov.-Kontrakt 23.09.: 103,08 USD, +3,9 %; heute Indikation ~100,7 USD, finanzen.net). Vortag: S&P 500 -0,75 % (7.706,03), Nasdaq Composite -1,13 %, Dow -0,68 % (51.503), DAX -0,66 % (25.410,63 Xetra). Stützen heute: US-China-Handels-Waffenstillstand um zwei Monate bis 10.01.2027 verlängert (Schatzkanzler Bessent, Reuters) während des Xi-Staatsbesuchs (23.-25.09.); Ifo-Index 10:00 Uhr mit erwartet fünfter Verbesserung in Folge (89,0 nach 88,8, dpa-AFX/n-tv); DAX-Indikation Morgen leicht plus (~25.443). US-Termine: Jobless Claims 14:30, Neubauverkäufe 16:00, Costco-Quartalszahlen abends. Konsequenz aus dem Lern-Log vom 23.09.: Anleiherenditen als Primärsignal, Futures nur sekundär; hence S&P 500 und Nasdaq 100 zurückhaltend, Fokus auf Zinsprofiteure (Versicherer) und Konjunktur-Profiteure (Ifo). Freier Pick (nicht aus dem Portfolio): Industrielle Qualitätswerte sind die natürlichen Profiteure einer erwarteten fünften Ifo-Verbesserung in Folge (89,0 erwartet, dpa-AFX) und der verlängerten US-China-Truce (Absatzmärkte/Supply Chain entlastet); Siemens agiert im Konjunktur-Sweet-Spot Automatisierung/Elekrifizierung. Erwartung: +0,2 % bis +1,8 % (Aktie, Mindest-Band 1,5 %). Quellen: n-tv Börsen-Tag, IT Boltwise Makro-Tagesvorschau, boerse.de Termine 24.09.2026.",
           "status": "open",
-          "reviews": []
+          "actual": 0.44,
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00-Slot: Siemens ca. 275,15 EUR, +0,4% im Xetra-Handel (12:28 Uhr, finanzen.ch) nach Vortagesschluss 273,95 EUR. Ifo-Impuls und Truce-Verlängerung wirken, bleiben aber moderat. Prognose up +0,2% bis +1,8%: im Band (unteres Drittel), Richtung korrekt. Quelle: finanzen.ch (24.09.2026)."
+            }
+          ]
         },
         {
           "name": "EuroStoxx 50",
@@ -344,7 +380,13 @@
           "confidence": 55,
           "reason": "Screening 24.09.2026: Zins-Schock vom Vortag prägt den Morgen — 10-Jahres-Treasury bei 5,11 % (höchstes Niveau seit 2007, TheStreet/Yahoo Finance), 5-Jahres-Rendite erstmals seit 2007 über 5 %, Brent erneut über 100 USD (Nov.-Kontrakt 23.09.: 103,08 USD, +3,9 %; heute Indikation ~100,7 USD, finanzen.net). Vortag: S&P 500 -0,75 % (7.706,03), Nasdaq Composite -1,13 %, Dow -0,68 % (51.503), DAX -0,66 % (25.410,63 Xetra). Stützen heute: US-China-Handels-Waffenstillstand um zwei Monate bis 10.01.2027 verlängert (Schatzkanzler Bessent, Reuters) während des Xi-Staatsbesuchs (23.-25.09.); Ifo-Index 10:00 Uhr mit erwartet fünfter Verbesserung in Folge (89,0 nach 88,8, dpa-AFX/n-tv); DAX-Indikation Morgen leicht plus (~25.443). US-Termine: Jobless Claims 14:30, Neubauverkäufe 16:00, Costco-Quartalszahlen abends. Konsequenz aus dem Lern-Log vom 23.09.: Anleiherenditen als Primärsignal, Futures nur sekundär; hence S&P 500 und Nasdaq 100 zurückhaltend, Fokus auf Zinsprofiteure (Versicherer) und Konjunktur-Profiteure (Ifo). Freier Pick (Index, Mindest-Band 1,0 %): Der europäische Breitindex ist weniger US-Zins-getrieben als der S&P 500; Ifo-Verbesserung, SNB-/Riksbank-Entscheidungen (geldpolitische Entlastung möglich) und Truce-Verlängerung geben Aufwärtsspielraum nach dem gestrigen -0,3 % (6.307 Punkte, finanzen.net). Erwartung: +0,2 % bis +1,2 %. Quellen: finanzen.net Tagesvorschau 24.09.2026, IT Boltwise Makro-Tagesvorschau.",
           "status": "open",
-          "reviews": []
+          "actual": -0.2,
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00-Slot: Euro Stoxx 50 ca. -0,2% auf rund 6.288 Punkte (Donnerstagmittag, Dow Jones Newswire via finanzen.at; um 12:10 Uhr -0,43% auf 6.272,64 Punkte, finanzen.at). Rendite-/Öldruck kompensiert Ifo und geldpolitische Entlastungshoffnungen nicht. Prognose up +0,2% bis +1,2%: aktuell knapp unter bandLow, Richtung bislang falsch; Abend bewertet. Quelle: finanzen.at (24.09.2026)."
+            }
+          ]
         },
         {
           "name": "Nasdaq 100",
@@ -356,7 +398,13 @@
           "confidence": 50,
           "reason": "Screening 24.09.2026: Zins-Schock vom Vortag prägt den Morgen — 10-Jahres-Treasury bei 5,11 % (höchstes Niveau seit 2007, TheStreet/Yahoo Finance), 5-Jahres-Rendite erstmals seit 2007 über 5 %, Brent erneut über 100 USD (Nov.-Kontrakt 23.09.: 103,08 USD, +3,9 %; heute Indikation ~100,7 USD, finanzen.net). Vortag: S&P 500 -0,75 % (7.706,03), Nasdaq Composite -1,13 %, Dow -0,68 % (51.503), DAX -0,66 % (25.410,63 Xetra). Stützen heute: US-China-Handels-Waffenstillstand um zwei Monate bis 10.01.2027 verlängert (Schatzkanzler Bessent, Reuters) während des Xi-Staatsbesuchs (23.-25.09.); Ifo-Index 10:00 Uhr mit erwartet fünfter Verbesserung in Folge (89,0 nach 88,8, dpa-AFX/n-tv); DAX-Indikation Morgen leicht plus (~25.443). US-Termine: Jobless Claims 14:30, Neubauverkäufe 16:00, Costco-Quartalszahlen abends. Konsequenz aus dem Lern-Log vom 23.09.: Anleiherenditen als Primärsignal, Futures nur sekundär; hence S&P 500 und Nasdaq 100 zurückhaltend, Fokus auf Zinsprofiteure (Versicherer) und Konjunktur-Profiteure (Ifo). Freier Pick (Index, Mindest-Band 1,0 %): Nach zwei Verlusttagen (Composite -1,13 % auf 26.936) ist Tech technisch überverkauft; die Truce-Verlängerung und der Meta-Muse-Erfolg (Connect am 23.09.) stützen. ABER: klares Gegenargument gegen up — 5-Jahres-Rendite erstmals seit 2007 über 5 %, AI-Gewinnmitnahmen laufen, Fed-Hike-Wetten wachsen (TheStreet). flat mit breitem Band. Erwartung: -0,7 % bis +0,9 %. Quellen: TheStreet, Investopedia, Yahoo Finance (23./24.09.2026).",
           "status": "open",
-          "reviews": []
+          "actual": -0.91,
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00-Slot (US-Handel ab 15:30 MESZ): Nasdaq-100-E-Minis ca. -0,91% bzw. -278,5 Punkte (13:32 MEZ, Economic Times; CNBC nennt -1%); NDX-Vortagesschluss nach -0,9% am 23.09. (Bloomberg). Tech bleibt unter Renditedruck (5-Jahres-Rendite erstmals seit 2007 über 5%), AI-Gewinnmitnahmen laufen weiter. Prognose flat -0,7% bis +0,9%: Futures knapp unter bandLow — flat-Richtung bestätigt sich, Band am Abend knapp gefährdet. Quelle: Economic Times/CNBC/Bloomberg (24.09.2026)."
+            }
+          ]
         }
       ]
     }
