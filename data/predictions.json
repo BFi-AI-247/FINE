@@ -1,1 +1,364 @@
-{"version":1,"days":[{"date":"2026-09-21","title":"Probe-Prognose (Testlauf) für Dienstag, 22.09.2026","test":true,"note":"Testlauf zum Aufsetzen von FINE (Pre-Chain). Zählt nicht in die Statistik.","picks":[{"name":"DAX","type":"index","pickClass":"benchmark","direction":"up","bandLow":0,"bandHigh":0.8,"confidence":55,"reason":"Freitag bei 25.304,06 Punkten (-1,60%) nach Hexensabbat-Verfall, aber GD100 (25.286) gehalten. Erwartung: moderate Erholung, +0,0% bis +0,8%. Quellen: broker-test.de, 4investors.de (UBS), XTB.","status":"hit","actual":0.02,"reviews":[{"slot":"Abend","text":"Testlauf-Bewertung: Schluss 25.578,85 Punkte (Xetra), +0,02% — im Band, Richtung korrekt: Hit. (Testlauf — zählt nicht in Statistik.) Quelle: ad-hoc-news.de (22.09.2026)."}]},{"name":"SAP","type":"equity_de","pickClass":"free","direction":"up","bandLow":0.2,"bandHigh":1.2,"confidence":60,"reason":"Stärkster TecDAX-Wert der Vorwoche (+3,31%), Montag erneut zu den Tagesgewinnern. Erwartung: +0,2% bis +1,2%. Quellen: finanzen.ch, ad-hoc-news.de, boerse.de.","status":"hit","actual":0.79,"reviews":[{"slot":"Abend","text":"Testlauf-Bewertung: Schluss 186,32 Euro (Xetra), +0,79% — im Band: Hit. (Testlauf — zählt nicht in Statistik.) Quelle: ad-hoc-news.de (22.09.2026)."}]},{"name":"NVIDIA","type":"equity_us","pickClass":"free","direction":"flat","bandLow":-0.5,"bandHigh":1,"confidence":50,"reason":"Vier Gewinntage in Folge; nach Seriengewinnen Pause wahrscheinlich. Erwartung: -0,5% bis +1,0%. Quellen: stockinvest.us, CNBC.","status":"hit","overshoot":true,"actual":2.3,"reviews":[{"slot":"Abend","text":"Testlauf-Bewertung (Upside-Scoring): Schluss 227,38 USD, +2,30% — über dem oberen Band: Übererfüllung (hit, overshoot). Als flat prognostiziert, aber Chance größer als gedacht — kein Fehler im Aufwärts-Fokus. (Testlauf — zählt nicht in Statistik.) Quelle: ad-hoc-news.de (22.09.2026)."}]}]},{"date":"2026-09-22","title":"Erste reguläre Tagesprognose: Rally-Fortsetzung vor Trump-Xi-Gipfel","picks":[{"name":"DAX","type":"index","pickClass":"benchmark","direction":"up","bandLow":0.2,"bandHigh":0.9,"confidence":60,"reason":"Vortagesschluss 25.576,79 Punkte (+1,1%) nach freundlichem US-Börsenschluss (S&P 500 +1,49%; Nasdaq Rekord +2,26%). Rückläufige Ölpreise und sinkende Anleiherenditen entlasten; Optimismus vor Trump-Xi-Gipfel (23.-25.09.). Risiko: Ifo, PMIs, Ermüdung nach Montagsrally. Erwartung: +0,2% bis +0,9%. Quellen: ad-hoc-news.de/Xetra, Investrade, CNBC, BNN Bloomberg, finanzen.net.","status":"partial","actual":0.02,"reviews":[{"slot":"Mittag","text":"Zwischenstand 14:00 MESZ: DAX bei 25.748,39 Punkten (+0,68%), im Band, Richtung stimmt. Quelle: finanzen.ch (22.09.26)."},{"slot":"Abend","text":"Schluss 25.578,85 Punkte (Xetra), +0,02% — positiv, aber unter der Untergrenze +0,2%: knapp verfehlt (partial). Konsolidierung nach Montagsrally. Quelle: ad-hoc-news.de (22.09.2026)."}]},{"name":"SAP","type":"equity_de","pickClass":"free","direction":"up","bandLow":0.2,"bandHigh":1,"confidence":62,"reason":"Montagsschluss 184,87 EUR (+0,96%), erneut Tagesgewinner; Bank of America hob Kursziel auf 226 EUR. Cloud-Momentum intakt. Erwartung: +0,2% bis +1,0%. Quellen: ad-hoc-news.de (Xetra-Daten), finanzen.ch.","status":"hit","actual":0.79,"reviews":[{"slot":"Mittag","text":"Zwischenstand 14:00 MESZ: SAP bei 185,14 Euro (+1,28%), Richtung korrekt, leicht über Band. Quelle: boerse.de (22.09.26)."},{"slot":"Abend","text":"Schluss 186,32 Euro (Xetra), +0,79% — im Band, Richtung korrekt: Hit. Quelle: ad-hoc-news.de (22.09.2026)."}]},{"name":"NVIDIA","type":"equity_us","pickClass":"free","direction":"up","bandLow":0,"bandHigh":1.5,"confidence":55,"reason":"Schlusskurs Montag 225,14 USD (+1,29%) bei Nasdaq-Rekordschluss; AI-Chip-Rally breit (AMD bei 1 Billion USD Marktkapitalisierung). Erste Group hob EPS-Schätzung FY2027 an. Erwartung: 0,0% bis +1,5%. Quellen: ad-hoc-news.de, Goldesel, boerse.de.","status":"hit","overshoot":true,"actual":2.3,"reviews":[{"slot":"Mittag","text":"Zwischenstand 14:00 MESZ: NVDA im Pre-Market bei ~226,73 USD (-0,21%) — Konsolidierung nach Seriengewinnen. Quelle: Finanzdatensuche (22.09.2026)."},{"slot":"Abend","text":"Schluss 227,38 USD, +2,30% — ÜBER dem oberen Bandrand +1,5%: Übererfüllung (hit, overshoot). Upside-Scoring: voller Treffer — Chance war größer als prognostiziert. Kalibrierung: oberes Band bei intaktem Momentum mutiger. Quelle: ad-hoc-news.de (22:31 MESZ, 22.09.2026)."}]}]},{"date":"2026-09-23","title":"Xi-Staatsbesuch und Öl unter 100 USD: Aufwärts-Gerüst in den Handelstag","picks":[{"name":"DAX","type":"index","pickClass":"benchmark","direction":"up","bandLow":0.1,"bandHigh":0.9,"confidence":62,"reason":"Screening: DAX-Futures im Frühhandel +0,3 bis +0,4 % (~25.880 Punkte) bei Brent unter 100 USD nach Entspannung im Iran-Konflikt; Trump empfängt Xi zum Staatsbesuch, Hoffnung auf Handelsabkommen-Verlängerung. Vortag: 25.578,85 Punkte (+0,02 %). Risiko: PMIs (09:30 DE). Erwartung: +0,1 % bis +0,9 %. Quellen: finanzen.at (DAX-Future), tagesschau.de Marktbericht, boerse-express.com, finanzen.net Tagesvorschau.","status":"miss","actual":-0.66,"reviews":[{"slot":"Mittag","text":"Zwischenstand 14:05 MESZ: DAX-Indikation 25.403 Punkte (−0,69 %) — Prognose (+0,1 % bis +0,9 %) bislang nicht bestätigt, Richtung aktuell falsch; trotz Öl-Entspannung (Brent unter 99 USD) dominieren Gewinnmitnahmen. Quelle: finanzen.net (23.09.2026)."},{"slot":"Abend","text":"Schluss 25.410,63 Punkte (Xetra), −0,66% — Richtung falsch: Miss. Die Morgen-Futures (+0,3 bis +0,4%) kippten im Tagesverlauf: Öl-Entspannung wurde von steigenden Anleiherenditen überlagert, die PMIs fielen gemischt aus, Gewinnmitnahmen nach der Vorwochen-Rallye setzten ein. Quelle: n-tv Börsen-Tag (23.09.2026)."}]},{"name":"S&P 500","type":"index","pickClass":"benchmark","direction":"up","bandLow":0,"bandHigh":0.7,"confidence":55,"reason":"Screening: Nasdaq zweiter Rekordschluss in Folge (27.244, +0,45 %), S&P 500 unverändert bei 7.764,64; Öl fällt (WTI ~94,60 USD), US-Iran-Gespräche positiv (Trump: \"very good meeting\"), Trump-Xi-Truce-Trade im Fokus. Futures nur unverändert bis leicht plus. Risiko: Bankenschwäche (JPMorgan -3,4 %) belastet Dow. Erwartung: 0,0 % bis +0,7 %. Quellen: CNBC, Investopedia, AP, Goodreturns/Munify.","status":"miss","actual":-0.75,"reviews":[{"slot":"Mittag","text":"Zwischenstand 14:00 MESZ (Pre-Market): Futures +0,1 %, Vortagesschluss nahezu unverändert — damit am unteren Bandrand (0,0 % bis +0,7 %), Richtung vorbörslich leicht positiv. Quelle: AP (23.09.2026)."},{"slot":"Abend","text":"Schluss 7.706,03 Punkte, −0,75% (Dow −0,68%, Nasdaq Composite −1,13%) — Renditeanstieg bei 10-Jahres-Treasuries (schwache Auktion, starke PMIs mit Lieferengpässen) drückte den Broad Market: Miss. Quelle: CNBC (23.09.2026)."}]},{"name":"Infineon","type":"equity_de","pickClass":"portfolio","fromPortfolio":true,"direction":"up","bandLow":0.2,"bandHigh":3,"confidence":62,"reason":"Screening: Halbleiter-Rallye intakt (Micron +5 %, Sandisk +6,8 % nach Upgrade; Nasdaq Rekord). Xi-Staatsbesuch: Infineon gilt als DAX-Titel mit größtem China-Hebel; zudem verkauft Infineon seine DRAM-Sparte an Winbond — Analysten positiv (Warburg: Kauf, Kursziel 84 EUR; Ø 86,59 EUR bei 19 von 24 Kaufratings). Vortag: Xetra-Schluss 60,04 EUR (+4,15 %). Risiko: Konsolidierung nach starker Serie. Erwartung: +0,2 % bis +3,0 %. Quellen: ad-hoc-news.de, Investing.com (\"Xi kommt, Infineon hat den größten Hebel\"), finanzen.net.","status":"miss","actual":-2.45,"reviews":[{"slot":"Mittag","text":"Zwischenstand Mittag: ca. 58,89 EUR (−2,1 % ggü. Xetra-Vortagesschluss) — Konsolidierung nach der starken Vorwoche, Band (+0,2 % bis +3,0 %) aktuell klar verfehlt, Richtung falsch. Quelle: finanzen.ch/finanzen.at (23.09.2026, L&S-Daten)."},{"slot":"Abend","text":"Xetra-Schluss 58,57 Euro, −2,45% ggü. dokumentiertem Vortagesschluss 60,04 Euro (Provider weisen −2,59% ggü. 60,13 Euro aus) — Konsolidierung nach der Rallye der Vorwoche, Tech-Rücksetzer überfordert den China-Hebel: Miss. Quelle: finanznachrichten.de (23.09.2026, 17:35 Uhr)."}]},{"name":"SAP","type":"equity_de","pickClass":"portfolio","fromPortfolio":true,"direction":"up","bandLow":0.2,"bandHigh":1.8,"confidence":60,"reason":"Screening: KI-Software-Wind ungebrochen (Meta-Muse-Assistent auf Platz 1 der US-App-Stores, Nasdaq-Rekord); SAP-Momentum intakt, Bank of America hob Kursziel auf 226 EUR. Vortag: Xetra-Schluss 186,32 EUR (+0,79 %), erneut stärker als der DAX. Erwartung: +0,2 % bis +1,8 %. Quellen: ad-hoc-news.de, finanzen.ch, ideas daily US (22.09.2026).","status":"hit","actual":0.87,"reviews":[{"slot":"Mittag","text":"Zwischenstand 14:00 MESZ: ca. 185,40 EUR, rund −0,5 % ggü. Xetra-Vortagesschluss 186,32 EUR (einzelne Handelsplätze zeigen leicht abweichende Werte) — knapp unter der Banduntergrenze (+0,2 %), Richtung bislang nicht bestätigt. Quelle: finanzen.net (23.09.2026)."},{"slot":"Abend","text":"Xetra-Schluss 184,11 Euro, +0,87% ggü. tatsächlichen Vortagesschluss 182,52 Euro — im Band (+0,2% bis +1,8%): Hit. Datenhinweis: Die Morgen-Dokumentation nannte fehlerhaft 186,32 Euro als Vortagesschluss (ad-hoc, 23.09. 09:13 Uhr: tatsächlicher 22.09.-Schluss 182,52 Euro); je nach Referenz weisen Provider +1,0% (ad-hoc-news.de) bis +2,3% (n-tv) aus. Quellen: ad-hoc-news.de, n-tv Börsen-Tag (23.09.2026)."}]},{"name":"Nasdaq 100","type":"index","pickClass":"free","direction":"up","bandLow":0.3,"bandHigh":1.5,"confidence":60,"reason":"Screening: AI-Trade dominiert — Memory-Rallye (Sandisk über 1.900 USD, Micron +5 %), Meta Connect heute Abend, Muse-Erfolg; Nasdaq-Futures zeigten nach Rezessionssitzung weiter leicht plus (Reuters). Zweiter Rekordschluss in Folge. Freier Pick (nicht aus dem Portfolio), mutiges Band gemäß Pick-Regel (Index mind. +1,0 % oben). Erwartung: +0,3 % bis +1,5 %. Quellen: CNBC, Trading Economics, Investopedia, aktien.news.","status":"miss","actual":-0.8,"reviews":[{"slot":"Mittag","text":"Zwischenstand 14:06 MESZ (Pre-Market): Indikation 30.655 Punkte, −0,25 % — knapp negativ, Band (+0,3 % bis +1,5 %) bislang verfehlt; Tech-Stimmung vor Trump-Xi-Treffen gemischt (S&P-Futures +0,1 %). Quelle: finanzen.net (23.09.2026)."},{"slot":"Abend","text":"Schluss rund −0,8% (Nasdaq Composite −1,13% auf 26.936,04) — der Zinsrücksetzer beendete die Rekordserie, AI-Rotation (Alphabet −3,73%) statt AI-Momentum: Miss. Quellen: Trading Economics, CNBC (23.09.2026)."}]}]}]}
+{
+  "version": 1,
+  "days": [
+    {
+      "date": "2026-09-21",
+      "title": "Probe-Prognose (Testlauf) für Dienstag, 22.09.2026",
+      "test": true,
+      "note": "Testlauf zum Aufsetzen von FINE (Pre-Chain). Zählt nicht in die Statistik.",
+      "picks": [
+        {
+          "name": "DAX",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "up",
+          "bandLow": 0,
+          "bandHigh": 0.8,
+          "confidence": 55,
+          "reason": "Freitag bei 25.304,06 Punkten (-1,60%) nach Hexensabbat-Verfall, aber GD100 (25.286) gehalten. Erwartung: moderate Erholung, +0,0% bis +0,8%. Quellen: broker-test.de, 4investors.de (UBS), XTB.",
+          "status": "hit",
+          "actual": 0.02,
+          "reviews": [
+            {
+              "slot": "Abend",
+              "text": "Testlauf-Bewertung: Schluss 25.578,85 Punkte (Xetra), +0,02% — im Band, Richtung korrekt: Hit. (Testlauf — zählt nicht in Statistik.) Quelle: ad-hoc-news.de (22.09.2026)."
+            }
+          ]
+        },
+        {
+          "name": "SAP",
+          "type": "equity_de",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1.2,
+          "confidence": 60,
+          "reason": "Stärkster TecDAX-Wert der Vorwoche (+3,31%), Montag erneut zu den Tagesgewinnern. Erwartung: +0,2% bis +1,2%. Quellen: finanzen.ch, ad-hoc-news.de, boerse.de.",
+          "status": "hit",
+          "actual": 0.79,
+          "reviews": [
+            {
+              "slot": "Abend",
+              "text": "Testlauf-Bewertung: Schluss 186,32 Euro (Xetra), +0,79% — im Band: Hit. (Testlauf — zählt nicht in Statistik.) Quelle: ad-hoc-news.de (22.09.2026)."
+            }
+          ]
+        },
+        {
+          "name": "NVIDIA",
+          "type": "equity_us",
+          "pickClass": "free",
+          "direction": "flat",
+          "bandLow": -0.5,
+          "bandHigh": 1,
+          "confidence": 50,
+          "reason": "Vier Gewinntage in Folge; nach Seriengewinnen Pause wahrscheinlich. Erwartung: -0,5% bis +1,0%. Quellen: stockinvest.us, CNBC.",
+          "status": "hit",
+          "overshoot": true,
+          "actual": 2.3,
+          "reviews": [
+            {
+              "slot": "Abend",
+              "text": "Testlauf-Bewertung (Upside-Scoring): Schluss 227,38 USD, +2,30% — über dem oberen Band: Übererfüllung (hit, overshoot). Als flat prognostiziert, aber Chance größer als gedacht — kein Fehler im Aufwärts-Fokus. (Testlauf — zählt nicht in Statistik.) Quelle: ad-hoc-news.de (22.09.2026)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Erste reguläre Tagesprognose: Rally-Fortsetzung vor Trump-Xi-Gipfel",
+      "picks": [
+        {
+          "name": "DAX",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 0.9,
+          "confidence": 60,
+          "reason": "Vortagesschluss 25.576,79 Punkte (+1,1%) nach freundlichem US-Börsenschluss (S&P 500 +1,49%; Nasdaq Rekord +2,26%). Rückläufige Ölpreise und sinkende Anleiherenditen entlasten; Optimismus vor Trump-Xi-Gipfel (23.-25.09.). Risiko: Ifo, PMIs, Ermüdung nach Montagsrally. Erwartung: +0,2% bis +0,9%. Quellen: ad-hoc-news.de/Xetra, Investrade, CNBC, BNN Bloomberg, finanzen.net.",
+          "status": "partial",
+          "actual": 0.02,
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ: DAX bei 25.748,39 Punkten (+0,68%), im Band, Richtung stimmt. Quelle: finanzen.ch (22.09.26)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 25.578,85 Punkte (Xetra), +0,02% — positiv, aber unter der Untergrenze +0,2%: knapp verfehlt (partial). Konsolidierung nach Montagsrally. Quelle: ad-hoc-news.de (22.09.2026)."
+            }
+          ]
+        },
+        {
+          "name": "SAP",
+          "type": "equity_de",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1,
+          "confidence": 62,
+          "reason": "Montagsschluss 184,87 EUR (+0,96%), erneut Tagesgewinner; Bank of America hob Kursziel auf 226 EUR. Cloud-Momentum intakt. Erwartung: +0,2% bis +1,0%. Quellen: ad-hoc-news.de (Xetra-Daten), finanzen.ch.",
+          "status": "hit",
+          "actual": 0.79,
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ: SAP bei 185,14 Euro (+1,28%), Richtung korrekt, leicht über Band. Quelle: boerse.de (22.09.26)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 186,32 Euro (Xetra), +0,79% — im Band, Richtung korrekt: Hit. Quelle: ad-hoc-news.de (22.09.2026)."
+            }
+          ]
+        },
+        {
+          "name": "NVIDIA",
+          "type": "equity_us",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0,
+          "bandHigh": 1.5,
+          "confidence": 55,
+          "reason": "Schlusskurs Montag 225,14 USD (+1,29%) bei Nasdaq-Rekordschluss; AI-Chip-Rally breit (AMD bei 1 Billion USD Marktkapitalisierung). Erste Group hob EPS-Schätzung FY2027 an. Erwartung: 0,0% bis +1,5%. Quellen: ad-hoc-news.de, Goldesel, boerse.de.",
+          "status": "hit",
+          "overshoot": true,
+          "actual": 2.3,
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ: NVDA im Pre-Market bei ~226,73 USD (-0,21%) — Konsolidierung nach Seriengewinnen. Quelle: Finanzdatensuche (22.09.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 227,38 USD, +2,30% — ÜBER dem oberen Bandrand +1,5%: Übererfüllung (hit, overshoot). Upside-Scoring: voller Treffer — Chance war größer als prognostiziert. Kalibrierung: oberes Band bei intaktem Momentum mutiger. Quelle: ad-hoc-news.de (22:31 MESZ, 22.09.2026)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "title": "Xi-Staatsbesuch und Öl unter 100 USD: Aufwärts-Gerüst in den Handelstag",
+      "picks": [
+        {
+          "name": "DAX",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "up",
+          "bandLow": 0.1,
+          "bandHigh": 0.9,
+          "confidence": 62,
+          "reason": "Screening: DAX-Futures im Frühhandel +0,3 bis +0,4 % (~25.880 Punkte) bei Brent unter 100 USD nach Entspannung im Iran-Konflikt; Trump empfängt Xi zum Staatsbesuch, Hoffnung auf Handelsabkommen-Verlängerung. Vortag: 25.578,85 Punkte (+0,02 %). Risiko: PMIs (09:30 DE). Erwartung: +0,1 % bis +0,9 %. Quellen: finanzen.at (DAX-Future), tagesschau.de Marktbericht, boerse-express.com, finanzen.net Tagesvorschau.",
+          "status": "miss",
+          "actual": -0.66,
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:05 MESZ: DAX-Indikation 25.403 Punkte (−0,69 %) — Prognose (+0,1 % bis +0,9 %) bislang nicht bestätigt, Richtung aktuell falsch; trotz Öl-Entspannung (Brent unter 99 USD) dominieren Gewinnmitnahmen. Quelle: finanzen.net (23.09.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 25.410,63 Punkte (Xetra), −0,66% — Richtung falsch: Miss. Die Morgen-Futures (+0,3 bis +0,4%) kippten im Tagesverlauf: Öl-Entspannung wurde von steigenden Anleiherenditen überlagert, die PMIs fielen gemischt aus, Gewinnmitnahmen nach der Vorwochen-Rallye setzten ein. Quelle: n-tv Börsen-Tag (23.09.2026)."
+            }
+          ]
+        },
+        {
+          "name": "S&P 500",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "up",
+          "bandLow": 0,
+          "bandHigh": 0.7,
+          "confidence": 55,
+          "reason": "Screening: Nasdaq zweiter Rekordschluss in Folge (27.244, +0,45 %), S&P 500 unverändert bei 7.764,64; Öl fällt (WTI ~94,60 USD), US-Iran-Gespräche positiv (Trump: \"very good meeting\"), Trump-Xi-Truce-Trade im Fokus. Futures nur unverändert bis leicht plus. Risiko: Bankenschwäche (JPMorgan -3,4 %) belastet Dow. Erwartung: 0,0 % bis +0,7 %. Quellen: CNBC, Investopedia, AP, Goodreturns/Munify.",
+          "status": "miss",
+          "actual": -0.75,
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ (Pre-Market): Futures +0,1 %, Vortagesschluss nahezu unverändert — damit am unteren Bandrand (0,0 % bis +0,7 %), Richtung vorbörslich leicht positiv. Quelle: AP (23.09.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 7.706,03 Punkte, −0,75% (Dow −0,68%, Nasdaq Composite −1,13%) — Renditeanstieg bei 10-Jahres-Treasuries (schwache Auktion, starke PMIs mit Lieferengpässen) drückte den Broad Market: Miss. Quelle: CNBC (23.09.2026)."
+            }
+          ]
+        },
+        {
+          "name": "Infineon",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "fromPortfolio": true,
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 3,
+          "confidence": 62,
+          "reason": "Screening: Halbleiter-Rallye intakt (Micron +5 %, Sandisk +6,8 % nach Upgrade; Nasdaq Rekord). Xi-Staatsbesuch: Infineon gilt als DAX-Titel mit größtem China-Hebel; zudem verkauft Infineon seine DRAM-Sparte an Winbond — Analysten positiv (Warburg: Kauf, Kursziel 84 EUR; Ø 86,59 EUR bei 19 von 24 Kaufratings). Vortag: Xetra-Schluss 60,04 EUR (+4,15 %). Risiko: Konsolidierung nach starker Serie. Erwartung: +0,2 % bis +3,0 %. Quellen: ad-hoc-news.de, Investing.com (\"Xi kommt, Infineon hat den größten Hebel\"), finanzen.net.",
+          "status": "miss",
+          "actual": -2.45,
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand Mittag: ca. 58,89 EUR (−2,1 % ggü. Xetra-Vortagesschluss) — Konsolidierung nach der starken Vorwoche, Band (+0,2 % bis +3,0 %) aktuell klar verfehlt, Richtung falsch. Quelle: finanzen.ch/finanzen.at (23.09.2026, L&S-Daten)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Xetra-Schluss 58,57 Euro, −2,45% ggü. dokumentiertem Vortagesschluss 60,04 Euro (Provider weisen −2,59% ggü. 60,13 Euro aus) — Konsolidierung nach der Rallye der Vorwoche, Tech-Rücksetzer überfordert den China-Hebel: Miss. Quelle: finanznachrichten.de (23.09.2026, 17:35 Uhr)."
+            }
+          ]
+        },
+        {
+          "name": "SAP",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "fromPortfolio": true,
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1.8,
+          "confidence": 60,
+          "reason": "Screening: KI-Software-Wind ungebrochen (Meta-Muse-Assistent auf Platz 1 der US-App-Stores, Nasdaq-Rekord); SAP-Momentum intakt, Bank of America hob Kursziel auf 226 EUR. Vortag: Xetra-Schluss 186,32 EUR (+0,79 %), erneut stärker als der DAX. Erwartung: +0,2 % bis +1,8 %. Quellen: ad-hoc-news.de, finanzen.ch, ideas daily US (22.09.2026).",
+          "status": "hit",
+          "actual": 0.87,
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ: ca. 185,40 EUR, rund −0,5 % ggü. Xetra-Vortagesschluss 186,32 EUR (einzelne Handelsplätze zeigen leicht abweichende Werte) — knapp unter der Banduntergrenze (+0,2 %), Richtung bislang nicht bestätigt. Quelle: finanzen.net (23.09.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Xetra-Schluss 184,11 Euro, +0,87% ggü. tatsächlichen Vortagesschluss 182,52 Euro — im Band (+0,2% bis +1,8%): Hit. Datenhinweis: Die Morgen-Dokumentation nannte fehlerhaft 186,32 Euro als Vortagesschluss (ad-hoc, 23.09. 09:13 Uhr: tatsächlicher 22.09.-Schluss 182,52 Euro); je nach Referenz weisen Provider +1,0% (ad-hoc-news.de) bis +2,3% (n-tv) aus. Quellen: ad-hoc-news.de, n-tv Börsen-Tag (23.09.2026)."
+            }
+          ]
+        },
+        {
+          "name": "Nasdaq 100",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.3,
+          "bandHigh": 1.5,
+          "confidence": 60,
+          "reason": "Screening: AI-Trade dominiert — Memory-Rallye (Sandisk über 1.900 USD, Micron +5 %), Meta Connect heute Abend, Muse-Erfolg; Nasdaq-Futures zeigten nach Rezessionssitzung weiter leicht plus (Reuters). Zweiter Rekordschluss in Folge. Freier Pick (nicht aus dem Portfolio), mutiges Band gemäß Pick-Regel (Index mind. +1,0 % oben). Erwartung: +0,3 % bis +1,5 %. Quellen: CNBC, Trading Economics, Investopedia, aktien.news.",
+          "status": "miss",
+          "actual": -0.8,
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:06 MESZ (Pre-Market): Indikation 30.655 Punkte, −0,25 % — knapp negativ, Band (+0,3 % bis +1,5 %) bislang verfehlt; Tech-Stimmung vor Trump-Xi-Treffen gemischt (S&P-Futures +0,1 %). Quelle: finanzen.net (23.09.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss rund −0,8% (Nasdaq Composite −1,13% auf 26.936,04) — der Zinsrücksetzer beendete die Rekordserie, AI-Rotation (Alphabet −3,73%) statt AI-Momentum: Miss. Quellen: Trading Economics, CNBC (23.09.2026)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "title": "Zins-Stress vs. Xi-Truce: FINE stellt auf Stabilität um",
+      "picks": [
+        {
+          "name": "DAX",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "up",
+          "bandLow": 0,
+          "bandHigh": 0.7,
+          "confidence": 52,
+          "reason": "Screening 24.09.2026: Zins-Schock vom Vortag prägt den Morgen — 10-Jahres-Treasury bei 5,11 % (höchstes Niveau seit 2007, TheStreet/Yahoo Finance), 5-Jahres-Rendite erstmals seit 2007 über 5 %, Brent erneut über 100 USD (Nov.-Kontrakt 23.09.: 103,08 USD, +3,9 %; heute Indikation ~100,7 USD, finanzen.net). Vortag: S&P 500 -0,75 % (7.706,03), Nasdaq Composite -1,13 %, Dow -0,68 % (51.503), DAX -0,66 % (25.410,63 Xetra). Stützen heute: US-China-Handels-Waffenstillstand um zwei Monate bis 10.01.2027 verlängert (Schatzkanzler Bessent, Reuters) während des Xi-Staatsbesuchs (23.-25.09.); Ifo-Index 10:00 Uhr mit erwartet fünfter Verbesserung in Folge (89,0 nach 88,8, dpa-AFX/n-tv); DAX-Indikation Morgen leicht plus (~25.443). US-Termine: Jobless Claims 14:30, Neubauverkäufe 16:00, Costco-Quartalszahlen abends. Konsequenz aus dem Lern-Log vom 23.09.: Anleiherenditen als Primärsignal, Futures nur sekundär; hence S&P 500 und Nasdaq 100 zurückhaltend, Fokus auf Zinsprofiteure (Versicherer) und Konjunktur-Profiteure (Ifo). DAX-Benchmark (realistische enge Bandbreite, kein Mut-Kriterium): Ifo-Verbesserung erwartet, Truce-Verlängerung und leichte Morgen-Indikation (~25.443 nach 25.410,63) sprechen für moderate Erholung; Zins-/Öl-Druck begrenzt den Spielraum. Erwartung: +0,0 % bis +0,7 %. Quellen: Trading Economics (US-Daten), Yahoo Finance, finanzen.net Tagesvorschau 24.09., n-tv Börsen-Tag.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "S&P 500",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "flat",
+          "bandLow": -0.4,
+          "bandHigh": 0.5,
+          "confidence": 50,
+          "reason": "Screening 24.09.2026: Zins-Schock vom Vortag prägt den Morgen — 10-Jahres-Treasury bei 5,11 % (höchstes Niveau seit 2007, TheStreet/Yahoo Finance), 5-Jahres-Rendite erstmals seit 2007 über 5 %, Brent erneut über 100 USD (Nov.-Kontrakt 23.09.: 103,08 USD, +3,9 %; heute Indikation ~100,7 USD, finanzen.net). Vortag: S&P 500 -0,75 % (7.706,03), Nasdaq Composite -1,13 %, Dow -0,68 % (51.503), DAX -0,66 % (25.410,63 Xetra). Stützen heute: US-China-Handels-Waffenstillstand um zwei Monate bis 10.01.2027 verlängert (Schatzkanzler Bessent, Reuters) während des Xi-Staatsbesuchs (23.-25.09.); Ifo-Index 10:00 Uhr mit erwartet fünfter Verbesserung in Folge (89,0 nach 88,8, dpa-AFX/n-tv); DAX-Indikation Morgen leicht plus (~25.443). US-Termine: Jobless Claims 14:30, Neubauverkäufe 16:00, Costco-Quartalszahlen abends. Konsequenz aus dem Lern-Log vom 23.09.: Anleiherenditen als Primärsignal, Futures nur sekundär; hence S&P 500 und Nasdaq 100 zurückhaltend, Fokus auf Zinsprofiteure (Versicherer) und Konjunktur-Profiteure (Ifo). S&P-500-Benchmark: Truce-Verlängerung stützt, aber 10-Jahres-Rendite auf 19-Jahres-Hoch (5,11 %) und Öl-Inflationssorgen (Fed-Hike-Erwartungen nach starken PMIs, Trading Economics) wiegen schwer; CFD-Indikation 24.09. -0,09 % (7.699, Trading Economics). Gegenargumente gegen up sind klar dokumentiert → flat. Erwartung: -0,4 % bis +0,5 %. Quellen: Yahoo Finance, Investopedia, Trading Economics.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Munich Re",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "fromPortfolio": true,
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1.8,
+          "confidence": 60,
+          "reason": "Screening 24.09.2026: Zins-Schock vom Vortag prägt den Morgen — 10-Jahres-Treasury bei 5,11 % (höchstes Niveau seit 2007, TheStreet/Yahoo Finance), 5-Jahres-Rendite erstmals seit 2007 über 5 %, Brent erneut über 100 USD (Nov.-Kontrakt 23.09.: 103,08 USD, +3,9 %; heute Indikation ~100,7 USD, finanzen.net). Vortag: S&P 500 -0,75 % (7.706,03), Nasdaq Composite -1,13 %, Dow -0,68 % (51.503), DAX -0,66 % (25.410,63 Xetra). Stützen heute: US-China-Handels-Waffenstillstand um zwei Monate bis 10.01.2027 verlängert (Schatzkanzler Bessent, Reuters) während des Xi-Staatsbesuchs (23.-25.09.); Ifo-Index 10:00 Uhr mit erwartet fünfter Verbesserung in Folge (89,0 nach 88,8, dpa-AFX/n-tv); DAX-Indikation Morgen leicht plus (~25.443). US-Termine: Jobless Claims 14:30, Neubauverkäufe 16:00, Costco-Quartalszahlen abends. Konsequenz aus dem Lern-Log vom 23.09.: Anleiherenditen als Primärsignal, Futures nur sekundär; hence S&P 500 und Nasdaq 100 zurückhaltend, Fokus auf Zinsprofiteure (Versicherer) und Konjunktur-Profiteure (Ifo). Depot-Pick (Opportunität, nicht Besitz): Rückversicherer gehören zu den wenigen klaren Profiteuren steigender Anleiherenditen (höhere Wiederanlagerträge auf das riesige Zinsbuch); Munich Re notierte am 22.09. bei 501,80 EUR (Xetra) und zeigte sich im gestrigen Zins-Rücksetzer-Tag mit +0,8 % widerstandsfähig nahe der Jahresspanne (boerse.de/finanzen.net). Erwartung: +0,2 % bis +1,8 % (Aktie, Mindest-Band 1,5 %). Quellen: boerse.de, finanzen.net (22./23.09.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Allianz",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "fromPortfolio": true,
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 2,
+          "confidence": 55,
+          "reason": "Screening 24.09.2026: Zins-Schock vom Vortag prägt den Morgen — 10-Jahres-Treasury bei 5,11 % (höchstes Niveau seit 2007, TheStreet/Yahoo Finance), 5-Jahres-Rendite erstmals seit 2007 über 5 %, Brent erneut über 100 USD (Nov.-Kontrakt 23.09.: 103,08 USD, +3,9 %; heute Indikation ~100,7 USD, finanzen.net). Vortag: S&P 500 -0,75 % (7.706,03), Nasdaq Composite -1,13 %, Dow -0,68 % (51.503), DAX -0,66 % (25.410,63 Xetra). Stützen heute: US-China-Handels-Waffenstillstand um zwei Monate bis 10.01.2027 verlängert (Schatzkanzler Bessent, Reuters) während des Xi-Staatsbesuchs (23.-25.09.); Ifo-Index 10:00 Uhr mit erwartet fünfter Verbesserung in Folge (89,0 nach 88,8, dpa-AFX/n-tv); DAX-Indikation Morgen leicht plus (~25.443). US-Termine: Jobless Claims 14:30, Neubauverkäufe 16:00, Costco-Quartalszahlen abends. Konsequenz aus dem Lern-Log vom 23.09.: Anleiherenditen als Primärsignal, Futures nur sekundär; hence S&P 500 und Nasdaq 100 zurückhaltend, Fokus auf Zinsprofiteure (Versicherer) und Konjunktur-Profiteure (Ifo). Depot-Pick (Opportunität): Nach dem -3,35 %-Rücksetzer vom Dienstag auf 430,20 EUR (finanzen.net) und Stabilisierung über der Trendlinie bietet die Allianz Rebound-Potenzial; als Versicherer profitiert sie strukturell von höheren Renditen (Zinsertrag Lebens-/Schadengeschäft), was im Zins-Umfeld ein klares Gegenlager zum Tech-Stress ist. Erwartung: +0,2 % bis +2,0 %. Quellen: finanzen.net (22.09.2026), aktien.guide (23.09.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Rheinmetall",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "fromPortfolio": true,
+          "direction": "up",
+          "bandLow": 0.3,
+          "bandHigh": 2.5,
+          "confidence": 55,
+          "reason": "Screening 24.09.2026: Zins-Schock vom Vortag prägt den Morgen — 10-Jahres-Treasury bei 5,11 % (höchstes Niveau seit 2007, TheStreet/Yahoo Finance), 5-Jahres-Rendite erstmals seit 2007 über 5 %, Brent erneut über 100 USD (Nov.-Kontrakt 23.09.: 103,08 USD, +3,9 %; heute Indikation ~100,7 USD, finanzen.net). Vortag: S&P 500 -0,75 % (7.706,03), Nasdaq Composite -1,13 %, Dow -0,68 % (51.503), DAX -0,66 % (25.410,63 Xetra). Stützen heute: US-China-Handels-Waffenstillstand um zwei Monate bis 10.01.2027 verlängert (Schatzkanzler Bessent, Reuters) während des Xi-Staatsbesuchs (23.-25.09.); Ifo-Index 10:00 Uhr mit erwartet fünfter Verbesserung in Folge (89,0 nach 88,8, dpa-AFX/n-tv); DAX-Indikation Morgen leicht plus (~25.443). US-Termine: Jobless Claims 14:30, Neubauverkäufe 16:00, Costco-Quartalszahlen abends. Konsequenz aus dem Lern-Log vom 23.09.: Anleiherenditen als Primärsignal, Futures nur sekundär; hence S&P 500 und Nasdaq 100 zurückhaltend, Fokus auf Zinsprofiteure (Versicherer) und Konjunktur-Profiteure (Ifo). Depot-Pick (Opportunität): Verteidigungstitel sind zins- und ölunempfindlicher als der Breitmarkt; nach -3,1 % auf 7-Tage-Sicht konsolidiert die Aktie um 1.000 EUR (Realtime ~1.001,60 EUR, +0,65 % in 24 h, wallstreet-online) — Verteidigungsmomentum und europäische Aufrüstungsnachfrage intakt. Erwartung: +0,3 % bis +2,5 %. Quellen: wallstreet-online, Tradegate (23./24.09.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Siemens",
+          "type": "equity_de",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1.8,
+          "confidence": 58,
+          "reason": "Screening 24.09.2026: Zins-Schock vom Vortag prägt den Morgen — 10-Jahres-Treasury bei 5,11 % (höchstes Niveau seit 2007, TheStreet/Yahoo Finance), 5-Jahres-Rendite erstmals seit 2007 über 5 %, Brent erneut über 100 USD (Nov.-Kontrakt 23.09.: 103,08 USD, +3,9 %; heute Indikation ~100,7 USD, finanzen.net). Vortag: S&P 500 -0,75 % (7.706,03), Nasdaq Composite -1,13 %, Dow -0,68 % (51.503), DAX -0,66 % (25.410,63 Xetra). Stützen heute: US-China-Handels-Waffenstillstand um zwei Monate bis 10.01.2027 verlängert (Schatzkanzler Bessent, Reuters) während des Xi-Staatsbesuchs (23.-25.09.); Ifo-Index 10:00 Uhr mit erwartet fünfter Verbesserung in Folge (89,0 nach 88,8, dpa-AFX/n-tv); DAX-Indikation Morgen leicht plus (~25.443). US-Termine: Jobless Claims 14:30, Neubauverkäufe 16:00, Costco-Quartalszahlen abends. Konsequenz aus dem Lern-Log vom 23.09.: Anleiherenditen als Primärsignal, Futures nur sekundär; hence S&P 500 und Nasdaq 100 zurückhaltend, Fokus auf Zinsprofiteure (Versicherer) und Konjunktur-Profiteure (Ifo). Freier Pick (nicht aus dem Portfolio): Industrielle Qualitätswerte sind die natürlichen Profiteure einer erwarteten fünften Ifo-Verbesserung in Folge (89,0 erwartet, dpa-AFX) und der verlängerten US-China-Truce (Absatzmärkte/Supply Chain entlastet); Siemens agiert im Konjunktur-Sweet-Spot Automatisierung/Elekrifizierung. Erwartung: +0,2 % bis +1,8 % (Aktie, Mindest-Band 1,5 %). Quellen: n-tv Börsen-Tag, IT Boltwise Makro-Tagesvorschau, boerse.de Termine 24.09.2026.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "EuroStoxx 50",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1.2,
+          "confidence": 55,
+          "reason": "Screening 24.09.2026: Zins-Schock vom Vortag prägt den Morgen — 10-Jahres-Treasury bei 5,11 % (höchstes Niveau seit 2007, TheStreet/Yahoo Finance), 5-Jahres-Rendite erstmals seit 2007 über 5 %, Brent erneut über 100 USD (Nov.-Kontrakt 23.09.: 103,08 USD, +3,9 %; heute Indikation ~100,7 USD, finanzen.net). Vortag: S&P 500 -0,75 % (7.706,03), Nasdaq Composite -1,13 %, Dow -0,68 % (51.503), DAX -0,66 % (25.410,63 Xetra). Stützen heute: US-China-Handels-Waffenstillstand um zwei Monate bis 10.01.2027 verlängert (Schatzkanzler Bessent, Reuters) während des Xi-Staatsbesuchs (23.-25.09.); Ifo-Index 10:00 Uhr mit erwartet fünfter Verbesserung in Folge (89,0 nach 88,8, dpa-AFX/n-tv); DAX-Indikation Morgen leicht plus (~25.443). US-Termine: Jobless Claims 14:30, Neubauverkäufe 16:00, Costco-Quartalszahlen abends. Konsequenz aus dem Lern-Log vom 23.09.: Anleiherenditen als Primärsignal, Futures nur sekundär; hence S&P 500 und Nasdaq 100 zurückhaltend, Fokus auf Zinsprofiteure (Versicherer) und Konjunktur-Profiteure (Ifo). Freier Pick (Index, Mindest-Band 1,0 %): Der europäische Breitindex ist weniger US-Zins-getrieben als der S&P 500; Ifo-Verbesserung, SNB-/Riksbank-Entscheidungen (geldpolitische Entlastung möglich) und Truce-Verlängerung geben Aufwärtsspielraum nach dem gestrigen -0,3 % (6.307 Punkte, finanzen.net). Erwartung: +0,2 % bis +1,2 %. Quellen: finanzen.net Tagesvorschau 24.09.2026, IT Boltwise Makro-Tagesvorschau.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Nasdaq 100",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "flat",
+          "bandLow": -0.7,
+          "bandHigh": 0.9,
+          "confidence": 50,
+          "reason": "Screening 24.09.2026: Zins-Schock vom Vortag prägt den Morgen — 10-Jahres-Treasury bei 5,11 % (höchstes Niveau seit 2007, TheStreet/Yahoo Finance), 5-Jahres-Rendite erstmals seit 2007 über 5 %, Brent erneut über 100 USD (Nov.-Kontrakt 23.09.: 103,08 USD, +3,9 %; heute Indikation ~100,7 USD, finanzen.net). Vortag: S&P 500 -0,75 % (7.706,03), Nasdaq Composite -1,13 %, Dow -0,68 % (51.503), DAX -0,66 % (25.410,63 Xetra). Stützen heute: US-China-Handels-Waffenstillstand um zwei Monate bis 10.01.2027 verlängert (Schatzkanzler Bessent, Reuters) während des Xi-Staatsbesuchs (23.-25.09.); Ifo-Index 10:00 Uhr mit erwartet fünfter Verbesserung in Folge (89,0 nach 88,8, dpa-AFX/n-tv); DAX-Indikation Morgen leicht plus (~25.443). US-Termine: Jobless Claims 14:30, Neubauverkäufe 16:00, Costco-Quartalszahlen abends. Konsequenz aus dem Lern-Log vom 23.09.: Anleiherenditen als Primärsignal, Futures nur sekundär; hence S&P 500 und Nasdaq 100 zurückhaltend, Fokus auf Zinsprofiteure (Versicherer) und Konjunktur-Profiteure (Ifo). Freier Pick (Index, Mindest-Band 1,0 %): Nach zwei Verlusttagen (Composite -1,13 % auf 26.936) ist Tech technisch überverkauft; die Truce-Verlängerung und der Meta-Muse-Erfolg (Connect am 23.09.) stützen. ABER: klares Gegenargument gegen up — 5-Jahres-Rendite erstmals seit 2007 über 5 %, AI-Gewinnmitnahmen laufen, Fed-Hike-Wetten wachsen (TheStreet). flat mit breitem Band. Erwartung: -0,7 % bis +0,9 %. Quellen: TheStreet, Investopedia, Yahoo Finance (23./24.09.2026).",
+          "status": "open",
+          "reviews": []
+        }
+      ]
+    }
+  ]
+}
