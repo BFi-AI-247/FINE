@@ -85,7 +85,12 @@ function marketOpenCET(dateStr){
       const f = await fetch('https://api.github.com/repos/'+OWNER+'/'+REPO+'/contents/'+PATH+'?ref='+entry.commitSha).then(r=>r.ok?r.json():null);
       let contentOk = null, diffs = [];
       if (f && f.content) {
-        const committed = JSON.parse(atob(f.content.replace(/\n/g,'')));
+        // UTF-8-bewusst dekodieren: atob() liefert Latin-1, keine UTF-8-Dekodierung —
+        // ohne TextDecoder wuerden Umlaute (ä ö ü —) als Mojibake verglichen und valide
+        // Kernfelder faelschlich als 'geaendert' rot markiert (Fehlalarm 24.09.2026, Revision_F2).
+        const bin = atob(f.content.replace(/\n/g,''));
+        const txt = new TextDecoder().decode(Uint8Array.from(bin, c => c.charCodeAt(0)));
+        const committed = JSON.parse(txt);
         const comDay = (committed.days||[]).find(d=>d.date===entry.date);
         if (comDay && day) {
           diffs = comparePicks(comDay, day);
