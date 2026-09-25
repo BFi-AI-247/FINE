@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-09-24",
+  "updated": "2026-09-25",
   "totals": {
     "predictions": 16,
     "hits": 8,
@@ -137,6 +137,10 @@
     {
       "date": "2026-09-24",
       "entry": "Abend-Review 24.09. (8-Pick-Schema, erster voller Lauf): 5/8 Treffer (davon 1 Übererfüllung: Munich Re +1,99 % über bandHigh +1,8 %), 0 partial, 3 Misses, Richtung 5/8 — nach dem schwächsten Tag (1/5 am 23.09.) der bislang beste. Was lief gut: (1) Die am 23.09. gelernte Vorsicht — S&P 500 und Nasdaq 100 bewusst flat statt up — traf exakt (beide im Band). (2) Die Zinsprofiteur-Rotation im Depot-Teil: Munich Re (Overshoot) und Allianz (Hit) bestätigten die These, Siemens als Konjunktur-Profiteur traf ebenfalls. Was schlecht lief: DAX-up trotz Renditehoch (−0,57 %, Miss) — Ifo- und Truce-Stützen waren zu schwach gegen Öl (+4 %) und Zinsen; EuroStoxx 50 mit derselben Logik (−0,43 %, Miss); Rheinmetall (−3,41 %, Miss) — branchenweite Gewinnmitnahmen bei Rüstungswerten unterschätzt. Kalibrierungs-Anpassungen: (1) Bei Renditen auf Mehrjahrshochs künftig KEINE up-Benchmark ohne harten Tages-Katalysator — Zins-/Öl-Druck ist ein Richtungssignal, nicht nur Rauschen. (2) Zinsprofiteur-Hebel (Versicherer) als Depot-Pick-Muster validiert — weiterverfolgen, solange Renditen auf Hochs verharren. (3) Sektor-Momentum schlägt Einzeltitel-Story: bei branchenweiten Rücksetzern (Rüstung) Story-Picks meiden. (4) Boldness korrekt: Ø bandHigh 1,73 % vs. Ø actual 0,05 % — kein Tiefbieten; die Übererfüllung bei Munich Re zeigt, dass obere Bänder bei intakter These sogar noch Spielraum nach oben haben."
+    },
+    {
+      "date": "2026-09-25",
+      "entry": "Morgen-Job 25.09.: Screen vor Pick — Treiber des Tages ist die Iran-Diplomatie: Teheran prüft die US-Antwort auf Hormuz-Friedensvorschläge (Wiederöffnung binnen 7 Tagen im Gespräch, Reuters/wallstreetONLINE), Brent fällt früh −0,9 % auf ~102 USD (Business Standard). Damit dreht das gestrige Doppelbelastungs-Muster (Öl + Renditen auf Mehrjahrzehnt-Hochs, 10J 5,11 %) erstmals seit Tagen ins Positive: DAX-Indikation +0,5 % auf ~25.402 (dpa-AFX), Nikkei +1,2 % (n-tv). Benchmarks: DAX up (enge Band +0,1 bis +0,6 %), S&P 500 bewusst flat — Michigan-Final 16:00 mit Inflationserwartungen ist bei ~70 % Hike-Wetten kein harter Upside-Katalysator (Regel aus dem Lern-Log 24.09. konsequent angewendet). Depot-Picks nach Tages-Opportunität: Lufthansa (Öl-Rücksetzer = direkter Kerosin-Katalysator, Risk-on-Beta), Infineon (Tech-Stabilisierung + Halbleiter-Beta auf den Risk-on-Versuch), Hannover Rück (validiertes Zinsprofiteur-Momentum, moderat, da nachgebende Renditen den Tailwind schwächen). Freie Picks: Nasdaq 100 (erstes klares Upside-Fenster nach zwei überverkauften Tagen), EuroStoxx 50 (Versicherergewichte als Rückhalt), Dow Jones (Öl-Entlastung für zyklische Blue Chips nach drei roten Sessions, bewusst niedrigste Konfidenz 50). Hypothese: Der Risk-on-Versuch trägt breit, solange die Hormuz-Gespräche nicht kippen — das Scheitern im Juni ist das Hauptrisiko des Tages."
     }
   ]
 }
