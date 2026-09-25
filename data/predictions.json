@@ -440,6 +440,108 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-09-25",
+      "title": "Hormuz-Hoffnung vs. Zins-Hoch: FINE setzt auf den Risk-on-Versuch",
+      "picks": [
+        {
+          "name": "DAX",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "up",
+          "bandLow": 0.1,
+          "bandHigh": 0.6,
+          "confidence": 58,
+          "reason": "Screening 25.09.2026: Nach zwei Verlusttagen (DAX 24.09.: 25.267 Punkte, −0,6 %, DJ/finanzen.ch) Hoffnungsschub aus der Iran-Diplomatie: Teheran prüft die US-Antwort auf Hormuz-Friedensvorschläge, Wiederöffnung binnen 7 Tagen im Gespräch (Reuters via wallstreetONLINE); Brent fällt früh um 0,9 % auf rund 102 USD (Business Standard). DAX-Indikation +0,5 % auf ~25.402 Punkte (dpa-AFX 07:31), Nikkei +1,2 % (n-tv). Termine: GfK 08:00, Geldmenge M3 10:00. Gegenwind bleibt: 10-Jahres-Treasury 5,11 % (19-Jahres-Hoch, TheStreet), Fed-Oktober-Hike zu ~70 % eingepreist. Enge Benchmark-Band: +0,1 bis +0,6 %. Quellen: dpa-AFX/Ariva, wallstreetONLINE, Business Standard, TheStreet, n-tv (24./25.09.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "S&P 500",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "flat",
+          "bandLow": -0.3,
+          "bandHigh": 0.4,
+          "confidence": 52,
+          "reason": "Screening 25.09.2026: Vortag nahezu unverändert (7.704,13 Punkte, −0,03 %, ABC News): Zins-Öl-Doppelbelastung (10J-Treasury 5,11 %, 19-Jahres-Hoch; Brent am Donnerstag +3–4 %) wurde von Hormuz-Deal-Hoffnungen neutralisiert (Yahoo Finance). Heute: Langlebige Güter 14:30, Michigan-Final 16:00 mit Inflationserwartungen — Risiko bei ~70 % Hike-Wetten für Oktober; kein harter Upside-Katalysator, daher nach Lern-Log-Regel (24.09.) KEIN up-Benchmark. flat mit −0,3 bis +0,4 %. Quellen: ABC News, Yahoo Finance, TheStreet, Investopedia (24./25.09.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Lufthansa",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "direction": "up",
+          "bandLow": 0.3,
+          "bandHigh": 2,
+          "confidence": 60,
+          "reason": "Screening 25.09.2026: Der Iran schlägt die Wiederöffnung der Straße von Hormuz binnen 7 Tagen vor, USA und Iran trafen sich in New York (Reuters via wallstreetONLINE; ZEIT); Brent gibt früh um 0,9 % auf ~102 USD nach (Business Standard) — die Kerosin-Entlastung ist der direkteste Tages-Katalysator für Airlines. DAX-Indikation +0,5 % (dpa-AFX) stützt den zyklischen Titel. Risiko: Ein Scheitern der Gespräche (Juni-Abkommen hielt nur wenige Wochen) würde den Ölpreis wieder hochtreiben. Depot-Pick nach Tages-Opportunität, Band +0,3 bis +2,0 % (Aktien-Mindest-Band 1,5 erfüllt). Quellen: wallstreetONLINE, ZEIT, Business Standard, dpa-AFX (25.09.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Infineon",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1.8,
+          "confidence": 57,
+          "reason": "Screening 25.09.2026: Tech stabilisiert: Nasdaq Composite gestern +0,01 % (ABC News), Nikkei heute +1,2 % auf 66.318 Punkte trotz 30-Jahres-Hoch japanischer Anleiherenditen (n-tv, DER AKTIONÄR) — der Risikoappetit in Asien zeigt, dass der globale Rendite-Schock nicht mehr jeder Tech-Bewegung die Richtung gibt. Fallende Öl- und Rendite-Indikation bei Hormuz-Hoffnung entlastet die AI-Werte von den Gewinnmitnahmen der Vorwoche; Halbleiter haben hohe Beta auf einen Risk-on-Tag. Risiko: Michigan-Inflationserwartungen 16:00, Hike-Wetten ~70 %. Depot-Pick, Band +0,2 bis +1,8 %. Quellen: ABC News, n-tv, DER AKTIONÄR, TheStreet (24./25.09.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Hannover Rück",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "direction": "up",
+          "bandLow": 0.1,
+          "bandHigh": 1.5,
+          "confidence": 55,
+          "reason": "Screening 25.09.2026: Zinsprofiteur-Momentum aus dem Vortag (+2,21 % auf 259,00 EUR im Xetra-Schluss, finanzen.at/finanzen.ch) — die Versicherer-Rotation ist als Depot-Pick-Muster validiert (Lern-Log 24.09.). Heute unterstützt der breite Risk-on-Versuch (DAX-Indikation +0,5 %, dpa-AFX), doch nachgebende Renditen bei Hormuz-Entspannung schwächen den Zins-Tailwind etwas — daher moderates Band. Depot-Pick, Band +0,1 bis +1,5 % (Mindest-Band erfüllt). Quellen: finanzen.at, finanzen.ch, dpa-AFX (24./25.09.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Nasdaq 100",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1.1,
+          "confidence": 58,
+          "reason": "Screening 25.09.2026: Nach der gestrigen Flat-Validierung (30.452,22 Punkte, −0,06 %, Hit) heute das erste klare Upside-Fenster der Woche: Nikkei +1,2 % (n-tv), Öl-Rücksetzer (Brent −0,9 %, Business Standard) und Hormuz-Hoffnung (Reuters) nehmen den Inflations-/Renditedruck von den AI-Werten; der Tech-Markt hat zwei Tage überverkauft seitwärts verteidigt. Risiko: Michigan-Inflationserwartungen 16:00 könnten die Renditen wieder drehen. Freier Pick, Band +0,2 bis +1,1 % (Index-Mindest-Band 1,0 erfüllt). Quellen: Nasdaq-Indexhistorie, n-tv, Business Standard (24./25.09.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "EuroStoxx 50",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.1,
+          "bandHigh": 1,
+          "confidence": 55,
+          "reason": "Screening 25.09.2026: Vortag −0,5 % auf 6.270 Punkte (DJ/finanzen.ch); heute Risk-on-Versuch: DAX-Indikation +0,5 % (dpa-AFX), Nikkei +1,2 % (n-tv), Brent −0,9 % (Business Standard). Die starken Versicherergewichte (gestern bis zu +2,2 %, finanzen.at) geben dem Euro-Stoxx Rückhalt, sollte der Hormuz-Optimismus halten. Risiko: Renditen auf Mehrjahrzehnt-Hochs, GfK 08:00 und M3 10:00 als europäische Datentreiber. Freier Pick, Band +0,1 bis +1,0 % (Mindest-Band erfüllt). Quellen: finanzen.ch, finanzen.at, dpa-AFX/Ariva, Business Standard (24./25.09.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Dow Jones",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.1,
+          "bandHigh": 1,
+          "confidence": 50,
+          "reason": "Screening 25.09.2026: Dritte rote Session in Folge gestern (51.349,98 Punkte, −0,31 %, ABC News) bei 30-Jahres-Renditen auf dem höchsten Stand seit 2004 (Bloomberg) — heute Entlastung im Gegenwind: Der Öl-Rücksetzer (Brent −0,9 %, Business Standard) hilft genau den zyklischen Blue Chips des Dow, und die Hormuz-Deal-Hoffnungen (Reuters via ZEIT/wallstreetONLINE) dominieren das Pre-Market. Nach drei Verlusttagen neigt die Verlustreihe bei einem Risk-on-Tag zum Ende; niedrigste Konfidenz des Tages, da der Dow am stärksten zinsbelastet ist. Freier Pick, Band +0,1 bis +1,0 % (Mindest-Band erfüllt). Quellen: ABC News, Bloomberg, Business Standard, ZEIT (24./25.09.2026).",
+          "status": "open",
+          "reviews": []
+        }
+      ]
     }
   ]
 }
