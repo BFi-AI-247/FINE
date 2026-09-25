@@ -2,47 +2,47 @@
   "version": 4,
   "updated": "2026-09-25",
   "totals": {
-    "predictions": 16,
-    "hits": 8,
-    "partial": 1,
-    "misses": 7,
-    "hitRate": 0.5,
+    "predictions": 24,
+    "hits": 14,
+    "partial": 2,
+    "misses": 8,
+    "hitRate": 0.5833,
     "overshoots": 2,
-    "directionCorrect": 9
+    "directionCorrect": 16
   },
   "benchmark": {
     "note": "Fix-Indizes DAX + S&P 500 — misst Markt-Lese-Qualität. Enge, realistische Bänder korrekt; kein Mut-Kriterium.",
-    "predictions": 5,
-    "hits": 1,
-    "partial": 1,
+    "predictions": 7,
+    "hits": 2,
+    "partial": 2,
     "misses": 3,
-    "hitRate": 0.2,
+    "hitRate": 0.2857,
     "overshoots": 0
   },
   "picks": {
     "note": "Echte Picks: 2x Depot + 1 frei — misst Opportunity-Finding. Mindest-Band + Boldness gelten hier.",
-    "predictions": 11,
-    "hits": 7,
+    "predictions": 17,
+    "hits": 12,
     "partial": 0,
-    "misses": 4,
-    "hitRate": 0.6364,
+    "misses": 5,
+    "hitRate": 0.7059,
     "overshoots": 2
   },
   "byInstrumentType": {
     "index": {
-      "predictions": 8,
-      "hits": 2,
-      "partial": 1,
+      "predictions": 13,
+      "hits": 6,
+      "partial": 2,
       "misses": 5,
-      "hitRate": 0.25,
+      "hitRate": 0.4615,
       "overshoots": 0
     },
     "equity_de": {
-      "predictions": 7,
-      "hits": 5,
+      "predictions": 10,
+      "hits": 7,
       "partial": 0,
-      "misses": 2,
-      "hitRate": 0.7143,
+      "misses": 3,
+      "hitRate": 0.7,
       "overshoots": 1
     },
     "equity_us": {
@@ -56,40 +56,40 @@
   },
   "byPickClass": {
     "benchmark": {
-      "predictions": 5,
-      "hits": 1,
-      "partial": 1,
+      "predictions": 7,
+      "hits": 2,
+      "partial": 2,
       "misses": 3,
-      "hitRate": 0.2,
+      "hitRate": 0.2857,
       "overshoots": 0
     },
     "portfolio": {
-      "predictions": 5,
-      "hits": 3,
+      "predictions": 8,
+      "hits": 5,
       "partial": 0,
-      "misses": 2,
-      "hitRate": 0.6,
+      "misses": 3,
+      "hitRate": 0.625,
       "overshoots": 1
     },
     "free": {
-      "predictions": 6,
-      "hits": 4,
+      "predictions": 9,
+      "hits": 7,
       "partial": 0,
       "misses": 2,
-      "hitRate": 0.6667,
+      "hitRate": 0.7778,
       "overshoots": 1
     }
   },
   "boldness": {
     "note": "Mut-Metrik gegen Tiefbieten — NUR echte Picks (Benchmark-Indizes ausgeschlossen).",
-    "avgBandHigh": 1.7273,
-    "avgActual": 0.0536,
+    "avgBandHigh": 1.6118,
+    "avgActual": 0.2088,
     "months": [
       {
         "month": "2026-09",
-        "picks": 11,
-        "avgBandHigh": 1.7273,
-        "avgActual": 0.0536
+        "picks": 17,
+        "avgBandHigh": 1.6118,
+        "avgActual": 0.2088
       }
     ]
   },
@@ -141,6 +141,10 @@
     {
       "date": "2026-09-25",
       "entry": "Morgen-Job 25.09.: Screen vor Pick — Treiber des Tages ist die Iran-Diplomatie: Teheran prüft die US-Antwort auf Hormuz-Friedensvorschläge (Wiederöffnung binnen 7 Tagen im Gespräch, Reuters/wallstreetONLINE), Brent fällt früh −0,9 % auf ~102 USD (Business Standard). Damit dreht das gestrige Doppelbelastungs-Muster (Öl + Renditen auf Mehrjahrzehnt-Hochs, 10J 5,11 %) erstmals seit Tagen ins Positive: DAX-Indikation +0,5 % auf ~25.402 (dpa-AFX), Nikkei +1,2 % (n-tv). Benchmarks: DAX up (enge Band +0,1 bis +0,6 %), S&P 500 bewusst flat — Michigan-Final 16:00 mit Inflationserwartungen ist bei ~70 % Hike-Wetten kein harter Upside-Katalysator (Regel aus dem Lern-Log 24.09. konsequent angewendet). Depot-Picks nach Tages-Opportunität: Lufthansa (Öl-Rücksetzer = direkter Kerosin-Katalysator, Risk-on-Beta), Infineon (Tech-Stabilisierung + Halbleiter-Beta auf den Risk-on-Versuch), Hannover Rück (validiertes Zinsprofiteur-Momentum, moderat, da nachgebende Renditen den Tailwind schwächen). Freie Picks: Nasdaq 100 (erstes klares Upside-Fenster nach zwei überverkauften Tagen), EuroStoxx 50 (Versicherergewichte als Rückhalt), Dow Jones (Öl-Entlastung für zyklische Blue Chips nach drei roten Sessions, bewusst niedrigste Konfidenz 50). Hypothese: Der Risk-on-Versuch trägt breit, solange die Hormuz-Gespräche nicht kippen — das Scheitern im Juni ist das Hauptrisiko des Tages."
+    },
+    {
+      "date": "2026-09-25",
+      "entry": "Abend-Review 25.09. (8-Pick-Schema): 6/8 Treffer, 1 partial (S&P 500), 1 Miss (Hannover Rück), Richtung 7/8 — bester Tag seit Start; Picks-Quote klettert auf 12/17 (70,6 %). Was lief gut: (1) Die Risk-on-These (Hormuz-Entspannung + Öl-Rücksetzer) trug breit — alle drei freien Picks trafen (Dow +0,93 %: Ende der Dreifach-Verlustserie wie prognostiziert, Nasdaq 100 +0,42 %, EuroStoxx 50 +0,45 %). (2) Die S&P-500-Regel aus dem 24.09.-Lern-Log (kein up-Benchmark ohne harten Katalysator) bewährte sich erneut: +0,51 % war fast exakt die flat-Lesart. (3) Depot-Picks Lufthansa (+0,82 %, Kerosin-Entlastung) und Infineon (+0,80 %, Upgrade + Winbond-Deal) trafen. Was schlecht lief: (1) Hannover Rück kippte von +0,4 % (Mittag) auf −0,46 % ins Minus — der Zinsprofiteur-Tailwind erodierte bei nachgebenden Renditen schneller als antizipiert; die Mittagsposition im Band wurde nicht gehalten. (2) S&P 500 rutschte mit +0,51 % knapp über das Flat-Band (+0,4 %) → partial statt hit. Kalibrierungs-Anpassungen: (1) Flat-Bänder bei erwartetem starkem Risk-on-Tag oberseitig etwas mehr Spielraum geben (±0,5 % statt ±0,4 % bei S&P 500), damit ein moderater Schlussspurt nicht zum partial wird. (2) Zinsprofiteur-Depot-Picks bei erwarteter Rendite-Entspannung (Hormuz-Typ-Katalysatoren) defensiver kalibrieren: Bei schwindendem Zins-Tailwind Richtung 'flat' erwägen oder Band enger fassen, da der Tailwind intraday kippen kann. (3) Boldness bleibt korrekt: Ø bandHigh 1,61 % vs. Ø actual 0,21 % bei echten Picks — kein Tiefbieten, aber die tatsächlichen Bewegungen fielen erneut kleiner als die Bänder; obere Bänder bei intakter, aber getragener These nicht weiter anheben."
     }
   ]
 }
