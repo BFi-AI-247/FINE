@@ -622,6 +622,111 @@
           "actual": 0.93
         }
       ]
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Hormuz-Blockade bleibt: Öl-Risikoprämie zurück — Gold, Verteidigung und Europa im Fokus",
+      "picks": [
+        {
+          "name": "DAX",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 0.9,
+          "confidence": 60,
+          "reason": "Screening 28.09.2026: Trump lehnt Irans 7-Tage-Angebot zur Wiederöffnung der Straße von Hormuz ab, Brent springt früh um gut 3 % auf ~107,5 USD (finanzen.at 28.09.; Zacks/CNBC über Straits Daily Brief). Trotz Öl-Schock zeigt der Frühhandel Stärke: DAX-Futures +64 Punkte auf 25.637 (finanzen.ch/MarketScreener 28.09.), Freitagsschluss 25.396,22 (+0,51 %, finanzen.ch). Woche startet mit Momentum aus Freitag; Öl lastet eher auf US-Zyklischen als auf dem Euro-Raum. Erwartung: moderater Wochenauftakt im Plus, +0,2 bis +0,9 %.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "S&P 500",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "flat",
+          "bandLow": -0.3,
+          "bandHigh": 0.5,
+          "confidence": 55,
+          "reason": "Freitagsschluss 7.743,41 (+0,5 %), nur 0,7 % unter dem Allzeithoch, wöchentliches Plus (AP News 25.09.). Heute kein harter Upside-Katalysator, dafür kehrt die Öl-Risikoprämie zurück (Brent ~106-107 USD, Reuters 28.09.) — Lern-Log-Regel vom 24./25.09.: kein up-Benchmark ohne harten Katalysator. Flat-Band wie kalibriert leicht erweitert (-0,3 bis +0,5 %). US-Handel beginnt erst 15:30 MEZ — Vortag/Pre-Market als Referenz. Quellen: AP News, Reuters, finanzen.at.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Rheinmetall",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "direction": "up",
+          "bandLow": 0.3,
+          "bandHigh": 2.5,
+          "confidence": 50,
+          "reason": "Geopolitische Eskalation als Tages-Treiber (Hormuz-Blockade bleibt, Iran-Konflikt seit Feb. 2026, CNBC) = Katalysator für Verteidigungswerte. Rheinmetall stark überverkauft: -13,8 % auf 30 Tage, Schluss 25.09. bei 985,60 EUR (-1,01 % am Freitag, wallstreet-online); Rüstungswerte zuletzt unter Verkaufsdruck (finanzen.net 24.09.). Rebound-Chance bei Geo-Eskalation, Risiko: Fortsetzung des Abverkaufs. Depot-Pick nach Tages-Opportunität. up, +0,3 bis +2,5 %.",
+          "status": "open",
+          "reviews": [],
+          "fromPortfolio": true
+        },
+        {
+          "name": "Barrick Gold",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "direction": "up",
+          "bandLow": 0.5,
+          "bandHigh": 2.5,
+          "confidence": 60,
+          "reason": "Gold steht bei ~4.286 USD nahe Rekordhoch, Sonntagabend stabil (finanzen.ch 27.09.); die abgewiesene Hormuz-Wiederöffnung (Trump/Reuters 28.09.) hält die Safe-Haven-Nachfrage hoch. Goldminen als Hebel auf das Geo-Thema des Tages; Barrick als größter.Produzent im Depot-Universum mit FRA-Notierung. up, +0,5 bis +2,5 %.",
+          "status": "open",
+          "reviews": [],
+          "fromPortfolio": true
+        },
+        {
+          "name": "First Majestic Silver",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "direction": "up",
+          "bandLow": 0.5,
+          "bandHigh": 3,
+          "confidence": 50,
+          "reason": "Silber-Rally 2026 übertrifft Gold prozentual, Gold/Silber-Ratio verengt sich auf ~57-60:1 mit weiterem Potenzial (Libertex-Analyse). Edelmetall-Bid durch Hormuz-Blockade und Öl über 106 USD (Reuters). Kleiner, volatiler Silberproduzent — weites Band bewusst. up, +0,5 bis +3,0 %. Depot-Pick nach Tages-Opportunität.",
+          "status": "open",
+          "reviews": [],
+          "fromPortfolio": true
+        },
+        {
+          "name": "EuroStoxx 50",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.3,
+          "bandHigh": 1,
+          "confidence": 60,
+          "reason": "DAX-Futures +0,9 % über dem Freitagsschluss (25.637 vs. 25.396, finanzen.ch); EuroStoxx 50 schloss Freitag +0,5 % bei 6.303 (finanzen.ch). Europäischer Wochenauftakt mit Rückenwind — Versicherungs- und Defensivgewichte dämpfen das Öl-Risiko. up, +0,3 bis +1,0 %. Quelle: finanzen.ch, MarketScreener.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Nasdaq 100",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1,
+          "confidence": 55,
+          "reason": "Tech ist vom Öl-Preisschub weitgehend unberührt; Freitag: Nasdaq Composite +0,5 % mit Wochenplus (AP News). Zins-Gegenwind bleibt (10J-Treasury 5,11 %, TheStreet/Yahoo vom 24.09.), daher moderates Band. up, +0,2 bis +1,0 %. US bis 15:30 MEZ nicht gehandelt — Vortags-/Pre-Market-Referenz.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Dow Jones",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0,
+          "bandHigh": 1,
+          "confidence": 50,
+          "reason": "Freitag +0,9 % auf 51.828,62 — Ende der drei Wochen dauernden Verlustserie, wöchentliches Plus (AP News/Markets Insider 25.09.). Öl-Rückschlag trifft Zyklische, aber Energiewerte (Chevron) profitieren vom Brent-Sprung über 106 USD (Reuters). Niedrigste Konfidenz des Tages: Richtungsunsicherheit Öl vs. Momentum. up, 0,0 bis +1,0 %.",
+          "status": "open",
+          "reviews": []
+        }
+      ]
     }
   ]
 }
