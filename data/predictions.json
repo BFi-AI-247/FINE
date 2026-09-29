@@ -775,6 +775,111 @@
           "actual": -0.5
         }
       ]
+    },
+    {
+      "date": "2026-09-29",
+      "title": "Öl über 107 USD, Renditen auf 2007er-Hoch: FINE setzt auf Resilienz, Zinsprofiteure und Airbus",
+      "picks": [
+        {
+          "name": "DAX",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "flat",
+          "bandLow": -0.4,
+          "bandHigh": 0.5,
+          "confidence": 55,
+          "reason": "Screening 29.09.2026: Doppelbelastung Öl + Zinsen prägt den Tag — Brent nach Trumps Ablehnung der Iran-Wiederöffnungs-Offerte bei ~107,6 USD (Montag +3,1 % auf 107,55, finanzen.ch Xetra-Schluss 28.09.; Ticker Öl 107,6 +2,2 %, finanzen.net 29.09.), 10-Jahres-Treasury bei 5,26 % — höchstes Niveau seit 2007 (Yahoo Finance/The Currency Analytics 29.09.). DAX verlor Montag nur 0,13 % auf 25.374,42 Punkte (finanzen.ch) — bemerkenswerte Resilienz. Terminmarkt heute: kaum verändert erwartet (Reuters via onvista, 05:47 Uhr), IG taxiert +0,1 % auf 25.410 (finanzen.ch Morning Briefing). Lern-Log-Regel 24.09.: bei Renditen auf Mehrjahrhochs keine up-Benchmark ohne harten Tages-Katalysator — daher flat, -0,4 bis +0,5 %.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "S&P 500",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "flat",
+          "bandLow": -0.7,
+          "bandHigh": 0.4,
+          "confidence": 50,
+          "reason": "Montag -0,77 % auf 7.683,69, Dow -0,67 %, Nasdaq Composite -0,92 % — Verluste nach Rendite-Sprung (10J +8 bp auf 5,26 %) und Öl-Anstieg (Yahoo Finance, CNBC 28.09.). US-Futures heute leicht im Minus (-0,2 %, CNBC). 10J-Rendite erstmals seit 25 Jahren über der S&P-500-Earnings-Yield (BlockBeats/KuCoin 29.09.) — Bewertungsdruck; Hike-Wetten für die Oktober-Sitzung >65 % (AP/Vanderbilt Report). PCE-Inflation erst morgen (Mi 30.09.) als Bremse, Jobs-Report Freitag. Kein up-Benchmark ohne harten Katalysator (Lern-Log 24./25.09.): flat mit leichter Untergewichtung, -0,7 bis +0,4 %. US-Werte bis 15:30 MEZ nicht gehandelt — Vortags-/Futures-Referenz.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Airbus",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "direction": "up",
+          "bandLow": 0.3,
+          "bandHigh": 2,
+          "confidence": 60,
+          "fromPortfolio": true,
+          "reason": "FAA verzögert die Boeing-737-Max-10-Zertifizierung wegen eines Software-Problems im Flight-Guidance-System; Boeing stürzt Montag ~7 % (CNBC, Newsy Today 28.09.). Der Airbus A321neo ist der direkte Wettbewerbs-Profiteur mit Auftragsbuch bis in die nächste Dekade — die Single-Aisle-Marktanteils-Story festigt sich. Depot-Pick nach Tages-Opportunität: klarer Tages-Katalysator im ansonsten öl-/zinsgetriebenen Markt, DAX-Umfeld resilient (Montag nur -0,13 %). up, +0,3 bis +2,0 %.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Munich Re",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "direction": "up",
+          "bandLow": 0.3,
+          "bandHigh": 1.8,
+          "confidence": 60,
+          "fromPortfolio": true,
+          "reason": "Rückkehr zum validierten Zinsprofiteur-Muster (24.09.: Munich Re Overshoot +1,99 %; Lern-Log: weiterverfolgen, solange Renditen auf Hochs verharren) — genau das ist heute der Fall: 10J-Treasury 5,26 %, höchstes seit 2007, Ausverkauf an den Anleihemärkten geht weiter (Yahoo Finance, The Currency Analytics, finanzen.ch Morning Briefing 29.09.). Rückversicherer als Wiederanlage-Profiteur steigender Renditen; zugleich defensiv im öl-getriebenen Inflationsumfeld. up, +0,3 bis +1,8 %.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Allianz",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1.5,
+          "confidence": 55,
+          "fromPortfolio": true,
+          "reason": "Zweiter Versicherungs-Pick nach demselben validierten Muster (24.09.: Allianz hit im Zinsprofiteur-Trade, 2/2 Musterquote): Rendite-Hochs seit 2007 (10J 5,26 %, Yahoo Finance) erhöhen den Wiederanlage-Zinsertrag der Lebensversicherer. Bewusste Doppel-Insurance-Konzentration im Depot-Teil, da das Muster trägt; Risiko: Sektor-Klumpen, daher Band moderat. up, +0,2 bis +1,5 %.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "EuroStoxx 50",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1.2,
+          "confidence": 55,
+          "reason": "Montag nahezu unverändert (-0,02 % auf 6.301,28, finanzen.ch) — die europäische Breite hält der Öl-/Zins-Belastung besser stand als die USA (S&P -0,77 %). Versicherungs- und Defensivgewichte sind im heutigen Rendite-Umfeld Profiteure und geben Rückhalt; DAX-Terminmarkt knapp behauptet (IG +0,1 % auf 25.410, finanzen.ch). Asien mehrheitlich tiefer (finanzen.at Morning Briefing) — daher moderates Band. up, +0,2 bis +1,2 %.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Dow Jones",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "flat",
+          "bandLow": -0.6,
+          "bandHigh": 1,
+          "confidence": 45,
+          "reason": "Montag -0,67 % auf 51.481,51, belastet vor allem von Boeing (-7 % nach FAA-Max-10-Verzögerung, CNBC) — ein Einmaleffekt ohne neuen negativen Trigger heute. Energiewerte profitieren vom Öl über 107 USD (Chevron +0,9 %, Exxon +1,2 % Montag, hdfcsky/CNBC); Zins- und Öldruck auf Zyklische begrenzt das Plus (Futures -0,2 %, CNBC). Flat mit breitem Band, -0,6 bis +1,0 %, bewusst niedrige Konfidenz. US bis 15:30 MEZ nicht gehandelt — Vortags-/Futures-Referenz.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Nasdaq 100",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "flat",
+          "bandLow": -1,
+          "bandHigh": 1,
+          "confidence": 40,
+          "reason": "Tech unter Zinsdruck: 10J-Rendite 5,26 % (höchstes seit 2007) belastet die Bewertung multipel; Montag Nasdaq 100 -1,08 % (finanzen.ch), AI-Chip-Rotation weg vom Hardware-Trade (Micron -2,6 %, Marvell -3,8 % Montag, hdfcsky). Gegenkräfte: NVIDIA +1,66 % Montag als Stütze, überverkaufte Technik nach zwei roten Tagen. PCE-Inflation morgen (Mi 30.09.) dämpft Mut. Ehrliche Lesart: seitwärts bis schwach mit Volatilität in beide Richtungen — breites Flat-Band -1,0 bis +1,0 %, niedrigste Konfidenz des Tages. US bis 15:30 MEZ nicht gehandelt.",
+          "status": "open",
+          "reviews": []
+        }
+      ]
     }
   ]
 }
