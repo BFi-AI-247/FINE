@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-09-25",
+  "updated": "2026-09-29",
   "totals": {
     "predictions": 24,
     "hits": 14,
@@ -149,6 +149,10 @@
     {
       "date": "2026-09-28",
       "entry": "Morgen-Job 28.09.: Screen vor Pick — der Freitagshoffnung auf Hormuz folgt der Rückschlag: Trump lehnt Irans 7-Tage-Wiederöffnungs-Angebot ab, Brent +3 % auf ~107,5 USD (finanzen.at/Reuters). Damit dreht der Treiber von Entspannung zurück auf Eskalation. Gegen den Systemreiz (Öl hoch) zeigt der Frühhandel aber Stärke: DAX-Futures +64 Punkte auf 25.637 — daher DAX up (+0,2/+0,9) und beim S&P 500 konsequent die Flat-Lesart (-0,3/+0,5) nach der Lern-Log-Regel 'kein up-Benchmark ohne harten Katalysator', US bis 15:30 MEZ nicht gehandelt. Depot-Picks nach Tages-Opportunität ins Geo-/Safe-Haven-Thema: Barrick Gold (Gold ~4.286 USD nahe Rekord, finanzen.ch) und First Majestic (Silber-Rally, Ratio-Verengung, Libertex) als Edelmetall-Hebel, Rheinmetall als überverkaufter Verteidigungs-Rebound (-13,8 %/30 Tage, wallstreet-online) mit bewusst niedrigster Konfidenz 50 — bewusste Abkehr von der fehlgeschlagenen Lufthansa-Öl-Entlastungs-Logik vom Freitag, da das Öl-Signal heute invers steht. Freie Picks: EuroStoxx 50 (Futures-Rückenwind), Nasdaq 100 (tech immun gegen Öl), Dow Jones (Freitagsserie gebrochen, aber Öl-Risiko — niedrigste Konfidenz 50). Boldness: obere Bänder unverändert bei ~1,0-3,0 % je Volatilität — keine Anhebung trotz intakter Thesen. Hauptrisiko des Tages: intraday Kippen der Futures-Stärke, falls die Öl-Spitze Zins- und Konsumsorgen reaktiviert."
+    },
+    {
+      "date": "2026-09-29",
+      "entry": "Morgen-Job 29.09.: Screen vor Pick — Doppelbelastung bleibt Tages-Treiber: Trumps Hormuz-Ablehnung treibt Brent auf ~107,6 USD (Montag +3,1 % auf 107,55), 10J-Treasury auf 5,26 % — höchstes seit 2007 und erstmals seit 25 Jahren über der S&P-500-Earnings-Yield (BlockBeats); PCE erst morgen, Jobs-Report Freitag. Vortag: DAX nur -0,13 % (25.374) trotz Öl+Zins-Schock, Dow -0,67 % (Boeing -7 % nach FAA-Max-10-Verzögerung), S&P -0,77 %, Nasdaq 100 -1,08 %. Benchmarks konsequent flat nach Lern-Log-Regel 'kein up ohne harten Katalysator' (DAX-Terminmarkt unverändert, IG +0,1 % auf 25.410). Depot-Picks: Airbus als direkter A321neo-Profiteur der Boeing-Zertifizierungs-Verzögerung (klarster Tages-Katalysator), Munich Re + Allianz als Rückkehr zum validierten Zinsprofiteur-Muster (24.09.: 2/2) — bewusste Doppel-Insurance-Konzentration, da Renditen weiter auf Hochs klettern. Freie Picks: EuroStoxx 50 up (Versicherergewichte als Rückhalt, europäische Resilienz), Dow Jones flat (Boeing-Einmaleffekt vs. Öl-/Zinsdruck, Futures -0,2 %), Nasdaq 100 flat breit (Zinsdruck vs. überverkaufte Tech mit NVIDIA-Stütze +1,66 % Montag). Gold-/Silber-Picks nach dem -4 %-Crash Montag bewusst gemieden (Zinsdruck schlägt Safe-Haven — bestätigt die 28.09.-Erfahrung mit Barrick/First Majestic). Hauptrisiken: weiter steigende Renditen vor der PCE, Öl-Spitze als Konsum-Bremse."
     }
   ]
 }
