@@ -1,103 +1,103 @@
 {
   "version": 4,
-  "updated": "2026-09-29",
+  "updated": "2026-09-30",
   "totals": {
-    "predictions": 40,
-    "hits": 20,
-    "partial": 2,
-    "misses": 18,
-    "hitRate": 0.5,
+    "predictions": 48,
+    "hits": 21,
+    "partial": 6,
+    "misses": 21,
     "overshoots": 2,
-    "directionCorrect": 22
+    "directionCorrect": 25,
+    "hitRate": 0.4375
   },
   "benchmark": {
-    "note": "Fix-Indizes DAX + S&P 500 — misst Markt-Lese-Qualität. Enge, realistische Bänder korrekt; kein Mut-Kriterium.",
-    "predictions": 11,
+    "predictions": 13,
     "hits": 4,
-    "partial": 2,
-    "misses": 5,
-    "hitRate": 0.3636,
+    "partial": 3,
+    "misses": 6,
     "overshoots": 0,
-    "directionCorrect": 6
+    "directionCorrect": 5,
+    "hitRate": 0.3077,
+    "note": "Fix-Indizes DAX + S&P 500 — misst Markt-Lese-Qualität. Enge, realistische Bänder korrekt; kein Mut-Kriterium."
   },
   "picks": {
-    "note": "Echte Picks: 2x Depot + 1 frei — misst Opportunity-Finding. Mindest-Band + Boldness gelten hier.",
-    "predictions": 29,
-    "hits": 16,
-    "partial": 0,
-    "misses": 13,
-    "hitRate": 0.5517,
+    "predictions": 35,
+    "hits": 17,
+    "partial": 3,
+    "misses": 15,
     "overshoots": 2,
-    "directionCorrect": 16
+    "directionCorrect": 20,
+    "hitRate": 0.4857,
+    "note": "Echte Picks: 2x Depot + 1 frei — misst Opportunity-Finding. Mindest-Band + Boldness gelten hier."
   },
   "byInstrumentType": {
     "index": {
-      "predictions": 23,
+      "predictions": 28,
       "hits": 11,
-      "partial": 2,
-      "misses": 10,
-      "hitRate": 0.4783,
+      "partial": 4,
+      "misses": 13,
       "overshoots": 0,
-      "directionCorrect": 13
+      "directionCorrect": 13,
+      "hitRate": 0.3929
     },
     "equity_de": {
-      "predictions": 16,
+      "predictions": 18,
       "hits": 8,
-      "partial": 0,
+      "partial": 2,
       "misses": 8,
-      "hitRate": 0.5,
       "overshoots": 1,
-      "directionCorrect": 8
+      "directionCorrect": 10,
+      "hitRate": 0.4444
     },
     "equity_us": {
-      "predictions": 1,
-      "hits": 1,
+      "predictions": 2,
+      "hits": 2,
       "partial": 0,
       "misses": 0,
-      "hitRate": 1,
       "overshoots": 1,
-      "directionCorrect": 1
+      "directionCorrect": 2,
+      "hitRate": 1
     }
   },
   "byPickClass": {
     "benchmark": {
-      "predictions": 11,
+      "predictions": 13,
       "hits": 4,
-      "partial": 2,
-      "misses": 5,
-      "hitRate": 0.3636,
+      "partial": 3,
+      "misses": 6,
       "overshoots": 0,
-      "directionCorrect": 6
+      "directionCorrect": 5,
+      "hitRate": 0.3077
     },
     "portfolio": {
-      "predictions": 14,
-      "hits": 6,
-      "partial": 0,
+      "predictions": 17,
+      "hits": 7,
+      "partial": 2,
       "misses": 8,
-      "hitRate": 0.4286,
       "overshoots": 1,
-      "directionCorrect": 6
+      "directionCorrect": 9,
+      "hitRate": 0.4118
     },
     "free": {
-      "predictions": 15,
+      "predictions": 18,
       "hits": 10,
-      "partial": 0,
-      "misses": 5,
-      "hitRate": 0.6667,
+      "partial": 1,
+      "misses": 7,
       "overshoots": 1,
-      "directionCorrect": 10
+      "directionCorrect": 11,
+      "hitRate": 0.5556
     }
   },
   "boldness": {
     "note": "Mut-Metrik gegen Tiefbieten — NUR echte Picks (Benchmark-Indizes ausgeschlossen).",
-    "avgBandHigh": 1.6172,
-    "avgActual": -0.3366,
+    "avgBandHigh": 1.6257,
+    "avgActual": -0.2697,
     "months": [
       {
         "month": "2026-09",
-        "picks": 29,
-        "avgBandHigh": 1.6172,
-        "avgActual": -0.3366
+        "picks": 35,
+        "avgBandHigh": 1.6257,
+        "avgActual": -0.2697
       }
     ]
   },
@@ -169,6 +169,10 @@
     {
       "date": "2026-09-30",
       "entry": "Morgen-Job 30.09.: Screen vor Pick — Lagewechsel von Schock zu Entspannung: Brent fällt über Nacht ~2,3 % auf ~102,90 USD bei auf ~80 % wiederhergestellten Hormuz-Flüssen (Straits Daily Brief 30.09.), 10J-US-Rendite gibt auf ~5,21 % nach (qz.com 29.09.), asiatische Börsen breit im Plus (Bloomberg 29.09.). Vortag: DAX +0,10 % auf 25.399 trotz 30J-Rendite-Rekord 5,62 % (Handelsblatt, BigGo Finance), S&P 500 -0,17 %, Dow -0,26 %, Nasdaq Composite -0,09 % (Investopedia 29.09.). Tages-Opportunity: Tech-/Halbleiter-Rebound — Memory-ETF +3 %, SOXX +1 %, Infineon als DAX-Spitze +2,2 % (dpa-AFX/onvista), AMD-World-Labs-Deal (~8,2 Mrd. USD), Micron-Zahlen heute abends mit JPMorgan-Beat-and-Raise-Erwartung (AOL). Depot-Picks konsequent auf diesen Impuls: Infineon (Semi-Rotation + Micron-Antizipation), SAP (yield-entlasteter Software-Sektor), NVIDIA (AI-News-Zyklus, premarket plus, TipRanks 30.09.). Bewusst KEINE Zinsprofiteur-Fortsetzung (Lern-Log-Regel vom 29.09.: Muster trägt nur am ersten Rendite-Impulstag — Munich Re/Allianz nicht wiederholt, Depot-Klumpen gesenkt), keine Edelmetalle (Renditen weiter hoch). Freie Picks auf den europäischen Vormittag ausgerichtet, bevor das binäre PCE-Ereignis (Kern-PCE-Konsens 3,4 %, 16:30 MESZ, CNBC 30.09.) die US-Session prägt: EuroStoxx 50 up, MDAX up (Öl-Rückzug entlastet Europa und Zyklische am stärksten), Nasdaq 100 up mit moderater Konfidenz 50 (Rebound vs. PCE-Risiko). Benchmarks: DAX up (vorbörslich deutlich fester, Vortageshoch 25.617 als Zielzone, finanzen.net 07:17 Uhr), S&P 500 flat (PCE-Risiko während der US-Session, enge Bandbreite, ereignistagsbedingt kein up ohne harten Katalysator). Hauptrisiken: heißer PCE-Wert entzündet den Zins-Schock erneut; Micron-Enttäuschung kippt die Semi-Rotation."
+    },
+    {
+      "date": "2026-09-30",
+      "entry": "Abend-Review 30.09.: 1/8 Treffer (NVIDIA +0,51 %), 4 partial (S&P 500 +0,66 % über das Flat-Band; Infineon +0,34 %, SAP +0,18 %, Nasdaq 100 +0,23 % — alle knapp unter bandLow), 3 Misses (DAX −0,79 %, EuroStoxx 50 −0,81 %, MDAX −0,13 %); Richtung 4/8. Ein Tag der intraday-Wende: Der Morgen-Screen (Öl-Rückzug + Tech-Rebound, Fokus europäischer Vormittag) wurde überrollt — (a) Eurozonen-Inflation (Deutschland 3,3 %, Italien-Sprung) drückte Europa den ganzen Tag, (b) Beschuss von Tankern in der Straße von Hormuz ließ Öl wieder steigen; die USA feierten den soften PCE (3,4 % vs. 3,7 % erwartet, Hike-Wetten sanken) mit S&P +0,66 %. Was gut lief: US-seitige up-Picks trafen die Richtung (NVIDIA Hit; Nasdaq 100 partial knapp unter Band). Was schlecht lief: Alle drei europäischen Index-up-Picks kippten unter Inflations-/Öl-Druck; die Depot-Picks Infineon und SAP lagen mit +0,34 %/+0,18 % haarscharf unter bandLow; die PCE-Flat-Lesart für den S&P 500 war nach dem 25.09. zum zweiten Mal oberseitig zu eng. Kalibrierungs-Anpassungen: (1) Flat-Bänder der Benchmarks an Entspannungstagen oberseitig weiten (±0,7 % statt ±0,5 %) — wiederholt beobachtete partial-Ursache. (2) An Tagen mit eurozonener Inflationsdatenlage (DE/EU-Verbraucherpreise am Vormittag) keine europäischen Index-up-Picks ohne harten Tageskatalysator — gleiche Schutzregel wie bei Öl-/Zins-Schocktagen. (3) Bänder NICHT senken: Der Partial-Cluster knapp unter bandLow zeigt korrekt kalibrierte Bänder (kein Tiefbieten); der Fehler war die Richtungsannahme Europa-Long vor US-Daten, nicht die Bandbreite. (4) Geopolitische Eskalations-Meldungen (Hormuz) künftig im Mittags-Slot als Kipp-Signal für Öl-thesen bewerten — der MDAX war mittags noch im Band (+0,25 %)."
     }
   ]
 }
