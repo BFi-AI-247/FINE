@@ -1006,14 +1006,18 @@
           "bandHigh": 0.9,
           "confidence": 55,
           "reason": "Screening 30.09.2026: Entspannung an den Schock-Fronten — Brent fällt über Nacht um gut 2 % auf ~102,90 USD bei sich erholenden Hormuz-Flüssen (Straits Daily Brief 30.09.), die 10J-US-Rendite gibt auf ~5,21 % nach (qz.com 29.09.), asiatische Börsen breit im Plus (Bloomberg 29.09.). Der DAX notiert vorbörslich deutlich fester und nähert sich dem Vortageshoch bei 25.617 Punkten (finanzen.net 30.09., 07:17 Uhr); am Dienstag hielt er sich mit +0,10 % auf 25.399 robust trotz Rendite-Hoch (Handelsblatt, finanzen.ch 29.09.). Das PCE-Risiko kommt erst um 16:00 Uhr MESZ — der europäische Vormittag läuft ohne den Zins-Schockdatensatz. Erwartung: moderater Anlauf nach oben, +0,2 bis +0,9 %.",
-          "status": "open",
+          "status": "miss",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 MESZ (Stand 12:09 Uhr): DAX bei 25.350,65 Punkten, −0,19 % ggü. Vortag (25.399,21) — nach Start im Plus (+0,36 % auf 25.490,67; Tageshoch 25.569,14) drehte der Leitindex unter die Nulllinie, dpa-AFX meldete mittags −0,1 % auf 25.380 Punkte. Prognose +0,2 bis +0,9 %: aktuell UNTER dem Band, Richtung voraussichtlich verfehlt — Öl-Rückzug allein reicht nicht, hohe Anleiherenditen bremsen. Quellen: finanzen.ch, ARIVA/dpa-AFX, AD HOC NEWS (30.09.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 25.199,19 Punkte, −0,79 % (dpa-AFX/ARIVA). Miss: Der frühe Anstieg (+0,67 % auf 25.568 um 09:12 Uhr, finanzen.ch) drehte unter Eurozonen-Inflationsdruck (Deutschland 3,3 %, Italien-Sprung) und wieder steigenden Ölpreisen nach Meldungen über Beschuss von Tankern in der Straße von Hormuz in eine klare Abgabe — die 100-Tage-Linie riss. Quellen: dpa-AFX, finanzen.ch (30.09.2026)."
             }
           ],
-          "actual": -0.19
+          "actual": -0.79
         },
         {
           "name": "S&P 500",
@@ -1024,14 +1028,18 @@
           "bandHigh": 0.5,
           "confidence": 45,
           "reason": "Screening 30.09.2026: Vortag -0,17 % auf 7.671 Punkte bei weiter steigenden Langläufen (30J-Rendite auf 24-Jahres-Hoch 5,62 %; 24/7 Wall St., Investopedia 29.09.). Heute steht der August-PCE-Bericht um 16:30 Uhr MESZ im Fokus — Konsens Kern-PCE 3,4 % (von 3,3 %), ein heißer Wert dürfte Fed-Hike-Wetten und Renditen erneut befeuern (Seeking Alpha, CNBC 29./30.09.). Öl-Rückgang und Tech-Rebound (Nasdaq-100-Futures leicht im Plus, Investopedia 29.09.) stützen, aber das PCE-Ereignis während der US-Session ist binär. Erwartung: abwartender, enger Handel, -0,5 bis +0,5 %.",
-          "status": "open",
+          "status": "partial",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 MESZ: US-Handel läuft noch nicht (Start 15:30 MESZ). S&P-500-E-Minis leicht plus, +0,1 % (Reuters, 30.09., 11:27 Uhr MESZ) bei entspannteren Renditen vor dem PCE-Bericht (16:30 MESZ; Konsens Kern-PCE 3,4 %). Flat-Prognose (−0,5 bis +0,5 %): bislang im Band. Quellen: Reuters, Investing.com (30.09.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 7.721,64 Punkte, +0,66 % (Vortag 7.670,84; Sunday Guardian Live/CNBC). Der PCE-Deflator kam mit 3,4 % deutlich unter dem Konsens von 3,7 % — Hike-Wetten sanken, die Rally trug breit. Die Flat-Lesart war zu vorsichtig: +0,66 % liegt über dem Flat-Band (−0,5/+0,5) → partial; nach dem 25.09. (+0,51 %) das zweite Mal, dass ein Entspannungsschluss über dem Flat-Band endet. Quellen: Reuters/MarketScreener, Schwab, TheStreet (30.09.2026)."
             }
           ],
-          "actual": 0.1
+          "actual": 0.66
         },
         {
           "name": "Infineon",
@@ -1042,14 +1050,19 @@
           "bandHigh": 2.2,
           "confidence": 60,
           "reason": "Screening 30.09.2026: Tech-Rebound ist die klare Tages-Opportunity — Speicher-/Halbleiterwerte rallieden am Dienstag (Memory-ETF DRAM +3 %, SOXX +1 %; Investopedia 29.09.), Infineon war mit +2,2 % DAX-Spitze (dpa-AFX/onvista 29.09.). Heute Nachmittag (US) berichtet Micron, JPMorgan sieht Beat-and-Raise (AOL 29.09.) — gute Zahlen dürften die Halbleiter-Rotation verlängern. Öl- und Zinsentlastung am Morgen unterstützen Wachstumswerte. Erwartung: Aufwärtstag mit Momentum, +0,4 bis +2,2 %.",
-          "status": "open",
+          "status": "partial",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 MESZ: Trumps KI-Aufsichts-Lockerung und die Eaton-Kooperation für KI-Rechenzentren trieben Infineon morgags auf bis zu 59,98 EUR (+1,13 %, finanzen.at 30.09.), vorbörslich +0,83 % auf 59,74 EUR (Lang & Schwarz 08:36 Uhr). Mittags wurden die Gewinne wieder vollständig abgegeben: zuletzt ca. −0,35 % auf 59,10 EUR. Prognose +0,4 bis +2,2 %: im Tageshoch im Band, aktuell knapp darunter — PCE um 16:30 Uhr MESZ und Micron-Zahlen als Nachmittagshelfer. Quellen: finanzen.at, finanzen.net/AD HOC NEWS, Lang & Schwarz (30.09.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 59,50 EUR, +0,34 % (Vortag 59,30; stockanalysis/S&P Global). Der Eaton-KI-Stromdeal trug vormittags bis 59,98 EUR (+1,2 %), im europäischen Nachmittag schrumpfte das Plus unter den DAX-Druck. +0,34 % knapp unter bandLow 0,4 → partial — Richtung richtig, Bewegung zu schwach; der Micron-Bericht als möglicher Katalysator fiel erst nach US-Schluss. Quellen: ad-hoc-news, stockanalysis (30.09.2026)."
             }
           ],
-          "actual": -0.35
+          "actual": 0.34,
+          "fromPortfolio": true
         },
         {
           "name": "SAP",
@@ -1060,14 +1073,19 @@
           "bandHigh": 1.5,
           "confidence": 55,
           "reason": "Screening 30.09.2026: Software profitiert doppelt — fallende Ölpreise und um 3 Bp. entspannte Renditen (qz.com 29.09.) nehmen Druck von Wachstums-/Cashflow-Bewertungen; der Tech-Sektor führte die Erholung an (Schwab 30.09.). SAP hielt sich in der Zins-Stresswoche bemerkenswert stabil und notierte am Dienstag unter den Gewinnern des GD100-Rückhalts (finanzen.net/Prime Quants 29.09.). PCE erst am Nachmittag US-Zeit. Erwartung: moderater Tech-Mitnahme-Gewinn, +0,2 bis +1,5 %.",
-          "status": "open",
+          "status": "partial",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 MESZ (Stand Mittag): SAP-Aktie mit −1,6 % auf 182,36 EUR einer der DAX-Verlierer (finanzen.ch 30.09.); bei Lang & Schwarz 11:35 Uhr sogar −1,9 % auf 181,80 EUR. Der erwartete Software-Tech-Mitnahmegewinn (+0,2 bis +1,5 %) ist bislang das Gegenteil eingetreten — Rendite- und Inflationsdruck vor PCE wiegt stärker als die Öl-Entlastung. Richtung aktuell falsch. Quellen: finanzen.ch, Lang & Schwarz/aktien.news (30.09.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 185,66 EUR, +0,18 % (Vortag 185,32; stockanalysis/S&P Global, 4investors). Nach dem Mittagstief 181,80 EUR (−1,9 %, Lang & Schwarz) erholte sich die Aktie mit der US-Session nach dem soften PCE-Befund fast vollständig. +0,18 % knapp unter bandLow 0,2 → partial; kein steter Software-Mitnahme-Gewinn, sondern ein PCE-Two-Way-Tag. Quellen: stockanalysis, ad-hoc-news (30.09.2026)."
             }
           ],
-          "actual": -1.6
+          "actual": 0.18,
+          "fromPortfolio": true
         },
         {
           "name": "NVIDIA",
@@ -1078,14 +1096,19 @@
           "bandHigh": 2.5,
           "confidence": 55,
           "reason": "Screening 30.09.2026: AI-News-Zyklus dominiert — AMD übernimmt World Labs (~8,2 Mrd. USD, Fei-Fei Li) und heizt den AI-Komplex an (hdfcsky/Benzinga 29./30.09.), NVIDIA, AMD und Micron notieren premarket im Plus (TipRanks 30.09.), Micron- Zahlen heute mit Beat-and-Raise-Erwartung (JPMorgan via AOL). Öl-Rückzug und yield-Entlastung stützen Megacap-Tech; Risiko: heißer PCE-Bericht um 16:30 Uhr MESZ könnte Tech-Gewinne nachträglich drücken. Erwartung: AI-Momentum-Tag, +0,3 bis +2,5 %.",
-          "status": "open",
+          "status": "hit",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 MESZ: US-Handel startet erst 15:30 MESZ. NVDA notiert premarket bei 227,42 USD, +0,13 % ggü. Vortagesschluss 227,21 USD (Finanzdatensuche, 14:35 Uhr MESZ); Reuters meldet Nvidia mit weiteren Megacaps im Pre-Market leicht im Plus. Prognose +0,3 bis +2,5 %: knapp unter Banduntergrenze, noch alles offen — Micron-Zahlen heute Abend als Katalysator, PCE 16:30 Uhr MESZ als Risiko. Quellen: Finanzdatensuche, Reuters (30.09.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 228,38 USD, +0,51 % (Vortag 227,21; stockanalysis/CBOE). Weicher PCE und intakter AI-News-Zyklus (AMD/World-Labs-Deal) trugen die Aktie durch die Session (Tageshoch 232,37 USD); Micron-Zahlen als möglicher Folgekatalysator erst nach Schluss. +0,51 % im Band 0,3–2,5 → Hit — die KI-Momentum-These hielt. Quellen: stockanalysis, Robinhood (30.09.2026)."
             }
           ],
-          "actual": 0.13
+          "actual": 0.51,
+          "fromPortfolio": true
         },
         {
           "name": "EuroStoxx 50",
@@ -1096,14 +1119,18 @@
           "bandHigh": 1.2,
           "confidence": 55,
           "reason": "Screening 30.09.2026: Europäische Erholung vor dem US-PCE-Risiko — asiatische Breiten-Gewinne (Bloomberg 29.09.), Öl deutlich billiger (Brent ~102,90 USD; Straits Daily Brief 30.09.) und ein stabiler DAX-Vortag (+0,10 % trotz Rendite-Rekord, finanzen.ch) sprechen für einen europäischen Risiko-Vormittag; der EuroStoxx 50 profitiert von Tech- und Versicherergewichten, die am Dienstag bereits Stütze waren. Erwartung: +0,2 bis +1,2 %.",
-          "status": "open",
+          "status": "miss",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 MESZ (Stand 12:09 Uhr): EuroStoxx 50 bei 6.299,83 Punkten, −0,32 % — nach freundlichem Start (+0,48 % auf 6.350,41 um 09:12 Uhr) drehte der Eurozone-Leitindex ins Minus. Prognose +0,2 bis +1,2 %: aktuell unter dem Band, Richtung vorerst verfehlt; europäischer Risikoappetit wird von hohen Anleiherenditen gedrückt. Quelle: finanzen.ch (30.09.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 6.269,02 Punkte, −0,81 % (dpa-AFX/ARIVA). Miss: Der frühe Gewinn (+0,48 % auf 6.350) verflog vollständig — Inflationssorgen in Europa (Italien-Teuerungssprung, Deutschland 3,3 %), steigende Ölpreise nach dem Hormuz-Tanker-Beschuss und hohe Anleiherenditen belasteten; Monatsbilanz −2,4 %. Quellen: dpa-AFX, ARIVA (30.09.2026)."
             }
           ],
-          "actual": -0.32
+          "actual": -0.81
         },
         {
           "name": "Nasdaq 100",
@@ -1114,14 +1141,18 @@
           "bandHigh": 1.6,
           "confidence": 50,
           "reason": "Screening 30.09.2026: Tech-Rebound mit Rückenwind — Speicher-Rally und AMD/World-Labs-Deal (Investopedia, TipRanks 29./30.09.), Öl-Rückgang und Rendite-Pause entlasten Growth; Micron-Bericht heute Nachbars als möglicher Katalysator für die AI-Hardware-Kette (Yahoo Finance 30.09.). Dämpfer-Risiko: PCE um 16:30 Uhr MESZ mitten in der US-Session (CNBC 30.09.) — Engpässe bei Kern-PCE 3,4 % könnten den Rebound kippen lassen. Erwartung: +0,3 bis +1,6 %.",
-          "status": "open",
+          "status": "partial",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 MESZ: Nasdaq-100-Futures praktisch unverändert (−0,01 % bis −0,04 %; Reuters 05:27 ET, Investing.com/Morning Bull 30.09.) — nach dem Tech-Rebound vom Vortag wartet der Markt die PCE-Daten (16:30 Uhr MESZ) ab. Prognose +0,3 bis +1,6 %: Futures knapp unter der Banduntergrenze, eigentliche Messung kommt erst mit der US-Session (Start 15:30 MESZ). Quellen: Reuters, Investing.com (30.09.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 30.408,50 Punkte, +0,23 % (Vortag 30.339,33; Investing.com). Der PCE-Impuls (Nasdaq Composite +1,05 %) verflüchtigte sich im Schlusshandel — Öl-Wiederanstieg und Zinsvorsicht dämpften den Tech-Index. +0,23 % knapp unter bandLow 0,3 → partial — Richtung richtig, Momentum im Finish zu schwach. Quellen: Investing.com, Sunday Guardian Live (30.09.2026)."
             }
           ],
-          "actual": -0.01
+          "actual": 0.23
         },
         {
           "name": "MDAX",
@@ -1132,14 +1163,18 @@
           "bandHigh": 1,
           "confidence": 45,
           "reason": "Screening 30.09.2026: Öl-Rückzug entlastet zyklische Midcaps (Transport, Verbraucher, Industrie) am stärksten — Brent -2,3 % über Nacht (Straits Daily Brief 30.09.) senkt Energiekosten-Ängste; der MDAX hat unter der Öl-/Zins-Doppelbelastung der Vortage stärker gelitten als der DAX und zählt heute zur Aufholfraktion, getragen vom breiten europäischen Vormittags-Risikoappetit (finanzen.net 30.09.). Erwartung: vorsichtige Erholung, +0,1 bis +1,0 %.",
-          "status": "open",
+          "status": "miss",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 MESZ (Stand 12:09/12:10 Uhr): MDAX +0,25 % auf 30.958,86/30.960,15 Punkte (Tageshoch 31.123,55) — der Öl-Rückzug trägt die zyklischen Midcaps wie prognostiziert. Prognose +0,1 bis +1,0 %: im Band, Richtung korrekt (einzige klare Mittags-Positive unter den europäischen Picks). Quellen: finanzen.at, finanzen.ch (30.09.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 30.842,53 Punkte, −0,13 % (dpa-AFX/ARIVA). Miss: Die Öl-Rückzugs-These kippte mit dem Hormuz-Beschuss — Öl drehte wieder ins Plus, der Midcap-Rebound versandete nach Mittagsständen noch im Band (+0,25 %). Quellen: dpa-AFX, ARIVA, finanzen.at (30.09.2026)."
             }
           ],
-          "actual": 0.25
+          "actual": -0.13
         }
       ]
     }
