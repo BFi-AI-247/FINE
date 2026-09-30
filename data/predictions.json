@@ -992,6 +992,108 @@
           "actual": 0
         }
       ]
+    },
+    {
+      "date": "2026-09-30",
+      "title": "Öl-Rückzug und Tech-Rebound vor PCE-Daten: FINE setzt auf den europäischen Vormittag",
+      "picks": [
+        {
+          "name": "DAX",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 0.9,
+          "confidence": 55,
+          "reason": "Screening 30.09.2026: Entspannung an den Schock-Fronten — Brent fällt über Nacht um gut 2 % auf ~102,90 USD bei sich erholenden Hormuz-Flüssen (Straits Daily Brief 30.09.), die 10J-US-Rendite gibt auf ~5,21 % nach (qz.com 29.09.), asiatische Börsen breit im Plus (Bloomberg 29.09.). Der DAX notiert vorbörslich deutlich fester und nähert sich dem Vortageshoch bei 25.617 Punkten (finanzen.net 30.09., 07:17 Uhr); am Dienstag hielt er sich mit +0,10 % auf 25.399 robust trotz Rendite-Hoch (Handelsblatt, finanzen.ch 29.09.). Das PCE-Risiko kommt erst um 16:00 Uhr MESZ — der europäische Vormittag läuft ohne den Zins-Schockdatensatz. Erwartung: moderater Anlauf nach oben, +0,2 bis +0,9 %.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "S&P 500",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "flat",
+          "bandLow": -0.5,
+          "bandHigh": 0.5,
+          "confidence": 45,
+          "reason": "Screening 30.09.2026: Vortag -0,17 % auf 7.671 Punkte bei weiter steigenden Langläufen (30J-Rendite auf 24-Jahres-Hoch 5,62 %; 24/7 Wall St., Investopedia 29.09.). Heute steht der August-PCE-Bericht um 16:30 Uhr MESZ im Fokus — Konsens Kern-PCE 3,4 % (von 3,3 %), ein heißer Wert dürfte Fed-Hike-Wetten und Renditen erneut befeuern (Seeking Alpha, CNBC 29./30.09.). Öl-Rückgang und Tech-Rebound (Nasdaq-100-Futures leicht im Plus, Investopedia 29.09.) stützen, aber das PCE-Ereignis während der US-Session ist binär. Erwartung: abwartender, enger Handel, -0,5 bis +0,5 %.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Infineon",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "direction": "up",
+          "bandLow": 0.4,
+          "bandHigh": 2.2,
+          "confidence": 60,
+          "reason": "Screening 30.09.2026: Tech-Rebound ist die klare Tages-Opportunity — Speicher-/Halbleiterwerte rallieden am Dienstag (Memory-ETF DRAM +3 %, SOXX +1 %; Investopedia 29.09.), Infineon war mit +2,2 % DAX-Spitze (dpa-AFX/onvista 29.09.). Heute Nachmittag (US) berichtet Micron, JPMorgan sieht Beat-and-Raise (AOL 29.09.) — gute Zahlen dürften die Halbleiter-Rotation verlängern. Öl- und Zinsentlastung am Morgen unterstützen Wachstumswerte. Erwartung: Aufwärtstag mit Momentum, +0,4 bis +2,2 %.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "SAP",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1.5,
+          "confidence": 55,
+          "reason": "Screening 30.09.2026: Software profitiert doppelt — fallende Ölpreise und um 3 Bp. entspannte Renditen (qz.com 29.09.) nehmen Druck von Wachstums-/Cashflow-Bewertungen; der Tech-Sektor führte die Erholung an (Schwab 30.09.). SAP hielt sich in der Zins-Stresswoche bemerkenswert stabil und notierte am Dienstag unter den Gewinnern des GD100-Rückhalts (finanzen.net/Prime Quants 29.09.). PCE erst am Nachmittag US-Zeit. Erwartung: moderater Tech-Mitnahme-Gewinn, +0,2 bis +1,5 %.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "NVIDIA",
+          "type": "equity_us",
+          "pickClass": "portfolio",
+          "direction": "up",
+          "bandLow": 0.3,
+          "bandHigh": 2.5,
+          "confidence": 55,
+          "reason": "Screening 30.09.2026: AI-News-Zyklus dominiert — AMD übernimmt World Labs (~8,2 Mrd. USD, Fei-Fei Li) und heizt den AI-Komplex an (hdfcsky/Benzinga 29./30.09.), NVIDIA, AMD und Micron notieren premarket im Plus (TipRanks 30.09.), Micron- Zahlen heute mit Beat-and-Raise-Erwartung (JPMorgan via AOL). Öl-Rückzug und yield-Entlastung stützen Megacap-Tech; Risiko: heißer PCE-Bericht um 16:30 Uhr MESZ könnte Tech-Gewinne nachträglich drücken. Erwartung: AI-Momentum-Tag, +0,3 bis +2,5 %.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "EuroStoxx 50",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1.2,
+          "confidence": 55,
+          "reason": "Screening 30.09.2026: Europäische Erholung vor dem US-PCE-Risiko — asiatische Breiten-Gewinne (Bloomberg 29.09.), Öl deutlich billiger (Brent ~102,90 USD; Straits Daily Brief 30.09.) und ein stabiler DAX-Vortag (+0,10 % trotz Rendite-Rekord, finanzen.ch) sprechen für einen europäischen Risiko-Vormittag; der EuroStoxx 50 profitiert von Tech- und Versicherergewichten, die am Dienstag bereits Stütze waren. Erwartung: +0,2 bis +1,2 %.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Nasdaq 100",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.3,
+          "bandHigh": 1.6,
+          "confidence": 50,
+          "reason": "Screening 30.09.2026: Tech-Rebound mit Rückenwind — Speicher-Rally und AMD/World-Labs-Deal (Investopedia, TipRanks 29./30.09.), Öl-Rückgang und Rendite-Pause entlasten Growth; Micron-Bericht heute Nachbars als möglicher Katalysator für die AI-Hardware-Kette (Yahoo Finance 30.09.). Dämpfer-Risiko: PCE um 16:30 Uhr MESZ mitten in der US-Session (CNBC 30.09.) — Engpässe bei Kern-PCE 3,4 % könnten den Rebound kippen lassen. Erwartung: +0,3 bis +1,6 %.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "MDAX",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.1,
+          "bandHigh": 1,
+          "confidence": 45,
+          "reason": "Screening 30.09.2026: Öl-Rückzug entlastet zyklische Midcaps (Transport, Verbraucher, Industrie) am stärksten — Brent -2,3 % über Nacht (Straits Daily Brief 30.09.) senkt Energiekosten-Ängste; der MDAX hat unter der Öl-/Zins-Doppelbelastung der Vortage stärker gelitten als der DAX und zählt heute zur Aufholfraktion, getragen vom breiten europäischen Vormittags-Risikoappetit (finanzen.net 30.09.). Erwartung: vorsichtige Erholung, +0,1 bis +1,0 %.",
+          "status": "open",
+          "reviews": []
+        }
+      ]
     }
   ]
 }
