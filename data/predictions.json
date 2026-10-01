@@ -1177,6 +1177,111 @@
           "actual": -0.13
         }
       ]
+    },
+    {
+      "date": "2026-10-01",
+      "title": "Öl-Rücksetzer und Micron-Momentum gegen Rendite-Druck: FINE konträr — DAX down, US-Tech up",
+      "picks": [
+        {
+          "name": "DAX",
+          "type": "index",
+          "direction": "down",
+          "bandLow": -1.3,
+          "bandHigh": -0.1,
+          "confidence": 55,
+          "reason": "Screening 01.10.2026: Rendite-Druck bleibt der Taktgeber — die 10-Jahres-US-Rendite notiert mit ~5,3 % nahe dem Hoch (finanzen.net/dpa-AFX 01.10., 08:05 Uhr); der DAX droht nach −0,79 % auf 25.199 Punkte (30.09.) als vorbörslich im Minus der tiefste Stand seit Ende Juli; der Öl-Rücksetzer (Brent über Nacht ~−6 % auf ~97 USD, CNBC) entlastet Europa weniger als der Tech-Komplex die USA. Lern-Log-Regel vom 30.09. angewandt: kein Europa-Index-Long an Rendite-Drucktagen ohne harten Tageskatalysator. Erwartung: −1,3 % bis −0,1 %. Quellen: finanzen.net/dpa-AFX, ariva (dpa-AFX-Flash 07:22 Uhr).",
+          "pickClass": "benchmark",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "S&P 500",
+          "type": "index",
+          "direction": "up",
+          "bandLow": 0,
+          "bandHigh": 1,
+          "confidence": 55,
+          "reason": "Screening 01.10.2026: Softes PCE (3,4 % vs. 3,7 % erwartet, 30.09.) hat die Oktober-Hike-Wetten auf ~35–40 % gedrückt (Yahoo Finance/CME FedWatch); Micron-Rekordquartal mit starkem Ausblick befeuert Tech (CNBC 30.09.), Futures grün (S&P +0,48 %, scanx.trade 01.10.). Risiken: Renditen ~5,3 %, ISM-Index um 16:00 Uhr MESZ. Erwartung: 0,0 % bis +1,0 %. Quellen: Yahoo Finance, CNBC, scanx.trade.",
+          "pickClass": "benchmark",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "NVIDIA",
+          "type": "stock",
+          "direction": "up",
+          "bandLow": 0.3,
+          "bandHigh": 2.5,
+          "confidence": 60,
+          "reason": "Screening 01.10.2026: Klarster Tages-Impuls — Micron-Rekordquartal mit HBM/AI-Boom und starkem Guidance (CNBC/TheStreet 30.09.) hebt die ganze AI-Halbleiter-Kette; Trump lehnt neue KI-Regeln ab (finanzen.net 01.10.); Nasdaq-100-Futures +0,86 % (scanx.trade). NVIDIA schloss 30.09. bei 228,38 USD (finanzen.net-Daten). Erwartung: +0,3 % bis +2,5 %. Quellen: CNBC, TheStreet, finanzen.net, scanx.trade.",
+          "fromPortfolio": true,
+          "pickClass": "portfolio",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Lufthansa",
+          "type": "stock",
+          "direction": "up",
+          "bandLow": 0.4,
+          "bandHigh": 3,
+          "confidence": 55,
+          "reason": "Screening 01.10.2026: Öl-Profiteur des Tages — Brent fällt über Nacht um ~6 % auf ~97 USD bzw. WTI auf 4-Wochen-Tief bei sich erholenden Nahost-Exporten (CNBC 01.10.; FXStreet/Deutsche Bank: Brent-Schluss −2,59 %, WTI −3,48 %); Kerosin ist der größte Kostenblock der Airline — härtester Einzelkatalysator des Morgens. Aktie schloss 30.09. bei 7,67 EUR (finanzen.net-Daten). Erwartung: +0,4 % bis +3,0 %. Quellen: CNBC, FXStreet, finanzen.net.",
+          "fromPortfolio": true,
+          "pickClass": "portfolio",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Infineon",
+          "type": "stock",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 2,
+          "confidence": 50,
+          "reason": "Screening 01.10.2026: Halbleiter-Rotation nach dem Micron-Beat — Tech-Börsen in Japan und Südkorea plus (finanzen.net/dpa-AFX 01.10.), Memory-Preiszahlen und AI-Nachfrage (CNBC) tragen; der DAX-Rendite-Gegenwind begrenzt das Plus, daher schmaleres Band und niedrigere Konfidenz. Aktie schloss 30.09. bei 59,50 EUR. Erwartung: +0,2 % bis +2,0 %. Quellen: finanzen.net/dpa-AFX, CNBC.",
+          "fromPortfolio": true,
+          "pickClass": "portfolio",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Nasdaq 100",
+          "type": "index",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1.5,
+          "confidence": 55,
+          "reason": "Screening 01.10.2026: Tech-Momentum pur — Nasdaq-100-Futures +0,86 % (scanx.trade 01.10.), Micron-Ausblick (CNBC), Trumps KI-Lockerung (finanzen.net) und der nach dem PCE gesunkene Hike-Druck (Schwab 30.09.) stützen Growth. Risiko: 10J-Rendite ~5,3 %, ISM am Nachmittag. Erwartung: +0,2 % bis +1,5 %. Quellen: scanx.trade, Schwab, CNBC.",
+          "pickClass": "free",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Broadcom",
+          "type": "stock",
+          "direction": "up",
+          "bandLow": 0.3,
+          "bandHigh": 2.5,
+          "confidence": 50,
+          "reason": "Screening 01.10.2026: AI-Halbleiter-Tag — Microns Rekordquartal mit starkem FY2027-Start (CNBC, TheStreet 30.09.) hebt die Semi-Value-Chain; Broadcom als AI-Netzwerk-Profiteur partizipiert an derselben Rotation wie NVIDIA, mit breiterem Band wegen fehlender Einzelnews. Erwartung: +0,3 % bis +2,5 %. Quellen: CNBC, TheStreet.",
+          "pickClass": "free",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Microsoft",
+          "type": "stock",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1.8,
+          "confidence": 50,
+          "reason": "Screening 01.10.2026: Soft-PCE-Folgetag — Oktober-Hike-Wetten auf ~35–47 % gesunken (Yahoo Finance, Benzinga 30.09.), das entlastet Software/Growth; Futures grün, Trump-KI-Lockerung (finanzen.net) stützt den AI-Komplex. Risiko: Renditen ~5,3 % drücken Bewertungsmultiples. Aktie schloss 30.09. bei 512,90 USD. Erwartung: +0,2 % bis +1,8 %. Quellen: Yahoo Finance, Benzinga, finanzen.net.",
+          "pickClass": "free",
+          "status": "open",
+          "reviews": []
+        }
+      ]
     }
   ]
 }
