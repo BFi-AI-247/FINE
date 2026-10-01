@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-09-30",
+  "updated": "2026-10-01",
   "totals": {
     "predictions": 48,
     "hits": 21,
@@ -173,6 +173,10 @@
     {
       "date": "2026-09-30",
       "entry": "Abend-Review 30.09.: 1/8 Treffer (NVIDIA +0,51 %), 4 partial (S&P 500 +0,66 % über das Flat-Band; Infineon +0,34 %, SAP +0,18 %, Nasdaq 100 +0,23 % — alle knapp unter bandLow), 3 Misses (DAX −0,79 %, EuroStoxx 50 −0,81 %, MDAX −0,13 %); Richtung 4/8. Ein Tag der intraday-Wende: Der Morgen-Screen (Öl-Rückzug + Tech-Rebound, Fokus europäischer Vormittag) wurde überrollt — (a) Eurozonen-Inflation (Deutschland 3,3 %, Italien-Sprung) drückte Europa den ganzen Tag, (b) Beschuss von Tankern in der Straße von Hormuz ließ Öl wieder steigen; die USA feierten den soften PCE (3,4 % vs. 3,7 % erwartet, Hike-Wetten sanken) mit S&P +0,66 %. Was gut lief: US-seitige up-Picks trafen die Richtung (NVIDIA Hit; Nasdaq 100 partial knapp unter Band). Was schlecht lief: Alle drei europäischen Index-up-Picks kippten unter Inflations-/Öl-Druck; die Depot-Picks Infineon und SAP lagen mit +0,34 %/+0,18 % haarscharf unter bandLow; die PCE-Flat-Lesart für den S&P 500 war nach dem 25.09. zum zweiten Mal oberseitig zu eng. Kalibrierungs-Anpassungen: (1) Flat-Bänder der Benchmarks an Entspannungstagen oberseitig weiten (±0,7 % statt ±0,5 %) — wiederholt beobachtete partial-Ursache. (2) An Tagen mit eurozonener Inflationsdatenlage (DE/EU-Verbraucherpreise am Vormittag) keine europäischen Index-up-Picks ohne harten Tageskatalysator — gleiche Schutzregel wie bei Öl-/Zins-Schocktagen. (3) Bänder NICHT senken: Der Partial-Cluster knapp unter bandLow zeigt korrekt kalibrierte Bänder (kein Tiefbieten); der Fehler war die Richtungsannahme Europa-Long vor US-Daten, nicht die Bandbreite. (4) Geopolitische Eskalations-Meldungen (Hormuz) künftig im Mittags-Slot als Kipp-Signal für Öl-thesen bewerten — der MDAX war mittags noch im Band (+0,25 %)."
+    },
+    {
+      "date": "2026-10-01",
+      "entry": "Morgen-Job 01.10.: Screen vor Pick — geteilte Marktlage: Öl-Rücksetzer über Nacht (Brent ~−6 % auf ~97 USD, WTI 4-Wochen-Tief bei sich erholenden Nahost-Exporten, CNBC/FXStreet) gegen anhaltenden Rendite-Druck (10J ~5,3 %) — DAX droht dem tiefsten Stand seit Ende Juli (finanzen.net/dpa-AFX); US-Seite im Tech-Momentum nach Micron-Rekordquartal (starkes Guidance, CNBC) und softem PCE (Hike-Wetten nur noch ~35–40 %), Futures grün (Nasdaq 100 +0,86 %, scanx). Picks: Benchmarks konträr getrennt — DAX down (erste Down-Benchmark-Prognose; Lern-Log-Regel 30.09. ‚kein Europa-Long an Rendite-Drucktagen ohne harten Katalysator‘ konsequent angewandt, Öl-Entlastung übersteuert den Rendite-Druck im DAX nicht), S&P 500 up auf PCE-Folge-Momentum. 3 Depot-Picks auf Tages-Opportunität: NVIDIA (AI/Micron-Impuls, Konfidenz 60 als klarster Impuls), Lufthansa (Öl-Profiteur mit härtestem Einzelkatalysator — Kerosinkosten), Infineon (Semi-Rotation, aber DAX-Gegenwind → schmaleres Band 0,2–2,0). 3 freie Picks auf denselben Tech/AI-Impuls: Nasdaq 100, Broadcom, Microsoft. Bewusst KEINE Europa-Index-Longs (EStoxx/MDAX) nach den beiden Kipp-Tagen und KEINE Zinsprofiteure (Lern-Log-Regel 29.09.). Risiko: Wenn der DAX-Vormittag doch grün startet (Öl-Entlastung greift schneller als erwartet), ist die Down-Prognose der schwächste Pick des Tages — bewusstes Gegenpositionieren gegen den Vortages-Trend, getragen vom vorbörslichen Minus und der Verkaufslogik am Anleihemarkt (Consorsbank: ‚mit jeder neuen Verkaufswelle am Anleihemarkt wächst der Druck auf den Dax‘)."
     }
   ]
 }
