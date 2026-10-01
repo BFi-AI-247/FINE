@@ -2,102 +2,108 @@
   "version": 4,
   "updated": "2026-10-01",
   "totals": {
-    "predictions": 48,
-    "hits": 21,
-    "partial": 6,
-    "misses": 21,
+    "predictions": 56,
+    "hits": 25,
+    "partial": 7,
+    "misses": 24,
     "overshoots": 2,
-    "directionCorrect": 25,
-    "hitRate": 0.4375
+    "directionCorrect": 30,
+    "hitRate": 0.4464
   },
   "benchmark": {
-    "predictions": 13,
-    "hits": 4,
+    "predictions": 15,
+    "hits": 6,
     "partial": 3,
     "misses": 6,
     "overshoots": 0,
-    "directionCorrect": 5,
-    "hitRate": 0.3077,
+    "directionCorrect": 7,
+    "hitRate": 0.4,
     "note": "Fix-Indizes DAX + S&P 500 — misst Markt-Lese-Qualität. Enge, realistische Bänder korrekt; kein Mut-Kriterium."
   },
   "picks": {
-    "predictions": 35,
-    "hits": 17,
-    "partial": 3,
-    "misses": 15,
+    "predictions": 41,
+    "hits": 19,
+    "partial": 4,
+    "misses": 18,
     "overshoots": 2,
-    "directionCorrect": 20,
-    "hitRate": 0.4857,
+    "directionCorrect": 23,
+    "hitRate": 0.4634,
     "note": "Echte Picks: 2x Depot + 1 frei — misst Opportunity-Finding. Mindest-Band + Boldness gelten hier."
   },
   "byInstrumentType": {
     "index": {
-      "predictions": 28,
-      "hits": 11,
+      "predictions": 31,
+      "hits": 14,
       "partial": 4,
       "misses": 13,
       "overshoots": 0,
-      "directionCorrect": 13,
-      "hitRate": 0.3929
+      "directionCorrect": 16,
+      "hitRate": 0.4516
     },
     "equity_de": {
-      "predictions": 18,
+      "predictions": 20,
       "hits": 8,
       "partial": 2,
-      "misses": 8,
+      "misses": 10,
       "overshoots": 1,
       "directionCorrect": 10,
-      "hitRate": 0.4444
+      "hitRate": 0.4
     },
     "equity_us": {
-      "predictions": 2,
-      "hits": 2,
-      "partial": 0,
-      "misses": 0,
+      "predictions": 5,
+      "hits": 3,
+      "partial": 1,
+      "misses": 1,
       "overshoots": 1,
-      "directionCorrect": 2,
-      "hitRate": 1
+      "directionCorrect": 4,
+      "hitRate": 0.6
     }
   },
   "byPickClass": {
     "benchmark": {
-      "predictions": 13,
-      "hits": 4,
+      "predictions": 15,
+      "hits": 6,
       "partial": 3,
       "misses": 6,
       "overshoots": 0,
-      "directionCorrect": 5,
-      "hitRate": 0.3077
+      "directionCorrect": 7,
+      "hitRate": 0.4
     },
-    "portfolio": {
-      "predictions": 17,
-      "hits": 7,
+    "free": {
+      "predictions": 21,
+      "hits": 11,
       "partial": 2,
       "misses": 8,
       "overshoots": 1,
-      "directionCorrect": 9,
-      "hitRate": 0.4118
+      "directionCorrect": 13,
+      "hitRate": 0.5238
     },
-    "free": {
-      "predictions": 18,
-      "hits": 10,
-      "partial": 1,
-      "misses": 7,
+    "portfolio": {
+      "predictions": 20,
+      "hits": 8,
+      "partial": 2,
+      "misses": 10,
       "overshoots": 1,
-      "directionCorrect": 11,
-      "hitRate": 0.5556
+      "directionCorrect": 10,
+      "hitRate": 0.4
     }
   },
   "boldness": {
     "note": "Mut-Metrik gegen Tiefbieten — NUR echte Picks (Benchmark-Indizes ausgeschlossen).",
-    "avgBandHigh": 1.6257,
-    "avgActual": -0.2697,
+    "avgBandHigh": 1.7122,
+    "avgActual": -0.2622,
     "months": [
       {
         "month": "2026-09",
         "picks": 35,
         "avgBandHigh": 1.6257,
         "avgActual": -0.2697
+      },
+      {
+        "month": "2026-10",
+        "picks": 6,
+        "avgBandHigh": 2.2167,
+        "avgActual": -0.2183
       }
     ]
   },
@@ -177,6 +183,10 @@
     {
       "date": "2026-10-01",
       "entry": "Morgen-Job 01.10.: Screen vor Pick — geteilte Marktlage: Öl-Rücksetzer über Nacht (Brent ~−6 % auf ~97 USD, WTI 4-Wochen-Tief bei sich erholenden Nahost-Exporten, CNBC/FXStreet) gegen anhaltenden Rendite-Druck (10J ~5,3 %) — DAX droht dem tiefsten Stand seit Ende Juli (finanzen.net/dpa-AFX); US-Seite im Tech-Momentum nach Micron-Rekordquartal (starkes Guidance, CNBC) und softem PCE (Hike-Wetten nur noch ~35–40 %), Futures grün (Nasdaq 100 +0,86 %, scanx). Picks: Benchmarks konträr getrennt — DAX down (erste Down-Benchmark-Prognose; Lern-Log-Regel 30.09. ‚kein Europa-Long an Rendite-Drucktagen ohne harten Katalysator‘ konsequent angewandt, Öl-Entlastung übersteuert den Rendite-Druck im DAX nicht), S&P 500 up auf PCE-Folge-Momentum. 3 Depot-Picks auf Tages-Opportunität: NVIDIA (AI/Micron-Impuls, Konfidenz 60 als klarster Impuls), Lufthansa (Öl-Profiteur mit härtestem Einzelkatalysator — Kerosinkosten), Infineon (Semi-Rotation, aber DAX-Gegenwind → schmaleres Band 0,2–2,0). 3 freie Picks auf denselben Tech/AI-Impuls: Nasdaq 100, Broadcom, Microsoft. Bewusst KEINE Europa-Index-Longs (EStoxx/MDAX) nach den beiden Kipp-Tagen und KEINE Zinsprofiteure (Lern-Log-Regel 29.09.). Risiko: Wenn der DAX-Vormittag doch grün startet (Öl-Entlastung greift schneller als erwartet), ist die Down-Prognose der schwächste Pick des Tages — bewusstes Gegenpositionieren gegen den Vortages-Trend, getragen vom vorbörslichen Minus und der Verkaufslogik am Anleihemarkt (Consorsbank: ‚mit jeder neuen Verkaufswelle am Anleihemarkt wächst der Druck auf den Dax‘)."
+    },
+    {
+      "date": "2026-10-01",
+      "entry": "Abend-Review 01.10.: 4/8 Treffer (DAX down −1,03 % voll im Band — der konträre Rendite-Druck-Call traf exakt; S&P 500 +0,23 %, NVIDIA +1,15 %, Nasdaq 100 ≈ +0,31 %), 1 partial (Microsoft +0,17 % knapp unter bandLow +0,2 %), 3 Misses (Lufthansa −1,02 %, Infineon −0,13 %, Broadcom −1,79 %); Richtung 5/8. Was gut lief: Die Trennung Europa/Rendite-Druck vs. US-Tech/Micron-Momentum war richtig — beide Benchmarks trafen erstmals seit dem 25.09. wieder gemeinsam, und der Down-Call auf den DAX bewertete die Öl-Entlastung korrekt als zweitrangig hinter der 10J-Rendite (~5,3 %); die US-Tech-Rotation (NVIDIA, Nasdaq 100) bestätigte den Screening-Fokus. Was schlecht lief: (1) Lufthansa — die Öl-These war zu mechanisch: Kerosin-Entlastung hilft nicht an einem Risiko-Abverkaufstag mit DAX −1 %; (2) Infineon — zweiter Micron-Impuls in Folge, der sich intraday vollständig zurückbildete (+1,7 % Eröffnung → −0,13 % Schluss); (3) Broadcom — Semi-Rotation ohne eigene Nachricht getragen, während NVIDIA als konkreter Profiteur lief. Kalibrierungs-Anpassungen: (1) Sektorthesen (Öl → Airline) nur noch an Tagen mit positivem Gesamtmarkt-Stresstensor (DAX/US-Breitband nicht klar negativ) — sonst keine zyklischen Profiteur-Picks. (2) Halbleiter-Eröffnungsimpuls ohne eigenen Einzelkatalysator künftig als intraday-reversibel einstufen: Infineon-up-Picks nur noch mit unternehmensspezifischem News-Katalysator UND nicht-klarem DAX-Down. (3) Semi-Frei-Picks nur mit eigenhändigem Katalysator (Micron half NVIDIA, nicht Broadcom) — Faustregel: Sektor-Beat profitiert dem profilierten Profiteur, nicht der ganzen Value Chain. (4) Benchmark-Lesung heute stark (DAX-Down exakt, S&P in Band) — die 30.09.-Regel (Europa-Long nur mit hartem Katalysator an Rendite-Drucktagen) ausbauen: künftig an Rendite-Drucktagen bevorzugt DAX-down/flat statt up erzwingen."
     }
   ]
 }
