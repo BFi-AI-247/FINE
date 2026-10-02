@@ -1330,6 +1330,111 @@
           "actual": 0.17
         }
       ]
+    },
+    {
+      "date": "2026-10-02",
+      "title": "Nach DAX-Rutsch vor dem US-Jobsreport: Rendite-Druck gegen Micron-Momentum — FINE mit vorsichtigen Benchmarks und Tech-Upside",
+      "picks": [
+        {
+          "name": "DAX",
+          "type": "index",
+          "direction": "flat",
+          "bandLow": -0.8,
+          "bandHigh": 0.5,
+          "confidence": 50,
+          "reason": "Screening 02.10.2026: Vortag -1,03 % auf 24.939,35 Punkte, erster Schluss unter 25.000 seit Juli (dpa-AFX); Taktgeber bleiben die Zinsen: 10-Jahres-US-Rendite am Donnerstag mit 5,342 % auf höchstem Stand seit 2002 (n-tv), Bund-Rendite erstmals seit 2008 über 3,6 %, Eurozonen-Inflation über EZB-Ziel. DAX-Futures im Frühhandel kaum verändert (Tradegate 06:13 Uhr); Öl-Rücksetzer auf ~97 USD Brent bei weitgehend wiederhergestellten Golf-Flüssen (OilPrice.com) entlastet. Tagesereignis: US-Jobsreport 14:30 MESZ (Konsens ~90-100k Stellen, Arbeitslosenquote 4,1 %, Newsquawk/TradingKey) — binär für die Zinsen. Lern-Log-Regel vom 30.09. angewandt: an Rendite-Drucktagen kein up-Benchmark ohne harten Tages-Katalysator — nach dem Rutsch stabile, aber leicht abwärts geneigte Erwartung. Erwartung: -0,8 % bis +0,5 %. Quellen: dpa-AFX, n-tv, OilPrice.com, Newsquawk, TradingKey.",
+          "pickClass": "benchmark",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "S&P 500",
+          "type": "index",
+          "direction": "flat",
+          "bandLow": -0.4,
+          "bandHigh": 0.7,
+          "confidence": 55,
+          "reason": "Screening 02.10.2026: Vortag +0,19 % auf 7.666,45 Punkte trotz Rekordrenditen (finanzen.ch Schluss), Nasdaq 100 +0,31 % — Tech trug; Micron-Zahlen-Hammer (bereinigtes EPS 33,42 USD vs. 31,61 USD erwartet, wallstreetONLINE) stützt die AI-Kette. US-Session wird vom Jobsreport um 14:30 MESZ geprägt (Konsens ~90-100k, Quote 4,1 %, Newsquawk): moderate Abkühlung gilt als zinsentlastend und börsenfreundlich (TradingKey), ein Beat wie im August (+162k) entzünde den Rendite-Schock erneut (Cash). Regel aus dem Abend-Review 30.09. konsequent angewandt: Flat-Band oberseitig auf ±0,7 % geweitet. Erwartung: -0,4 % bis +0,7 %. Quellen: finanzen.ch, wallstreetONLINE, Newsquawk, TradingKey, Cash.",
+          "pickClass": "benchmark",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Infineon",
+          "type": "equity_de",
+          "direction": "up",
+          "bandLow": 0.3,
+          "bandHigh": 1.8,
+          "confidence": 60,
+          "reason": "Screening 02.10.2026: Micron-Rekordquartal mit starkem Ausblick hat am Donnerstag den europäischen Chipsektor gestützt (aktien.news/dpa); Memory-Preis-Momentum und AI-Infra-Nachfrage sind der klarste Sektor-Wind des Tages. Infineon als DAX-Tech-Hebel mit Halbleiter-Beta und Rebound-Potenzial nach dem DAX-Rutsch (-1,03 %). Faustregel aus dem Lern-Log 30.09. beachtet: Sektor-Beat profitiert dem profilierten Profiteur — Infineon ist über die DRAM-Sparte (Winbond-Deal) direkt im Memory-Zyklus verankert. Risiko: Rendite-Druck auf Growth, Jobsreport-Überraschung. Erwartung: +0,3 % bis +1,8 %. Quellen: aktien.news, wallstreetONLINE, dpa-AFX.",
+          "fromPortfolio": true,
+          "pickClass": "portfolio",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "NVIDIA",
+          "type": "equity_us",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 2,
+          "confidence": 60,
+          "reason": "Screening 02.10.2026: Micron-Guidance bestätigt den AI-Capex-Boom (HBM/AI, CNBC 30.09.); HPE-Milliarden-AI-Auftrag (+5,62 % am Donnerstag) zeigt intakte Enterprise-AI-Nachfrage; Nasdaq 100 +0,31 % am Donnerstag (finanzen.ch). NVIDIA als profilierter AI-Profiteur mit eigenem Katalysator-Umfeld — genau die Lern-Log-Faustregel vom 30.09. (Sektor-Beat profitiert dem profilierten Profiteur, nicht der ganzen Value Chain). US-Wert: bis 15:30 MESZ Vortags-/Pre-Market-Daten. Risiko: Rendite-Spike nach starkem Jobsreport. Erwartung: +0,2 % bis +2,0 %. Quellen: CNBC, finanzen.ch, wallstreetONLINE, Newsquawk.",
+          "fromPortfolio": true,
+          "pickClass": "portfolio",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Allianz",
+          "type": "equity_de",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1.8,
+          "confidence": 55,
+          "reason": "Screening 02.10.2026: Frischer Rendite-Impuls am Donnerstag — 10-Jahres-US-Rendite mit 5,342 % auf höchstem Stand seit 2002 (n-tv), Bund-Rendite erstmals seit 2008 über 3,6 %: Die Wiederanlage-Erträge für Versicherer steigen. Lern-Log-Regel vom 29.09. beachtet: Zinsprofiteur-Muster trägt nur am FRISCHEN Rendite-Impuls — gestatten neues Mehrjahrshoch, kein Folgetag-Effekt wie beim 29.09.-Fehlschlag. Muster war am 24.09. validiert (Munich Re + Allianz 2/2 Treffer). Allianz zudem defensiv im überverkauften DAX (Vortag -1,03 %). Risiko: Renditen geben nach, schwacher Jobsreport dämpft den Zins-Tailwind. Erwartung: +0,2 % bis +1,8 %. Quellen: n-tv, dpa-AFX, OilPrice.com.",
+          "fromPortfolio": true,
+          "pickClass": "portfolio",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Nasdaq 100",
+          "type": "index",
+          "direction": "up",
+          "bandLow": 0.1,
+          "bandHigh": 1.5,
+          "confidence": 55,
+          "reason": "Screening 02.10.2026: Tech zeigte sich am Rendite-Tag unbeeindruckt — Nasdaq 100 +0,31 % auf 30.501,56 Punkte (finanzen.ch); Micron-Ergebnis-Hammer und AI-Auftragszyklus (HPE 1,2 Mrd. USD) tragen; PCE-Signal (Hike-Wetten gesunken) entlastet Growth-Bewertungen. Jobsreport-Konsens (moderate Abkühlung) wäre zinsfreundlich (TradingKey) — Tech als größter Profiteur nachgebender Renditen. Mutiges Band gemäß Pick-Regel (Index mind. +1,0 % oben). Risiko: Jobsreport-Beat treibt Renditen und drückt Growth. Erwartung: +0,1 % bis +1,5 %. Quellen: finanzen.ch, wallstreetONLINE, TradingKey.",
+          "pickClass": "free",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Dow Jones",
+          "type": "index",
+          "direction": "up",
+          "bandLow": 0.1,
+          "bandHigh": 1,
+          "confidence": 50,
+          "reason": "Screening 02.10.2026: Dow am Donnerstag stabil (~50.927 Punkte, finanzen.ch/AP); September-Minus von -4,3 % (Zacks) bietet Rebound-Raum; Öl-Rücksetzer (Brent ~97 USD, Golf-Flüsse nahe Vorkriegsniveau laut Goldman/JPM/Kpler, OilPrice.com) entlastet zyklische Blue Chips und Transports. Jobsreport-Dilemma (Cash: Bad News is Good News) — moderate Schwäche gilt als zinsentlastend, ein starker Report würde Renditen und den zinssensiblen Dow belasten; daher bewusst niedrigste Konfidenz. Erwartung: +0,1 % bis +1,0 %. Quellen: finanzen.ch, OilPrice.com, Cash, Zacks, Newsquawk.",
+          "pickClass": "free",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "EuroStoxx 50",
+          "type": "index",
+          "direction": "flat",
+          "bandLow": -0.7,
+          "bandHigh": 1,
+          "confidence": 50,
+          "reason": "Screening 02.10.2026: EuroStoxx 50 am Donnerstag deutlich schwächer (zeitweise -1,3 %, boerse.de Tagesvorschau) unter Eurozonen-Inflations- und Renditedruck (Bund >3,6 %); heute Früh Futures kaum verändert. Stützen: Versicherergewichte als Rendite-Profiteure (vgl. Allianz-Depot-Pick-Logik) und der Öl-Rücksetzer für Europa-Importeure; Risiko: weiterer Rendite-Anstieg vor dem Wochenende und Reaktion auf den US-Jobsreport am Nachmittag. Lern-Log-Regel 30.09. (kein Europa-Long ohne harten Katalysator an Rendite-Drucktagen) → Flat-Lesart, Band oberseitig gemäß Kalibrierungs-Regel geweitet (mind. +1,0 %). Erwartung: -0,7 % bis +1,0 %. Quellen: boerse.de, n-tv, OilPrice.com, Newsquawk.",
+          "pickClass": "free",
+          "status": "open",
+          "reviews": []
+        }
+      ]
     }
   ]
 }
