@@ -41,22 +41,22 @@
       "hitRate": 0.4444
     },
     "equity_de": {
-      "predictions": 20,
+      "predictions": 22,
       "hits": 10,
       "partial": 2,
-      "misses": 8,
+      "misses": 10,
       "overshoots": 2,
       "directionCorrect": 12,
-      "hitRate": 0.5
+      "hitRate": 0.4545
     },
     "equity_us": {
-      "predictions": 3,
-      "hits": 3,
-      "partial": 0,
-      "misses": 0,
+      "predictions": 6,
+      "hits": 4,
+      "partial": 1,
+      "misses": 1,
       "overshoots": 1,
-      "directionCorrect": 3,
-      "hitRate": 1
+      "directionCorrect": 5,
+      "hitRate": 0.6667
     }
   },
   "byPickClass": {
