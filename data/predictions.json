@@ -1529,7 +1529,15 @@
           "bandLow": 0.1,
           "bandHigh": 1.2,
           "confidence": 55,
-          "reason": "Screening 05.10.2026: Freitag +1,17 % zurück über 25.000 Punkte (dpa-AFX, FINE-Abend-Review 02.10.) nach Zinsentlastung durch schwachen US-Jobsreport (nur +29.000 Stellen, 10-Jahres-Rendite zurück auf 5,20 %, AP). Wochenende im Zeichen der Öl-Entlastung: OPEC+ hält November-Produktion stabil, G7 geben bis zu 100 Mio. Barrel Öl und Diesel frei (AP) — Kostensenker für den Öl-Importeur Deutschland. Nach der 02.10.-Lern-Regel (erwarteter Makro-Katalysator mit Zins-Entlastungsszenario = harter Katalysator) erstmals wieder up-Benchmark. Risiko: Iran-Kriegs-Eskalation (Ölminister-Rücktritt, AFP)."
+          "reason": "Screening 05.10.2026: Freitag +1,17 % zurück über 25.000 Punkte (dpa-AFX, FINE-Abend-Review 02.10.) nach Zinsentlastung durch schwachen US-Jobsreport (nur +29.000 Stellen, 10-Jahres-Rendite zurück auf 5,20 %, AP). Wochenende im Zeichen der Öl-Entlastung: OPEC+ hält November-Produktion stabil, G7 geben bis zu 100 Mio. Barrel Öl und Diesel frei (AP) — Kostensenker für den Öl-Importeur Deutschland. Nach der 02.10.-Lern-Regel (erwarteter Makro-Katalysator mit Zins-Entlastungsszenario = harter Katalysator) erstmals wieder up-Benchmark. Risiko: Iran-Kriegs-Eskalation (Ölminister-Rücktritt, AFP).",
+          "status": "partial",
+          "actual": 0.09,
+          "reviews": [
+            {
+              "slot": "Abend",
+              "text": "Abend 22:00: Die Öl-Entlastung wirkte nur halb so stark wie gehofft: Brent pendelte zwischen 100 und 103 USD, die 10-Jahres-US-Rendite stieg auf 5,31 % (AP). Xetra-Schluss 25.254,21 Punkte, +0,09 % (onvista Xetra-Kurs) — Richtung richtig, aber knapp unter bandLow +0,1 %: partial. Quellen: onvista, AP."
+            }
+          ]
         },
         {
           "name": "S&P 500",
@@ -1539,7 +1547,15 @@
           "bandLow": 0.2,
           "bandHigh": 1,
           "confidence": 55,
-          "reason": "Screening 05.10.2026: Freitag +0,9 % Richtung Allzeithoch, Nasdaq Composite +1,2 %, Dow +357 Punkte (AP); Job-Schock als Zins-Geschenk (10J-Rendite 5,20 %, AP). Öl-Entlastung am Wochenende (OPEC+-Beschluss, G7-Reserve, AP) stützt Inflationserwartungen. US-Werte handeln erst ab 15:30 Uhr MEZ — Basis sind Vortagsschluss und Frühindikation. Risiko: Renditeniveau bleibt hoch (T. Rowe Price sieht 5,5–6 % als credible, AP)."
+          "reason": "Screening 05.10.2026: Freitag +0,9 % Richtung Allzeithoch, Nasdaq Composite +1,2 %, Dow +357 Punkte (AP); Job-Schock als Zins-Geschenk (10J-Rendite 5,20 %, AP). Öl-Entlastung am Wochenende (OPEC+-Beschluss, G7-Reserve, AP) stützt Inflationserwartungen. US-Werte handeln erst ab 15:30 Uhr MEZ — Basis sind Vortagsschluss und Frühindikation. Risiko: Renditeniveau bleibt hoch (T. Rowe Price sieht 5,5–6 % als credible, AP).",
+          "status": "hit",
+          "actual": 0.66,
+          "reviews": [
+            {
+              "slot": "Abend",
+              "text": "Abend 22:00: Schluss 7.773,95 Punkte, +0,66 % — nur 0,3 % unter dem Allzeithoch (AP, CNBC); M&A-Tailwind (PTC/Schneider Electric, RXO/C.H. Robinson, AP) trug. Sauber im Band (0,2–1,0 %): hit. Quellen: AP, CNBC."
+            }
+          ]
         },
         {
           "name": "Infineon",
@@ -1549,7 +1565,15 @@
           "bandLow": 0.3,
           "bandHigh": 3.2,
           "confidence": 60,
-          "reason": "Freitag +8,78 % auf 64,64 EUR Schluss (finanzen.net/Finance-Daten) im Micron-/Speicher-Sog; Südkorea verbucht September-Exportrekord (>107 Mrd. EUR) getrieben von KI-Halbleitern (AFP) — Speicher-/KI-Boom bleibt der stärkste Sektor-Tailwind. Lern-Regel vom 02.10. (Overshoot-Systematik): oberes Band bei frischem Sektor-Katalysator mutig setzen (≥ +3 %). Risiko: Pause/Konsolidierung nach dem 8,8 %-Tag."
+          "reason": "Freitag +8,78 % auf 64,64 EUR Schluss (finanzen.net/Finance-Daten) im Micron-/Speicher-Sog; Südkorea verbucht September-Exportrekord (>107 Mrd. EUR) getrieben von KI-Halbleitern (AFP) — Speicher-/KI-Boom bleibt der stärkste Sektor-Tailwind. Lern-Regel vom 02.10. (Overshoot-Systematik): oberes Band bei frischem Sektor-Katalysator mutig setzen (≥ +3 %). Risiko: Pause/Konsolidierung nach dem 8,8 %-Tag.",
+          "status": "miss",
+          "actual": -1.81,
+          "reviews": [
+            {
+              "slot": "Abend",
+              "text": "Abend 22:00: Die erwartete Pause nach dem 8,8-%-Freitag trat ein: Schluss 63,47 EUR, −1,81 % (Finance-/Kursdaten via Finanzen-Suche, finanzen.net) — der Südkorea-Exportrekord konnte den Konsolidierungsdruck nicht wettmachen; das mutige 3,2-%-Band fing den Gegentrend nicht ein. Richtung falsch: miss."
+            }
+          ]
         },
         {
           "name": "Rheinmetall",
@@ -1559,7 +1583,16 @@
           "bandLow": 0.2,
           "bandHigh": 1.8,
           "confidence": 55,
-          "reason": "Schluss 956,90 EUR (+1,2 % am Freitag, Finance-Daten); Verteidigung als struktureller Profiteur: Ifo sieht höhere Ausgaben für Verteidigung und Infrastruktur als Konjunkturstütze (AFP, 02.10.); EU-Gipfel der Staats- und Regierungschefs Mitte Oktober als möglicher Themen-Katalysator (AFP). Öl-Entlastung senkt Energiekosten. Risiko: kein harter Tages-Einzelkatalysator."
+          "reason": "Schluss 956,90 EUR (+1,2 % am Freitag, Finance-Daten); Verteidigung als struktureller Profiteur: Ifo sieht höhere Ausgaben für Verteidigung und Infrastruktur als Konjunkturstütze (AFP, 02.10.); EU-Gipfel der Staats- und Regierungschefs Mitte Oktober als möglicher Themen-Katalysator (AFP). Öl-Entlastung senkt Energiekosten. Risiko: kein harter Tages-Einzelkatalysator.",
+          "status": "hit",
+          "actual": 2.43,
+          "overshoot": true,
+          "reviews": [
+            {
+              "slot": "Abend",
+              "text": "Abend 22:00: Schluss 980,20 EUR, +2,43 % (Finance-/Kursdaten via Finanzen-Suche, finanzen.net) — Verteidigungsthese mit EU-Gipfel-Ausblick trug; klar über dem oberen Band-Rand (+1,8 %): hit mit Übererfüllung (overshoot)."
+            }
+          ]
         },
         {
           "name": "Tesla",
@@ -1569,7 +1602,15 @@
           "bandLow": 0.3,
           "bandHigh": 2.5,
           "confidence": 55,
-          "reason": "Q3-Auslieferungen 486.532 über Erwartungen, Aktie Freitag zeitweise +5 % (AFP); Rekord-Diesel-/Benzinpreise durch den Iran-Krieg (AP) stärken die EV-Nachfragethese; Nasdaq-Momentum (+1,2 %, AP) stützt das Tech-Sentiment. US-Handel erst ab 15:30 Uhr MEZ. Risiko: Jahresperformance weiterhin negativ (−21 % YTD vor Freitag, AFP), hohe Volatilität."
+          "reason": "Q3-Auslieferungen 486.532 über Erwartungen, Aktie Freitag zeitweise +5 % (AFP); Rekord-Diesel-/Benzinpreise durch den Iran-Krieg (AP) stärken die EV-Nachfragethese; Nasdaq-Momentum (+1,2 %, AP) stützt das Tech-Sentiment. US-Handel erst ab 15:30 Uhr MEZ. Risiko: Jahresperformance weiterhin negativ (−21 % YTD vor Freitag, AFP), hohe Volatilität.",
+          "status": "hit",
+          "actual": 2.1,
+          "reviews": [
+            {
+              "slot": "Abend",
+              "text": "Abend 22:00: Schluss 379,23 USD, +2,10 % (Kursdaten via Finanzen-Suche) — der Q3-Auslieferungs-Beat wirkte nach; Berichte über mögliche TSMC-Kooperation mit Musks Terafab-Initiative unterstützten (Trading Economics/CNBC). Sauber im Band: hit."
+            }
+          ]
         },
         {
           "name": "EuroStoxx 50",
@@ -1579,7 +1620,15 @@
           "bandLow": 0.2,
           "bandHigh": 1.1,
           "confidence": 55,
-          "reason": "Öl-Entlastung (OPEC+ stabil, G7-100-Mio.-Barrel-Freigabe, AP) wirkt europabreit als Inflations-/Kaufkraft-Entlastung; Freitag +1,02 % (FINE-Abend-Review 02.10.); Zinsrücksetzer nach Job-Schock (AP) trägt europäische Indizes. Mindest-Band 1,0 % als echter Pick eingehalten."
+          "reason": "Öl-Entlastung (OPEC+ stabil, G7-100-Mio.-Barrel-Freigabe, AP) wirkt europabreit als Inflations-/Kaufkraft-Entlastung; Freitag +1,02 % (FINE-Abend-Review 02.10.); Zinsrücksetzer nach Job-Schock (AP) trägt europäische Indizes. Mindest-Band 1,0 % als echter Pick eingehalten.",
+          "status": "partial",
+          "actual": 0.06,
+          "reviews": [
+            {
+              "slot": "Abend",
+              "text": "Abend 22:00: Schluss 6.242,14 Punkte, +0,06 % (onvista) — die Öl-Entlastung kam im Eurozonenschluss kaum an, Frankreich-Sorgen (CAC 40 −0,9 %, AP) zogen. Richtung richtig, aber unter bandLow +0,2 %: partial."
+            }
+          ]
         },
         {
           "name": "Nasdaq 100",
@@ -1589,7 +1638,15 @@
           "bandLow": 0.3,
           "bandHigh": 1.4,
           "confidence": 60,
-          "reason": "Tech-Immunität an Rendite-Drucktagen zweimal in Folge bestätigt (Lern-Log 02.10.); Freitag Nasdaq Composite +1,2 % (AP), Zinsentlastung auf 5,20 % (AP) hilft Growth-Aktien; Südkorea-Exportrekord als KI-Sektor-Bestätigung (AFP). Stärkster freier Pick des Tages."
+          "reason": "Tech-Immunität an Rendite-Drucktagen zweimal in Folge bestätigt (Lern-Log 02.10.); Freitag Nasdaq Composite +1,2 % (AP), Zinsentlastung auf 5,20 % (AP) hilft Growth-Aktien; Südkorea-Exportrekord als KI-Sektor-Bestätigung (AFP). Stärkster freier Pick des Tages.",
+          "status": "hit",
+          "actual": 0.85,
+          "reviews": [
+            {
+              "slot": "Abend",
+              "text": "Abend 22:00: Schluss 31.068,33 Punkte, +0,85 % (onvista; TheStreet nennt +0,87 %, Rekordstand) — die Tech-Immunität gegen den Rendite-Anstieg bestätigte sich zum dritten Mal in Folge; im Band: hit. Quellen: onvista, TheStreet."
+            }
+          ]
         },
         {
           "name": "MDAX",
@@ -1599,7 +1656,15 @@
           "bandLow": 0.1,
           "bandHigh": 1.1,
           "confidence": 50,
-          "reason": "Deutsche Midcaps als Öl-Entlastungs-Profiteure (Brent-Rückzug von den Kriegshochs senkt Transport-/Energiekosten); Ifo-Chemie-Stimmungsindex zweiten Monat in Folge gestiegen (AFP, 02.10.) als Konjunktur-Frühindikator; DAX-Momentum von Freitag (+1,17 %) strahlt ab. Schwächster Konfidenzwert des Tages wegen Midcap-Liquidität und fehlendem Einzelkatalysator."
+          "reason": "Deutsche Midcaps als Öl-Entlastungs-Profiteure (Brent-Rückzug von den Kriegshochs senkt Transport-/Energiekosten); Ifo-Chemie-Stimmungsindex zweiten Monat in Folge gestiegen (AFP, 02.10.) als Konjunktur-Frühindikator; DAX-Momentum von Freitag (+1,17 %) strahlt ab. Schwächster Konfidenzwert des Tages wegen Midcap-Liquidität und fehlendem Einzelkatalysator.",
+          "status": "miss",
+          "actual": -0.08,
+          "reviews": [
+            {
+              "slot": "Abend",
+              "text": "Abend 22:00: Schluss 30.426,98 Punkte, −0,08 % (onvista) — die Öl-Entlastungs-These trug im deutschen Midcap-Segment nicht; die bewusst niedrigste Konfidenz (50) war berechtigt. Richtung falsch: miss."
+            }
+          ]
         }
       ]
     }
