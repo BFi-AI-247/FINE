@@ -1516,6 +1516,92 @@
           "actual": 1.02
         }
       ]
+    },
+    {
+      "date": "2026-10-05",
+      "title": "Öl-Entlastung nach OPEC+-Beschluss und G7-Reservefreigabe: Risk-on-Fortsetzung mit Speicher-Sog — FINE komplett auf der Upside-Seite",
+      "picks": [
+        {
+          "name": "DAX",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "up",
+          "bandLow": 0.1,
+          "bandHigh": 1.2,
+          "confidence": 55,
+          "reason": "Screening 05.10.2026: Freitag +1,17 % zurück über 25.000 Punkte (dpa-AFX, FINE-Abend-Review 02.10.) nach Zinsentlastung durch schwachen US-Jobsreport (nur +29.000 Stellen, 10-Jahres-Rendite zurück auf 5,20 %, AP). Wochenende im Zeichen der Öl-Entlastung: OPEC+ hält November-Produktion stabil, G7 geben bis zu 100 Mio. Barrel Öl und Diesel frei (AP) — Kostensenker für den Öl-Importeur Deutschland. Nach der 02.10.-Lern-Regel (erwarteter Makro-Katalysator mit Zins-Entlastungsszenario = harter Katalysator) erstmals wieder up-Benchmark. Risiko: Iran-Kriegs-Eskalation (Ölminister-Rücktritt, AFP)."
+        },
+        {
+          "name": "S&P 500",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1,
+          "confidence": 55,
+          "reason": "Screening 05.10.2026: Freitag +0,9 % Richtung Allzeithoch, Nasdaq Composite +1,2 %, Dow +357 Punkte (AP); Job-Schock als Zins-Geschenk (10J-Rendite 5,20 %, AP). Öl-Entlastung am Wochenende (OPEC+-Beschluss, G7-Reserve, AP) stützt Inflationserwartungen. US-Werte handeln erst ab 15:30 Uhr MEZ — Basis sind Vortagsschluss und Frühindikation. Risiko: Renditeniveau bleibt hoch (T. Rowe Price sieht 5,5–6 % als credible, AP)."
+        },
+        {
+          "name": "Infineon",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "direction": "up",
+          "bandLow": 0.3,
+          "bandHigh": 3.2,
+          "confidence": 60,
+          "reason": "Freitag +8,78 % auf 64,64 EUR Schluss (finanzen.net/Finance-Daten) im Micron-/Speicher-Sog; Südkorea verbucht September-Exportrekord (>107 Mrd. EUR) getrieben von KI-Halbleitern (AFP) — Speicher-/KI-Boom bleibt der stärkste Sektor-Tailwind. Lern-Regel vom 02.10. (Overshoot-Systematik): oberes Band bei frischem Sektor-Katalysator mutig setzen (≥ +3 %). Risiko: Pause/Konsolidierung nach dem 8,8 %-Tag."
+        },
+        {
+          "name": "Rheinmetall",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1.8,
+          "confidence": 55,
+          "reason": "Schluss 956,90 EUR (+1,2 % am Freitag, Finance-Daten); Verteidigung als struktureller Profiteur: Ifo sieht höhere Ausgaben für Verteidigung und Infrastruktur als Konjunkturstütze (AFP, 02.10.); EU-Gipfel der Staats- und Regierungschefs Mitte Oktober als möglicher Themen-Katalysator (AFP). Öl-Entlastung senkt Energiekosten. Risiko: kein harter Tages-Einzelkatalysator."
+        },
+        {
+          "name": "Tesla",
+          "type": "equity_us",
+          "pickClass": "portfolio",
+          "direction": "up",
+          "bandLow": 0.3,
+          "bandHigh": 2.5,
+          "confidence": 55,
+          "reason": "Q3-Auslieferungen 486.532 über Erwartungen, Aktie Freitag zeitweise +5 % (AFP); Rekord-Diesel-/Benzinpreise durch den Iran-Krieg (AP) stärken die EV-Nachfragethese; Nasdaq-Momentum (+1,2 %, AP) stützt das Tech-Sentiment. US-Handel erst ab 15:30 Uhr MEZ. Risiko: Jahresperformance weiterhin negativ (−21 % YTD vor Freitag, AFP), hohe Volatilität."
+        },
+        {
+          "name": "EuroStoxx 50",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1.1,
+          "confidence": 55,
+          "reason": "Öl-Entlastung (OPEC+ stabil, G7-100-Mio.-Barrel-Freigabe, AP) wirkt europabreit als Inflations-/Kaufkraft-Entlastung; Freitag +1,02 % (FINE-Abend-Review 02.10.); Zinsrücksetzer nach Job-Schock (AP) trägt europäische Indizes. Mindest-Band 1,0 % als echter Pick eingehalten."
+        },
+        {
+          "name": "Nasdaq 100",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.3,
+          "bandHigh": 1.4,
+          "confidence": 60,
+          "reason": "Tech-Immunität an Rendite-Drucktagen zweimal in Folge bestätigt (Lern-Log 02.10.); Freitag Nasdaq Composite +1,2 % (AP), Zinsentlastung auf 5,20 % (AP) hilft Growth-Aktien; Südkorea-Exportrekord als KI-Sektor-Bestätigung (AFP). Stärkster freier Pick des Tages."
+        },
+        {
+          "name": "MDAX",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.1,
+          "bandHigh": 1.1,
+          "confidence": 50,
+          "reason": "Deutsche Midcaps als Öl-Entlastungs-Profiteure (Brent-Rückzug von den Kriegshochs senkt Transport-/Energiekosten); Ifo-Chemie-Stimmungsindex zweiten Monat in Folge gestiegen (AFP, 02.10.) als Konjunktur-Frühindikator; DAX-Momentum von Freitag (+1,17 %) strahlt ab. Schwächster Konfidenzwert des Tages wegen Midcap-Liquidität und fehlendem Einzelkatalysator."
+        }
+      ]
     }
   ]
 }
