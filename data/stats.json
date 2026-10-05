@@ -2,96 +2,96 @@
   "version": 4,
   "updated": "2026-10-05",
   "totals": {
-    "predictions": 64,
-    "hits": 30,
-    "partial": 10,
-    "misses": 24,
-    "overshoots": 3,
-    "directionCorrect": 35,
-    "hitRate": 0.4688
+    "predictions": 72,
+    "hits": 34,
+    "partial": 12,
+    "misses": 26,
+    "overshoots": 4,
+    "directionCorrect": 41,
+    "hitRate": 0.4722
   },
   "benchmark": {
-    "predictions": 17,
-    "hits": 6,
-    "partial": 5,
+    "predictions": 19,
+    "hits": 7,
+    "partial": 6,
     "misses": 6,
     "overshoots": 0,
-    "directionCorrect": 7,
-    "hitRate": 0.3529,
+    "directionCorrect": 9,
+    "hitRate": 0.3684,
     "note": "Fix-Indizes DAX + S&P 500 — misst Markt-Lese-Qualität. Enge, realistische Bänder korrekt; kein Mut-Kriterium."
   },
   "picks": {
-    "predictions": 47,
-    "hits": 24,
-    "partial": 5,
-    "misses": 18,
-    "overshoots": 3,
-    "directionCorrect": 28,
-    "hitRate": 0.5106,
+    "predictions": 53,
+    "hits": 27,
+    "partial": 6,
+    "misses": 20,
+    "overshoots": 4,
+    "directionCorrect": 32,
+    "hitRate": 0.5094,
     "note": "Echte Picks: 2x Depot + 1 frei — misst Opportunity-Finding. Mindest-Band + Boldness gelten hier."
   },
   "byInstrumentType": {
     "index": {
-      "predictions": 36,
-      "hits": 16,
-      "partial": 7,
-      "misses": 13,
+      "predictions": 41,
+      "hits": 18,
+      "partial": 9,
+      "misses": 14,
       "overshoots": 0,
-      "directionCorrect": 18,
-      "hitRate": 0.4444
+      "directionCorrect": 22,
+      "hitRate": 0.439
     },
     "equity_de": {
-      "predictions": 22,
-      "hits": 10,
+      "predictions": 24,
+      "hits": 11,
       "partial": 2,
-      "misses": 10,
-      "overshoots": 2,
-      "directionCorrect": 12,
-      "hitRate": 0.4545
+      "misses": 11,
+      "overshoots": 3,
+      "directionCorrect": 13,
+      "hitRate": 0.4583
     },
     "equity_us": {
-      "predictions": 6,
-      "hits": 4,
+      "predictions": 7,
+      "hits": 5,
       "partial": 1,
       "misses": 1,
       "overshoots": 1,
-      "directionCorrect": 5,
-      "hitRate": 0.6667
+      "directionCorrect": 6,
+      "hitRate": 0.7143
     }
   },
   "byPickClass": {
     "benchmark": {
-      "predictions": 17,
-      "hits": 6,
-      "partial": 5,
+      "predictions": 19,
+      "hits": 7,
+      "partial": 6,
       "misses": 6,
       "overshoots": 0,
-      "directionCorrect": 7,
-      "hitRate": 0.3529
+      "directionCorrect": 9,
+      "hitRate": 0.3684
     },
     "portfolio": {
-      "predictions": 23,
-      "hits": 11,
+      "predictions": 26,
+      "hits": 13,
       "partial": 2,
-      "misses": 10,
-      "overshoots": 2,
-      "directionCorrect": 13,
-      "hitRate": 0.4783
+      "misses": 11,
+      "overshoots": 3,
+      "directionCorrect": 15,
+      "hitRate": 0.5
     },
     "free": {
-      "predictions": 24,
-      "hits": 13,
-      "partial": 3,
-      "misses": 8,
+      "predictions": 27,
+      "hits": 14,
+      "partial": 4,
+      "misses": 9,
       "overshoots": 1,
-      "directionCorrect": 15,
-      "hitRate": 0.5417
+      "directionCorrect": 17,
+      "hitRate": 0.5185
     }
   },
   "boldness": {
     "note": "Mut-Metrik gegen Tiefbieten — NUR echte Picks (Benchmark-Indizes ausgeschlossen).",
-    "avgBandHigh": 1.6872,
-    "avgActual": 0.0626,
+    "avgBandHigh": 1.7056,
+    "avgActual": 0.1225,
     "months": [
       {
         "month": "2026-09",
@@ -101,9 +101,9 @@
       },
       {
         "month": "2026-10",
-        "picks": 12,
-        "avgBandHigh": 1.8667,
-        "avgActual": 1.0317
+        "picks": 18,
+        "avgBandHigh": 1.8611,
+        "avgActual": 0.885
       }
     ]
   },
@@ -199,6 +199,10 @@
     {
       "date": "2026-10-05",
       "entry": "Morgen-Auswahl 05.10.: Der Montag setzt die Öl-Entlastungs-Story des Wochenendes fort (OPEC+ hält Produktion stabil, G7 geben 100 Mio. Barrel frei, Iran-Ölminister zurückgetreten — AP/AFP) auf dem Risk-on-Freitag (+1,17 % DAX, Zinsentlastung nach Job-Schock): alle 8 Picks up — erstmals beide Benchmarks up nach der 02.10.-Klausel (erwarteter Katalysator mit Zins-Entlastungsszenario = harter Katalysator; hier der Öl-Freigabe-Impuls statt eines Datenpunkts, DAX-Band oberseitig auf 1,2 % verbreitert). Portfolio: Infineon mutig (0,3–3,2 %) gemäß Overshoot-Regel vom 02.10. (frischer Sektor-Katalysator, Südkorea-Exportrekord als Bestätigung), Rheinmetall (Verteidigungs-/Ifo-These, EU-Gipfel-Ausblick), Tesla (Q3-Auslieferungs-Beat 486.532, Freitag +5 %). Frei: EuroStoxx 50, Nasdaq 100, MDAX — die Universums-Portfolio-Überlappung lässt aktuell nur Indizes als freie Picks zu; Nasdaq 100 als stärkster freier Pick wegen zweimal bewiesener Tech-Immunität. Hauptrisiko des Tages: Iran-Eskalation über Nacht kippt die Öl-Entlastungs-These — dann greift vermutlich die Anti-These (Öl-Profiteure), die heute bewusst NICHT gepickt wurden."
+    },
+    {
+      "date": "2026-10-05",
+      "entry": "Abend-Review 05.10.: 4/8 Treffer (S&P 500 +0,66 %, Rheinmetall +2,43 % Overshoot, Tesla +2,10 %, Nasdaq 100 +0,85 %), 2 Partial (DAX +0,09 %, EuroStoxx 50 +0,06 %), 2 Misses (Infineon −1,81 %, MDAX −0,08 %); Richtung 6/8. Was gut lief: (1) Die Risk-on-Grundlesart war richtig — 6 von 8 Werten schlossen positiv, die Übernahme-getriebene US-Stärke (PTC/Schneider, RXO/C.H. Robinson, AP) wurde vom S&P-500-Band und Nasdaq 100 korrekt eingefangen. (2) Tech-Immunität gegen Rendite-Druck (10J 5,31 %, AP) zum dritten Mal in Folge bestätigt — Nasdaq 100 als stärkster freier Pick war die richtige Wahl. (3) Tesla-Q3-Auslieferungs-Beat-These traf (+2,10 % im Band); Rheinmetall-Overshoot bestätigt die strukturelle Verteidigungsnachfrage. Was schlecht lief: (1) Infineon miss (−1,81 %): Die 02.10-Overshoot-Regel „mutiges Band bei frischem Sektor-Katalysator\" verführte zu einem Folge-Pick direkt nach dem 8,8-%-Ausnahmetag — die Konsolidierungswahrscheinlichkeit nach solchen Bewegungen wurde unterschätzt. Kalibrierungs-Anpassung: Nach Einzeltag-Gewinnen > +8 % keinen Aufwärts-Folge-Pick mehr ohne frischen EINZELKATALYSATOR — entweder Band stark absenken oder Titel auslassen; Sektor-Katalysator allein reicht am Tag danach nicht. (2) MDAX miss (−0,08 %): Sektor-/Stimmungs-Thesen-Picks bei Midcaps künftig nur mit quantifizierbarem Einzelkatalysator — die Öl-Entlastungs-These trug im DAX (+0,09 %) und EuroStoxx 50 (+0,06 %) nur haarscharf, im Midcap-Segment gar nicht. (3) Beide Benchmarks nur knapp im/neben Band: Nach Risk-on-Ausnahmetagen (Freitag +1,17 %) die Benchmark-Bänder künftig enger kalibrieren (bandLow realistisch bei +0,05–0,1 % statt +0,1–0,2 %), weil Folgetage oft konsolidieren. Gesamt-hitRate steigt auf 47,2 % (72 Picks), Picks-Qualität 50,9 %, Benchmark-Qualität 36,8 % — die Benchmarks bleiben die schwächste Klasse, weil Flat-/Knapp-Tagen an Rendite-Drucktagen die Regel sind."
     }
   ]
 }
