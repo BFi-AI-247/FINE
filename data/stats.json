@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-02",
+  "updated": "2026-10-05",
   "totals": {
     "predictions": 64,
     "hits": 30,
@@ -195,6 +195,10 @@
     {
       "date": "2026-10-02",
       "entry": "Abend-Review 02.10.: 5/8 Treffer, 3 partial, 0 Misses — bester Tag seit dem 25.09.; Richtung 5/8. Was gut lief: (1) Infineon (+8,78 %, Overshoot) — die 30.09.-Faustregel „Sektor-Beat profitiert dem profilierten Profiteur\" traf voll: Micron-Momentum + eigene DRAM-Verankerung; der größte Einzel-Treffer der FINE-Historie. (2) Alle drei freien Pick-Richtungen (Nasdaq 100 +1,00 %, Dow +0,49 % im Band; EuroStoxx 50 +1,02 % knapp partial) — Tech-Immunität am Rendite-Tag zum zweiten Mal bestätigt. (3) Bad-News-is-Good-News-Lesung des Jobsreports (29.000 statt ~90.000) war die richtige Tages-Hypothese. Was schlecht lief: Beide Benchmarks verfehlt — DAX +1,17 % und S&P 500 +0,74 % lagen ÜBER den Flat-Bändern; die Flat-Vorsicht an Rendite-Drucktagen unterschätzte, wie stark ein Job-Daten-Impuls die Zinslast von den Indizes nimmt. Kalibrierungs-Anpassungen: (1) An binären Makro-Terminen (Jobsreport, CPI) künftig Benchmark-Bänder oberseitig verbreitern (DAX/S&P ±1,2 % statt ±0,5/0,7) oder direkt up konnotieren, wenn ein zinsentlastendes Ergebnis der erwartete Basisfall ist — die 30.09.-Regel „kein up-Benchmark ohne harten Katalysator\" um die Klausel ergänzen: ein erwarteter Makro-Katalysator MIT einseitigem Zins-Entlastungsszenario gilt als harter Katalysator. (2) Allianz: Richtung richtig (+1,02 % im Band), aber Kausalität invers — der Zinsprofiteur-Call setzte auf STEIGENDE Renditen, geholfen hat der Rendite-RÜCKSETZER; Zinsprofiteur-Depot-Picks künftig nur noch mit These, die beide Rendite-Richtungen trägt (Defensiv-Rebound), sonst als reiner Defensiv-Pick deklariert. (3) Tech-Depot-Picks (NVIDIA, Infineon) an Micron-/Sektor-Beat-Tagen: oberes Band künftig mutiger setzen (≥ +3 % bei Aktie), wenn der Sektor-Katalysator frisch ist — die 1,8/2,0-%-Bänder waren heute systematisch zu eng (2 Overshoots in 3 Tagen)."
+    },
+    {
+      "date": "2026-10-05",
+      "entry": "Morgen-Auswahl 05.10.: Der Montag setzt die Öl-Entlastungs-Story des Wochenendes fort (OPEC+ hält Produktion stabil, G7 geben 100 Mio. Barrel frei, Iran-Ölminister zurückgetreten — AP/AFP) auf dem Risk-on-Freitag (+1,17 % DAX, Zinsentlastung nach Job-Schock): alle 8 Picks up — erstmals beide Benchmarks up nach der 02.10.-Klausel (erwarteter Katalysator mit Zins-Entlastungsszenario = harter Katalysator; hier der Öl-Freigabe-Impuls statt eines Datenpunkts, DAX-Band oberseitig auf 1,2 % verbreitert). Portfolio: Infineon mutig (0,3–3,2 %) gemäß Overshoot-Regel vom 02.10. (frischer Sektor-Katalysator, Südkorea-Exportrekord als Bestätigung), Rheinmetall (Verteidigungs-/Ifo-These, EU-Gipfel-Ausblick), Tesla (Q3-Auslieferungs-Beat 486.532, Freitag +5 %). Frei: EuroStoxx 50, Nasdaq 100, MDAX — die Universums-Portfolio-Überlappung lässt aktuell nur Indizes als freie Picks zu; Nasdaq 100 als stärkster freier Pick wegen zweimal bewiesener Tech-Immunität. Hauptrisiko des Tages: Iran-Eskalation über Nacht kippt die Öl-Entlastungs-These — dann greift vermutlich die Anti-These (Öl-Profiteure), die heute bewusst NICHT gepickt wurden."
     }
   ]
 }
