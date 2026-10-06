@@ -1667,6 +1667,111 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Tagesprognose für Dienstag, 06.10.2026 — Öl-Entlastung hält an, Tech auf Rekordkurs, ADP im Fokus",
+      "picks": [
+        {
+          "name": "DAX",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "up",
+          "bandLow": -0.1,
+          "bandHigh": 0.6,
+          "confidence": 55,
+          "reason": "Markt-Lage: Öl-Entlastung setzt sich fort (Brent ~101,9 USD, -0,3 %; G7-Reservefreigabe, Tecson/finanzen.net), DAX-Indikation +0,2 % auf ~25.291 Punkte (finanzen.net Tagesvorschau), US-Technologiesekte am Montag stark (Nasdaq 100 +0,9 % auf Rekord 31.076, S&P 500 +0,7 %, Dow +91 Punkte — Trading Economics). Nach dem Konsolidierungs-Montag (DAX +0,09 %, 25.241 Punkte, finanzen.net) ist die Ausnahmtag-Folge-Regel greifbar: enge Bandbreite. These: leichtes Plus über Öl-Rückzug und Tech-Sympathie; Risiko: Auftragseingänge Industrie (08:00) und Einzelhandelsumsätze EUR (11:00, dpa-AFX Terminliste). Erwartung: -0,1 % bis +0,6 %. Quellen: finanzen.net, dpa-AFX/boerse.de, Trading Economics.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "S&P 500",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "flat",
+          "bandLow": -0.3,
+          "bandHigh": 0.5,
+          "confidence": 55,
+          "reason": "Markt-Lage: S&P 500 Montag +0,7 % auf ~7.782 Punkte (Trading Economics), AI-Aktien-Rally bei 10J-Treasury ~5,29 % (vittarthi.com/Investrade). Heute ADP-Arbeitsmarktbericht (14:15 MEZ) und Handelsbilanz (14:30), morgen Fed-Minutes — kein einseitiges Zins-Entlastungsszenario, daher nach der 30.09.-Regel (kein up-Benchmark ohne harten Katalysator) Flat-Lesart. Nach +0,7 %-Tag zudem Konsolidierungsneigung. Erwartung: -0,3 % bis +0,5 %. Quellen: Trading Economics, Investrade, TheStreet.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Barrick Gold Corp",
+          "type": "equity_us",
+          "pickClass": "portfolio",
+          "direction": "up",
+          "bandLow": 0.5,
+          "bandHigh": 2.5,
+          "confidence": 60,
+          "reason": "Markt-Lage: Gold ~4.149 USD nahe Rekord (+0,1 %, finanzen.net Tagesvorschau 06.10.), Oktober-Hike-Wahrscheinlichkeit nach weichem PCE von 64 % auf 34 % gefallen (XTB Rohstoff-Rückblick). These: Gold-Hebel profitiert von Geopolitik-Puffer (Hormuz) und nachlassender Hike-Indikation; Barrick als Depot-Titel mit Tages-Opportunität im intakten Edelmetall-Trend. Erwartung: +0,5 % bis +2,5 %. Quellen: finanzen.net, XTB. Hinweis: Depot-Pick nach Opportunität, keine Bestandsangabe.",
+          "status": "open",
+          "reviews": [],
+          "fromPortfolio": true
+        },
+        {
+          "name": "Tesla Inc.",
+          "type": "equity_us",
+          "pickClass": "portfolio",
+          "direction": "up",
+          "bandLow": 0.3,
+          "bandHigh": 2.5,
+          "confidence": 55,
+          "reason": "Markt-Lage: Tech-Rally Montag (Nasdaq Rekord, Nvidia +2,04 % — Trading Economics), Tesla-Q3-Auslieferungs-Beat vom Montag (486.532 Fahrzeuge, +2,10 % im Band bestätigt — FINE-Abendreview 05.10.). These: Beat-Momentum trägt am Folgetag weiter; Vorsicht wegen 10J-Rendite ~5,3 %. Erwartung: +0,3 % bis +2,5 %. Quellen: Trading Economics, FINE-Review 05.10., AP. Hinweis: Depot-Pick nach Opportunität, keine Bestandsangabe.",
+          "status": "open",
+          "reviews": [],
+          "fromPortfolio": true
+        },
+        {
+          "name": "Muenchener Rueckvers",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "direction": "up",
+          "bandLow": 0.3,
+          "bandHigh": 1.8,
+          "confidence": 55,
+          "reason": "Markt-Lage: 10J-Treasury auf höchstem Niveau seit 2002 (~5,29 %, vittarthi.com) — Wiederanlage-Zinsertrag für Versicherer; Defensiv-Charakter bewährt in Yield-Druck-Wochen (Munich-Re-Trefferhistorie: Overshoot 24.09., Band-Treffer mehrfach). Regel aus dem 01.10.-Review: Zinsprofiteur-These muss beide Rendite-Richtungen tragen — deklariert als Defensiv-Pick: stabiler Rückhalt bei Öl-Entlastung, weitere Erholung, falls Renditen nach ADP nachgeben. Erwartung: +0,3 % bis +1,8 %. Quellen: vittarthi.com, TheStreet, FINE-Lern-Log.",
+          "status": "open",
+          "reviews": [],
+          "fromPortfolio": true
+        },
+        {
+          "name": "Nasdaq 100",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.3,
+          "bandHigh": 1.2,
+          "confidence": 60,
+          "reason": "Markt-Lage: Nasdaq 100 Montag +0,9 % auf Rekord 31.076 (Trading Economics); Tech-Immunität gegen Rendite-Druck zum dritten Mal in Folge bestätigt (FINE-Review 05.10.); heute Marvell Investor Day als Sektor-Event (dpa-AFX). These: stärkster freier Pick — Tech-Trend intakt, AI-Rally trägt. Erwartung: +0,3 % bis +1,2 %. Quellen: Trading Economics, dpa-AFX, FINE-Review 05.10.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "EuroStoxx 50",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.1,
+          "bandHigh": 0.8,
+          "confidence": 55,
+          "reason": "Markt-Lage: ESt50-Indikation +0,1 % (finanzen.net), Versicherergewichte (Munich Re, Allianz, Swiss Re, Generali im Depot-Kontext) als Rückhalt bei weiter hoher Rendite; Öl-Rückzug entlastet Energiekosten. These: breites, moderates Risk-on ohne Ausnahmecharakter. Erwartung: +0,1 % bis +0,8 %. Quellen: finanzen.net Tagesvorschau 06.10.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Dow Jones",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": -0.2,
+          "bandHigh": 0.8,
+          "confidence": 50,
+          "reason": "Markt-Lage: Dow Montag +91 Punkte (51.268, +0,18 %, Trading Economics, Visa +2,49 % führend); Öl-Rückzug entlastet zyklische Blue Chips (Tankrabatt-Debatte, boerse.de). These:öl-sensitiver Value-Schwerpunkt profitiert von Brent unter 103 USD; niedrigste Konfidenz wegen ADP-Risiko am Nachmittag. Erwartung: -0,2 % bis +0,8 %. Quellen: Trading Economics, Tecson, boerse.de.",
+          "status": "open",
+          "reviews": []
+        }
+      ]
     }
   ]
 }
