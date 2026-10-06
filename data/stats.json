@@ -2,96 +2,96 @@
   "version": 4,
   "updated": "2026-10-06",
   "totals": {
-    "predictions": 72,
-    "hits": 34,
-    "partial": 12,
+    "predictions": 80,
+    "hits": 41,
+    "partial": 13,
     "misses": 26,
-    "overshoots": 4,
-    "directionCorrect": 41,
-    "hitRate": 0.4722
+    "overshoots": 5,
+    "directionCorrect": 49,
+    "hitRate": 0.5125
   },
   "benchmark": {
-    "predictions": 19,
-    "hits": 7,
-    "partial": 6,
+    "predictions": 21,
+    "hits": 8,
+    "partial": 7,
     "misses": 6,
-    "overshoots": 0,
-    "directionCorrect": 9,
-    "hitRate": 0.3684,
+    "overshoots": 1,
+    "directionCorrect": 11,
+    "hitRate": 0.381,
     "note": "Fix-Indizes DAX + S&P 500 — misst Markt-Lese-Qualität. Enge, realistische Bänder korrekt; kein Mut-Kriterium."
   },
   "picks": {
-    "predictions": 53,
-    "hits": 27,
+    "predictions": 59,
+    "hits": 33,
     "partial": 6,
     "misses": 20,
     "overshoots": 4,
-    "directionCorrect": 32,
-    "hitRate": 0.5094,
+    "directionCorrect": 38,
+    "hitRate": 0.5593,
     "note": "Echte Picks: 2x Depot + 1 frei — misst Opportunity-Finding. Mindest-Band + Boldness gelten hier."
   },
   "byInstrumentType": {
     "index": {
-      "predictions": 41,
-      "hits": 18,
-      "partial": 9,
+      "predictions": 46,
+      "hits": 22,
+      "partial": 10,
       "misses": 14,
-      "overshoots": 0,
-      "directionCorrect": 22,
-      "hitRate": 0.439
+      "overshoots": 1,
+      "directionCorrect": 27,
+      "hitRate": 0.4783
     },
     "equity_de": {
-      "predictions": 24,
-      "hits": 11,
+      "predictions": 25,
+      "hits": 12,
       "partial": 2,
       "misses": 11,
       "overshoots": 3,
-      "directionCorrect": 13,
-      "hitRate": 0.4583
+      "directionCorrect": 14,
+      "hitRate": 0.48
     },
     "equity_us": {
-      "predictions": 7,
-      "hits": 5,
+      "predictions": 9,
+      "hits": 7,
       "partial": 1,
       "misses": 1,
       "overshoots": 1,
-      "directionCorrect": 6,
-      "hitRate": 0.7143
+      "directionCorrect": 8,
+      "hitRate": 0.7778
     }
   },
   "byPickClass": {
     "benchmark": {
-      "predictions": 19,
-      "hits": 7,
-      "partial": 6,
+      "predictions": 21,
+      "hits": 8,
+      "partial": 7,
       "misses": 6,
-      "overshoots": 0,
-      "directionCorrect": 9,
-      "hitRate": 0.3684
+      "overshoots": 1,
+      "directionCorrect": 11,
+      "hitRate": 0.381
     },
     "portfolio": {
-      "predictions": 26,
-      "hits": 13,
+      "predictions": 29,
+      "hits": 16,
       "partial": 2,
       "misses": 11,
       "overshoots": 3,
-      "directionCorrect": 15,
-      "hitRate": 0.5
+      "directionCorrect": 18,
+      "hitRate": 0.5517
     },
     "free": {
-      "predictions": 27,
-      "hits": 14,
+      "predictions": 30,
+      "hits": 17,
       "partial": 4,
       "misses": 9,
       "overshoots": 1,
-      "directionCorrect": 17,
-      "hitRate": 0.5185
+      "directionCorrect": 20,
+      "hitRate": 0.5667
     }
   },
   "boldness": {
     "note": "Mut-Metrik gegen Tiefbieten — NUR echte Picks (Benchmark-Indizes ausgeschlossen).",
-    "avgBandHigh": 1.7056,
-    "avgActual": 0.1225,
+    "avgBandHigh": 1.6949,
+    "avgActual": 0.1641,
     "months": [
       {
         "month": "2026-09",
@@ -101,9 +101,9 @@
       },
       {
         "month": "2026-10",
-        "picks": 18,
-        "avgBandHigh": 1.8611,
-        "avgActual": 0.885
+        "picks": 24,
+        "avgBandHigh": 1.7958,
+        "avgActual": 0.7967
       }
     ]
   },
@@ -207,6 +207,10 @@
     {
       "date": "2026-10-06",
       "entry": "Morgen-Auswahl 06.10.: Screen vor Pick — die Öl-Entlastung vom Wochenende trägt weiter (Brent ~101,9 USD, -0,3 %; G7-Reservefreigabe 100 Mio. Barrel, Ölexporte durch Hormuz gestiegen — Tecson/finanzen.net), während die Tech-Rally den Ton angibt (Nasdaq 100 Montag +0,9 % auf Rekord 31.076, S&P +0,7 %, Dow +91 Pkt — Trading Economics). Vortag DAX: +0,09 % auf 25.241 (finanzen.net) — Konsolidierung nach Freitags-Ausnahmetag bereits erfolgt, daher Benchmark-Regel enge Bänder: DAX knapp up (-0,1/+0,6) mit Öl-/Tech-Sympathie, S&P 500 konsequent flat (-0,3/+0,5), da ADP (14:15) und Fed-Minutes (morgen) kein einseitiges Zins-Entlastungsszenario bieten — 30.09.-Regel weiter geschärft. Depot-Picks nach Opportunität: Barrick Gold (Gold ~4.149 USD nahe Rekord, Hike-Wahrscheinlichkeit auf 34 % gefallen — XTB), Tesla (Q3-Auslieferungs-Beat-Momentum, gestern +2,10 % im Band — bewusster Folge-Pick NACH Band-Treffer, nicht nach >8 %-Tag), Muenchener Rueck als deklarierter Defensiv-Pick nach der 01.10.-Klausel (These trägt beide Rendite-Richtungen). Freie Picks: Nasdaq 100 als stärkster Pick (Tech-Immunität 3x bestätigt, Marvell Investor Day), EuroStoxx 50 (Versicherergewichte, Öl-Rückzug), Dow Jones (Öl-sensitiver Value, niedrigste Konfidenz 50 wegen ADP-Risiko). Bewusst gemieden: Infineon (05.10.-Miss −1,81 %, Folge-Pick nach 8-%-Ausnahmetag — Regel greift), MDAX/Midcap-Stimmungsthesen (05.10.-Lehre), Rüstung nach Overshoot (Rheinmetall +2,43 % — Konsolidierungsrisiko). Hauptrisiko des Tages: ADP-Überraschung reaktiviert Rendite-Druck (10J ~5,29 %) und kippt die Risk-on-Lesart."
+    },
+    {
+      "date": "2026-10-06",
+      "entry": "Abend-Review 06.10.: 7/8 Treffer (davon 1 Übererfüllung: DAX +0,8 % über bandHigh +0,6 %), 1 Partial (S&P 500 +0,55 % knapp über dem Flat-Band +0,5 %), 0 Misses — Richtung 8/8, bester Tag der FINE-Historie. Was gut lief: (1) Die Öl-Entlastungs-/Rendite-Entspannungs-Lesart (10J-Treasury −5 Bp auf 5,26 %, finanzen.ch) trug breit: DAX (+0,8 %), EuroStoxx 50 (+0,52 %), Dow (+0,48 %), Nasdaq 100 (+0,44 %) alle im Band; die enge Bandbreite nach dem Ausnahmetag-Regelwerk (05.10.-Kalibrierung) war richtig. (2) Depot-Picks 3/3: Barrick (+1,07 %) als Gold-Hebel nach Hike-Entspannung, Tesla (+0,35 %) als regelkonformer Band-Folge-Pick nach Band-Treffer (nicht nach 8-%-Tag — die 05.10.-Regel griff korrekt), Munich Re (+0,31 %) als deklarierter Defensiv-Pick nach der 01.10.-Klausel (beide Rendite-Richtungen tragend). (3) Das ADP-Risiko materialisierte sich nicht — die bewusste Flat-Lesart für den S&P 500 war die richtige Vermeidungslogik. Was schlecht lief: S&P 500 rutschte mit +0,55 % knapp über das obere Flat-Band — die 30.09.-Regel (Flat-Bänder an Entspannungstagen oberseitig auf ±0,7 % weiten) wurde heute mit +0,5 % nicht angewandt; zweite Partial-Falle derselben Ursache (25.09., 06.10.). Kalibrierungs-Anpassungen: (1) Flat-Bänder der Benchmarks an Rendite-Entspannungstagen VERBINDLICH auf ±0,7 % weiten — Regel existiert, Umsetzung war inkonsistent; künftig vor jedem Benchmark-Pick gegen den Lern-Log prüfen. (2) Nach Ausnahmtagen enge up-Bänder bewahren, bandHigh bei intakter Entlastungs-Story moderat auf +0,8–1,0 % setzen (DAX-Übererfüllung zeigte haarscharfen Spielraum nach oben). (3) Defensiv-Deklaration für Zinsprofiteur-Depot-Picks bestätigt — Muster beibehalten. Gesamt: hitRate klettert auf 51,3 % (41/80), Picks 55,9 %, Benchmarks 38,1 % — Benchmark-Klasse bleibt schwächste, aber die DAX-Übererfüllung zeigt: enge Kalibrierung unterseitig richtig, oberseitig knapp zu eng."
     }
   ]
 }
