@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-05",
+  "updated": "2026-10-06",
   "totals": {
     "predictions": 72,
     "hits": 34,
@@ -203,6 +203,10 @@
     {
       "date": "2026-10-05",
       "entry": "Abend-Review 05.10.: 4/8 Treffer (S&P 500 +0,66 %, Rheinmetall +2,43 % Overshoot, Tesla +2,10 %, Nasdaq 100 +0,85 %), 2 Partial (DAX +0,09 %, EuroStoxx 50 +0,06 %), 2 Misses (Infineon −1,81 %, MDAX −0,08 %); Richtung 6/8. Was gut lief: (1) Die Risk-on-Grundlesart war richtig — 6 von 8 Werten schlossen positiv, die Übernahme-getriebene US-Stärke (PTC/Schneider, RXO/C.H. Robinson, AP) wurde vom S&P-500-Band und Nasdaq 100 korrekt eingefangen. (2) Tech-Immunität gegen Rendite-Druck (10J 5,31 %, AP) zum dritten Mal in Folge bestätigt — Nasdaq 100 als stärkster freier Pick war die richtige Wahl. (3) Tesla-Q3-Auslieferungs-Beat-These traf (+2,10 % im Band); Rheinmetall-Overshoot bestätigt die strukturelle Verteidigungsnachfrage. Was schlecht lief: (1) Infineon miss (−1,81 %): Die 02.10-Overshoot-Regel „mutiges Band bei frischem Sektor-Katalysator\" verführte zu einem Folge-Pick direkt nach dem 8,8-%-Ausnahmetag — die Konsolidierungswahrscheinlichkeit nach solchen Bewegungen wurde unterschätzt. Kalibrierungs-Anpassung: Nach Einzeltag-Gewinnen > +8 % keinen Aufwärts-Folge-Pick mehr ohne frischen EINZELKATALYSATOR — entweder Band stark absenken oder Titel auslassen; Sektor-Katalysator allein reicht am Tag danach nicht. (2) MDAX miss (−0,08 %): Sektor-/Stimmungs-Thesen-Picks bei Midcaps künftig nur mit quantifizierbarem Einzelkatalysator — die Öl-Entlastungs-These trug im DAX (+0,09 %) und EuroStoxx 50 (+0,06 %) nur haarscharf, im Midcap-Segment gar nicht. (3) Beide Benchmarks nur knapp im/neben Band: Nach Risk-on-Ausnahmetagen (Freitag +1,17 %) die Benchmark-Bänder künftig enger kalibrieren (bandLow realistisch bei +0,05–0,1 % statt +0,1–0,2 %), weil Folgetage oft konsolidieren. Gesamt-hitRate steigt auf 47,2 % (72 Picks), Picks-Qualität 50,9 %, Benchmark-Qualität 36,8 % — die Benchmarks bleiben die schwächste Klasse, weil Flat-/Knapp-Tagen an Rendite-Drucktagen die Regel sind."
+    },
+    {
+      "date": "2026-10-06",
+      "entry": "Morgen-Auswahl 06.10.: Screen vor Pick — die Öl-Entlastung vom Wochenende trägt weiter (Brent ~101,9 USD, -0,3 %; G7-Reservefreigabe 100 Mio. Barrel, Ölexporte durch Hormuz gestiegen — Tecson/finanzen.net), während die Tech-Rally den Ton angibt (Nasdaq 100 Montag +0,9 % auf Rekord 31.076, S&P +0,7 %, Dow +91 Pkt — Trading Economics). Vortag DAX: +0,09 % auf 25.241 (finanzen.net) — Konsolidierung nach Freitags-Ausnahmetag bereits erfolgt, daher Benchmark-Regel enge Bänder: DAX knapp up (-0,1/+0,6) mit Öl-/Tech-Sympathie, S&P 500 konsequent flat (-0,3/+0,5), da ADP (14:15) und Fed-Minutes (morgen) kein einseitiges Zins-Entlastungsszenario bieten — 30.09.-Regel weiter geschärft. Depot-Picks nach Opportunität: Barrick Gold (Gold ~4.149 USD nahe Rekord, Hike-Wahrscheinlichkeit auf 34 % gefallen — XTB), Tesla (Q3-Auslieferungs-Beat-Momentum, gestern +2,10 % im Band — bewusster Folge-Pick NACH Band-Treffer, nicht nach >8 %-Tag), Muenchener Rueck als deklarierter Defensiv-Pick nach der 01.10.-Klausel (These trägt beide Rendite-Richtungen). Freie Picks: Nasdaq 100 als stärkster Pick (Tech-Immunität 3x bestätigt, Marvell Investor Day), EuroStoxx 50 (Versicherergewichte, Öl-Rückzug), Dow Jones (Öl-sensitiver Value, niedrigste Konfidenz 50 wegen ADP-Risiko). Bewusst gemieden: Infineon (05.10.-Miss −1,81 %, Folge-Pick nach 8-%-Ausnahmetag — Regel greift), MDAX/Midcap-Stimmungsthesen (05.10.-Lehre), Rüstung nach Overshoot (Rheinmetall +2,43 % — Konsolidierungsrisiko). Hauptrisiko des Tages: ADP-Überraschung reaktiviert Rendite-Druck (10J ~5,29 %) und kippt die Risk-on-Lesart."
     }
   ]
 }
