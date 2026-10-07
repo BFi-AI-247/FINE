@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "totals": {
     "predictions": 80,
     "hits": 41,
@@ -211,6 +211,10 @@
     {
       "date": "2026-10-06",
       "entry": "Abend-Review 06.10.: 7/8 Treffer (davon 1 Übererfüllung: DAX +0,8 % über bandHigh +0,6 %), 1 Partial (S&P 500 +0,55 % knapp über dem Flat-Band +0,5 %), 0 Misses — Richtung 8/8, bester Tag der FINE-Historie. Was gut lief: (1) Die Öl-Entlastungs-/Rendite-Entspannungs-Lesart (10J-Treasury −5 Bp auf 5,26 %, finanzen.ch) trug breit: DAX (+0,8 %), EuroStoxx 50 (+0,52 %), Dow (+0,48 %), Nasdaq 100 (+0,44 %) alle im Band; die enge Bandbreite nach dem Ausnahmetag-Regelwerk (05.10.-Kalibrierung) war richtig. (2) Depot-Picks 3/3: Barrick (+1,07 %) als Gold-Hebel nach Hike-Entspannung, Tesla (+0,35 %) als regelkonformer Band-Folge-Pick nach Band-Treffer (nicht nach 8-%-Tag — die 05.10.-Regel griff korrekt), Munich Re (+0,31 %) als deklarierter Defensiv-Pick nach der 01.10.-Klausel (beide Rendite-Richtungen tragend). (3) Das ADP-Risiko materialisierte sich nicht — die bewusste Flat-Lesart für den S&P 500 war die richtige Vermeidungslogik. Was schlecht lief: S&P 500 rutschte mit +0,55 % knapp über das obere Flat-Band — die 30.09.-Regel (Flat-Bänder an Entspannungstagen oberseitig auf ±0,7 % weiten) wurde heute mit +0,5 % nicht angewandt; zweite Partial-Falle derselben Ursache (25.09., 06.10.). Kalibrierungs-Anpassungen: (1) Flat-Bänder der Benchmarks an Rendite-Entspannungstagen VERBINDLICH auf ±0,7 % weiten — Regel existiert, Umsetzung war inkonsistent; künftig vor jedem Benchmark-Pick gegen den Lern-Log prüfen. (2) Nach Ausnahmtagen enge up-Bänder bewahren, bandHigh bei intakter Entlastungs-Story moderat auf +0,8–1,0 % setzen (DAX-Übererfüllung zeigte haarscharfen Spielraum nach oben). (3) Defensiv-Deklaration für Zinsprofiteur-Depot-Picks bestätigt — Muster beibehalten. Gesamt: hitRate klettert auf 51,3 % (41/80), Picks 55,9 %, Benchmarks 38,1 % — Benchmark-Klasse bleibt schwächste, aber die DAX-Übererfüllung zeigt: enge Kalibrierung unterseitig richtig, oberseitig knapp zu eng."
+    },
+    {
+      "date": "2026-10-07",
+      "entry": "Abend-Review 07.10. (Prozess-Eintrag): Kein Tagesergebnis — der Morgen-Job hat heute keine Prognose erstellt. Repo-Befund: kein Commit zwischen 06.10. 21:05 UTC und 07.10. 23:20 MEZ-Ausführung; predictions.json unverändert (letzter Tageseintrag 06.10., bereits abend-reviewed). Kein Treffer-Messpunkt, totals unverändert (80 Picks, hitRate 51,3 %; Picks 55,9 %, Benchmarks 38,1 %). Was schlecht lief: Ausfall des Morgen-Slots (07:30 Europe/Berlin) — Ursache aus dem Repo nicht ersichtlich (weder Commit noch Post); Empfehlung an Lead_F1/Betreiber: Job-Taktung und Task-Plattform-Status prüfen. Kalibrierungs-Anpassung: KEINE — ohne Prognose keine Datenpunkte; ausdrücklich keine rückwirkende Prognoseerstellung (Integritäts-Regel: Morgen-Commit vor 09:00 Europe/Berlin als Notar). Markt-Kontext (unbewertet): Abschlagstag — DAX −1,35 % auf 25.104 Punkte (onvista), US-Indizes im Rücksetzer von Rekordständen (S&P 500 −0,30 % auf 7.795,76; Dow −0,65 % auf 51.184,45; Nasdaq Composite −0,47 %; 10J-Treasury ~5,31 %, höchstes Niveau seit 2002; Fed-Minutes signalisieren weitere Zinserhöhung bis Jahresende möglich — TheStreet, Investopedia, CNBC). Beobachtung für den Morgen-Slot 08.10.: Rendite-Druck-Tag bestätigt die Rendite-Sensitivitäts-Regeln (28./29.09.); Screen muss Zinsentwicklung (10J-Auktion, Fed-Oktober-Sitzung nächste Woche, Hike-Odds ~17 %) vor die Pick-Ableitung ziehen."
     }
   ]
 }
