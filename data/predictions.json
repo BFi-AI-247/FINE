@@ -1867,14 +1867,18 @@
           "bandHigh": 0.7,
           "confidence": 55,
           "reason": "Markt-Lage: Abschlagstag-Vortag — DAX -1,4 % auf 25.104 Punkte, Öl 102,4 USD (+2,1 %), 10J-Treasury 5,35 % = höchstes Niveau seit 2002 (finanzen.net, Yahoo Finance/XTB). Heute frühe Erholungsindikation: DAX-Futures im Frühhandel behauptet bei 25.208 Punkten (MarketScreener), Tagesindikation +0,77 % (Nord/LB). Nach dem Abschlagtag liegt Rebound-Potenzial, aber Öl-Druck (Hormuz-Angriffe, Bloomberg) und das EZB-Protokoll (13:30 Uhr) zügeln. Prognose: leichtes Plus. Quellen: finanzen.net Tagesvorschau 08.10., MarketScreener, Nord/LB, Bloomberg (07./08.10.2026).",
-          "status": "open",
+          "status": "miss",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00-Slot: DAX ca. 24.884 Punkte, rund -0,9 % ggü. Xetra-Vortagesschluss 25.104,36 (um 12:10 Uhr -0,88 % auf 24.884,07 Punkte, finanzen.at; n-tv Börsen-Tag notiert den Bereich um 24.860 Zähler). Die frühe Erholungsindikation (+0,77 % Nord/LB) kippte: Öl-Druck (Hormuz-Angriffe) und die 10J-Rendite auf 24-Jahres-Hoch dominieren, der DAX rutschte unter 25.000. Prognose up -0,1 % bis +0,7 %: aktuell klar außerhalb des Bands, Richtung bislang falsch; Abend bewertet. Quelle: finanzen.at/n-tv (08.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 24.807 Punkte (Xetra), −1,2 % — Richtung falsch: Miss. Der früh angesetzte Erholungsversuch (Morgen-Indikation +0,77 %) kippte vollständig: Brent stieg +5,6 % auf 105,80 USD (Hormuz-Angriffe auf zivile Schifffahrt, US-Iran-Berichte, Hurrikan Isaias im Golf von Mexiko) und hohe Anleiherenditen drückten den DAX unter die 25.000er-Marke; Händler bewerteten das Tagesminus von 1,2 % sogar als „relativ moderat\". Quellen: dts Nachrichtenagentur/tagesschau Marktbericht, finanzen.at XETRA-SCHLUSS (08.10.2026)."
             }
           ],
-          "actual": -0.9
+          "actual": -1.2
         },
         {
           "name": "S&P 500",
@@ -1885,14 +1889,18 @@
           "bandHigh": 0.7,
           "confidence": 55,
           "reason": "Markt-Lage: Vortag nur -0,22 % auf 7.801,77 Punkte (CNBC) — AI-Resilienz trotz 10J-Rendite auf 24-Jahres-Hoch von 5,35 % (Yahoo Finance); US-Futures heute mixed, Asien im Minus (AP). Regel 'kein up-Benchmark ohne harten Katalysator': Jobless Claims (14:30 Uhr) und Fed-Gouverneur Waller (16:00 Uhr) sind Tagesrisiken; nach der 30.09.-Regel oberseitig auf ±0,7 % geweitetes Flat-Band. Quellen: CNBC, AP, Yahoo Finance, finanzen.net (07./08.10.2026).",
-          "status": "open",
+          "status": "partial",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00-Slot (US-Handel erst ab 15:30 MESZ): S&P-500-E-Minis ca. -0,5 % nach Vortagesschluss 7.801,77 Punkten (Reuters via Yahoo Finance, 13:30 MESZ) — knapp unter bandLow (-0,4 %); die flat-These nach dem -0,22 %-Vortag bleibt aber im Rahmen. Öl-/Renditedruck (10J-Treasury 5,35 %) zügeln; Jobless Claims 14:30 Uhr und Fed-Gouverneur Waller 16:00 Uhr als Nachmittagstreiber. Quelle: Yahoo Finance (08.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 7.765,36 Punkte, −0,47 % — knapp unter der Untergrenze des Flat-Bands (−0,4 % bis +0,7 %): partial. Öl-Anstieg und AI-Sorgen (Chip-Sell-off) wogen schwerer als die späte Rendite-Entspannung nach Trumps Iran-Äußerung; Pharma und Staples stützten. Quellen: Stock market news (S&P 500 −0,47 % auf 7.765,36), CNBC, Bloomberg (08.10.2026)."
             }
           ],
-          "actual": -0.5
+          "actual": -0.47
         },
         {
           "name": "Muenchener Rueckvers",
@@ -1903,14 +1911,19 @@
           "bandHigh": 1.5,
           "confidence": 60,
           "reason": "Markt-Lage: 10J-Treasury bei 5,35 % — Zinsprofiteur-Tag für Rückversicherer. Depot-Pick nach Opportunität (nicht Besitz): Munich-Re-Life-US-Rückversicherungsdeal mit Manulife in Kraft getreten, fortlaufende Aktienrückkäufe (kumuliert 2,94 Mio. Papiere seit 14.05.), Aktie ~510 Euro nach Teil-Erholung vom Juni-Tief (ad-hoc-news, Finanztrends, sharedeals). Deklarierter Defensiv-Pick nach der 01.10.-Klausel: Die These trägt beide Rendite-Richtungen. Quellen: ad-hoc-news.de, finanztrends.de, IT-Boltwise (07.10.2026).",
-          "status": "open",
+          "status": "hit",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00-Slot: Münchener Rück ca. 519,40 EUR (Tradegate, wallstreet-online), rund +0,5 % ggü. Xetra-Vortagesschluss 516,60 EUR; vormittags +0,66 % (Börsenstart-Update 10:00 Uhr) — einer der wenigen DAX-Gewinner am Abschlagstag, die Zinsprofiteur-These der Morgen-Prognose greift. Prognose up +0,2 % bis +1,5 %: im Band, Richtung korrekt. Quelle: wallstreet-online/finanzen.net (08.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Xetra-Schluss 519,00 EUR, +0,46 % ggü. Vortagesschluss 516,60 EUR — im Band (+0,2 % bis +1,5 %): Hit. Die Zinsprofiteur-Logik trug auch am Abschlagstag; Rückversicherer blieben Defensiv-Anker. Quelle: Finanzdatensuche Xetra (08.10.2026)."
             }
           ],
-          "actual": 0.54
+          "actual": 0.46,
+          "fromPortfolio": true
         },
         {
           "name": "Allianz",
@@ -1921,14 +1934,19 @@
           "bandHigh": 1.5,
           "confidence": 55,
           "reason": "Markt-Lage: Rendite-Druck-Tag begünstigt Qualitäts- und Dividendenwerte. Depot-Pick nach Opportunität: Q3-Fazit 'Zinsen rauf, Öl rauf — Qualität setzt sich durch' zählt Allianz zu den positiven Beiträgen (e-fundresearch); Aktienrückkauf läuft mit über 6,2 Mio. Stück, personelle Neubesetzungen im Konzern (ad-hoc-news). Defensiv-Dividenden-These bei 5,35 %-Renditen. Quellen: e-fundresearch (30.09.2026), ad-hoc-news.de (08.10.2026).",
-          "status": "open",
+          "status": "miss",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00-Slot: Allianz ca. 420,90 EUR (Tradegate-Realtimekurs 13:59 Uhr, wallstreet-online; Lang & Schwarz morgens noch 414,90 EUR, -0,67 %), rund +0,9 % ggü. Xetra-Vortagesschluss 417,30 EUR — die Qualitäts-/Dividendenwert-These greift, die Aktie hebt sich deutlich vom marktnegativen Umfeld ab. Prognose up +0,2 % bis +1,5 %: im Band, Richtung korrekt. Quelle: wallstreet-online/Lang & Schwarz (08.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Xetra-Schluss 413,40 EUR, −0,93 % ggü. Vortagesschluss 417,30 EUR — Richtung falsch: Miss. Das Mittags-Plus (+0,86 %) kippte bis zum Schluss; der Rückkauf-Boom konnte den Öl-/Rendite-Druck des Abschlagstags nicht kompensieren. Quelle: Finanzdatensuche Xetra (08.10.2026)."
             }
           ],
-          "actual": 0.86
+          "actual": -0.93,
+          "fromPortfolio": true
         },
         {
           "name": "Barrick Gold Corp",
@@ -1939,14 +1957,19 @@
           "bandHigh": 2,
           "confidence": 55,
           "reason": "Markt-Lage: Gold stabil bei 4.137 USD (+0,6 %) trotz Rendite-Hoch (finanzen.net). Depot-Pick nach Opportunität: Nach dem Minen-ETF-Rücksetzer (GDX -18 % vom Hoch) sieht Goldexperte Bußler eine Einstiegsgelegenheit mit Barrick im Fokus (esg-aktien); Barrick Q2 mit FCF von 515 Mio. USD und Realisierungspreis 4.417 USD/Unze (small-microcap); 15-Jahres-Lizenz für North Mara gesichert (aktien.news, 06.10.). Risiko: Gold zeigte am Vortag Bruchzeichen (XTB). Regelkonformer Folge-Pick nach Band-Treffer 06.10. (+1,07 %). Quellen: finanzen.net, esg-aktien.de, small-microcap.eu, aktien.news (06.–08.10.2026).",
-          "status": "open",
+          "status": "hit",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00-Slot (Pre-Market): Barrick Mining (NYSE: B) ca. 41,26 USD, +0,86 % ggü. Vortagesschluss 40,91 USD (StockPremarket) — obwohl Gold heute unter 4.100 USD/Unze rutscht (kitco-Meldung), hält der Titel das Niveau. Prognose up +0,3 % bis +2,0 %: im Band, Richtung korrekt; US-Handel ab 15:30 MESZ. Quelle: StockPremarket/kitco (08.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss CA$56,86 (TSX: ABX), +1,83 % ggü. 55,84 — im Band (+0,3 % bis +2,0 %): Hit. Gold hielt trotz Rendite-Hoch; die 15-Jahres-Verlängerung der North-Mara-Lizenz (Tansania) stützt. US-Notierung (NYSE: B) analog im Plus. Quelle: Finanzdatensuche Toronto-Schluss (08.10.2026)."
             }
           ],
-          "actual": 0.86
+          "actual": 1.83,
+          "fromPortfolio": true
         },
         {
           "name": "EuroStoxx 50",
@@ -1957,14 +1980,18 @@
           "bandHigh": 1,
           "confidence": 55,
           "reason": "Markt-Lage: Überverkauftester Vortag der Index-Familie (EuroStoxx 50 -1,5 % auf 6.180 Punkte, finanzen.net) bei gleichzeitiger Erholungsindikation am deutschen Markt (Nord/LB +0,77 % DAX). Freier Pick: Die hohen Versicherergewichte (Allianz, Munich Re, Swiss Re, Generli) profitieren vom Rendite-Niveau; Rebound-Potenzial nach Abschlag. Quellen: finanzen.net Tagesvorschau 08.10., Nord/LB (08.10.2026).",
-          "status": "open",
+          "status": "miss",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00-Slot: Euro Stoxx 50 ca. 6.111 Punkte, -1,11 % ggü. Vortag (um 12:09 Uhr im STOXX-Handel, finanzen.ch) — der erwartete Rebound nach dem -1,5 %-Abschlagstag blieb aus; Öl- und Renditedruck treiben den Euro-Zonen-Markt tiefer, auch die Versicherergewichte kompensieren das nicht. Prognose up +0,2 % bis +1,0 %: aktuell klar außerhalb des Bands, Richtung bislang falsch. Quelle: finanzen.ch (08.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 6.126,73 Punkte, −0,87 % — Richtung falsch: Miss. Vierte Verlustsession in Folge; Öl (+5,6 %) und Renditen drückten Europa auch nach dem EZB-Protokoll (13:30 Uhr). Quelle: dpa-AFX via Ariva, „Aktien Europa Schluss: Talfahrt geht weiter\" (08.10.2026, 18:06 Uhr)."
             }
           ],
-          "actual": -1.11
+          "actual": -0.87
         },
         {
           "name": "Nasdaq 100",
@@ -1975,14 +2002,18 @@
           "bandHigh": 1,
           "confidence": 55,
           "reason": "Markt-Lage: AI-Boom-Resilienz — Nasdaq Composite Vortag nur -0,22 % auf 27.538,69 Punkte in Rekordnähe (CNBC), heutige Indikation +0,45 % (Nord/LB). Freier Pick: Tech-Immunität gegenüber dem Rendite-Druck ist ein wiederkehrendes Muster (30.09., 06.10.); Gegenwind bleibt die 5,35 %-Rendite. Quellen: CNBC, Nord/LB, AP (07./08.10.2026).",
-          "status": "open",
+          "status": "miss",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00-Slot (Pre-Market): Nasdaq-100-Futures ca. -0,7 % (Reuters via Yahoo Finance, 13:30 MESZ) nach Rekordnähe-Vortag — die 10J-Rendite auf 24-Jahres-Hoch und steigendes Öl (Hormuz-Angriffe) dämpfen die Tech-Immunität entgegen der Morgenindikation (+0,45 %, Nord/LB). Prognose up +0,2 % bis +1,0 %: aktuell unter bandLow, Richtung bislang nicht bestätigt; US-Handel ab 15:30 MESZ. Quelle: Yahoo Finance (08.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss rund −1,3 % (Nasdaq Composite −1,25 % auf 27.193,34) — Richtung falsch: Miss. Der AI-Sell-off (Halbleiter-Werte bis −3 %) beendete die Rekordnähe; Nvidia −1 %, Meta −2,4 %. Quellen: Bloomberg („Nasdaq 100 falling 1,3 %\"), CNBC (08.10.2026)."
             }
           ],
-          "actual": -0.7
+          "actual": -1.3
         },
         {
           "name": "Dow Jones",
@@ -1993,14 +2024,18 @@
           "bandHigh": 1,
           "confidence": 50,
           "reason": "Markt-Lage: Öl-sensitiver Value-Dow — Vortag -0,66 % auf 51.179,87 Punkte (CNBC), Amgen (+2,6 %) führte die Gewinnerliste (FuW Morgen-Report). Heutige Indikation +0,49 % (Nord/LB), aber Brent-Anstieg durch Hormuz-Angriffe (Bloomberg, AP) und Renditen belasten Industrie-/Value-Werte; daher niedrigste Konfidenz 50. Quellen: CNBC, FuW, Nord/LB, AP, Bloomberg (08.10.2026).",
-          "status": "open",
+          "status": "hit",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00-Slot (Pre-Market): Dow-Futures ca. -0,9 % (YM, Reuters via Yahoo Finance, 13:30 MESZ) nach 51.179,87 Punkten Vortag — der öl-sensitive Value-Dow ist durch den Brent-Anstieg (Hormuz) und die Renditen doppelt belastet; die Morgenindikation (+0,49 %, Nord/LB) hat sich gedreht. Prognose up -0,2 % bis +1,0 %: aktuell außerhalb des Bands, Richtung bislang falsch. Quelle: Yahoo Finance (08.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 51.231,64 Punkte, +0,10 % (+51,77 Zähler) — im Band (−0,2 % bis +1,0 %): Hit. Die Value-/Defensiv-Rotation (Pharma, Konsum-Staples) trug den einzigen US-Index ins Plus. Quelle: Stock market news (08.10.2026)."
             }
           ],
-          "actual": -0.9
+          "actual": 0.1
         }
       ]
     }
