@@ -1,97 +1,97 @@
 {
   "version": 4,
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "totals": {
-    "predictions": 80,
-    "hits": 41,
-    "partial": 13,
-    "misses": 26,
+    "predictions": 88,
+    "hits": 44,
+    "partial": 14,
+    "misses": 30,
     "overshoots": 5,
-    "directionCorrect": 49,
-    "hitRate": 0.5125
+    "directionCorrect": 52,
+    "hitRate": 0.5
   },
   "benchmark": {
-    "predictions": 21,
+    "predictions": 23,
     "hits": 8,
-    "partial": 7,
-    "misses": 6,
+    "partial": 8,
+    "misses": 7,
     "overshoots": 1,
     "directionCorrect": 11,
-    "hitRate": 0.381,
+    "hitRate": 0.3478,
     "note": "Fix-Indizes DAX + S&P 500 — misst Markt-Lese-Qualität. Enge, realistische Bänder korrekt; kein Mut-Kriterium."
   },
   "picks": {
-    "predictions": 59,
-    "hits": 33,
+    "predictions": 65,
+    "hits": 36,
     "partial": 6,
-    "misses": 20,
+    "misses": 23,
     "overshoots": 4,
-    "directionCorrect": 38,
-    "hitRate": 0.5593,
+    "directionCorrect": 41,
+    "hitRate": 0.5538,
     "note": "Echte Picks: 2x Depot + 1 frei — misst Opportunity-Finding. Mindest-Band + Boldness gelten hier."
   },
   "byInstrumentType": {
     "index": {
-      "predictions": 46,
-      "hits": 22,
-      "partial": 10,
-      "misses": 14,
+      "predictions": 51,
+      "hits": 23,
+      "partial": 11,
+      "misses": 17,
       "overshoots": 1,
-      "directionCorrect": 27,
-      "hitRate": 0.4783
+      "directionCorrect": 28,
+      "hitRate": 0.451
     },
     "equity_de": {
-      "predictions": 25,
-      "hits": 12,
+      "predictions": 27,
+      "hits": 13,
       "partial": 2,
-      "misses": 11,
+      "misses": 12,
       "overshoots": 3,
-      "directionCorrect": 14,
-      "hitRate": 0.48
+      "directionCorrect": 15,
+      "hitRate": 0.4815
     },
     "equity_us": {
-      "predictions": 9,
-      "hits": 7,
+      "predictions": 10,
+      "hits": 8,
       "partial": 1,
       "misses": 1,
       "overshoots": 1,
-      "directionCorrect": 8,
-      "hitRate": 0.7778
+      "directionCorrect": 9,
+      "hitRate": 0.8
     }
   },
   "byPickClass": {
     "benchmark": {
-      "predictions": 21,
+      "predictions": 23,
       "hits": 8,
-      "partial": 7,
-      "misses": 6,
+      "partial": 8,
+      "misses": 7,
       "overshoots": 1,
       "directionCorrect": 11,
-      "hitRate": 0.381
+      "hitRate": 0.3478
     },
     "portfolio": {
-      "predictions": 29,
-      "hits": 16,
+      "predictions": 32,
+      "hits": 18,
       "partial": 2,
-      "misses": 11,
+      "misses": 12,
       "overshoots": 3,
-      "directionCorrect": 18,
-      "hitRate": 0.5517
+      "directionCorrect": 20,
+      "hitRate": 0.5625
     },
     "free": {
-      "predictions": 30,
-      "hits": 17,
+      "predictions": 33,
+      "hits": 18,
       "partial": 4,
-      "misses": 9,
+      "misses": 11,
       "overshoots": 1,
-      "directionCorrect": 20,
-      "hitRate": 0.5667
+      "directionCorrect": 21,
+      "hitRate": 0.5455
     }
   },
   "boldness": {
     "note": "Mut-Metrik gegen Tiefbieten — NUR echte Picks (Benchmark-Indizes ausgeschlossen).",
-    "avgBandHigh": 1.6949,
-    "avgActual": 0.1641,
+    "avgBandHigh": 1.6615,
+    "avgActual": 0.1377,
     "months": [
       {
         "month": "2026-09",
@@ -101,9 +101,9 @@
       },
       {
         "month": "2026-10",
-        "picks": 24,
-        "avgBandHigh": 1.7958,
-        "avgActual": 0.7967
+        "picks": 30,
+        "avgBandHigh": 1.7033,
+        "avgActual": 0.613
       }
     ]
   },
@@ -219,6 +219,10 @@
     {
       "date": "2026-10-08",
       "entry": "Morgen-Auswahl 08.10.: Screen vor Pick — Abschlagstag-Vortag (DAX -1,4 % auf 25.104; EuroStoxx 50 -1,5 %; Dow -0,66 %; S&P -0,22 %; 10J-Treasury 5,35 % = 24-Jahres-Hoch; Brent 102,4 +2,1 % — finanzen.net, CNBC, Yahoo). Heute frühe Erholungsindikation (DAX-Futures 25.208 im Frühhandel, MarketScreener; Nord/LB-Indikation DAX +0,77 %), aber Asien schwach und US-Futures mixed (AP), Öl-Druck durch Hormuz-Angriffe (Bloomberg). Benchmarks: DAX knapp up (-0,1/+0,7) als Rebound nach Abschlagtag; S&P konsequent flat (-0,4/+0,7) per 30.09.-Regel (obere Weitung an Drück-Tagen; Jobless Claims 14:30 + Waller 16:00 als Zügel). Depot-Picks nach Opportunität (Zinsprofiteur-Tag): Munich Re (Manulife-Deal + Rückkäufe; Defensiv-Deklaration nach 01.10.-Klausel), Allianz (Rückkauf >6,2 Mio. Aktien, Q3-'Qualität setzt sich durch' — e-fundresearch), Barrick Gold (Gold 4.137 stabil trotz Rendite-Hoch, North-Mara-Lizenz; regelkonformer Folge-Pick nach 06.10.-Band-Hit +1,07 %). Freie Picks: EuroStoxx 50 (überverkauftester Index, Versicherergewichte), Nasdaq 100 (AI-Resilienz, Rekordnähe), Dow Jones (Value-Rebound-Indikation, niedrigste Konf. 50 wegen Öl-/Rendite-Risiko). Bewusst gemieden: Lufthansa/Reise-Werte (Öl +2 %), Rheinmetall (Konsolidierungsrisiko nach Overshoot), Infineon (05.10.-Miss-Regel), MDAX-Stimmungsthesen (05.10.-Lehre). Hauptrisiko des Tages: EZB-Protokoll (13:30) und Waller-Rede (16:00) reaktivieren Rendite-Druck und kippen den Rebound-Versuch."
+    },
+    {
+      "date": "2026-10-08",
+      "entry": "Abend-Review 08.10.: Bilanz 3 Hit (Dow Jones +0,10 %, Munich Re +0,46 %, Barrick +1,83 %), 1 Partial (S&P 500 −0,47 %, knapp unter dem Flat-Band −0,4/+0,7), 4 Miss (DAX −1,2 %, EuroStoxx 50 −0,87 %, Nasdaq 100 −1,3 %, Allianz −0,93 %). Was gut lief: Defensiv-/Zinsprofiteur-Rotation (Munich Re hielt am Abschlagstag, Dow via Pharma/Staples als einziger US-Index im Plus), Gold-Pick Barrick trotz Rendite-Hoch, Flat-Benchmark S&P 500 mit korrekter Vorsicht (nur knapp verfehlt). Was schlecht lief: Die Rebound-These nach Abschlagstag wurde vom Öl-Schock überrollt — Brent +5,6 % auf 105,80 USD (Hormuz-Angriffe, Hurrikan Isaias) plus Rendite-Druck (EZB-Protokoll 13:30, Waller-Rede); die früh positive DAX-Indikation (+0,77 %) war ein Fehlsignal, Allianz kippte vom Mittags-Plus ins Schluss-Minus. Kalibrierungs-Anpassung: Bei Öl-Eskalationslage (Hormuz) sind Rebound-Indikationen nach Abschlagstagen kein gültiges Primärsignal — künftig Öl-/Geopolitik-News vor Pick-Ableitung stärker gewichten und freie Picks an solchen Tagen Richtung Defensiv/Zinsprofiteur verschieben; obere Bänder an Risiko-Tagen straffen (heute: Ø bandHigh 1,70 vs. Ø actual −0,12 der echten Picks). Anti-Tiefbieten bleibt erhalten."
     }
   ]
 }
