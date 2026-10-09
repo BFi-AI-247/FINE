@@ -2,96 +2,96 @@
   "version": 4,
   "updated": "2026-10-09",
   "totals": {
-    "predictions": 88,
-    "hits": 44,
+    "predictions": 96,
+    "hits": 51,
     "partial": 14,
-    "misses": 30,
-    "overshoots": 5,
-    "directionCorrect": 52,
-    "hitRate": 0.5
+    "misses": 31,
+    "overshoots": 7,
+    "directionCorrect": 59,
+    "hitRate": 0.5313
   },
   "benchmark": {
-    "predictions": 23,
-    "hits": 8,
+    "predictions": 25,
+    "hits": 10,
     "partial": 8,
     "misses": 7,
-    "overshoots": 1,
-    "directionCorrect": 11,
-    "hitRate": 0.3478,
+    "overshoots": 2,
+    "directionCorrect": 13,
+    "hitRate": 0.4,
     "note": "Fix-Indizes DAX + S&P 500 — misst Markt-Lese-Qualität. Enge, realistische Bänder korrekt; kein Mut-Kriterium."
   },
   "picks": {
-    "predictions": 65,
-    "hits": 36,
+    "predictions": 71,
+    "hits": 41,
     "partial": 6,
-    "misses": 23,
-    "overshoots": 4,
-    "directionCorrect": 41,
-    "hitRate": 0.5538,
+    "misses": 24,
+    "overshoots": 5,
+    "directionCorrect": 46,
+    "hitRate": 0.5775,
     "note": "Echte Picks: 2x Depot + 1 frei — misst Opportunity-Finding. Mindest-Band + Boldness gelten hier."
   },
   "byInstrumentType": {
     "index": {
-      "predictions": 51,
-      "hits": 23,
+      "predictions": 56,
+      "hits": 28,
       "partial": 11,
       "misses": 17,
-      "overshoots": 1,
-      "directionCorrect": 28,
-      "hitRate": 0.451
+      "overshoots": 2,
+      "directionCorrect": 33,
+      "hitRate": 0.5
     },
     "equity_de": {
-      "predictions": 27,
-      "hits": 13,
+      "predictions": 29,
+      "hits": 14,
       "partial": 2,
-      "misses": 12,
+      "misses": 13,
       "overshoots": 3,
-      "directionCorrect": 15,
-      "hitRate": 0.4815
+      "directionCorrect": 16,
+      "hitRate": 0.4828
     },
     "equity_us": {
-      "predictions": 10,
-      "hits": 8,
+      "predictions": 11,
+      "hits": 9,
       "partial": 1,
       "misses": 1,
-      "overshoots": 1,
-      "directionCorrect": 9,
-      "hitRate": 0.8
+      "overshoots": 2,
+      "directionCorrect": 10,
+      "hitRate": 0.8182
     }
   },
   "byPickClass": {
     "benchmark": {
-      "predictions": 23,
-      "hits": 8,
+      "predictions": 25,
+      "hits": 10,
       "partial": 8,
       "misses": 7,
-      "overshoots": 1,
-      "directionCorrect": 11,
-      "hitRate": 0.3478
+      "overshoots": 2,
+      "directionCorrect": 13,
+      "hitRate": 0.4
     },
     "portfolio": {
-      "predictions": 32,
-      "hits": 18,
+      "predictions": 35,
+      "hits": 20,
       "partial": 2,
-      "misses": 12,
-      "overshoots": 3,
-      "directionCorrect": 20,
-      "hitRate": 0.5625
+      "misses": 13,
+      "overshoots": 4,
+      "directionCorrect": 22,
+      "hitRate": 0.5714
     },
     "free": {
-      "predictions": 33,
-      "hits": 18,
+      "predictions": 36,
+      "hits": 21,
       "partial": 4,
       "misses": 11,
       "overshoots": 1,
-      "directionCorrect": 21,
-      "hitRate": 0.5455
+      "directionCorrect": 24,
+      "hitRate": 0.5833
     }
   },
   "boldness": {
     "note": "Mut-Metrik gegen Tiefbieten — NUR echte Picks (Benchmark-Indizes ausgeschlossen).",
-    "avgBandHigh": 1.6615,
-    "avgActual": 0.1377,
+    "avgBandHigh": 1.6366,
+    "avgActual": 0.2038,
     "months": [
       {
         "month": "2026-09",
@@ -101,9 +101,9 @@
       },
       {
         "month": "2026-10",
-        "picks": 30,
-        "avgBandHigh": 1.7033,
-        "avgActual": 0.613
+        "picks": 36,
+        "avgBandHigh": 1.6472,
+        "avgActual": 0.6642
       }
     ]
   },
@@ -227,6 +227,10 @@
     {
       "date": "2026-10-09",
       "entry": "Morgen-Auswahl 09.10.: Screen vor Pick — Öl-Schock-Vortag (Brent +5,6 % auf 105,80 USD, DAX −1,2 % auf 24.807 Punkte — ad-hoc-news; S&P 500 −0,47 % auf 7.765,36, Nasdaq Composite −1,25 %, Dow +0,10 % auf 51.231,64 — CNBC; OpenAI-Umsatz-Enttäuschung ~50 statt 70 Mrd. USD annualized drückt AI-Trade, Nvidia −2 %, Oracle −6,1 % — XTB). Heute frischer Rendite-Rücksetzer als Primärsignal: 10J-Treasury 5,23 % nach 24-Jahres-Hoch 5,35 % (TradingEconomics) — bewusste Anwendung der 08.10.-Lehre: kein Rebound-Long auf Frühindikation, sondern nur auf den harten Zins-Impuls; Öl-Risiko (Hormuz-Angriffe, Hurrikan Isaias vor der US-Golfküste, Landgang Fr/Sa — TokenPost) bleibt Zügel, daher alle up-Bänder gedeckelt. US-Risikotermin: UMichigan 16:00 Uhr mit Inflationserwartungen (finanzen.net). Benchmarks: DAX knapp up (−0,2/+0,8) nach zwei Abschlagstagen mit Rendite-Entlastung; S&P 500 konsequent flat (−0,5/+0,7) — OpenAI-Nachwehen + UMich bieten kein einseitiges Zins-Entlastungsszenario. Depot-Picks auf Defensiv/Safe-Haven nach Tages-Opportunität: Barrick Gold (Gold ~4.284 USD nahe Rekord, Geo-Eskalation + Rendite-Rücksetzer; regelkonformer Folge-Pick nach zwei Band-Hits 06./08.10., kein >8 %-Ausnahmetag), Muenchener Rueck (Defensiv-Deklaration nach 01.10.-Klausel, gestern Hit am Abschlagstag), Hannover Rueck (zweiter Versicherer, Klumpen bewusst auf 2 begrenzt — 29.09.-Regel). Freie Picks: Nasdaq 100 (überverkauft nach −1,3 %, Rendite-Entlastung für Tech, moderate Konfidenz wegen UMich), EuroStoxx 50 (Versicherergewichte + Zins-Entlastung, Öl-Deckel), Dow Jones (Defensiv-Stärke gestern als einziger US-Index im Plus, niedrigste Konfidenz 50 wegen Öl). Bewusst gemieden: Lufthansa/Reise-Werte (Öl ~105), Infineon (05.10.-Miss-Regel), Rheinmetall (Konsolidierungsrisiko nach Overshoot), AI-Einzelwerte vor UMichigan. Hauptrisiko des Tages: intraday Öl-Spitze beim Isaias-Landgang oder heiße UMich-Inflationserwartungen kippen die Rendite-Entspannung und beerdigen den Erholungsversuch wie am 08.10."
+    },
+    {
+      "date": "2026-10-09",
+      "entry": "Abend-Review 09.10.: Bestes Tagesergebnis im 8-Pick-Schema — 7 von 8 Treffern (87,5 %), 2 Übererfüllungen (DAX +1,19 % vs. Band bis +0,8 %; Barrick +3,45 % vs. Band bis +2,0 %), 1 Miss (Hannover Rück −0,34 %, marginal; Bewertung folgt der Mittags-Referenz 265,10 EUR — bei Xetra-Referenz 262,40 wäre es ein Hit gewesen, Datenreferenz-Inkonsistenz dokumentiert). Kalibrierungs-Anpassung: An Rendite-Rücksetzer-Tagen nach überverkauften Abschlagstagen war das Erholungsausmaß erneut unterschätzt (DAX-Overshoot in dieser Konstellation mehrfach) — obere Bänder an Zins-Rücksetzer-Tagen künftig um rund 0,3–0,5 Prozentpunkte anheben. Defensiv-Klumpen (2 Versicherer) bleibt legitim, Titelwahl künftig nach Vortagsstärke differenzieren: Munich Re traf (+0,92 %), Hannover Rück stagnierte. Flat-Benchmark S&P 500 traf erneut (dritte Bestätigung der 06.10.-Flat-Regel)."
     }
   ]
 }
