@@ -2052,14 +2052,19 @@
           "bandHigh": 0.8,
           "confidence": 55,
           "reason": "Screen: Frischer Rendite-Rücksetzer als Primärsignal — 10J-Treasury gibt vom 24-Jahres-Hoch 5,35 % auf 5,23 % nach (TradingEconomics, 09.10.); DAX nach zwei Abschlagstagen (Mi −1,4 %, Do −1,2 % auf 24.807 Punkte — ad-hoc-news) überverkauft. Zügel: Brent ~105 USD (Hormuz-Angriffe, Hurrikan Isaias vor der US-Golfküste — TokenPost/ad-hoc-news). 08.10.-Lehre beachtet: kein Rebound-Long auf Frühindikation, sondern erst auf den harten Zins-Impuls — daher knappes up-Band.",
-          "status": "open",
+          "status": "hit",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 MESZ: DAX bei 25.091,18 Punkten (Xetra, 12:09 Uhr), +1,15% ggü. Vortagesschluss 24.806,97 — Erholung nach Rendite-Rücksetzer deutlich kräftiger als gedacht, aktuell ÜBER dem oberen Bandrand (+0,8%), Richtung korrekt. Quelle: finanzen.net (09.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 25.102,34 Punkte (Xetra), +1,19 % ggü. 24.806,97 — ÜBER dem oberen Bandrand (+0,8 %): Übererfüllung (hit, overshoot). Der Rendite-Rücksetzer (10J 5,23 %) plus überverkaufte Ausgangslage gab der Erholung mehr Schwung als prognostiziert; das knappe up-Band war zu zaglos. Quellen: finanzen.ch (Xetra-Schluss 09.10.2026), The Alpha Dissection (25.087,27 / +1,13 %, dpa-Basis)."
             }
           ],
-          "actual": 1.15
+          "actual": 1.19,
+          "overshoot": true
         },
         {
           "name": "S&P 500",
@@ -2070,14 +2075,18 @@
           "bandHigh": 0.7,
           "confidence": 50,
           "reason": "OpenAI-Umsatz-Enttäuschung (~50 statt 70 Mrd. USD annualized) belastet den AI-Trade weiter (Nvidia −2 %, Oracle −6,1 % — XTB); S&P 500 gab gestern −0,47 % auf 7.765,36 Punkte nach (CNBC). Rendite-Entspannung (5,23 % — TradingEconomics) stützt, aber UMichigan-Verbraucherstimmung 16:00 Uhr mit Inflationserwartungen (finanzen.net Tagesvorschau) bietet kein einseitiges Szenario — Flat-Band ±0,7 % nach 06.10.-Regel.",
-          "status": "open",
+          "status": "hit",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 MESZ (Pre-Market): S&P-500-Futures +0,4% bei Öl-Entspannung und Tech-Erholung (Vortag −0,47% auf 7.765,36) — im Flat-Band (−0,5% bis +0,7%); UMichigan-Sentiment inkl. Inflationserwartungen 16:00 Uhr noch offen. Quelle: Yahoo Finance (09.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss +0,34 % (Dow +0,19 %, Nasdaq Composite +0,54 %) — im Flat-Band (−0,5 % bis +0,7 %): Hit. Öl-Entspannung und Tech-Rebound nach dem OpenAI-Schock; die UMichigan-Impulse (16:00 Uhr) blieben beherrschbar. Quelle: TheStreet (09.10.2026); AP meldete +0,3/+0,4 % intraday, Trading Economics CFD +0,29 %."
             }
           ],
-          "actual": 0.4
+          "actual": 0.34
         },
         {
           "name": "Barrick Gold Corp",
@@ -2089,13 +2098,19 @@
           "bandHigh": 2,
           "confidence": 55,
           "reason": "Gold ~4.284 USD nahe Rekord (kagels-trading); Geo-/Öl-Eskalation (Hormuz-Angriffe, Hurrikan Isaias — TokenPost) treibt Safe-Haven-Nachfrage, der Rendite-Rücksetzer (5,35 → 5,23 % — TradingEconomics) nimmt die Gegenlast. Regelkonformer Folge-Pick nach zwei Band-Hits (+1,07 % am 06.10., +1,83 % am 08.10.) — kein >8 %-Ausnahmetag, 05.10.-Regel greift nicht.",
-          "status": "open",
+          "status": "hit",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 MESZ: US-Handel noch geschlossen; Vortagesschluss (Do) 39,99 USD, +2,07% (Morningstar). Gold heute ~+1,3 bis +1,8% bei ca. 4.184–4.192 USD/oz (TradingEconomics, USA Today) — Tailwind für Minenwerte, Band (+0,3% bis +2,0%) vorbörslich erreichbar; kein verlässlicher Pre-Market-Quote für B, actual bleibt offen. Quellen: Morningstar, TradingEconomics, USA Today (09.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss +3,45 % (TSX: CA$58,82; NYSE-Proxy — Frankfurt L&S +4,0/+4,3 % auf 36,55/36,65 EUR ggü. 35,13) — ÜBER dem oberen Bandrand (+2,0 %): Übererfüllung (hit, overshoot). Gold-Rally (Safe-Haven bei Hormuz-Eskalation) plus 15-Jahres-Verlängerung North Mara (Tansania). Quellen: Wealth Awesome (TSX-Schluss), ad-hoc-news.de (L&S 09.10.2026)."
             }
-          ]
+          ],
+          "actual": 3.45,
+          "overshoot": true
         },
         {
           "name": "Muenchener Rueckvers",
@@ -2107,14 +2122,18 @@
           "bandHigh": 1.5,
           "confidence": 55,
           "reason": "Defensiv-Pick nach 01.10.-Klausel (These trägt beide Rendite-Richtungen); gestern einziger Depot-Hit am Abschlagstag (+0,46 %) trotz Öl-Schock — Defensiv-Muster an Risiko-Tagen mehrfach validiert (06./08.10.). Rendite-Rücksetzer entlastet zusätzlich.",
-          "status": "open",
+          "status": "hit",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 MESZ: ca. 519,40 EUR, +0,66% (Tradegate) — im Band (+0,1% bis +1,5%), Richtung korrekt; Versicherer-Defensiv zieht am Erholungstag mit. Quelle: wallstreet-online (09.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Xetra-Schluss rund +0,92 % (ca. 520,8 EUR; L&S nachbörslich 524,80 EUR, +0,32 % ggü. L&S-Referenz 523,10) — im Band (+0,1 % bis +1,5 %): Hit. Der Defensiv-Zinsprofiteur zog am Erholungstag zuverlässig mit — Muster erneut validiert. Quelle: ad-hoc-news.de/Börse Global (Xetra-Daten 09.10.2026)."
             }
           ],
-          "actual": 0.66
+          "actual": 0.92
         },
         {
           "name": "Hannover Rueck",
@@ -2126,11 +2145,15 @@
           "bandHigh": 1.5,
           "confidence": 50,
           "reason": "Zweiter Defensiv-/Rückversicherer nach Tages-Opportunität am Risiko-Tag (Klumpen bewusst auf 2 Versicherer begrenzt — 29.09.-Regel); Rendite-Rücksetzer 5,35 → 5,23 % (TradingEconomics) entlastet den Sektor, der am Abschlagstag stabil hielt.",
-          "status": "open",
+          "status": "miss",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 MESZ: 264,20 EUR (Lang & Schwarz, 10:03 Uhr), −0,34% ggü. Vortagesschluss 265,10 EUR — knapp negativ, Band (0,0% bis +1,5%) bislang verfehlt, Richtung aktuell falsch; Fitch-Ausblick-Anhebung (AA−, positiv, 01.10.) zeigt am Freitagvormittag noch keine Kurswirkung. Quelle: ad-hoc-news.de (09.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss praktisch unverändert bis knapp negativ: L&S nachbörslich 264,20 EUR, −0,34 % ggü. Vortagesschluss 265,10 EUR (Xetra-Intraday 264,60 um 15:14 Uhr) — Richtung falsch: Miss, marginal. Referenz-Hinweis: finanzen.ch weist als Xetra-Vortagesschluss 262,40 EUR aus — auf dieser Basis wäre der Tag leicht positiv (Hit) gewesen; Bewertung folgt der Mittags-Referenz 265,10 EUR. Der Erholungstag zog im Rückversicherer-Lager nur München mit, Hannover stagnierte. Quellen: ad-hoc-news.de (L&S, 19:05 Uhr), finanzen.ch (09.10.2026)."
             }
           ],
           "actual": -0.34
@@ -2144,14 +2167,18 @@
           "bandHigh": 1.2,
           "confidence": 50,
           "reason": "Nach −1,3 % gestern (OpenAI-Schock; Nasdaq Composite −1,25 % — CNBC, Nvidia −2 % — XTB) überverkauft; Rendite-Entspannung stützt bewertungssensitive Tech — Entlastungsmuster an Zins-Rücksetzer-Tagen mehrfach bestätigt (02./05./06.10.). Hauptrisiko: UMich-Inflationserwartungen (16:00 Uhr — finanzen.net), daher moderate Konfidenz.",
-          "status": "open",
+          "status": "hit",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 MESZ (Pre-Market): Nasdaq-100-Futures +0,8% nach OpenAI-Schock-Rücksetzer (Nasdaq Composite Do −1,25%) — Tech-Erholung passt zum Zins-Rücksetzer-Entlastungsmuster, im Band (0,0% bis +1,2%); UMich-Inflationserwartungen 16:00 Uhr als Hauptrisiko. Quelle: Yahoo Finance (09.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss +0,54 % (Nasdaq Composite als Proxy — direkter NDX-Schluss nicht verfügbar) — im Band (0,0 % bis +1,2 %): Hit. Tech-Erholung nach OpenAI-Schock im Zins-Rücksetzer-Entlastungsmuster (wie 02./05./06.10.). Quelle: TheStreet (09.10.2026)."
             }
           ],
-          "actual": 0.8
+          "actual": 0.54
         },
         {
           "name": "EuroStoxx 50",
@@ -2162,14 +2189,18 @@
           "bandHigh": 1,
           "confidence": 50,
           "reason": "Versicherergewichte (Munich Re, Allianz, Hannover Rück) als Rückhalt nach dem Abschlagstag; frischer Rendite-Rücksetzer (TradingEconomics) als Impuls. Deckel: Öl ~105 USD (TokenPost) — Band daher bei +1,0 % gedeckelt.",
-          "status": "open",
+          "status": "hit",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 MESZ: 6.184,42 Punkte (12:09 Uhr), +0,94% — breite europäische Erholung, knapp unter dem oberen Bandrand (+1,0%), im Band, Richtung korrekt. Quelle: finanzen.ch (09.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 6.173,37 Punkte, +0,76 % — im Band (0,0 % bis +1,0 %): Hit. Breite europäische Erholung, gestützt von entspannteren Anleiherenditen (bes. Frankreich); Versicherergewichte als Rückhalt bestätigt. Quelle: dpa-AFX/onvista (09.10.2026)."
             }
           ],
-          "actual": 0.94
+          "actual": 0.76
         },
         {
           "name": "Dow Jones",
@@ -2180,14 +2211,18 @@
           "bandHigh": 1,
           "confidence": 50,
           "reason": "Gestern einziger US-Index im Plus (+0,10 % auf 51.231,64 Punkte — CNBC) getragen von Pharma/Staples-Defensiv; Rendite-Entlastung hilft zyklischen Blue Chips. Öl-Druck (~105 USD Brent) kann Kapriolen machen — niedrigste Konfidenz 50.",
-          "status": "open",
+          "status": "hit",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 MESZ (Pre-Market): Dow-Futures +0,2% (Vortag +0,10% auf 51.231,64) — im Band (−0,1% bis +1,0%), zögerlicher als Tech. Quelle: Yahoo Finance (09.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss +0,19 % (TheStreet-Schlussdaten; AP intraday +0,2 %) — im Band (−0,1 % bis +1,0 %): Hit. Wie prognostiziert zögerlicher als Tech (niedrigste Konfidenz 50 war berechtigt). Quelle: TheStreet (09.10.2026)."
             }
           ],
-          "actual": 0.2
+          "actual": 0.19
         }
       ]
     }
