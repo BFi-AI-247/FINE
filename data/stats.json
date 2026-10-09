@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "totals": {
     "predictions": 88,
     "hits": 44,
@@ -223,6 +223,10 @@
     {
       "date": "2026-10-08",
       "entry": "Abend-Review 08.10.: Bilanz 3 Hit (Dow Jones +0,10 %, Munich Re +0,46 %, Barrick +1,83 %), 1 Partial (S&P 500 −0,47 %, knapp unter dem Flat-Band −0,4/+0,7), 4 Miss (DAX −1,2 %, EuroStoxx 50 −0,87 %, Nasdaq 100 −1,3 %, Allianz −0,93 %). Was gut lief: Defensiv-/Zinsprofiteur-Rotation (Munich Re hielt am Abschlagstag, Dow via Pharma/Staples als einziger US-Index im Plus), Gold-Pick Barrick trotz Rendite-Hoch, Flat-Benchmark S&P 500 mit korrekter Vorsicht (nur knapp verfehlt). Was schlecht lief: Die Rebound-These nach Abschlagstag wurde vom Öl-Schock überrollt — Brent +5,6 % auf 105,80 USD (Hormuz-Angriffe, Hurrikan Isaias) plus Rendite-Druck (EZB-Protokoll 13:30, Waller-Rede); die früh positive DAX-Indikation (+0,77 %) war ein Fehlsignal, Allianz kippte vom Mittags-Plus ins Schluss-Minus. Kalibrierungs-Anpassung: Bei Öl-Eskalationslage (Hormuz) sind Rebound-Indikationen nach Abschlagstagen kein gültiges Primärsignal — künftig Öl-/Geopolitik-News vor Pick-Ableitung stärker gewichten und freie Picks an solchen Tagen Richtung Defensiv/Zinsprofiteur verschieben; obere Bänder an Risiko-Tagen straffen (heute: Ø bandHigh 1,70 vs. Ø actual −0,12 der echten Picks). Anti-Tiefbieten bleibt erhalten."
+    },
+    {
+      "date": "2026-10-09",
+      "entry": "Morgen-Auswahl 09.10.: Screen vor Pick — Öl-Schock-Vortag (Brent +5,6 % auf 105,80 USD, DAX −1,2 % auf 24.807 Punkte — ad-hoc-news; S&P 500 −0,47 % auf 7.765,36, Nasdaq Composite −1,25 %, Dow +0,10 % auf 51.231,64 — CNBC; OpenAI-Umsatz-Enttäuschung ~50 statt 70 Mrd. USD annualized drückt AI-Trade, Nvidia −2 %, Oracle −6,1 % — XTB). Heute frischer Rendite-Rücksetzer als Primärsignal: 10J-Treasury 5,23 % nach 24-Jahres-Hoch 5,35 % (TradingEconomics) — bewusste Anwendung der 08.10.-Lehre: kein Rebound-Long auf Frühindikation, sondern nur auf den harten Zins-Impuls; Öl-Risiko (Hormuz-Angriffe, Hurrikan Isaias vor der US-Golfküste, Landgang Fr/Sa — TokenPost) bleibt Zügel, daher alle up-Bänder gedeckelt. US-Risikotermin: UMichigan 16:00 Uhr mit Inflationserwartungen (finanzen.net). Benchmarks: DAX knapp up (−0,2/+0,8) nach zwei Abschlagstagen mit Rendite-Entlastung; S&P 500 konsequent flat (−0,5/+0,7) — OpenAI-Nachwehen + UMich bieten kein einseitiges Zins-Entlastungsszenario. Depot-Picks auf Defensiv/Safe-Haven nach Tages-Opportunität: Barrick Gold (Gold ~4.284 USD nahe Rekord, Geo-Eskalation + Rendite-Rücksetzer; regelkonformer Folge-Pick nach zwei Band-Hits 06./08.10., kein >8 %-Ausnahmetag), Muenchener Rueck (Defensiv-Deklaration nach 01.10.-Klausel, gestern Hit am Abschlagstag), Hannover Rueck (zweiter Versicherer, Klumpen bewusst auf 2 begrenzt — 29.09.-Regel). Freie Picks: Nasdaq 100 (überverkauft nach −1,3 %, Rendite-Entlastung für Tech, moderate Konfidenz wegen UMich), EuroStoxx 50 (Versicherergewichte + Zins-Entlastung, Öl-Deckel), Dow Jones (Defensiv-Stärke gestern als einziger US-Index im Plus, niedrigste Konfidenz 50 wegen Öl). Bewusst gemieden: Lufthansa/Reise-Werte (Öl ~105), Infineon (05.10.-Miss-Regel), Rheinmetall (Konsolidierungsrisiko nach Overshoot), AI-Einzelwerte vor UMichigan. Hauptrisiko des Tages: intraday Öl-Spitze beim Isaias-Landgang oder heiße UMich-Inflationserwartungen kippen die Rendite-Entspannung und beerdigen den Erholungsversuch wie am 08.10."
     }
   ]
 }
