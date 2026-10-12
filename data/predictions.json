@@ -2240,7 +2240,13 @@
           "confidence": 55,
           "reason": "Screening: IG Markets berechnet den DAX vor Xetra-Start mit Plus zum Wochenstart (dpa-AFX/finanzen.net); Öl gibt weiter nach (Brent nach 105,80 USD Schockhoch am 08.10. nun ~103 USD, Convex/Oil Monitor), die 10J-Treasury-Rendite bleibt im Rücksetzer (5,35 % Hoch auf 5,23 %, TradingEconomics). Vortag: +1,19 % auf 25.102 Punkte (ms-aktuell/Xetra, ariva.de). 09.10.-Lehre angewandt: oberes Band an Zins-Rücksetzer-Tagen um ~0,4 pp auf +0,9 % angehoben. Zügel: anhaltende Hormuz-Angriffe auf Tanker (straits.live), US-Bondmarkt heute geschlossen (Columbus Day) mit dünnerer Liquidität (LiveTradingNews). Erwartung: -0,1 % bis +0,9 %. Quellen: finanzen.net (dpa-AFX), ariva.de, TradingEconomics, LiveTradingNews, straits.live.",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ: DAX bei 25.222,44 Punkten (+0,54% ggü. Vortagesschluss 25.087,27) — im Band (-0,1% bis +0,9%), Richtung korrekt. Öl-Rücksetzer (Brent ~104 USD) und Zins-Entlastung tragen. Quelle: finanzen.net/finanzen.ch (12:09 Uhr, 12.10.2026)."
+            }
+          ],
+          "actual": 0.54
         },
         {
           "name": "S&P 500",
@@ -2252,7 +2258,13 @@
           "confidence": 50,
           "reason": "Screening: Rekordwoche abgeschlossen (S&P 500 Freitag +0,6 % auf ~7.825 Punkte, Dow +0,8 %, Nasdaq Composite +0,6 % auf 27.366 — CNBC/Washington Post), Rekordhoch 7.844,52 nur knapp verfehlt (Investrade). Heute kein harter Upside-Katalysator: CPI erst Mittwoch, Bank-Earnings-Saison eröffnet Dienstag, US-Bondmarkt am Montag geschlossen (Columbus Day, dünnere Liquidität, LiveTradingNews). Konsequente Flat-Lesart nach der 06.10.-Regel (kein up-Benchmark ohne harten Tages-Katalysator). Erwartung: -0,4 % bis +0,6 %. Quellen: CNBC, Washington Post, TradingKey, LiveTradingNews, Investrade.",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ (Pre-Market): S&P-500-Futures/CFD ~7.836 Punkte, +0,32% — im Band (-0,4% bis +0,6%), Richtung vorbörslich leicht positiv. US-Aktienhandel heute trotz Columbus Day offen (Bondmarkt geschlossen). Quelle: Trading Economics (12.10.2026)."
+            }
+          ],
+          "actual": 0.32
         },
         {
           "name": "Barrick Gold Corp",
@@ -2265,7 +2277,12 @@
           "confidence": 55,
           "reason": "Screening: Gold hält über 4.200 USD — gestützt von sinkenden Ölpreisen, schwächerem US-Dollar und rückläufigen Renditen (TradingKey, 12.10.); Gold-Dezember-Futures technisch überverkauft mit kurzfristigem Erholungspotenzial (Marktbericht Vietnam.vn). Barrick als Hebel: drei Band-Hits in Folge (06./08./09.10., Freitag Overshoot +3,45 % über bandHigh +2,0 %) — regelkonformer Folge-Pick, kein >8-%-Ausnahmetag. Risiko: heiße US-Inflationsdaten (CPI Mittwoch) könnten Renditen zurücktreiben. Erwartung: +0,3 % bis +3,0 %. Quellen: TradingKey, finanzen.net Gold-Vorschau, eigenes Abend-Review 09.10.",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ: TSX heute feiertagsbedingt geschlossen (kanadisches Thanksgiving); NYSE-Listung (Barrick Mining) öffnet erst 15:30 MESZ — bislang Vortagesschluss als Referenz: ABX CA$ 58,53 (+2,94% am 09.10.). Gold hält über 4.200 USD, Brent rückläufig — Set-up konsistent mit Prognose (+0,3% bis +3,0%), Bewertung am Abend. Quellen: Finanzdatensuche (TSX-Schluss 09.10.), ideas daily (12.10.2026)."
+            }
+          ]
         },
         {
           "name": "Muenchener Rueckvers",
@@ -2278,7 +2295,13 @@
           "confidence": 55,
           "reason": "Screening: Rendite-Rücksetzer setzt sich fort (10J 5,35 % auf 5,23 %, TradingEconomics) — Defensiv-Regime intakt; Münchener Rück mit Vortagsstärke (+0,92 %, Hit am Freitag als Versicherer-Treffer) — 09.10.-Lehre: Titelwahl nach Vortagsstärke differenzieren. Zinsprofiteur-Muster (24.09.-Validierung) bleibt im Spiel, Tailwind moderater bei fallenden Renditen. Risiko: neue Hormuz-Eskalation. Erwartung: +0,1 % bis +1,6 %. Quellen: TradingEconomics, eigenes Abend-Review 09.10., finanzen.net.",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ: ca. 528,30 EUR (Lang & Schwarz), +0,86% ggü. Xetra-Schluss 523,80 EUR vom 09.10. — im Band (+0,1% bis +1,6%), Richtung korrekt. Quelle: ad-hoc-news.de (12.10.2026)."
+            }
+          ],
+          "actual": 0.86
         },
         {
           "name": "Volkswagen St.",
@@ -2291,7 +2314,13 @@
           "confidence": 55,
           "reason": "Screening: Tages-Katalysator um 11:00 Uhr — VW 3Q-Absatzzahlen (finanzen.ch Tagesvorschau 12.10.); Quartals-Diskussion um China-Hybride und Paris-Autosalon liefert Nachrichtenwind (stock-world.de). Öl-Rücksetzer (Brent ~103 USD nach 105,80, Convex) entlastet Autozykliker. Risiko: enttäuschende Zahlen oder China-Import-Diskussion. Erwartung: +0,2 % bis +1,8 %. Quellen: finanzen.ch, stock-world.de, Convex.",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ: ca. 68,96–69,45 EUR, rund +1,4% ggü. Xetra-Schluss 68,00 EUR vom 09.10. — im Band (+0,2% bis +1,8%), Richtung korrekt. Kurs steigt trotz 14,3% Absatzrückgang im 3. Quartal (China -38,5%). Quellen: ad-hoc-news.de, Investing.com (12.10.2026)."
+            }
+          ],
+          "actual": 1.41
         },
         {
           "name": "Nasdaq 100",
@@ -2303,7 +2332,12 @@
           "confidence": 55,
           "reason": "Screening: Tech-Momentum aus der Rekordwoche (Nasdaq Composite 27.366, +0,6 % Freitag — CNBC); AI-Trade nach OpenAI-Rückschlag (08.10.) am Freitag wieder stabilisiert; Tech ist öl-immun und Hauptprofiteur der Rendite-Entlastung. Band moderat, da CPI (Mittwoch) und TSMC-Earnings als Wochenrisiken vor der Tür stehen (TradingKey). Erwartung: +0,3 % bis +1,4 %. Quellen: CNBC, TradingKey, Investrade.",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ (Pre-Market): Nasdaq-Futures im Plus (Yahoo Finance: Dow, S&P 500, Nasdaq-Futures steigen vor Berichtssaison); S&P-Future als Referenz +0,32%. Freitagsschluss nahe Rekord (Nasdaq 100 +0,5% am 09.10.). Band (+0,3% bis +1,4%) bislang nicht bewertbar, Richtung vorbörslich positiv — Bewertung am Abend. Quellen: Yahoo Finance, Trading Economics (12.10.2026)."
+            }
+          ]
         },
         {
           "name": "EuroStoxx 50",
@@ -2315,7 +2349,13 @@
           "confidence": 55,
           "reason": "Screening: IG-Futures plus zum Wochenstart (dpa-AFX/finanzen.net), Zins-Entlastung trägt die Versicherergewichte im EuroStoxx 50 (Freitag +0,76 % im Band). Öl-Deckel bleibt, solange die Angriffe auf Tanker in der Straße von Hormuz anhalten (straits.live). Erwartung: +0,2 % bis +1,1 %. Quellen: finanzen.net (dpa-AFX), straits.live, eigenes Abend-Review 09.10.",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ: 6.200 Punkte, +0,4% ggü. Vortagesschluss 6.173,37 — im Band (+0,2% bis +1,1%), Richtung korrekt. Öl-Rückgang stützt. Quelle: ad-hoc-news.de (12:07 Uhr, 12.10.2026)."
+            }
+          ],
+          "actual": 0.4
         },
         {
           "name": "Dow Jones",
@@ -2327,7 +2367,12 @@
           "confidence": 50,
           "reason": "Screening: Dow Freitag +0,8 % getragen von Pharma/Staples-Defensive (CNBC); Öl-Rücksetzer entlastet zyklische Blue Chips. Bewusst niedrigste Konfidenz 50: US-Bondmarkt heute geschlossen (Columbus Day — dünnere Liquidität, LiveTradingNews) und Bank-Earnings-Saison eröffnet am Dienstag (TradingKey) — beide Faktoren können den Vormarktag drehen. Erwartung: +0,2 % bis +1,1 %. Quellen: CNBC, LiveTradingNews, TradingKey.",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ (Pre-Market): Dow-Futures im Plus (Yahoo Finance: Futures steigen vor Berichtssaison); Freitagsschluss 51.654,95 (+0,8%). Band (+0,2% bis +1,1%) bislang nicht bewertbar, Richtung vorbörslich positiv — Bewertung am Abend. Quelle: Yahoo Finance (12.10.2026)."
+            }
+          ]
         }
       ]
     }
