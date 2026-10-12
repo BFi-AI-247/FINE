@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-09",
+  "updated": "2026-10-12",
   "totals": {
     "predictions": 96,
     "hits": 51,
@@ -231,6 +231,10 @@
     {
       "date": "2026-10-09",
       "entry": "Abend-Review 09.10.: Bestes Tagesergebnis im 8-Pick-Schema — 7 von 8 Treffern (87,5 %), 2 Übererfüllungen (DAX +1,19 % vs. Band bis +0,8 %; Barrick +3,45 % vs. Band bis +2,0 %), 1 Miss (Hannover Rück −0,34 %, marginal; Bewertung folgt der Mittags-Referenz 265,10 EUR — bei Xetra-Referenz 262,40 wäre es ein Hit gewesen, Datenreferenz-Inkonsistenz dokumentiert). Kalibrierungs-Anpassung: An Rendite-Rücksetzer-Tagen nach überverkauften Abschlagstagen war das Erholungsausmaß erneut unterschätzt (DAX-Overshoot in dieser Konstellation mehrfach) — obere Bänder an Zins-Rücksetzer-Tagen künftig um rund 0,3–0,5 Prozentpunkte anheben. Defensiv-Klumpen (2 Versicherer) bleibt legitim, Titelwahl künftig nach Vortagsstärke differenzieren: Munich Re traf (+0,92 %), Hannover Rück stagnierte. Flat-Benchmark S&P 500 traf erneut (dritte Bestätigung der 06.10.-Flat-Regel)."
+    },
+    {
+      "date": "2026-10-12",
+      "entry": "Morgen-Auswahl 12.10.: Screen vor Pick — Wochenauftakt nach dem Best-Tag der Historie (09.10.: 7/8 Treffer): DAX-Futures plus zum Wochenstart (IG Markets/dpa-AFX), Öl gibt weiter nach (Brent ~103 USD nach dem 105,80-Schockhoch, Convex/Oil Monitor), Rendite-Rücksetzer hält (10J 5,35 % auf 5,23 %, TradingEconomics). Neu im Screening verankert: US-Bondmarkt heute geschlossen (Columbus Day, dünnere Liquidität — LiveTradingNews), harte Termine erst Dienstag (Bank-Earnings-Saison) bzw. Mittwoch (CPI). Benchmarks: DAX up mit regelkonform erhöhtem Oberband (+0,9 % statt +0,8 % — 09.10.-Lehre: obere Bänder an Zins-Rücksetzer-Tagen um 0,3–0,5 pp anheben), S&P 500 konsequent flat (06.10.-Regel: Rekordwoche ohne harten Tages-Katalysator). Depot-Picks nach Opportunität: Barrick Gold (Gold über 4.200 USD gestützt, TradingKey; Folge-Pick nach drei Band-Hits, kein >8-%-Ausnahmetag), Münchener Rück (Vortagsstärke-Differenzierung nach 09.10.-Lehre, +0,92 % am Freitag), Volkswagen St. (Tages-Katalysator: 3Q-Absatzzahlen 11:00 Uhr, finanzen.ch; Öl-Entlastung für Zykliker) — Hannover Rück nach Vortagsstagnation bewusst ausgetauscht. Freie Picks: Nasdaq 100 (Rekordwochen-Momentum, öl-immun), EuroStoxx 50 (Versicherergewichte + Zins-Entlastung), Dow Jones (Defensiv + Öl-Entlastung, niedrigste Konfidenz 50 wegen Bond-Closed-Liquidität). Bewusst gemieden: Lufthansa (Öl-Signal zweideutig bei Hormuz-Angriffen), Hannover Rück (Vortagsschwäche), Infineon (05.10.-Miss-Regel), Rheinmetall (Konsolidierungsrisiko nach Overshoot). Hauptrisiko des Tages: neue Hormuz-Eskalation treibt Öl zurück über 105 USD, oder Waller-Töne (09:45 Uhr, Bloomberg New Economy Forum) beenden den Rendite-Rücksetzer."
     }
   ]
 }
