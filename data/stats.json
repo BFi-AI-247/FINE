@@ -2,96 +2,96 @@
   "version": 4,
   "updated": "2026-10-12",
   "totals": {
-    "predictions": 96,
-    "hits": 51,
-    "partial": 14,
-    "misses": 31,
+    "predictions": 104,
+    "hits": 57,
+    "partial": 15,
+    "misses": 32,
     "overshoots": 7,
-    "directionCorrect": 59,
-    "hitRate": 0.5313
+    "directionCorrect": 66,
+    "hitRate": 0.5481
   },
   "benchmark": {
-    "predictions": 25,
-    "hits": 10,
+    "predictions": 27,
+    "hits": 12,
     "partial": 8,
     "misses": 7,
     "overshoots": 2,
-    "directionCorrect": 13,
-    "hitRate": 0.4,
+    "directionCorrect": 15,
+    "hitRate": 0.4444,
     "note": "Fix-Indizes DAX + S&P 500 — misst Markt-Lese-Qualität. Enge, realistische Bänder korrekt; kein Mut-Kriterium."
   },
   "picks": {
-    "predictions": 71,
-    "hits": 41,
-    "partial": 6,
-    "misses": 24,
+    "predictions": 77,
+    "hits": 45,
+    "partial": 7,
+    "misses": 25,
     "overshoots": 5,
-    "directionCorrect": 46,
-    "hitRate": 0.5775,
+    "directionCorrect": 51,
+    "hitRate": 0.5844,
     "note": "Echte Picks: 2x Depot + 1 frei — misst Opportunity-Finding. Mindest-Band + Boldness gelten hier."
   },
   "byInstrumentType": {
     "index": {
-      "predictions": 56,
-      "hits": 28,
+      "predictions": 61,
+      "hits": 32,
       "partial": 11,
-      "misses": 17,
+      "misses": 18,
       "overshoots": 2,
-      "directionCorrect": 33,
-      "hitRate": 0.5
+      "directionCorrect": 37,
+      "hitRate": 0.5246
     },
     "equity_de": {
-      "predictions": 29,
-      "hits": 14,
+      "predictions": 31,
+      "hits": 16,
       "partial": 2,
       "misses": 13,
       "overshoots": 3,
-      "directionCorrect": 16,
-      "hitRate": 0.4828
+      "directionCorrect": 18,
+      "hitRate": 0.5161
     },
     "equity_us": {
-      "predictions": 11,
+      "predictions": 12,
       "hits": 9,
-      "partial": 1,
+      "partial": 2,
       "misses": 1,
       "overshoots": 2,
-      "directionCorrect": 10,
-      "hitRate": 0.8182
+      "directionCorrect": 11,
+      "hitRate": 0.75
     }
   },
   "byPickClass": {
     "benchmark": {
-      "predictions": 25,
-      "hits": 10,
+      "predictions": 27,
+      "hits": 12,
       "partial": 8,
       "misses": 7,
       "overshoots": 2,
-      "directionCorrect": 13,
-      "hitRate": 0.4
+      "directionCorrect": 15,
+      "hitRate": 0.4444
     },
     "portfolio": {
-      "predictions": 35,
-      "hits": 20,
-      "partial": 2,
+      "predictions": 38,
+      "hits": 22,
+      "partial": 3,
       "misses": 13,
       "overshoots": 4,
-      "directionCorrect": 22,
-      "hitRate": 0.5714
+      "directionCorrect": 25,
+      "hitRate": 0.5789
     },
     "free": {
-      "predictions": 36,
-      "hits": 21,
+      "predictions": 39,
+      "hits": 23,
       "partial": 4,
-      "misses": 11,
+      "misses": 12,
       "overshoots": 1,
-      "directionCorrect": 24,
-      "hitRate": 0.5833
+      "directionCorrect": 26,
+      "hitRate": 0.5897
     }
   },
   "boldness": {
     "note": "Mut-Metrik gegen Tiefbieten — NUR echte Picks (Benchmark-Indizes ausgeschlossen).",
-    "avgBandHigh": 1.6366,
-    "avgActual": 0.2038,
+    "avgBandHigh": 1.6389,
+    "avgActual": 0.2104,
     "months": [
       {
         "month": "2026-09",
@@ -101,9 +101,9 @@
       },
       {
         "month": "2026-10",
-        "picks": 36,
-        "avgBandHigh": 1.6472,
-        "avgActual": 0.6642
+        "picks": 42,
+        "avgBandHigh": 1.65,
+        "avgActual": 0.6105
       }
     ]
   },
@@ -235,6 +235,10 @@
     {
       "date": "2026-10-12",
       "entry": "Morgen-Auswahl 12.10.: Screen vor Pick — Wochenauftakt nach dem Best-Tag der Historie (09.10.: 7/8 Treffer): DAX-Futures plus zum Wochenstart (IG Markets/dpa-AFX), Öl gibt weiter nach (Brent ~103 USD nach dem 105,80-Schockhoch, Convex/Oil Monitor), Rendite-Rücksetzer hält (10J 5,35 % auf 5,23 %, TradingEconomics). Neu im Screening verankert: US-Bondmarkt heute geschlossen (Columbus Day, dünnere Liquidität — LiveTradingNews), harte Termine erst Dienstag (Bank-Earnings-Saison) bzw. Mittwoch (CPI). Benchmarks: DAX up mit regelkonform erhöhtem Oberband (+0,9 % statt +0,8 % — 09.10.-Lehre: obere Bänder an Zins-Rücksetzer-Tagen um 0,3–0,5 pp anheben), S&P 500 konsequent flat (06.10.-Regel: Rekordwoche ohne harten Tages-Katalysator). Depot-Picks nach Opportunität: Barrick Gold (Gold über 4.200 USD gestützt, TradingKey; Folge-Pick nach drei Band-Hits, kein >8-%-Ausnahmetag), Münchener Rück (Vortagsstärke-Differenzierung nach 09.10.-Lehre, +0,92 % am Freitag), Volkswagen St. (Tages-Katalysator: 3Q-Absatzzahlen 11:00 Uhr, finanzen.ch; Öl-Entlastung für Zykliker) — Hannover Rück nach Vortagsstagnation bewusst ausgetauscht. Freie Picks: Nasdaq 100 (Rekordwochen-Momentum, öl-immun), EuroStoxx 50 (Versicherergewichte + Zins-Entlastung), Dow Jones (Defensiv + Öl-Entlastung, niedrigste Konfidenz 50 wegen Bond-Closed-Liquidität). Bewusst gemieden: Lufthansa (Öl-Signal zweideutig bei Hormuz-Angriffen), Hannover Rück (Vortagsschwäche), Infineon (05.10.-Miss-Regel), Rheinmetall (Konsolidierungsrisiko nach Overshoot). Hauptrisiko des Tages: neue Hormuz-Eskalation treibt Öl zurück über 105 USD, oder Waller-Töne (09:45 Uhr, Bloomberg New Economy Forum) beenden den Rendite-Rücksetzer."
+    },
+    {
+      "date": "2026-10-12",
+      "entry": "Abend-Review 12.10.: Solider Wochenauftakt — 6 Treffer, 1 Partial, 1 Miss (75 % Tagesquote; Gesamtquote steigt auf 54,8 %). Bestätigte Regeln: Flat-Benchmark S&P 500 ohne harten Katalysator (vierte Bestätigung), Defensiv-/Zinsprofiteur-Struktur (Munich Re +0,61 %, Dow +0,38 %), DAX-Oberband-Anhebung an Zins-Rücksetzer-Tagen (+0,9 % Oberband korrekt dimensioniert bei +0,72 % Schluss — 09.10.-Lehre bleibt unverändert). Neue Erkenntnisse: (1) Barrick Gold nach drei Band-Hits in Folge erstmals nur Partial — Gold drehte mit ca. −0,6 % (4.168 USD/oz) und nahm den Minenwerten den Wind; Commodity-Picks künftig nur bei positivem Gold-Vortages-Impuls, nicht als reiner Folge-Pick. (2) Nasdaq-100-Miss (−0,44 %): Momentum-Fortsetzung nach einer Rekordwoche ohne frischen Tages-Katalysator ist die schwächste Erwartungskonstellation — schwächer als Erholung nach Abschlagstag; Auswahl-Heuristik ergänzt: großen Makro-Termin innerhalb 48 h (CPI Mittwoch, Bank-Earnings Dienstag) als Vorfilter gegen Tech-Momentum-Picks nutzen, stattdessen Konfidenz senken oder auf Defensiv-Rotation setzen (Dow traf). Kalibrierungs-Anpassung: Band-Logik unverändert (Oberband-Hebel bestätigt), kein Mut-Rückzug."
     }
   ]
 }
