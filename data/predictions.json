@@ -2425,7 +2425,13 @@
           "confidence": 55,
           "reason": "Screening: Vortagesschluss 25.277,68 Punkte (+0,76 %, höchster Stand seit 6.10.; 100-Tage-Linie ~25.415 noch Widerstand). Heute Früh: DAX-Future −30 Punkte auf 25.372, IG-Indikation −0,16 % auf ~25.237; Brent über 106 USD (Liefer-/Eskalationssorgen Ukraine/Nahost), 10J-Treasury 5,24 % — Anleger warten auf den US-Berichtssaison-Auftakt (heute JPMorgan, Goldman, Wells Fargo, J&J, UnitedHealth). Kein harter Tages-Katalysator, Öl- und Zinsdruck intakt → konsequent Flat-Lesart (Regel aus Lern-Log: kein up-Benchmark ohne harten Katalysator). Erwartung: −0,4 % bis +0,4 %. Quellen: finanzen.ch/Dow Jones Newswires (DAX-Future), finanzen.ch Morning Briefing (IG-Indikation), tagesschau.de Marktbericht 13.10., ARIVA/finanzen.net (Vortagesschluss), TECSON/wallstreetONLINE (Brent), Yahoo Finance (10J-Rendite), boerse.de Tagesvorschau (Termine).",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ: DAX am Mittag +0,5 % bei rund 25.405 Punkten (12:30 Uhr: 25.370 Punkte, +0,4 %) — damit knapp ÜBER dem oberen Bandrand (+0,4 %); die Flat-Lesart erweist sich bislang als zu konservativ, die Entwicklung ist positiv (IWF hebt Deutschland-Prognose deutlich an, Öl gibt nach, ruhige Anleihemärkte). Richtung/Band bewertet der Abend-Slot. Quellen: n-tv Börsen-Tag 13.10.2026, dts via madeinbocholt.de."
+            }
+          ],
+          "actual": 0.5
         },
         {
           "name": "S&P 500",
@@ -2437,7 +2443,13 @@
           "confidence": 55,
           "reason": "Screening: Montag gemischt — Dow +0,4 %, S&P 500 nahezu unverändert knapp unter Null, Nasdaq −0,4 % (Rotation aus Tech, Chip-Rücksetzer). Heute: Dow-Futures +0,28 %, Nasdaq-Futures −0,69 %, 10J 5,24 %; Öl (Brent >106 USD) als Inflationsrisiko vor CPI/PPI diese Woche. Banken-Zahlen (JPM, GS, WF) könnten Value stützen, Tech drückt — Netto flaches Bild mit leichtem Value-Schwenk. Erwartung: −0,3 % bis +0,5 % (US bis 15:30 MEZ nicht gehandelt, Vortags-/Futures-Daten). Quellen: 24/7 Wall St. und Yahoo Finance/CNBC (Montag-Schluss, Futures), boerse.de Tagesvorschau (Termine), Trading Economics.",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ (US-Handel beginnt erst 15:30 MESZ, Futures/Pre-Market-Basis): S&P-500-Futures −0,05 % — solide Banken-Quartalszahlen (JPMorgan, Goldman, Wells Fargo) und die UnitedHealth-Überraschung werden durch die Chip-Schwäche neutralisiert, Netto unverändert. Innerhalb des Flat-Bands (−0,3 % bis +0,5 %), Richtung bestätigt. Quellen: TradingKey US-Premarket 13.10.2026, Investrade Morning Preview."
+            }
+          ],
+          "actual": -0.05
         },
         {
           "name": "Barrick Gold Corp",
@@ -2450,7 +2462,13 @@
           "confidence": 62,
           "reason": "Screening/Opportunity: Gold im Frühhandel +0,63 % bei ~4.217 USD — Safe-Haven-Nachfrage angesichts erneuter Angriffe in der Ukraine und im Nahosten (gleiches Treiberpaar, das Brent >106 USD treibt). Gold hatte laut Goldpreis.de (10.10.) die Korrektur abgewendet und leitet eine Erholung ein; Barrick war gestern nur partial (+0,14 %), hinkt dem Edelmetall-Wind hinterher → Nachholpotenzial bei intaktem Flucht-Trade. Depot-Pick nach Tages-Opportunität (keine Bestandsdaten). Erwartung: +0,2 % bis +2,0 %. Quellen: Yahoo Finance (Gold-Frühkurs 4.216,90 USD, +0,63 %), TECSON/wallstreetONLINE (Brent/Eskalationslage), GOLDPREIS.de (Erholung), 24/7 Wall St. (Montag: Gold +0,63 %).",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ (Pre-Market): Gold Spot heute ca. 4.161–4.192 USD, damit weitgehend unverändert bis leicht schwächer (Vortag −0,6 % auf 4.168,78 USD); Barrick NYSE-Schluss 12.10.: 40,84 USD (−0,54 %), konkreter Barrick-Pre-Market-Kurs bislang nicht verfügbar. Das erwartete Nachholpotenzial zeigt sich bislang nicht — Band (+0,2 % bis +2,0 %) aktuell verfehlt, Richtung unbestätigt (Zwischenstand goldinduziert geschätzt). Quellen: Trading Economics, LiteFinance, Kalkine Media (13.10.2026)."
+            }
+          ],
+          "actual": -0.2
         },
         {
           "name": "Muenchener Rueckvers",
@@ -2463,7 +2481,13 @@
           "confidence": 57,
           "reason": "Screening/Opportunity: 10J-Treasury bei 5,24 % — Zinsen weiter auf Hochs, das validierte Zinsprofiteur-Muster (Munich Re: Overshoot +1,99 % am 24.09., Hit +0,61 % am 12.10.) läuft; Wiederanlage-Ertrag stützt Versicherer weiter. Gegenwind: DAX-Indikation −0,16 % und leichte Öl-Eskalation dämpfen die Konzernstimmung → moderates, aber regelkonformes Band. Erwartung: +0,1 % bis +1,6 %. Quellen: Yahoo Finance (10J 5,24 %), ARIVA (DAX-Vortag, Munich-Re-Tagesgewinn 12.10.), eigene stats.json-Lern-Log (Zinsprofiteur-Validierung 24./25.09.), finanzen.ch Morning Briefing.",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ: 531,00 EUR, +0,76 % ggü. Xetra-Schluss 527,00 EUR (Lang & Schwarz, 10:15 Uhr; 09:44 Uhr: 530,90 EUR, +0,74 %) — im Band (+0,1 % bis +1,6 %), Richtung bestätigt. Das Zinsprofiteur-Muster läuft weiter, der Pflege-Rückversicherungsdeal mit Manulife (3,2 Mrd. CAD, Quote 80 %) stützt; Gegenwind durch Mediobanca-Downgrade auf Underperform (Ziel 500 EUR). Quellen: ad-hoc-news.de, Goldesel (13.10.2026)."
+            }
+          ],
+          "actual": 0.76
         },
         {
           "name": "Lockheed Martin",
@@ -2476,7 +2500,13 @@
           "confidence": 55,
           "reason": "Screening/Opportunity: Value-/Verteidigungs-Rotation läuft — Dow +0,4 % und Dow-Futures +0,28 % bei gleichzeitiger Tech-Schwäche; Rüstung war gestern DAX-Favorit (Rheinmetall, Hensoldt deutlich plus), strukturelle Aufrüstungsnachfrage intakt. Geopolitische Eskalation (Ukraine/Nahost, Brent >106 USD) stützt Verteidigungswerte zusätzlich; Lockheed läuft mit der US-Value-Rotation, nicht mit dem Tech-Abverkauf. Erwartung: +0,1 % bis +1,6 % (US bis 15:30 MEZ nicht gehandelt, Futures-Basis). Quellen: 24/7 Wall St./Yahoo Finance (Dow +0,4 %, Futures +0,28 %), ARIVA/boerse.de (Rüstungssektor 12.10. gefragt), TECSON (Eskalationslage), XTB-Marktcheck (Sektor-Kontext).",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ (Pre-Market): 514,55 USD, +0,52 % ggü. Schlusskurs 511,88 USD (07:47 Uhr EDT); Lang-&-Schwarz-Indikation 460,10 EUR (11:03 Uhr). Im Band (+0,1 % bis +1,6 %), Richtung bestätigt — Dow-Futures +0,78 % stützen die Value-/Rüstungs-Rotation, PAC-3-Edge-Debut als Positivthema; TD Cowen senkte das Kursziel auf 570 USD. Quellen: Finanzdatensuche (Yahoo), ad-hoc-news.de, TradingKey (13.10.2026)."
+            }
+          ],
+          "actual": 0.5
         },
         {
           "name": "Dow Jones",
@@ -2488,7 +2518,13 @@
           "confidence": 58,
           "reason": "Screening/Opportunity: Höchste Upside-Wahrscheinlichkeit heute im Value-Lager — Berichtssaison-Auftakt mit JPMorgan, Goldman Sachs und Wells Fargo (Broker-Kaufempfehlungen breit vor Q3, Trading Economics), Dow-Futures +0,28 % nach +0,4 % am Montag; Rotation aus Tech in zyklische Blue Chips/Banken läuft. Öl >106 USD und 5,24 %-Renditen sind Risiko, aber die Banken-Zahlen sind der harte Tages-Katalysator, der dem Dow zugutekommt. Erwartung: 0,0 % bis +1,0 %. Quellen: boerse.de Tagesvorschau (Q3-Termine), Yahoo Finance (Dow-Futures +0,28 %), 24/7 Wall St. (Montag-Schluss), Trading Economics (Broker-Recs vor Berichtssaison).",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ: Dow-Futures +0,78 %, im frühen Handel +0,72 % — solide Banken-Quartalszahlen (JPM, GS, WF) und die UnitedHealth-Stärke tragen den Value-Schwenk. Im Band (0,0 % bis +1,0 %), Richtung bestätigt. Quellen: TradingKey, stockmarketwatch.com (13.10.2026)."
+            }
+          ],
+          "actual": 0.7
         },
         {
           "name": "Nasdaq 100",
@@ -2500,7 +2536,13 @@
           "confidence": 60,
           "reason": "Screening/Gegenrechnung (down nur bei klaren Gegenargumenten — hier vorhanden): Nasdaq-Futures −0,69 %, Montag −0,49 % mit Chip-Rücksetzer; Nvidia ~6 % unter Rekord in Konsolidierung (Investing.com 12.10.), Halbleiter unter Gewinnmitnahme-Druck, erste US-Bank warnt öffentlich vor KI-Blase (Investing.com-Schlagzeilen 13.10.). Vor CPI/PPI diese Woche kein Tech-Katalysator — der Abverkauf dürfte sich fortsetzen. Erwartung: −1,5 % bis −0,2 %. Quellen: Yahoo Finance (Nasdaq-Futures −0,69 %), 24/7 Wall St. (Nasdaq −0,49 %, Chips schwach), Investing.com (Nvidia-Konsolidierung, KI-Blasen-Warnung), boerse.de (Konjunkturtermine der Woche).",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ: Nasdaq-100-Futures −0,7 % (Nasdaq Composite im frühen Handel −0,41 %) — der anhaltende Chip-/Memory-Abverkauf (Micron −3 %, SanDisk −5 %, Western Digital −6 %) bestätigt die Down-These. Im Band (−1,5 % bis −0,2 %), Richtung bestätigt. Quellen: TradingKey, stockmarketwatch.com (13.10.2026)."
+            }
+          ],
+          "actual": -0.7
         },
         {
           "name": "EuroStoxx 50",
@@ -2512,7 +2554,13 @@
           "confidence": 52,
           "reason": "Screening: Folgt der leicht negativen DAX-Indikation (−0,16 %), hat aber Rückhalt durch hohe Versicherer- und Bankengewichte (Generali, BNP u. a.), die im Umfeld hoher Renditen profitieren. Kein harter Eurozonen-Katalysator heute (Verbraucherpreise final, Fraport-Verkehrszahlen), US-Bankenzahlen ab 13:30 MEZ als Impulsgeber nachmittags → bewusst weites Flat-Band. Erwartung: −0,4 % bis +0,8 %. Quellen: finanzen.ch Morning Briefing (DAX-Indikation als Euro-Richtungssignal), boerse.de Tagesvorschau (Termine), eigene stats.json (EuroStoxx-Hit 12.10. +0,45 % im Range-Verhalten).",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ: +0,15 % bei 6.210,67 Punkten (12:10 Uhr via STOXX; n-tv Mittag: +0,2 % auf 6.213 Punkte) — im Flat-Band (−0,4 % bis +0,8 %), Richtung bestätigt; Versicherer- und Bankengewichte (Allianz +1,1 %, Intesa Sanpaolo +1,1 %) stützen. Quellen: finanzen.at, n-tv Börsen-Tag (13.10.2026)."
+            }
+          ],
+          "actual": 0.2
         }
       ]
     }
