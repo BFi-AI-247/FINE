@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-12",
+  "updated": "2026-10-13",
   "totals": {
     "predictions": 104,
     "hits": 57,
@@ -239,6 +239,10 @@
     {
       "date": "2026-10-12",
       "entry": "Abend-Review 12.10.: Solider Wochenauftakt — 6 Treffer, 1 Partial, 1 Miss (75 % Tagesquote; Gesamtquote steigt auf 54,8 %). Bestätigte Regeln: Flat-Benchmark S&P 500 ohne harten Katalysator (vierte Bestätigung), Defensiv-/Zinsprofiteur-Struktur (Munich Re +0,61 %, Dow +0,38 %), DAX-Oberband-Anhebung an Zins-Rücksetzer-Tagen (+0,9 % Oberband korrekt dimensioniert bei +0,72 % Schluss — 09.10.-Lehre bleibt unverändert). Neue Erkenntnisse: (1) Barrick Gold nach drei Band-Hits in Folge erstmals nur Partial — Gold drehte mit ca. −0,6 % (4.168 USD/oz) und nahm den Minenwerten den Wind; Commodity-Picks künftig nur bei positivem Gold-Vortages-Impuls, nicht als reiner Folge-Pick. (2) Nasdaq-100-Miss (−0,44 %): Momentum-Fortsetzung nach einer Rekordwoche ohne frischen Tages-Katalysator ist die schwächste Erwartungskonstellation — schwächer als Erholung nach Abschlagstag; Auswahl-Heuristik ergänzt: großen Makro-Termin innerhalb 48 h (CPI Mittwoch, Bank-Earnings Dienstag) als Vorfilter gegen Tech-Momentum-Picks nutzen, stattdessen Konfidenz senken oder auf Defensiv-Rotation setzen (Dow traf). Kalibrierungs-Anpassung: Band-Logik unverändert (Oberband-Hebel bestätigt), kein Mut-Rückzug."
+    },
+    {
+      "date": "2026-10-13",
+      "entry": "Morgen-Job 13.10.: Screen vor Pick — Treiber des Tages ist der Berichtssaison-Auftakt (JPMorgan, Goldman, Wells Fargo, J&J, UnitedHealth ab 12:00 MESZ) gegen persistierenden Öl- und Zinsdruck: Brent >106 USD (Eskalation Ukraine/Nahost), 10J-Treasury 5,24 %. DAX nach +0,76 % Montag (25.277,68) mit leicht negativer Frühindikation (Future −30 Punkte, IG −0,16 %) → Benchmarks konsequent flat (DAX −0,4/+0,4, S&P 500 −0,3/+0,5) — Lern-Log-Regel 'kein up-Benchmark ohne harten Katalysator' erneut angewandt. Markt-Split: Value/Tech-Rotation läuft (Dow-Futures +0,28 % vs. Nasdaq-Futures −0,69 %, Montag: Dow +0,4 %, Nasdaq −0,49 %, Chip-Rücksetzer, Nvidia-Konsolidierung ~6 % unter Rekord, erste KI-Blasen-Warnung einer US-Bank). Depot-Picks nach Opportunität: Barrick Gold (Gold-Erholung +0,63 %/~4.217 USD als Flucht-Trade bei Eskalation, gestern nur partial mit Nachholpotenzial), Munich Re (validiertes Zinsprofiteur-Muster bei 5,24 %), Lockheed Martin (Verteidigungs-/Value-Rotation, Rüstung war DAX-Favorit des Montags). Freie Picks: Dow Jones up 0/+1,0 (Banken-Zahlen als harter Katalysator), Nasdaq 100 down −1,5/−0,2 (bewusste Gegenposition: klare Futures-/Sektor-Gegensignale, erste down-Pposition nach Regel 'down nur bei klaren Gegenargumenten'), EuroStoxx 50 flat −0,4/+0,8 (Versicherergewichte als Rückhalt bei leicht schwachem Europa-Morgen)."
     }
   ]
 }
