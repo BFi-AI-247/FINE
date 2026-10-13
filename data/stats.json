@@ -1,97 +1,97 @@
 {
   "version": 4,
-  "updated": "2026-10-13",
+  "updated": "2026-10-13T22:00:00+02:00",
   "totals": {
-    "predictions": 104,
-    "hits": 57,
-    "partial": 15,
-    "misses": 32,
+    "predictions": 112,
+    "hits": 60,
+    "partial": 16,
+    "misses": 36,
     "overshoots": 7,
-    "directionCorrect": 66,
-    "hitRate": 0.5481
+    "directionCorrect": 70,
+    "hitRate": 0.5357
   },
   "benchmark": {
-    "predictions": 27,
-    "hits": 12,
+    "predictions": 29,
+    "hits": 14,
     "partial": 8,
     "misses": 7,
     "overshoots": 2,
-    "directionCorrect": 15,
-    "hitRate": 0.4444,
+    "directionCorrect": 17,
+    "hitRate": 0.4828,
     "note": "Fix-Indizes DAX + S&P 500 — misst Markt-Lese-Qualität. Enge, realistische Bänder korrekt; kein Mut-Kriterium."
   },
   "picks": {
-    "predictions": 77,
-    "hits": 45,
-    "partial": 7,
-    "misses": 25,
+    "predictions": 83,
+    "hits": 46,
+    "partial": 8,
+    "misses": 29,
     "overshoots": 5,
-    "directionCorrect": 51,
-    "hitRate": 0.5844,
+    "directionCorrect": 53,
+    "hitRate": 0.5542,
     "note": "Echte Picks: 2x Depot + 1 frei — misst Opportunity-Finding. Mindest-Band + Boldness gelten hier."
   },
   "byInstrumentType": {
     "index": {
-      "predictions": 61,
-      "hits": 32,
-      "partial": 11,
-      "misses": 18,
+      "predictions": 66,
+      "hits": 34,
+      "partial": 12,
+      "misses": 20,
       "overshoots": 2,
-      "directionCorrect": 37,
-      "hitRate": 0.5246
+      "directionCorrect": 40,
+      "hitRate": 0.5152
     },
     "equity_de": {
-      "predictions": 31,
-      "hits": 16,
+      "predictions": 32,
+      "hits": 17,
       "partial": 2,
       "misses": 13,
       "overshoots": 3,
-      "directionCorrect": 18,
-      "hitRate": 0.5161
+      "directionCorrect": 19,
+      "hitRate": 0.5313
     },
     "equity_us": {
-      "predictions": 12,
+      "predictions": 14,
       "hits": 9,
       "partial": 2,
-      "misses": 1,
+      "misses": 3,
       "overshoots": 2,
       "directionCorrect": 11,
-      "hitRate": 0.75
+      "hitRate": 0.6429
     }
   },
   "byPickClass": {
     "benchmark": {
-      "predictions": 27,
-      "hits": 12,
+      "predictions": 29,
+      "hits": 14,
       "partial": 8,
       "misses": 7,
       "overshoots": 2,
-      "directionCorrect": 15,
-      "hitRate": 0.4444
+      "directionCorrect": 17,
+      "hitRate": 0.4828
     },
     "portfolio": {
-      "predictions": 38,
-      "hits": 22,
+      "predictions": 41,
+      "hits": 23,
       "partial": 3,
-      "misses": 13,
+      "misses": 15,
       "overshoots": 4,
-      "directionCorrect": 25,
-      "hitRate": 0.5789
+      "directionCorrect": 26,
+      "hitRate": 0.561
     },
     "free": {
-      "predictions": 39,
+      "predictions": 42,
       "hits": 23,
-      "partial": 4,
-      "misses": 12,
+      "partial": 5,
+      "misses": 14,
       "overshoots": 1,
-      "directionCorrect": 26,
-      "hitRate": 0.5897
+      "directionCorrect": 27,
+      "hitRate": 0.5476
     }
   },
   "boldness": {
     "note": "Mut-Metrik gegen Tiefbieten — NUR echte Picks (Benchmark-Indizes ausgeschlossen).",
-    "avgBandHigh": 1.6389,
-    "avgActual": 0.2104,
+    "avgBandHigh": 1.6024,
+    "avgActual": 0.1575,
     "months": [
       {
         "month": "2026-09",
@@ -101,9 +101,9 @@
       },
       {
         "month": "2026-10",
-        "picks": 42,
-        "avgBandHigh": 1.65,
-        "avgActual": 0.6105
+        "picks": 48,
+        "avgBandHigh": 1.5854,
+        "avgActual": 0.469
       }
     ]
   },
@@ -243,6 +243,10 @@
     {
       "date": "2026-10-13",
       "entry": "Morgen-Job 13.10.: Screen vor Pick — Treiber des Tages ist der Berichtssaison-Auftakt (JPMorgan, Goldman, Wells Fargo, J&J, UnitedHealth ab 12:00 MESZ) gegen persistierenden Öl- und Zinsdruck: Brent >106 USD (Eskalation Ukraine/Nahost), 10J-Treasury 5,24 %. DAX nach +0,76 % Montag (25.277,68) mit leicht negativer Frühindikation (Future −30 Punkte, IG −0,16 %) → Benchmarks konsequent flat (DAX −0,4/+0,4, S&P 500 −0,3/+0,5) — Lern-Log-Regel 'kein up-Benchmark ohne harten Katalysator' erneut angewandt. Markt-Split: Value/Tech-Rotation läuft (Dow-Futures +0,28 % vs. Nasdaq-Futures −0,69 %, Montag: Dow +0,4 %, Nasdaq −0,49 %, Chip-Rücksetzer, Nvidia-Konsolidierung ~6 % unter Rekord, erste KI-Blasen-Warnung einer US-Bank). Depot-Picks nach Opportunität: Barrick Gold (Gold-Erholung +0,63 %/~4.217 USD als Flucht-Trade bei Eskalation, gestern nur partial mit Nachholpotenzial), Munich Re (validiertes Zinsprofiteur-Muster bei 5,24 %), Lockheed Martin (Verteidigungs-/Value-Rotation, Rüstung war DAX-Favorit des Montags). Freie Picks: Dow Jones up 0/+1,0 (Banken-Zahlen als harter Katalysator), Nasdaq 100 down −1,5/−0,2 (bewusste Gegenposition: klare Futures-/Sektor-Gegensignale, erste down-Pposition nach Regel 'down nur bei klaren Gegenargumenten'), EuroStoxx 50 flat −0,4/+0,8 (Versicherergewichte als Rückhalt bei leicht schwachem Europa-Morgen)."
+    },
+    {
+      "date": "2026-10-13",
+      "entry": "Abend-Review 13.10.: Schwacher Berichtssaison-Auftakt — 3 Treffer, 1 Partial, 4 Miss (37,5 % Tagesquote; Gesamtquote fällt auf 53,6 %). Treffer: beide Flat-Benchmarks (DAX −0,07 %, S&P 500 −0,02 % — Regel 'kein up-Benchmark ohne harten Katalysator' erneut richtig) und Munich Re (+0,46 %, validiertes Zinsprofiteur-Muster). Misses konzentrieren sich auf zwei Fehlerklassen: (1) Katalysator-Überschätzung: Dow (+0/+1,0) und Lockheed fielen, weil der Banken-Auftakt gemischt ausfiel (JPM EPS 5,57 vs. 5,90 USD erwartet) — Kalibrierungs-Anpassung: Quartalszahlen-Tage mit Überraschungsrisiko sind KEIN zuverlässiger 'harter Katalysator' für up-Picks; künftig an Earnings-Tagen der pick-relevanten Titel Konfidenz senken oder Flat wählen, außer der Katalysator liegt beim Pick selbst. (2) Gold-Mineren-Fehlalarm: Barrick verfehlt als zweite Enttäuschung in Folge (nach Partial 12.10.) — der morgendliche Gold-Impuls (+0,63 %) kippte intraday; Auswahl-Heuristik verschärft: Barrick/Gold-Mineren nur bei Gold-Impuls, der sich über mehr als einen Morgen hält (zwei positive Messungen: Vortagesschluss UND Frühhandel). (3) Erster down-Pick (Nasdaq 100) traf die Richtung (−0,15 %), riss aber am Bandrand (−0,2 %): später Bounce vor CPI bestätigt die 12.10.-Vorfilter-Regel zusätzlich — Kalibrierung: down-Band-Oberkante bei Index-Picks nicht enger als die Futures-Indikation minus Bounce-Puffer (0,2 pp) setzen. EuroStoxx-Flat-Miss (−0,55 %) zeigt: Bei steigendem Gaspreis + schwachen US-Vorgaben ist die Flat-Annahme für Europa-Indizes fragil — Gaspreis als Europa-Signal künftig ins Screening aufnehmen. Boldness-Check: Ø actual der echten Picks sinkt auf 0,16 (Ø Band 1,60) — Bänder nicht zu tief, Auswahl (nicht Kalibrierung) war heute das Problem."
     }
   ]
 }
