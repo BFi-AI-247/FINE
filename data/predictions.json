@@ -2595,6 +2595,111 @@
           "actual": -0.55
         }
       ]
+    },
+    {
+      "date": "2026-10-14",
+      "title": "China-Handelsüberraschung als Tages-Katalysator: DAX-Future +0,9 %, Chip-Sorgen (CXMT) laufen weiter",
+      "picks": [
+        {
+          "name": "DAX",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "up",
+          "bandLow": 0.3,
+          "bandHigh": 1,
+          "confidence": 65,
+          "reason": "Screening: Vortagesschluss 25.259,90 Punkte (−0,07 %). Heute Früh: DAX-Future +96/+100 Punkte auf ~25.474–25.478 (+0,9 %) — getrieben von Chinas Außenhandels-Überraschung: September-Exporte +36,3 % j/j (Erwartung ~+25,5 %), Importe +31 %, Handelsüberschuss 133,5 Mrd. USD. Erster harter Upside-Katalysator seit Tagen → erstmals wieder up-Benchmark (Lern-Log-Regel: up nur mit hartem Katalysator — heute erfüllt). Gegenlast: Brent >106 USD. Erwartung: +0,3 bis +1,0 %. Quellen: ad-hoc-news.de (DAX-Xetra-Schluss 13.10.: 25.259,90, −0,07 %); Dow Jones Newswires/finanzen.net (DAX-Future +96/+100 Punkte auf ~25.474/25.478, 14.10. Frühhandel); AP/Yahoo Finance/Investing.com (China: Exporte +36,3 % j/j, Importe +31 %, Überschuss 133,5 Mrd. USD vs. 116,8 erwartet); ms-aktuell.de/finanzen.net (Brent >106 USD bei Iran-Krieg und Angriffen auf Saudi-Arabien; Gold ~4.161 USD).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "S&P 500",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "flat",
+          "bandLow": -0.3,
+          "bandHigh": 0.5,
+          "confidence": 55,
+          "reason": "Screening: Dienstag −0,1 % knapp unter Allzeithoch; Dow −0,3 %, Nasdaq −0,2 %. Tag 2 des Chip-Abverkaufs (CXMT 4F²-DRAM-Fortschritte: Micron −5,8 %, Samsung/SK Hynix −7 bis −9 %, Nvidia −1,3 %) drückt weiter; heute Morgan-Stanley-, Bank-of-America-, BlackRock- und State-Street-Zahlen. China-Handelsboom stützt, aber gegen Chip- und Event-Risiko kein klares Broad-Market-Upside → konsequent Flat-Lesart (Regel: kein up-Benchmark ohne harten Katalysator). Erwartung: −0,3 bis +0,5 %. Quellen: AP (US-Schluss 13.10.); CNBC (Chip-Abverkauf Tag 2); ad-hoc-news.de (Morgan-Stanley-Termin 14.10.); AP/Yahoo Finance/Investing.com (China: Exporte +36,3 % j/j, Importe +31 %, Überschuss 133,5 Mrd. USD vs. 116,8 erwartet). US-Werte bis 15:30 MEZ nicht gehandelt — Vortagsbasis.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Barrick Gold Corp",
+          "type": "equity_us",
+          "pickClass": "portfolio",
+          "fromPortfolio": true,
+          "direction": "up",
+          "bandLow": 0.3,
+          "bandHigh": 2,
+          "confidence": 55,
+          "reason": "Opportunity (Depot): Gold ~4.161 USD nahe Rekord, Brent >106 USD bei Iran-Krieg und Angriffen auf Saudi-Arabien — Safe-Haven- und Inflations-Nachfrage hält an; Barrick als Gold-Hebel profitiert bei Risk-on-Tag zusätzlich vom Beta-Schub (DAX-Future +0,9 %). Regelkonformes Aktiengerüst: bandHigh ≥1,5 %. Quellen: ms-aktuell.de/finanzen.net (Brent >106 USD bei Iran-Krieg und Angriffen auf Saudi-Arabien; Gold ~4.161 USD); Dow Jones Newswires/finanzen.net (DAX-Future +96/+100 Punkte auf ~25.474/25.478, 14.10. Frühhandel).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Rheinmetall AG",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "fromPortfolio": true,
+          "direction": "up",
+          "bandLow": 0.4,
+          "bandHigh": 2.2,
+          "confidence": 58,
+          "reason": "Opportunity (Depot): Rüstungssektor im Wind — Morgan-Stanley-Impuls ließ Rheinmetall zuletzt ~3 % zulegen; Verteidigungsausgaben-Momentum intakt (heute u. a. Nato-Generalsekretär Rutte in Tallinn). Am Risk-on-Tag (China-Daten, Future +0,9 %) stützt High-Beta. Lern-Log 24.09. beachtet: nur bei positivem SEKTOR-Momentum gepickt (gerade gegeben), Story-Picks bei Branchen-Rücksetzern bleiben gemieden. Quellen: aktien.news (Rheinmetall +3 %, Morgan-Stanley-Sektor-Impuls); AFP Tagesvorschau 14.10. (Rutte); Dow Jones Newswires/finanzen.net (DAX-Future +96/+100 Punkte auf ~25.474/25.478, 14.10. Frühhandel).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Allianz",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "fromPortfolio": true,
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1.5,
+          "confidence": 55,
+          "reason": "Opportunity (Depot): Risk-on-Tag mit EuroStoxx-50-Rebound-Potenzial (Dienstag −0,6 %) — Versicherergewichte geben Rückhalt; Zinsniveau bleibt trotz leichter Entspannung (Treasury-Yields gaben Dienstag nach) hoch, das validierte Zinsprofiteur-Muster trägt moderat weiter. 25.09.-Lektion angewandt: bei erodierendem Zins-Tailwind defensiv kalibrieren — Band knapp über Mindestmaß 1,5 %. Quellen: AP (Renditen); finanzen.net (ESt50 6.167, −0,6 %); Dow Jones Newswires/finanzen.net (DAX-Future +96/+100 Punkte auf ~25.474/25.478, 14.10. Frühhandel).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "EuroStoxx 50",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.3,
+          "bandHigh": 1.2,
+          "confidence": 60,
+          "reason": "Opportunity (frei): Dienstag −0,6 % auf 6.167 — überverkauft; DAX-Future +0,9 % zieht breites Europa mit, Chinas Außenhandelsboom (Exporte +36,3 %) stützt europäische Exporteure direkt. Mindest-Band für Index-Pick (≥1,0 %) eingehalten. Quellen: finanzen.net (ESt50); Dow Jones Newswires/finanzen.net (DAX-Future +96/+100 Punkte auf ~25.474/25.478, 14.10. Frühhandel); AP/Yahoo Finance/Investing.com (China: Exporte +36,3 % j/j, Importe +31 %, Überschuss 133,5 Mrd. USD vs. 116,8 erwartet).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "MDAX",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1.1,
+          "confidence": 55,
+          "reason": "Opportunity (frei): MidCaps als China-Zyklus-Profiteure (Importe +31 % j/j) mit Risk-on-Schub; Gegenlast: CXMT-Druck auf MDAX-Technologiewerte (Suss Microtec, Aixtron) — daher moderates, knapp regelkonformes Band (bandHigh ≥1,0 %). Quellen: Investing.com (CXMT-Druck auf Infineon/MDAX-Werte); AP/Yahoo Finance/Investing.com (China: Exporte +36,3 % j/j, Importe +31 %, Überschuss 133,5 Mrd. USD vs. 116,8 erwartet); Dow Jones Newswires/finanzen.net (DAX-Future +96/+100 Punkte auf ~25.474/25.478, 14.10. Frühhandel).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Dow Jones",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1.1,
+          "confidence": 52,
+          "reason": "Opportunity (frei): China-Handelsüberraschung als harter Katalysator für zyklische US-Blue-Chips; Dienstag −0,3 % nach Banken-Enttäuschung (JPM EPS 5,57 vs. 5,90 USD). Restrisiko: heute Morgan-Stanley-, BofA-, BlackRock- und State-Street-Zahlen — gestern gelernt, dass Quartalszahlen-Tage den Katalysator überlagern können → niedrigste Konfidenz des Tages, Band knapp über Minimum. Quellen: AP (Dow 13.10.); wallstreetONLINE (Termine 14.10.); Investing.com (US-Banken-Vorschau); AP/Yahoo Finance/Investing.com (China: Exporte +36,3 % j/j, Importe +31 %, Überschuss 133,5 Mrd. USD vs. 116,8 erwartet).",
+          "status": "open",
+          "reviews": []
+        }
+      ]
     }
   ]
 }
