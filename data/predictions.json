@@ -2609,14 +2609,18 @@
           "bandHigh": 1,
           "confidence": 65,
           "reason": "Screening: Vortagesschluss 25.259,90 Punkte (â0,07 %). Heute FrÃ¼h: DAX-Future +96/+100 Punkte auf ~25.474â25.478 (+0,9 %) â getrieben von Chinas AuÃenhandels-Ãberraschung: September-Exporte +36,3 % j/j (Erwartung ~+25,5 %), Importe +31 %, HandelsÃ¼berschuss 133,5 Mrd. USD. Erster harter Upside-Katalysator seit Tagen â erstmals wieder up-Benchmark (Lern-Log-Regel: up nur mit hartem Katalysator â heute erfÃ¼llt). Gegenlast: Brent >106 USD. Erwartung: +0,3 bis +1,0 %. Quellen: ad-hoc-news.de (DAX-Xetra-Schluss 13.10.: 25.259,90, â0,07 %); Dow Jones Newswires/finanzen.net (DAX-Future +96/+100 Punkte auf ~25.474/25.478, 14.10. FrÃ¼hhandel); AP/Yahoo Finance/Investing.com (China: Exporte +36,3 % j/j, Importe +31 %, Ãberschuss 133,5 Mrd. USD vs. 116,8 erwartet); ms-aktuell.de/finanzen.net (Brent >106 USD bei Iran-Krieg und Angriffen auf Saudi-Arabien; Gold ~4.161 USD).",
-          "status": "open",
+          "status": "partial",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00-Slot: DAX um 12:08 Uhr im Xetra-Handel bei 25.413,98 Punkten (+0,61 % ggü. Vortagesschluss 25.259,90) — innerhalb des prognostizierten Bands (+0,3 % bis +1,0 %), Richtung bestätigt; Tageshoch bisher 25.423,58. Quelle: finanzen.ch (14.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 25.298,61 Punkte (Xetra), +0,15 % — knapp unter der Banduntergrenze (+0,3 %): Partial; der China-Future-Impuls (+0,9 % am Morgen) verpuffte im Tagesverlauf. Quelle: dpa-AFX/ariva.de, ad-hoc-news.de (14.10.2026)."
             }
           ],
-          "actual": 0.61
+          "actual": 0.15
         },
         {
           "name": "S&P 500",
@@ -2627,14 +2631,18 @@
           "bandHigh": 0.5,
           "confidence": 55,
           "reason": "Screening: Dienstag â0,1 % knapp unter Allzeithoch; Dow â0,3 %, Nasdaq â0,2 %. Tag 2 des Chip-Abverkaufs (CXMT 4FÂ²-DRAM-Fortschritte: Micron â5,8 %, Samsung/SK Hynix â7 bis â9 %, Nvidia â1,3 %) drÃ¼ckt weiter; heute Morgan-Stanley-, Bank-of-America-, BlackRock- und State-Street-Zahlen. China-Handelsboom stÃ¼tzt, aber gegen Chip- und Event-Risiko kein klares Broad-Market-Upside â konsequent Flat-Lesart (Regel: kein up-Benchmark ohne harten Katalysator). Erwartung: â0,3 bis +0,5 %. Quellen: AP (US-Schluss 13.10.); CNBC (Chip-Abverkauf Tag 2); ad-hoc-news.de (Morgan-Stanley-Termin 14.10.); AP/Yahoo Finance/Investing.com (China: Exporte +36,3 % j/j, Importe +31 %, Ãberschuss 133,5 Mrd. USD vs. 116,8 erwartet). US-Werte bis 15:30 MEZ nicht gehandelt â Vortagsbasis.",
-          "status": "open",
+          "status": "miss",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00-Slot (US-Handel erst ab 15:30 MESZ): S&P-500-Futures ca. +0,2 % (Bloomberg +0,2 %, Benzinga +0,22 %; Nasdaq-100-Futures +0,27 %) — im Flat-Band (−0,3 % bis +0,5 %), Richtung passt; Abwartend vor US-Inflationsdaten (14:30 Uhr) und Banken-Zahlen (Morgan Stanley, BofA, BlackRock). Quellen: Bloomberg, Benzinga (14.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 7.718,94 Punkte, −1,11 % — Miss; der Chip-Abverkauf (Tag 2) überrollte die Flat-Lesart. Quelle: Yahoo Finance, FRED/Trading Economics (14.10.2026)."
             }
           ],
-          "actual": 0.22
+          "actual": -1.11
         },
         {
           "name": "Barrick Gold Corp",
@@ -2646,13 +2654,18 @@
           "bandHigh": 2,
           "confidence": 55,
           "reason": "Opportunity (Depot): Gold ~4.161 USD nahe Rekord, Brent >106 USD bei Iran-Krieg und Angriffen auf Saudi-Arabien â Safe-Haven- und Inflations-Nachfrage hÃ¤lt an; Barrick als Gold-Hebel profitiert bei Risk-on-Tag zusÃ¤tzlich vom Beta-Schub (DAX-Future +0,9 %). Regelkonformes AktiengerÃ¼st: bandHigh â¥1,5 %. Quellen: ms-aktuell.de/finanzen.net (Brent >106 USD bei Iran-Krieg und Angriffen auf Saudi-Arabien; Gold ~4.161 USD); Dow Jones Newswires/finanzen.net (DAX-Future +96/+100 Punkte auf ~25.474/25.478, 14.10. FrÃ¼hhandel).",
-          "status": "open",
+          "status": "miss",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00-Slot (US-Handel erst ab 15:30 MESZ): Keine belastbare heutige US-Pre-Market-Notiz verfügbar; Vortages-Schluss 40,85 USD (12.10., Investing.com), L&S-Frühindikation 36,18 EUR (07:41 MESZ). Gold nahe 4.161 USD, Brent über 106 USD — Gerüst (Safe-Haven/Inflation) intakt, Band (+0,3 % bis +2,0 %) offen. Quellen: Investing.com, ad-hoc-news.de (L&S), ms-aktuell.de (14.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 38,89 USD, rund −4,0 % (Barrick Mining Corp B) — Miss; trotz Gold nahe Rekord setzte sich die Miner-Schwäche der Vortage fort. Quelle: gurufocus.com (14.10.2026)."
             }
-          ]
+          ],
+          "actual": -4
         },
         {
           "name": "Rheinmetall AG",
@@ -2664,14 +2677,19 @@
           "bandHigh": 2.2,
           "confidence": 58,
           "reason": "Opportunity (Depot): RÃ¼stungssektor im Wind â Morgan-Stanley-Impuls lieÃ Rheinmetall zuletzt ~3 % zulegen; Verteidigungsausgaben-Momentum intakt (heute u. a. Nato-GeneralsekretÃ¤r Rutte in Tallinn). Am Risk-on-Tag (China-Daten, Future +0,9 %) stÃ¼tzt High-Beta. Lern-Log 24.09. beachtet: nur bei positivem SEKTOR-Momentum gepickt (gerade gegeben), Story-Picks bei Branchen-RÃ¼cksetzern bleiben gemieden. Quellen: aktien.news (Rheinmetall +3 %, Morgan-Stanley-Sektor-Impuls); AFP Tagesvorschau 14.10. (Rutte); Dow Jones Newswires/finanzen.net (DAX-Future +96/+100 Punkte auf ~25.474/25.478, 14.10. FrÃ¼hhandel).",
-          "status": "open",
+          "status": "hit",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00-Slot: Rheinmetall um 12:28 Uhr im Xetra-Handel 2,9 % im Plus bei 981,20 EUR (Tageshoch bisher 986,80 EUR) — innerhalb des Bands (+0,4 % bis +2,2 %), Richtung klar bestätigt; Verteidigungsmomentum plus Risk-on-Tag. Quelle: finanzen.ch (14.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Xetra-Schluss rund 983 EUR, +3,80 % — DAX-Tagesgewinner, klar über dem oberen Bandrand (+2,2 %): Hit mit Übererfüllung. Quelle: XTB (14.10.2026)."
             }
           ],
-          "actual": 2.9
+          "actual": 3.8,
+          "overshoot": true
         },
         {
           "name": "Allianz",
@@ -2683,14 +2701,18 @@
           "bandHigh": 1.5,
           "confidence": 55,
           "reason": "Opportunity (Depot): Risk-on-Tag mit EuroStoxx-50-Rebound-Potenzial (Dienstag â0,6 %) â Versicherergewichte geben RÃ¼ckhalt; Zinsniveau bleibt trotz leichter Entspannung (Treasury-Yields gaben Dienstag nach) hoch, das validierte Zinsprofiteur-Muster trÃ¤gt moderat weiter. 25.09.-Lektion angewandt: bei erodierendem Zins-Tailwind defensiv kalibrieren â Band knapp Ã¼ber MindestmaÃ 1,5 %. Quellen: AP (Renditen); finanzen.net (ESt50 6.167, â0,6 %); Dow Jones Newswires/finanzen.net (DAX-Future +96/+100 Punkte auf ~25.474/25.478, 14.10. FrÃ¼hhandel).",
-          "status": "open",
+          "status": "hit",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00-Slot: Allianz bei Lang & Schwarz um 11:35 Uhr bei 424,20 EUR, +0,17 % über dem Xetra-Schluss 423,50 EUR vom 13.10. — knapp unter der Banduntergrenze (+0,2 % bis +1,5 %), Richtung leicht positiv, aber noch nicht im Band. Quelle: ad-hoc-news.de (L&S) (14.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Xetra-Schluss 426,20 EUR (Vortag 423,50 EUR), +0,64 % — im Band (+0,2 % bis +1,5 %): Hit. Quelle: ad-hoc-news.de (14.10.2026)."
             }
           ],
-          "actual": 0.17
+          "actual": 0.64
         },
         {
           "name": "EuroStoxx 50",
@@ -2701,14 +2723,18 @@
           "bandHigh": 1.2,
           "confidence": 60,
           "reason": "Opportunity (frei): Dienstag â0,6 % auf 6.167 â Ã¼berverkauft; DAX-Future +0,9 % zieht breites Europa mit, Chinas AuÃenhandelsboom (Exporte +36,3 %) stÃ¼tzt europÃ¤ische Exporteure direkt. Mindest-Band fÃ¼r Index-Pick (â¥1,0 %) eingehalten. Quellen: finanzen.net (ESt50); Dow Jones Newswires/finanzen.net (DAX-Future +96/+100 Punkte auf ~25.474/25.478, 14.10. FrÃ¼hhandel); AP/Yahoo Finance/Investing.com (China: Exporte +36,3 % j/j, Importe +31 %, Ãberschuss 133,5 Mrd. USD vs. 116,8 erwartet).",
-          "status": "open",
+          "status": "hit",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00-Slot: Euro Stoxx 50 um 12:10 Uhr bei ca. 6.205,82 Punkten (+0,63 % ggü. 6.167 vom Vortag; Tageshoch 6.215,81) — innerhalb des Bands (+0,3 % bis +1,2 %), Richtung bestätigt; ASML stützt. Quellen: finanzen.at, finanzen.ch (14.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 6.195,22 Punkte, +0,46 % — im Band (+0,3 % bis +1,2 %): Hit. Quelle: finanzen.ch (14.10.2026)."
             }
           ],
-          "actual": 0.63
+          "actual": 0.46
         },
         {
           "name": "MDAX",
@@ -2719,14 +2745,18 @@
           "bandHigh": 1.1,
           "confidence": 55,
           "reason": "Opportunity (frei): MidCaps als China-Zyklus-Profiteure (Importe +31 % j/j) mit Risk-on-Schub; Gegenlast: CXMT-Druck auf MDAX-Technologiewerte (Suss Microtec, Aixtron) â daher moderates, knapp regelkonformes Band (bandHigh â¥1,0 %). Quellen: Investing.com (CXMT-Druck auf Infineon/MDAX-Werte); AP/Yahoo Finance/Investing.com (China: Exporte +36,3 % j/j, Importe +31 %, Ãberschuss 133,5 Mrd. USD vs. 116,8 erwartet); Dow Jones Newswires/finanzen.net (DAX-Future +96/+100 Punkte auf ~25.474/25.478, 14.10. FrÃ¼hhandel).",
-          "status": "open",
+          "status": "partial",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00-Slot: MDAX um 12:08 Uhr im Xetra-Handel 1,11 % stärker bei 30.353,96 Punkten — am oberen Rand des Bands (+0,2 % bis +1,1 %), Richtung klar bestätigt; MidCaps laufen als China-Zyklus-Profiteure vorn. Quelle: finanzen.ch (14.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 30.050,15 Punkte, +0,10 % — knapp unter der Banduntergrenze (+0,2 %): Partial. Quelle: dpa-AFX/ariva.de (14.10.2026)."
             }
           ],
-          "actual": 1.11
+          "actual": 0.1
         },
         {
           "name": "Dow Jones",
@@ -2737,14 +2767,18 @@
           "bandHigh": 1.1,
           "confidence": 52,
           "reason": "Opportunity (frei): China-HandelsÃ¼berraschung als harter Katalysator fÃ¼r zyklische US-Blue-Chips; Dienstag â0,3 % nach Banken-EnttÃ¤uschung (JPM EPS 5,57 vs. 5,90 USD). Restrisiko: heute Morgan-Stanley-, BofA-, BlackRock- und State-Street-Zahlen â gestern gelernt, dass Quartalszahlen-Tage den Katalysator Ã¼berlagern kÃ¶nnen â niedrigste Konfidenz des Tages, Band knapp Ã¼ber Minimum. Quellen: AP (Dow 13.10.); wallstreetONLINE (Termine 14.10.); Investing.com (US-Banken-Vorschau); AP/Yahoo Finance/Investing.com (China: Exporte +36,3 % j/j, Importe +31 %, Ãberschuss 133,5 Mrd. USD vs. 116,8 erwartet).",
-          "status": "open",
+          "status": "miss",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00-Slot (US-Handel erst ab 15:30 MESZ): Dow-Futures ca. +0,16 % (Benzinga) nach −0,35 % am Dienstag (Schluss 51.671 Punkte, Trading Economics) — am unteren Rand des Bands (+0,2 % bis +1,1 %), Tendenz richtigerweise positiv; Banken-Zahlen (Morgan Stanley, BofA, State Street) abends richtungsweisend. Quellen: Benzinga, Trading Economics (14.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 51.621,48 Punkte, −0,09 % — Miss; die Banken-Zahlen (Morgan Stanley, BofA) zehrten den China-Impuls auf. Quelle: Yahoo Finance (14.10.2026)."
             }
           ],
-          "actual": 0.16
+          "actual": -0.09
         }
       ]
     },
@@ -2761,14 +2795,18 @@
           "bandHigh": -0.2,
           "confidence": 55,
           "reason": "Markt-Lage: Heißere US-Inflation (September +3,7 % j/j, stärker als erwartet, Arbeitsministerium via ms-aktuell) befeuert die Oktober-Hike-Debatte; der Chip-Ausverkauf erreicht Asien (Kospi -7,8 %, Nikkei -4,4 %, CNBC), EUREX-DAX-Futures im Donnerstagfrühhandel -201 Punkte auf 25.256 (MarketScreener/dpa-AFX) nach 25.299 Punkten Xetra-Schluss (+0,2 %, dpa-AFX). Lern-Log-Regel konsequent: kein up-Benchmark ohne harten Tages-Katalysator — hier überwiegen Zinsdruck, Asien-Crash und schwache US-Futures klar. Quellen: dpa-AFX via MarketScreener (DAX-Schluss, EUREX-Futures), CNBC (Asien, Futures), ms-aktuell (CPI).",
-          "status": "open",
+          "status": "miss",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 MESZ: DAX ca. 25.176 Punkte (L&S-Indikation 13:07 Uhr, ad-hoc-news), rund −0,5% ggü. Xetra-Schluss 25.298,61 vom 14.10. (Investing.com) — im prognostizierten Band (−1,5% bis −0,2%), Richtung down stimmt; Zinssorgen und Asien-Chip-Abverkauf drücken, TecDAX deutlich schwächer. Quelle: ad-hoc-news.de, Investing.com (15.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 25.382,62 Punkte (Xetra), +0,33 % — Miss; der Asien-Schock (Kospi −7,6 %, Nikkei −4,9 %) wurde im Tagesverlauf verdaut, die späte US-Erholung hob den Leitindex ins Plus (ms-aktuell nennt alternativ 25.368,04 Punkte / +0,27 %). Quellen: dpa-AFX, JKN/manager magazin, ms-aktuell.de (15.10.2026)."
             }
           ],
-          "actual": -0.5
+          "actual": 0.33
         },
         {
           "name": "S&P 500",
@@ -2779,13 +2817,18 @@
           "bandHigh": -0.2,
           "confidence": 55,
           "reason": "Markt-Lage: Fünfter Verlusttag in Serie seit dem Rekord, gestern -1,1 % auf 7.718,94 Punkte (AP News); S&P-500-Futures -0,51 % (CNBC). Heutige US-Erzeugerpreise und Einzelhandelsdaten sind das nächste Inflations-Risiko-Ereignis; die Oktober-Hike-Debatte (Lazard via dpa-AFX/ARIVA) drückt auf Bewertungen. Band an Futures-Indikation mit Bounce-Puffer (13.10.-Lehre). Quellen: AP News (Schlusskurse), CNBC (Futures, Asien-Abverkauf), ARIVA/dpa-AFX (Hike-Debatte).",
-          "status": "open",
+          "status": "miss",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 MESZ (Pre-Market): S&P-500-Futures ca. 7.745 Punkte, rund −0,3% (FXStreet: −0,33%; Proactive: −25 Punkte) — im Band (−1,3% bis −0,2%), Richtung down bislang bestätigt; um 14:30 Uhr folgen US-Erzeugerpreise und Einzelhandel als nächste Zins-Weichen. Quelle: FXStreet, Proactive Investors (15.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 7.749,31 Punkte, +0,39 % — Miss; nach schwachem Start drehte der PPI-Tag ins Plus. Quellen: Economic Times, AP (15.10.2026)."
             }
-          ]
+          ],
+          "actual": 0.39
         },
         {
           "name": "Munich Re",
@@ -2797,14 +2840,19 @@
           "bandHigh": 1.5,
           "confidence": 55,
           "reason": "Opportunity (Depot): Zinsprofiteur-Muster (seit 24.09. validiert) — nach dem CPI-Schock steigen die Renditen und mit ihnen der Wiederanlage-Ertrag der Rückversicherer; Munich Re zählte gestern zu den stärkeren DAX-Werten (DER AKTIONÄR, Marktüberblick). Band knapp über dem Regel-Minimum 1,5 % (25.09.-Lektion: Zinsprofiteur defensiv kalibrieren, da der Tailwind intraday kippen kann). Kein Earnings-Risiko heute. Quellen: DER AKTIONÄR (14.10. DAX-Gewinner), dpa-AFX/MarketScreener (Zinsanstieg nach CPI).",
-          "status": "open",
+          "status": "hit",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 MESZ: 539,90 EUR bei Lang & Schwarz (11:04 Uhr), +1,22% ggü. Xetra-Schluss 533,40 EUR — im Band (+0,2% bis +1,5%), Zinsprofiteur-Muster nach CPI-Schock bestätigt sich; heutiges Mediengespräch zur Erneuerungssaison läuft. Quelle: ad-hoc-news.de (15.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Spätnachmittags-Notiz ~546 EUR, +2,59 % (Tradegate 15:57 Uhr; später ~546 EUR auch Xetra) — über dem oberen Bandrand (+1,5 %): Hit mit Übererfüllung; offizieller Xetra-Schluss zum Review-Zeitpunkt noch nicht veröffentlicht. Quellen: wallstreetONLINE (JPM-Note), investor-verlag (15.10.2026)."
             }
           ],
-          "actual": 1.22
+          "actual": 2.59,
+          "overshoot": true
         },
         {
           "name": "Rheinmetall AG",
@@ -2816,14 +2864,19 @@
           "bandHigh": 2,
           "confidence": 58,
           "reason": "Opportunity (Depot): Nahost-/Hormuz-Eskalation hält an (iranische Angriffe auf Tanker, US-Zentralkommando-Streit, TradingEconomics/Brent 105,43 USD) — das treibt Verteidigungswerte; Rheinmetall war gestern unter den DAX-Gewinnern (ms-aktuell) und notiert mit -3,3 % auf 30 Tage noch im Rücksetzer (wallstreetONLINE), Rebound-Spielraum intakt. Sektor-Momentum-Kontrolle (24.09.-Lektion): keine branchenweiten Gewinnmitnahmen im Verteidigungssektor erkennbar. bandHigh >= 1,5 % regelkonform.",
-          "status": "open",
+          "status": "hit",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 MESZ: ca. 985 EUR (finanznachrichten.de), im wallstreetONLINE-Update 13:59 Uhr mit +3,26% Top-Wert im Eurozone 50 — Richtung up klar bestätigt, aktuell über dem oberen Bandrand (+2,0%); nach Kriterien des Upside-Scoring wäre das eine Übererfüllung (endgültige Bewertung abends). Verteidigungssektor trägt die Nahost-Eskalation. Quelle: wallstreetONLINE, finanznachrichten.de (15.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Xetra-Schluss 1.026,00 EUR, +4,34 % — Hit mit Übererfüllung; Nahost-Eskalation und Verteidigungsmomentum trugen. Quelle: ms-aktuell.de (15.10.2026)."
             }
           ],
-          "actual": 3.26
+          "actual": 4.34,
+          "overshoot": true
         },
         {
           "name": "Allianz",
@@ -2835,11 +2888,15 @@
           "bandHigh": 1.5,
           "confidence": 52,
           "reason": "Opportunity (Depot): Zweitversicherer-Hebel auf dasselbe Zinsprofiteur-Muster wie Munich Re; Allianz gehörte gestern zu den besonders starken DAX-Werten (DER AKTIONÄR). Defensiver Rückhalt im erwarteten Abschwungstag. Konfidenz bewusst unter Munich Re, da die Allianz mit US-Geschäft stärker am Hike-/Dollar-Thema hängt; Band am Regel-Minimum 1,5 %.",
-          "status": "open",
+          "status": "hit",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 MESZ: 431,80 EUR bei Lang & Schwarz (11:09 Uhr), +1,31% ggü. Xetra-Schluss 426,20 EUR — im Band (+0,1% bis +1,5%); Zinsprofiteur-Hebel wirkt wie bei Munich Re. Quelle: ad-hoc-news.de (15.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Letzte verfügbare Notiz 431,80 EUR bei Lang & Schwarz (11:09 Uhr), +1,31 %, vormittags bis 433,20 EUR (+1,64 %) — im Band (+0,1 % bis +1,5 %): Hit; endgültiger Xetra-Schluss zum Review-Zeitpunkt noch nicht veröffentlicht. Quelle: ad-hoc-news.de (15.10.2026)."
             }
           ],
           "actual": 1.31
@@ -2853,13 +2910,18 @@
           "bandHigh": -0.5,
           "confidence": 58,
           "reason": "Markt-Lage (freier Pick): Chip-/KI-Ausverkauf Tag 3 — Micron -4,1 %, AMD -5,7 %, Nvidia -3,2 %, Broadcom -3,1 % (TradingEconomics); Kospi -7,8 % via SK Hynix/Samsung, Nikkei -4,4 % (CNBC); Nasdaq-100-Futures -1,11 % (CNBC). TSMC-Zahlen heute als Doppelrisiko (Sektor-Momentum-Regel 24.09.: Chip komplett gemieden auf der Long-Seite). Down nur bei klaren Gegenargumenten — die liegen hier geschlossen vor. Down-Band-Oberkante = Futures-Indikation minus Bounce-Puffer (13.10.-Lehre). Quellen: TradingEconomics, CNBC.",
-          "status": "open",
+          "status": "miss",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 MESZ (Pre-Market): Nasdaq-100-Futures ca. 29.815 Punkte, rund −1,2% bis −1,3% (FXStreet: −1,30% auf ca. 29.780; Yahoo: −1,24%) — im Band (−2,2% bis −0,5%), Chip-/KI-Ausverkauf Tag 3 setzt sich fort (Kospi −7,8%, Nikkei −4,4%). Quelle: FXStreet, Proactive Investors, Yahoo Finance (15.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Nasdaq Composite +0,10 % auf 26.720,54 Punkte als Proxy (offizieller NDX-Schluss zum Review-Zeitpunkt noch nicht veröffentlicht) — Miss; die Tech-Erholung nach dem Asien-Crash hob den Composite über Wasser. Quellen: AP, Economic Times (15.10.2026)."
             }
-          ]
+          ],
+          "actual": 0.1
         },
         {
           "name": "EuroStoxx 50",
@@ -2870,14 +2932,18 @@
           "bandHigh": 0.6,
           "confidence": 50,
           "reason": "Markt-Lage (freier Pick): Zwei gegenläufige Kräfte — DAX-Futures -0,8 % und Asien-Druck nach unten, hohes Versicherergewicht (Allianz, Munich Re, Swiss Re) mit heutigem Zins-Tailwind nach oben; gestern +0,4 % (finanzen.ch). Flat mit oberseitig etwas mehr Spielraum (25.09.-Lehre), Gaspreis ohne Tagesimpuls. Quellen: finanzen.ch (14.10.-Tabelle), MarketScreener (DAX-Futures).",
-          "status": "open",
+          "status": "hit",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 MESZ: ca. 6.138 Punkte, −0,44% (wallstreetONLINE-Update 13:59 Uhr) — im Flat-Band (−0,7% bis +0,6%); Versicherungs-Gegenweight (Munich Re, Allianz deutlich plus) hält den Index trotz Infineon-Crash (−7,3%) über Wasser. Quelle: wallstreetONLINE (15.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 6.168,26 Punkte, −0,36 % — im Flat-Band (−0,7 % bis +0,6 %): Hit; das Versicherungs-Gegenweight (Munich Re, Allianz deutlich plus) hielt gegen den Infineon-Crash (−5,2 %). Quelle: dpa-AFX/ariva.de (15.10.2026)."
             }
           ],
-          "actual": -0.44
+          "actual": -0.36
         },
         {
           "name": "Dow Jones",
@@ -2888,13 +2954,19 @@
           "bandHigh": 0.7,
           "confidence": 50,
           "reason": "Markt-Lage (freier Pick): Relative Stärke als Muster — Dow gestern nur -0,1 % bei S&P -1,1 % (AP News); Defensiv-Rotation läuft (UnitedHealth +4,9 %, Merck +3,9 %, Walmart +3,3 %, TradingEconomics); Dow-Futures nahezu unverändert -0,12 % (CNBC). Flat statt up, weil Hike-Debatte und Banken-Enttäuschungen der Woche (BofA -4,8 %) als Gegenargumente gegen einen up-Pick stehen; U.S. Bancorp meldet heute vor Börsenbeginn. Quellen: AP News, TradingEconomics, CNBC.",
-          "status": "open",
+          "status": "hit",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 MESZ (Pre-Market): Dow-Futures ca. 51.970–52.090 Punkte, +0,2% bis +0,5% (Proactive: 51.971, +113 Punkte; FXStreet: +0,46%) — im Flat-Band (−0,5% bis +0,7%); Defensiv-Rotation (UnitedHealth, Merck, Walmart stark) trägt den Dow während Tech fällt. Quelle: Proactive Investors, FXStreet (15.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 52.226,27 Punkte, +1,17 % — über dem oberen Bandrand (+0,7 %): Hit mit Übererfüllung; Defensiv-Rotation und der Rendite-Rücksetzer trugen. Quellen: Economic Times, AP (15.10.2026)."
             }
-          ]
+          ],
+          "actual": 1.17,
+          "overshoot": true
         }
       ]
     }
