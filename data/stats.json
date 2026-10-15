@@ -263,6 +263,10 @@
     {
       "date": "2026-10-15",
       "entry": "Abend-Review 15.10.: 5 Hits (3 Übererfüllungen: Munich Re, Rheinmetall, Dow Jones), 3 Miss. Kalibrierung: (1) Die Down-These (DAX, S&P 500, Nasdaq 100) wurde vom späten Rendite-Rücksetzer (10J ~5,08 %) und der US-Erholung überrollt — Down-Picks brauchen wie Up-Picks eine harte intraday Katalysator-Prüfung; ein Futures-Minus am Morgen ist kein hinreichender Beleg, künftig Rückdreh-Puffer in Down-Bänder einplanen. (2) Flat-Picks profitieren vom oberseitigen Übererfüllungs-Scoring (Dow +1,17 % über Band = Hit mit overshoot). (3) Datenverfügbarkeit: Offizielle Xetra-Einzelaktien-Schlüsse und der NDX-Schluss sind zur 22-Uhr-Grenze teils nicht publiziert — Spätnachmittags-/Proxy-Notizen werden im Review dokumentiert (Munich Re, Allianz, Nasdaq 100)."
+    },
+    {
+      "date": "2026-10-15",
+      "entry": "Korrektur-Vermerk: Im veröffentlichten Abend-Post FINE #29 (15.10.) wird die Benchmark-hitRate mit 45,2 % angegeben; korrekt nach Stats-Stand ist 42,4 % (14/33, da beide Fix-Indizes an zwei Tagen = 4 Benchmark-Picks hinzukamen). Der Post bleibt gemäß Unveränderlichkeits-Regel unverändert; Korrektur hier dokumentiert. Gesamt-hitRate (53,1 %) und Picks-Quote (56,8 %) im Post sind korrekt."
     }
   ]
 }
