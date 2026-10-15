@@ -1,97 +1,97 @@
 {
   "version": 4,
-  "updated": "2026-10-13T22:00:00+02:00",
+  "updated": "2026-10-15T22:00:00+02:00",
   "totals": {
-    "predictions": 112,
-    "hits": 60,
-    "partial": 16,
-    "misses": 36,
-    "overshoots": 7,
-    "directionCorrect": 70,
-    "hitRate": 0.5357
+    "predictions": 128,
+    "hits": 68,
+    "partial": 18,
+    "misses": 42,
+    "overshoots": 11,
+    "directionCorrect": 79,
+    "hitRate": 0.5313
   },
   "benchmark": {
-    "predictions": 29,
+    "predictions": 33,
     "hits": 14,
-    "partial": 8,
-    "misses": 7,
+    "partial": 9,
+    "misses": 10,
     "overshoots": 2,
-    "directionCorrect": 17,
-    "hitRate": 0.4828,
+    "directionCorrect": 18,
+    "hitRate": 0.4242,
     "note": "Fix-Indizes DAX + S&P 500 — misst Markt-Lese-Qualität. Enge, realistische Bänder korrekt; kein Mut-Kriterium."
   },
   "picks": {
-    "predictions": 83,
-    "hits": 46,
-    "partial": 8,
-    "misses": 29,
-    "overshoots": 5,
-    "directionCorrect": 53,
-    "hitRate": 0.5542,
+    "predictions": 95,
+    "hits": 54,
+    "partial": 9,
+    "misses": 32,
+    "overshoots": 9,
+    "directionCorrect": 61,
+    "hitRate": 0.5684,
     "note": "Echte Picks: 2x Depot + 1 frei — misst Opportunity-Finding. Mindest-Band + Boldness gelten hier."
   },
   "byInstrumentType": {
     "index": {
-      "predictions": 66,
-      "hits": 34,
-      "partial": 12,
-      "misses": 20,
-      "overshoots": 2,
-      "directionCorrect": 40,
-      "hitRate": 0.5152
+      "predictions": 76,
+      "hits": 37,
+      "partial": 14,
+      "misses": 25,
+      "overshoots": 3,
+      "directionCorrect": 44,
+      "hitRate": 0.4868
     },
     "equity_de": {
-      "predictions": 32,
-      "hits": 17,
+      "predictions": 37,
+      "hits": 22,
       "partial": 2,
       "misses": 13,
-      "overshoots": 3,
-      "directionCorrect": 19,
-      "hitRate": 0.5313
+      "overshoots": 6,
+      "directionCorrect": 24,
+      "hitRate": 0.5946
     },
     "equity_us": {
-      "predictions": 14,
+      "predictions": 15,
       "hits": 9,
       "partial": 2,
-      "misses": 3,
+      "misses": 4,
       "overshoots": 2,
       "directionCorrect": 11,
-      "hitRate": 0.6429
+      "hitRate": 0.6
     }
   },
   "byPickClass": {
     "benchmark": {
-      "predictions": 29,
+      "predictions": 33,
       "hits": 14,
-      "partial": 8,
-      "misses": 7,
+      "partial": 9,
+      "misses": 10,
       "overshoots": 2,
-      "directionCorrect": 17,
-      "hitRate": 0.4828
+      "directionCorrect": 18,
+      "hitRate": 0.4242
     },
     "portfolio": {
-      "predictions": 41,
-      "hits": 23,
+      "predictions": 47,
+      "hits": 28,
       "partial": 3,
-      "misses": 15,
-      "overshoots": 4,
-      "directionCorrect": 26,
-      "hitRate": 0.561
+      "misses": 16,
+      "overshoots": 7,
+      "directionCorrect": 31,
+      "hitRate": 0.5957
     },
     "free": {
-      "predictions": 42,
-      "hits": 23,
-      "partial": 5,
-      "misses": 14,
-      "overshoots": 1,
-      "directionCorrect": 27,
-      "hitRate": 0.5476
+      "predictions": 48,
+      "hits": 26,
+      "partial": 6,
+      "misses": 16,
+      "overshoots": 2,
+      "directionCorrect": 30,
+      "hitRate": 0.5417
     }
   },
   "boldness": {
     "note": "Mut-Metrik gegen Tiefbieten — NUR echte Picks (Benchmark-Indizes ausgeschlossen).",
-    "avgBandHigh": 1.6024,
-    "avgActual": 0.1575,
+    "avgBandHigh": 1.5568,
+    "avgActual": 0.2435,
     "months": [
       {
         "month": "2026-09",
@@ -101,9 +101,9 @@
       },
       {
         "month": "2026-10",
-        "picks": 48,
-        "avgBandHigh": 1.5854,
-        "avgActual": 0.469
+        "picks": 60,
+        "avgBandHigh": 1.5167,
+        "avgActual": 0.5428
       }
     ]
   },
@@ -255,6 +255,14 @@
     {
       "date": "2026-10-15",
       "entry": "Morgen-Job 15.10.: Screen vor Pick — Treiber des Tages ist der CPI-Nachbeben: Heißere US-Inflation (September +3,7 % j/j, stärker als erwartet) zündet die Oktober-Hike-Debatte (Lazard via dpa-AFX), der Chip-Ausverkauf schwappt nach Asien (Kospi -7,8 % via SK Hynix/Samsung, Nikkei -4,4 %, CNBC), S&P-Futures -0,51 %, Nasdaq-100-Futures -1,11 %, EUREX-DAX-Futures -201 Punkte auf 25.256 (MarketScreener) nach DAX-Schluss 25.299 (+0,2 %). Angewandte Regeln: (1) Kein up-Benchmark ohne harten Tages-Katalysator (13.10.) — DAX und S&P 500 heute down. (2) Sektor-Momentum-Regel (24.09.): Chip-Sektor komplett gemieden, Nasdaq 100 als zweite down-Position überhaupt mit klaren Gegenargumenten (Futures, Asien-Crash, TSMC-Doppelrisiko). (3) Zwei-Messungen-Regel (13.10.): Barrick NICHT gepickt — Gold-Rebound +1,0 % auf 4.145 USD verpasst den Test, weil der Vortagesimpuls negativ war (-1,5 %, finanzen.ch). (4) Zinsprofiteur-Muster (24.09., validiert): Munich Re und Allianz als Depot-Picks bei anziehenden Renditen — beide gehörten gestern zu den DAX-Gewinnern (DER AKTIONÄR); Allianz bewusst niedrigere Konfidenz (US-Sensitivität). (5) Nahost-Eskalation (Hormuz/Tanker-Angriffe, Brent 105,4 USD, TradingEconomics) trägt Rheinmetall (gestern DAX-Gewinner, 30-Tage -3,3 % Rebound-Spielraum). Freie Picks: Nasdaq 100 down (-2,2/-0,5, Down-Band-Oberkante = Futures minus Bounce-Puffer, 13.10.-Lehre), EuroStoxx 50 flat (-0,7/+0,6, Versicherergewichte als Puffer gegen DAX-Druck), Dow Jones flat (-0,5/+0,7, relative Stärke gestern -0,1 % bei S&P -1,1 %, Defensiv-Rotation UNH/Merck/Walmart). Boldness regelkonform: bandHigh 1,5-2,0 % bei Aktie-Picks."
+    },
+    {
+      "date": "2026-10-15",
+      "entry": "Nachhol-Review 14.10.: Der Abend-Job vom 14.10.2026 wurde nicht ausgeführt — Schlusskurse und Bewertungen wurden am 15.10. konsistent nachgetragen (3 Hits, 2 Partial, 3 Miss, 1 Übererfüllung; Präzedenz 28.09./29.09.). Kernfelder unverändert, nur Reviews/actual/status/overshoot ergänzt."
+    },
+    {
+      "date": "2026-10-15",
+      "entry": "Abend-Review 15.10.: 5 Hits (3 Übererfüllungen: Munich Re, Rheinmetall, Dow Jones), 3 Miss. Kalibrierung: (1) Die Down-These (DAX, S&P 500, Nasdaq 100) wurde vom späten Rendite-Rücksetzer (10J ~5,08 %) und der US-Erholung überrollt — Down-Picks brauchen wie Up-Picks eine harte intraday Katalysator-Prüfung; ein Futures-Minus am Morgen ist kein hinreichender Beleg, künftig Rückdreh-Puffer in Down-Bänder einplanen. (2) Flat-Picks profitieren vom oberseitigen Übererfüllungs-Scoring (Dow +1,17 % über Band = Hit mit overshoot). (3) Datenverfügbarkeit: Offizielle Xetra-Einzelaktien-Schlüsse und der NDX-Schluss sind zur 22-Uhr-Grenze teils nicht publiziert — Spätnachmittags-/Proxy-Notizen werden im Review dokumentiert (Munich Re, Allianz, Nasdaq 100)."
     }
   ]
 }
