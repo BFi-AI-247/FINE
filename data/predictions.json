@@ -2762,7 +2762,13 @@
           "confidence": 55,
           "reason": "Markt-Lage: Heißere US-Inflation (September +3,7 % j/j, stärker als erwartet, Arbeitsministerium via ms-aktuell) befeuert die Oktober-Hike-Debatte; der Chip-Ausverkauf erreicht Asien (Kospi -7,8 %, Nikkei -4,4 %, CNBC), EUREX-DAX-Futures im Donnerstagfrühhandel -201 Punkte auf 25.256 (MarketScreener/dpa-AFX) nach 25.299 Punkten Xetra-Schluss (+0,2 %, dpa-AFX). Lern-Log-Regel konsequent: kein up-Benchmark ohne harten Tages-Katalysator — hier überwiegen Zinsdruck, Asien-Crash und schwache US-Futures klar. Quellen: dpa-AFX via MarketScreener (DAX-Schluss, EUREX-Futures), CNBC (Asien, Futures), ms-aktuell (CPI).",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ: DAX ca. 25.176 Punkte (L&S-Indikation 13:07 Uhr, ad-hoc-news), rund −0,5% ggü. Xetra-Schluss 25.298,61 vom 14.10. (Investing.com) — im prognostizierten Band (−1,5% bis −0,2%), Richtung down stimmt; Zinssorgen und Asien-Chip-Abverkauf drücken, TecDAX deutlich schwächer. Quelle: ad-hoc-news.de, Investing.com (15.10.2026)."
+            }
+          ],
+          "actual": -0.5
         },
         {
           "name": "S&P 500",
@@ -2774,7 +2780,12 @@
           "confidence": 55,
           "reason": "Markt-Lage: Fünfter Verlusttag in Serie seit dem Rekord, gestern -1,1 % auf 7.718,94 Punkte (AP News); S&P-500-Futures -0,51 % (CNBC). Heutige US-Erzeugerpreise und Einzelhandelsdaten sind das nächste Inflations-Risiko-Ereignis; die Oktober-Hike-Debatte (Lazard via dpa-AFX/ARIVA) drückt auf Bewertungen. Band an Futures-Indikation mit Bounce-Puffer (13.10.-Lehre). Quellen: AP News (Schlusskurse), CNBC (Futures, Asien-Abverkauf), ARIVA/dpa-AFX (Hike-Debatte).",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ (Pre-Market): S&P-500-Futures ca. 7.745 Punkte, rund −0,3% (FXStreet: −0,33%; Proactive: −25 Punkte) — im Band (−1,3% bis −0,2%), Richtung down bislang bestätigt; um 14:30 Uhr folgen US-Erzeugerpreise und Einzelhandel als nächste Zins-Weichen. Quelle: FXStreet, Proactive Investors (15.10.2026)."
+            }
+          ]
         },
         {
           "name": "Munich Re",
@@ -2787,7 +2798,13 @@
           "confidence": 55,
           "reason": "Opportunity (Depot): Zinsprofiteur-Muster (seit 24.09. validiert) — nach dem CPI-Schock steigen die Renditen und mit ihnen der Wiederanlage-Ertrag der Rückversicherer; Munich Re zählte gestern zu den stärkeren DAX-Werten (DER AKTIONÄR, Marktüberblick). Band knapp über dem Regel-Minimum 1,5 % (25.09.-Lektion: Zinsprofiteur defensiv kalibrieren, da der Tailwind intraday kippen kann). Kein Earnings-Risiko heute. Quellen: DER AKTIONÄR (14.10. DAX-Gewinner), dpa-AFX/MarketScreener (Zinsanstieg nach CPI).",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ: 539,90 EUR bei Lang & Schwarz (11:04 Uhr), +1,22% ggü. Xetra-Schluss 533,40 EUR — im Band (+0,2% bis +1,5%), Zinsprofiteur-Muster nach CPI-Schock bestätigt sich; heutiges Mediengespräch zur Erneuerungssaison läuft. Quelle: ad-hoc-news.de (15.10.2026)."
+            }
+          ],
+          "actual": 1.22
         },
         {
           "name": "Rheinmetall AG",
@@ -2800,7 +2817,13 @@
           "confidence": 58,
           "reason": "Opportunity (Depot): Nahost-/Hormuz-Eskalation hält an (iranische Angriffe auf Tanker, US-Zentralkommando-Streit, TradingEconomics/Brent 105,43 USD) — das treibt Verteidigungswerte; Rheinmetall war gestern unter den DAX-Gewinnern (ms-aktuell) und notiert mit -3,3 % auf 30 Tage noch im Rücksetzer (wallstreetONLINE), Rebound-Spielraum intakt. Sektor-Momentum-Kontrolle (24.09.-Lektion): keine branchenweiten Gewinnmitnahmen im Verteidigungssektor erkennbar. bandHigh >= 1,5 % regelkonform.",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ: ca. 985 EUR (finanznachrichten.de), im wallstreetONLINE-Update 13:59 Uhr mit +3,26% Top-Wert im Eurozone 50 — Richtung up klar bestätigt, aktuell über dem oberen Bandrand (+2,0%); nach Kriterien des Upside-Scoring wäre das eine Übererfüllung (endgültige Bewertung abends). Verteidigungssektor trägt die Nahost-Eskalation. Quelle: wallstreetONLINE, finanznachrichten.de (15.10.2026)."
+            }
+          ],
+          "actual": 3.26
         },
         {
           "name": "Allianz",
@@ -2813,7 +2836,13 @@
           "confidence": 52,
           "reason": "Opportunity (Depot): Zweitversicherer-Hebel auf dasselbe Zinsprofiteur-Muster wie Munich Re; Allianz gehörte gestern zu den besonders starken DAX-Werten (DER AKTIONÄR). Defensiver Rückhalt im erwarteten Abschwungstag. Konfidenz bewusst unter Munich Re, da die Allianz mit US-Geschäft stärker am Hike-/Dollar-Thema hängt; Band am Regel-Minimum 1,5 %.",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ: 431,80 EUR bei Lang & Schwarz (11:09 Uhr), +1,31% ggü. Xetra-Schluss 426,20 EUR — im Band (+0,1% bis +1,5%); Zinsprofiteur-Hebel wirkt wie bei Munich Re. Quelle: ad-hoc-news.de (15.10.2026)."
+            }
+          ],
+          "actual": 1.31
         },
         {
           "name": "Nasdaq 100",
@@ -2825,7 +2854,12 @@
           "confidence": 58,
           "reason": "Markt-Lage (freier Pick): Chip-/KI-Ausverkauf Tag 3 — Micron -4,1 %, AMD -5,7 %, Nvidia -3,2 %, Broadcom -3,1 % (TradingEconomics); Kospi -7,8 % via SK Hynix/Samsung, Nikkei -4,4 % (CNBC); Nasdaq-100-Futures -1,11 % (CNBC). TSMC-Zahlen heute als Doppelrisiko (Sektor-Momentum-Regel 24.09.: Chip komplett gemieden auf der Long-Seite). Down nur bei klaren Gegenargumenten — die liegen hier geschlossen vor. Down-Band-Oberkante = Futures-Indikation minus Bounce-Puffer (13.10.-Lehre). Quellen: TradingEconomics, CNBC.",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ (Pre-Market): Nasdaq-100-Futures ca. 29.815 Punkte, rund −1,2% bis −1,3% (FXStreet: −1,30% auf ca. 29.780; Yahoo: −1,24%) — im Band (−2,2% bis −0,5%), Chip-/KI-Ausverkauf Tag 3 setzt sich fort (Kospi −7,8%, Nikkei −4,4%). Quelle: FXStreet, Proactive Investors, Yahoo Finance (15.10.2026)."
+            }
+          ]
         },
         {
           "name": "EuroStoxx 50",
@@ -2837,7 +2871,13 @@
           "confidence": 50,
           "reason": "Markt-Lage (freier Pick): Zwei gegenläufige Kräfte — DAX-Futures -0,8 % und Asien-Druck nach unten, hohes Versicherergewicht (Allianz, Munich Re, Swiss Re) mit heutigem Zins-Tailwind nach oben; gestern +0,4 % (finanzen.ch). Flat mit oberseitig etwas mehr Spielraum (25.09.-Lehre), Gaspreis ohne Tagesimpuls. Quellen: finanzen.ch (14.10.-Tabelle), MarketScreener (DAX-Futures).",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ: ca. 6.138 Punkte, −0,44% (wallstreetONLINE-Update 13:59 Uhr) — im Flat-Band (−0,7% bis +0,6%); Versicherungs-Gegenweight (Munich Re, Allianz deutlich plus) hält den Index trotz Infineon-Crash (−7,3%) über Wasser. Quelle: wallstreetONLINE (15.10.2026)."
+            }
+          ],
+          "actual": -0.44
         },
         {
           "name": "Dow Jones",
@@ -2849,7 +2889,12 @@
           "confidence": 50,
           "reason": "Markt-Lage (freier Pick): Relative Stärke als Muster — Dow gestern nur -0,1 % bei S&P -1,1 % (AP News); Defensiv-Rotation läuft (UnitedHealth +4,9 %, Merck +3,9 %, Walmart +3,3 %, TradingEconomics); Dow-Futures nahezu unverändert -0,12 % (CNBC). Flat statt up, weil Hike-Debatte und Banken-Enttäuschungen der Woche (BofA -4,8 %) als Gegenargumente gegen einen up-Pick stehen; U.S. Bancorp meldet heute vor Börsenbeginn. Quellen: AP News, TradingEconomics, CNBC.",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ (Pre-Market): Dow-Futures ca. 51.970–52.090 Punkte, +0,2% bis +0,5% (Proactive: 51.971, +113 Punkte; FXStreet: +0,46%) — im Flat-Band (−0,5% bis +0,7%); Defensiv-Rotation (UnitedHealth, Merck, Walmart stark) trägt den Dow während Tech fällt. Quelle: Proactive Investors, FXStreet (15.10.2026)."
+            }
+          ]
         }
       ]
     }
