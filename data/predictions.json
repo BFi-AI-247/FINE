@@ -2747,6 +2747,111 @@
           "actual": 0.16
         }
       ]
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Nach CPI-Schock Chip-Crash in Asien: Kospi -7,8 %, DAX-Futures im Minus — Zinsprofiteure als Rückhalt",
+      "picks": [
+        {
+          "name": "DAX",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "down",
+          "bandLow": -1.5,
+          "bandHigh": -0.2,
+          "confidence": 55,
+          "reason": "Markt-Lage: Heißere US-Inflation (September +3,7 % j/j, stärker als erwartet, Arbeitsministerium via ms-aktuell) befeuert die Oktober-Hike-Debatte; der Chip-Ausverkauf erreicht Asien (Kospi -7,8 %, Nikkei -4,4 %, CNBC), EUREX-DAX-Futures im Donnerstagfrühhandel -201 Punkte auf 25.256 (MarketScreener/dpa-AFX) nach 25.299 Punkten Xetra-Schluss (+0,2 %, dpa-AFX). Lern-Log-Regel konsequent: kein up-Benchmark ohne harten Tages-Katalysator — hier überwiegen Zinsdruck, Asien-Crash und schwache US-Futures klar. Quellen: dpa-AFX via MarketScreener (DAX-Schluss, EUREX-Futures), CNBC (Asien, Futures), ms-aktuell (CPI).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "S&P 500",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "down",
+          "bandLow": -1.3,
+          "bandHigh": -0.2,
+          "confidence": 55,
+          "reason": "Markt-Lage: Fünfter Verlusttag in Serie seit dem Rekord, gestern -1,1 % auf 7.718,94 Punkte (AP News); S&P-500-Futures -0,51 % (CNBC). Heutige US-Erzeugerpreise und Einzelhandelsdaten sind das nächste Inflations-Risiko-Ereignis; die Oktober-Hike-Debatte (Lazard via dpa-AFX/ARIVA) drückt auf Bewertungen. Band an Futures-Indikation mit Bounce-Puffer (13.10.-Lehre). Quellen: AP News (Schlusskurse), CNBC (Futures, Asien-Abverkauf), ARIVA/dpa-AFX (Hike-Debatte).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Munich Re",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "fromPortfolio": true,
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1.5,
+          "confidence": 55,
+          "reason": "Opportunity (Depot): Zinsprofiteur-Muster (seit 24.09. validiert) — nach dem CPI-Schock steigen die Renditen und mit ihnen der Wiederanlage-Ertrag der Rückversicherer; Munich Re zählte gestern zu den stärkeren DAX-Werten (DER AKTIONÄR, Marktüberblick). Band knapp über dem Regel-Minimum 1,5 % (25.09.-Lektion: Zinsprofiteur defensiv kalibrieren, da der Tailwind intraday kippen kann). Kein Earnings-Risiko heute. Quellen: DER AKTIONÄR (14.10. DAX-Gewinner), dpa-AFX/MarketScreener (Zinsanstieg nach CPI).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Rheinmetall AG",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "fromPortfolio": true,
+          "direction": "up",
+          "bandLow": 0.3,
+          "bandHigh": 2,
+          "confidence": 58,
+          "reason": "Opportunity (Depot): Nahost-/Hormuz-Eskalation hält an (iranische Angriffe auf Tanker, US-Zentralkommando-Streit, TradingEconomics/Brent 105,43 USD) — das treibt Verteidigungswerte; Rheinmetall war gestern unter den DAX-Gewinnern (ms-aktuell) und notiert mit -3,3 % auf 30 Tage noch im Rücksetzer (wallstreetONLINE), Rebound-Spielraum intakt. Sektor-Momentum-Kontrolle (24.09.-Lektion): keine branchenweiten Gewinnmitnahmen im Verteidigungssektor erkennbar. bandHigh >= 1,5 % regelkonform.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Allianz",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "fromPortfolio": true,
+          "direction": "up",
+          "bandLow": 0.1,
+          "bandHigh": 1.5,
+          "confidence": 52,
+          "reason": "Opportunity (Depot): Zweitversicherer-Hebel auf dasselbe Zinsprofiteur-Muster wie Munich Re; Allianz gehörte gestern zu den besonders starken DAX-Werten (DER AKTIONÄR). Defensiver Rückhalt im erwarteten Abschwungstag. Konfidenz bewusst unter Munich Re, da die Allianz mit US-Geschäft stärker am Hike-/Dollar-Thema hängt; Band am Regel-Minimum 1,5 %.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Nasdaq 100",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "down",
+          "bandLow": -2.2,
+          "bandHigh": -0.5,
+          "confidence": 58,
+          "reason": "Markt-Lage (freier Pick): Chip-/KI-Ausverkauf Tag 3 — Micron -4,1 %, AMD -5,7 %, Nvidia -3,2 %, Broadcom -3,1 % (TradingEconomics); Kospi -7,8 % via SK Hynix/Samsung, Nikkei -4,4 % (CNBC); Nasdaq-100-Futures -1,11 % (CNBC). TSMC-Zahlen heute als Doppelrisiko (Sektor-Momentum-Regel 24.09.: Chip komplett gemieden auf der Long-Seite). Down nur bei klaren Gegenargumenten — die liegen hier geschlossen vor. Down-Band-Oberkante = Futures-Indikation minus Bounce-Puffer (13.10.-Lehre). Quellen: TradingEconomics, CNBC.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "EuroStoxx 50",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "flat",
+          "bandLow": -0.7,
+          "bandHigh": 0.6,
+          "confidence": 50,
+          "reason": "Markt-Lage (freier Pick): Zwei gegenläufige Kräfte — DAX-Futures -0,8 % und Asien-Druck nach unten, hohes Versicherergewicht (Allianz, Munich Re, Swiss Re) mit heutigem Zins-Tailwind nach oben; gestern +0,4 % (finanzen.ch). Flat mit oberseitig etwas mehr Spielraum (25.09.-Lehre), Gaspreis ohne Tagesimpuls. Quellen: finanzen.ch (14.10.-Tabelle), MarketScreener (DAX-Futures).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Dow Jones",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "flat",
+          "bandLow": -0.5,
+          "bandHigh": 0.7,
+          "confidence": 50,
+          "reason": "Markt-Lage (freier Pick): Relative Stärke als Muster — Dow gestern nur -0,1 % bei S&P -1,1 % (AP News); Defensiv-Rotation läuft (UnitedHealth +4,9 %, Merck +3,9 %, Walmart +3,3 %, TradingEconomics); Dow-Futures nahezu unverändert -0,12 % (CNBC). Flat statt up, weil Hike-Debatte und Banken-Enttäuschungen der Woche (BofA -4,8 %) als Gegenargumente gegen einen up-Pick stehen; U.S. Bancorp meldet heute vor Börsenbeginn. Quellen: AP News, TradingEconomics, CNBC.",
+          "status": "open",
+          "reviews": []
+        }
+      ]
     }
   ]
 }
