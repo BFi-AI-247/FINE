@@ -2984,7 +2984,13 @@
           "confidence": 55,
           "reason": "Screening 16.10.: Vortag +0,3% auf 25.383 Punkte trotz weltweitem Chip-Ausverkauf (Aixtron -12,71%, TecDAX -0,66%) — der DAX hat kaum Chip-Gewichte, MDAX +0,55%. DAX-Futures im Frühhandel etwas fester (finanzen.at); 10J-Treasury-Rücksetzer von ~5,3% auf ~5,08% entlastet (XTB); EUR-VPI-Flash 11:00 erwartbar stabil nach EZB-Kurs. Risiko: Asien tiefrot (Chip-Sorgen), Öl ~105,6 USD. Erwartung: +0,1% bis +0,7%. Quellen: ad-hoc-news.de (Xetra-Schluss 15.10.), n-tv Börsen-Tag, finanzen.at, XTB.",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00-Slot: DAX bis gegen Mittag +1,0% bei 25.636,77 Punkten (dpa-AFX), um 13:10 Uhr 25.622 Punkte (L&S; +0,94% ggü. dokumentiertem Xetra-Schluss 25.383) — Prognose +0,1% bis +0,7% derzeit erfüllt bis knapp überboten, Richtung korrekt; Rheinmetall als Treiber. Quelle: dpa-AFX via ariva.de/finanzen.at, ad-hoc-news.de (16.10.2026)."
+            }
+          ],
+          "actual": 0.94
         },
         {
           "name": "S&P 500",
@@ -2996,7 +3002,13 @@
           "confidence": 50,
           "reason": "Screening 16.10.: Vortag +0,31% auf 7.744 Punkte, Dow +1,09% (52.226) getragen von Treasury-Rallye; PPI jedoch heiß (Kern-PPI größter Anstieg seit 4 Jahren, Kopf-PPI +1,3%, Schwab). Regel weiter angewendet: kein up-Benchmark ohne harten Tages-Katalysator — Banken-Zahlen sind durch, heute nur Import-/Exportpreise (14:30) und Industrieproduktion (15:15), beide als Inflations-/Zinsrisiko lesbar. US bis 15:30 MEZ nicht gehandelt. Erwartung: -0,4% bis +0,5%. Quellen: Trading Economics, Schwab Market Update, XTB.",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MESZ (Pre-Market): Futures kaum verändert bis leicht plus (+0,16%, aktien.news; E-mini ~7.789,25, Vantage Markets), Vortagesschluss 7.744,06 (+0,31%) — innerhalb des Flat-Bands -0,4% bis +0,5%, Richtung neutral wie prognostiziert; US-Import-/Exportpreise 14:30 Uhr noch ausstehend. Quellen: aktien.news, Vantage Markets, Trading Economics (16.10.2026)."
+            }
+          ],
+          "actual": 0.16
         },
         {
           "name": "Munich Re",
@@ -3009,7 +3021,13 @@
           "confidence": 55,
           "reason": "Screening: validiertes Zinsprofiteur-Muster — gestern +2,59% als Übererfüllung im Band-Hit; Rendite-Rücksetzer (10J ~5,08%) dämpft den Wiederanlage-Tailwind, daher moderateres Band als beim Vortag. Rückhalt: MDAX-/Versicherer-Stärke, Defensiv-Rotation trägt (Dow-Übererfüllung als Beleg). Erwartung: +0,2% bis +2,0%. Quellen: FINE-Review 15.10. (ms-aktuell.de Xetra-Daten), XTB (Renditen).",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand: ca. 545,70 EUR, rund +0,2% ggü. Xetra-Schluss 544,80 EUR (16.10., ad-hoc-news) — am unteren Bandrand (+0,2% bis +2,0%), Richtung leicht positiv; Versicherer-/Defensiv-Rotation trägt weiter, kaufkräftige Rückkaufsprogramme stützen. Quelle: ad-hoc-news.de (16.10.2026)."
+            }
+          ],
+          "actual": 0.17
         },
         {
           "name": "Barrick Gold Corp",
@@ -3022,7 +3040,12 @@
           "confidence": 60,
           "reason": "Screening: Edelmetall-Momentum stark — Gold ~4.171 USD (+1,6%), Silber +2,5% (XTB, finanzen.ch), Gold nahe Rekord; Chip-Sorgen in Asien stützen Risk-off-Deckel, Öl bei ~105,6 USD infliert. Barrick als Gold-Hebel nach regelkonformer Fortsetzungs-Logik (mehrere Band-Hits in Folge im Oktober). Erwartung: +0,3% bis +2,5%. Quellen: finanzen.ch (Gold-Notiz), XTB Daily Summary, wallstreetONLINE (Rohstoffe).",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand: Barrick (Xetra-Listung) vorbörslich 36,20 EUR bei L&S (07:57 Uhr); Toronto-Schluss 15.10. bei 57,56 CAD, +3,99% (wallstreet-online); Gold-Futures 16.10. +0,63% bei 4.196,30 USD (FXStreet), Silber +1,13%. Tendenz positiv, konkreter Xetra-Mittagskurs nicht verfügbar — Band +0,3% bis +2,5% vermutlich erreichbar, actual erst am Abend. Quellen: ad-hoc-news.de, wallstreet-online.de, FXStreet (16.10.2026)."
+            }
+          ]
         },
         {
           "name": "Rheinmetall AG",
@@ -3035,7 +3058,13 @@
           "confidence": 55,
           "reason": "Screening: Vortag +4,34% stärkster DAX-Wert (ms-aktuell.de) — Verteidigungs-Momentum trägt unabhängig von Zins-/Öl-Verwerfungen; Übererfüllung gestern zeigt Spielraum nach oben. Risiko: Gewinnmitnahmen nach starker Serie, daher weites Band mit niedriger Untergrenze. Erwartung: +0,2% bis +3,0%. Quellen: ms-aktuell.de (Xetra-Schluss 15.10.), FINE-Abend-Review 15.10.",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 10:52 Uhr: 1.074,40 EUR bei Lang & Schwarz, +4,72% ggü. Xetra-Schluss 1.026,00 EUR (Nel-Absichtserklärung synthetische Kraftstoffe als Auslöser); dpa-AFX zur Mittagszeit: Rüstungsaktien (Rheinmetall, Renk, Hensoldt) plus fünf bis sechs Prozent — Prognose +0,2% bis +3,0% deutlich übererfüllt (Overshoot-Kurs, Upside-Scoring). Quellen: ad-hoc-news.de, dpa-AFX via finanzen.at (16.10.2026)."
+            }
+          ],
+          "actual": 4.72
         },
         {
           "name": "Dow Jones",
@@ -3047,7 +3076,13 @@
           "confidence": 55,
           "reason": "Screening: Defensiv-Rotation plus Rendite-Rücksetzer trugen gestern +1,09% (Trading Economics) — Muster der vergangenen Tage intakt; Gold/Defensiv-Stärke spricht für Fortsetzung. Freier Pick (nicht Portfolio), Band gemäß Pick-Regel Index mind. +1,0% oben. US-Industrieproduktion 15:15 als Tagesrisiko. Erwartung: +0,2% bis +1,2%. Quellen: Trading Economics, Economic Times/AP (15.10.), XTB.",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand (Pre-Market, 13:12 Uhr): Dow-Futures 52.586 Punkte, +176 Punkte oder +0,3% nach Warsh-Kommentaren (ad-hoc-news), Investrade früh +0,41% — Vortagesschluss 52.177,69 (+1,08%). Im Band +0,2% bis +1,2%, am unteren Rand; Treasury-Rallye und Defensiv-Rotation stützen. Quellen: ad-hoc-news.de, Investrade, Trading Economics (16.10.2026)."
+            }
+          ],
+          "actual": 0.3
         },
         {
           "name": "MDAX",
@@ -3059,7 +3094,13 @@
           "confidence": 55,
           "reason": "Screening: MDAX +0,55% auf 30.216 Punkte gestern (ms-aktuell.de) — Mittelwerte profitieren von Zins-Entlastung und Chip-Abkopplung (Aixtron-Ausreißer befeuert Selektion); Baugenehmigungen 08:00 und EUR-Handelsbilanz 11:00 als Nebenreize. Freier Pick, Band oberhalb +1,0% gemäß Pick-Regel. Erwartung: +0,2% bis +1,1%. Quellen: ms-aktuell.de, ad-hoc-news.de Tagesvorschau 16.10.",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 12:07 Uhr: 30.806 Punkte, +2,0% ggü. 30.216 (ad-hoc-news) — deutlich über dem oberen Bandrand +1,1% (Overshoot-Kurs); Nordex (+12%, EBITDA-Anhebung) als Treiber, Rüstungswerte mit im Rücken. Quelle: ad-hoc-news.de, dpa-AFX via finanzen.at (16.10.2026)."
+            }
+          ],
+          "actual": 2
         },
         {
           "name": "Siemens",
@@ -3071,7 +3112,13 @@
           "confidence": 55,
           "reason": "Screening: Industrie/Konjunktur-Profiteur ohne Chip-Exposure (Abgrenzung zu Infineon/Aixtron-Belastung), Zins-Rücksetzer entlastet Kapitalgüter; US-Industrieproduktion 15:15 als Sektor-Katalysator, MDAX-/Industrie-Breite gestärkt. Freier Pick, Band gemäß Pick-Regel Aktie mind. +1,5% oben. Erwartung: +0,2% bis +1,5%. Quellen: n-tv Börsen-Tag 15.10., ad-hoc-news.de Tagesvorschau 16.10., XTB.",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand: 271,40 EUR im Xetra-Handel um 09:28 Uhr, +0,3% ggü. Xetra-Schluss 270,65 EUR (finanzen.ch); L&S 09:45 Uhr 269,10 EUR (-0,57%) — gemischtes Bild, knapp über der Banduntergrenze +0,2%, im Band; Jefferies-Downgrade auf Hold (Kursziel 300 EUR) dämpft. Quellen: finanzen.ch, ad-hoc-news.de (16.10.2026)."
+            }
+          ],
+          "actual": 0.3
         }
       ]
     }
