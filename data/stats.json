@@ -267,6 +267,10 @@
     {
       "date": "2026-10-15",
       "entry": "Korrektur-Vermerk: Im veröffentlichten Abend-Post FINE #29 (15.10.) wird die Benchmark-hitRate mit 45,2 % angegeben; korrekt nach Stats-Stand ist 42,4 % (14/33, da beide Fix-Indizes an zwei Tagen = 4 Benchmark-Picks hinzukamen). Der Post bleibt gemäß Unveränderlichkeits-Regel unverändert; Korrektur hier dokumentiert. Gesamt-hitRate (53,1 %) und Picks-Quote (56,8 %) im Post sind korrekt."
+    },
+    {
+      "date": "2026-10-16",
+      "entry": "Morgen-Job 16.10.: Screen vor Pick — Chip-Last (Asien tiefrot, Aixtron -12,71 %) trifft auf Zins-Entlastung: Der Treasury-Rücksetzer von ~5,3 % auf ~5,08 % entlastet Breite und Defensiv-Rotation (Dow +1,09 %, MDAX +0,55 %, DAX +0,3 % trotz TecDAX -0,66 %); Gold 4.171 USD (+1,6 %), Silber +2,5 % als Risk-off-Deckel. Benchmarks: DAX up (Futures etwas fester, wenige Chip-Gewichte), S&P 500 konsequent flat (PPI heiß — Kern-PPI größter Sprung seit 4 Jahren — und nur Importpreise/Industrieproduktion als Termine; Regel 'kein up-Benchmark ohne harten Katalysator'). Depot-Picks nach Opportunität: Munich Re (Zinsprofiteur-Muster, gestern Übererfüllung; Band wegen nachgebender Renditen moderater), Barrick Gold (Edelmetall-Momentum nahe Gold-Rekord), Rheinmetall (+4,34 % Vortag, weites Band wegen Gewinnmitnahme-Risiko nach Serie). Freie Picks: Dow Jones (Defensiv-Rotation + Rendite-Rücksetzer), MDAX (Zins-Entlastung + Chip-Abkopplung), Siemens (Industrie ohne Chip-Exposure, US-Industrieproduktion 15:15 als Katalysator). Bewusste Abkehr von gestrigen Down-Benchmark-Thesen; Down-Picks heute keine, da Rendite-Primärsignal entspannt. Hinweis: Lauf startete mit deutlichem Rückstand (Erst-Stempel 09:34 Uhr Berlin) — predictions-Commit fiel auf ca. 09:4x Uhr und damit NACH der 09:00-Börsenbeginn-Grenze; verify-Befund rot wird als korrekte Messung stehen gelassen (kein Rückdatieren)."
     }
   ]
 }
