@@ -2969,6 +2969,111 @@
           "overshoot": true
         }
       ]
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Zins-Entlastung und Edelmetall-Momentum gegen Chip-Last: Rendite-Profiteure vor US-Daten",
+      "picks": [
+        {
+          "name": "DAX",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "up",
+          "bandLow": 0.1,
+          "bandHigh": 0.7,
+          "confidence": 55,
+          "reason": "Screening 16.10.: Vortag +0,3% auf 25.383 Punkte trotz weltweitem Chip-Ausverkauf (Aixtron -12,71%, TecDAX -0,66%) — der DAX hat kaum Chip-Gewichte, MDAX +0,55%. DAX-Futures im Frühhandel etwas fester (finanzen.at); 10J-Treasury-Rücksetzer von ~5,3% auf ~5,08% entlastet (XTB); EUR-VPI-Flash 11:00 erwartbar stabil nach EZB-Kurs. Risiko: Asien tiefrot (Chip-Sorgen), Öl ~105,6 USD. Erwartung: +0,1% bis +0,7%. Quellen: ad-hoc-news.de (Xetra-Schluss 15.10.), n-tv Börsen-Tag, finanzen.at, XTB.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "S&P 500",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "flat",
+          "bandLow": -0.4,
+          "bandHigh": 0.5,
+          "confidence": 50,
+          "reason": "Screening 16.10.: Vortag +0,31% auf 7.744 Punkte, Dow +1,09% (52.226) getragen von Treasury-Rallye; PPI jedoch heiß (Kern-PPI größter Anstieg seit 4 Jahren, Kopf-PPI +1,3%, Schwab). Regel weiter angewendet: kein up-Benchmark ohne harten Tages-Katalysator — Banken-Zahlen sind durch, heute nur Import-/Exportpreise (14:30) und Industrieproduktion (15:15), beide als Inflations-/Zinsrisiko lesbar. US bis 15:30 MEZ nicht gehandelt. Erwartung: -0,4% bis +0,5%. Quellen: Trading Economics, Schwab Market Update, XTB.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Munich Re",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "fromPortfolio": true,
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 2,
+          "confidence": 55,
+          "reason": "Screening: validiertes Zinsprofiteur-Muster — gestern +2,59% als Übererfüllung im Band-Hit; Rendite-Rücksetzer (10J ~5,08%) dämpft den Wiederanlage-Tailwind, daher moderateres Band als beim Vortag. Rückhalt: MDAX-/Versicherer-Stärke, Defensiv-Rotation trägt (Dow-Übererfüllung als Beleg). Erwartung: +0,2% bis +2,0%. Quellen: FINE-Review 15.10. (ms-aktuell.de Xetra-Daten), XTB (Renditen).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Barrick Gold Corp",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "fromPortfolio": true,
+          "direction": "up",
+          "bandLow": 0.3,
+          "bandHigh": 2.5,
+          "confidence": 60,
+          "reason": "Screening: Edelmetall-Momentum stark — Gold ~4.171 USD (+1,6%), Silber +2,5% (XTB, finanzen.ch), Gold nahe Rekord; Chip-Sorgen in Asien stützen Risk-off-Deckel, Öl bei ~105,6 USD infliert. Barrick als Gold-Hebel nach regelkonformer Fortsetzungs-Logik (mehrere Band-Hits in Folge im Oktober). Erwartung: +0,3% bis +2,5%. Quellen: finanzen.ch (Gold-Notiz), XTB Daily Summary, wallstreetONLINE (Rohstoffe).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Rheinmetall AG",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "fromPortfolio": true,
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 3,
+          "confidence": 55,
+          "reason": "Screening: Vortag +4,34% stärkster DAX-Wert (ms-aktuell.de) — Verteidigungs-Momentum trägt unabhängig von Zins-/Öl-Verwerfungen; Übererfüllung gestern zeigt Spielraum nach oben. Risiko: Gewinnmitnahmen nach starker Serie, daher weites Band mit niedriger Untergrenze. Erwartung: +0,2% bis +3,0%. Quellen: ms-aktuell.de (Xetra-Schluss 15.10.), FINE-Abend-Review 15.10.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Dow Jones",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1.2,
+          "confidence": 55,
+          "reason": "Screening: Defensiv-Rotation plus Rendite-Rücksetzer trugen gestern +1,09% (Trading Economics) — Muster der vergangenen Tage intakt; Gold/Defensiv-Stärke spricht für Fortsetzung. Freier Pick (nicht Portfolio), Band gemäß Pick-Regel Index mind. +1,0% oben. US-Industrieproduktion 15:15 als Tagesrisiko. Erwartung: +0,2% bis +1,2%. Quellen: Trading Economics, Economic Times/AP (15.10.), XTB.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "MDAX",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1.1,
+          "confidence": 55,
+          "reason": "Screening: MDAX +0,55% auf 30.216 Punkte gestern (ms-aktuell.de) — Mittelwerte profitieren von Zins-Entlastung und Chip-Abkopplung (Aixtron-Ausreißer befeuert Selektion); Baugenehmigungen 08:00 und EUR-Handelsbilanz 11:00 als Nebenreize. Freier Pick, Band oberhalb +1,0% gemäß Pick-Regel. Erwartung: +0,2% bis +1,1%. Quellen: ms-aktuell.de, ad-hoc-news.de Tagesvorschau 16.10.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Siemens",
+          "type": "equity_de",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1.5,
+          "confidence": 55,
+          "reason": "Screening: Industrie/Konjunktur-Profiteur ohne Chip-Exposure (Abgrenzung zu Infineon/Aixtron-Belastung), Zins-Rücksetzer entlastet Kapitalgüter; US-Industrieproduktion 15:15 als Sektor-Katalysator, MDAX-/Industrie-Breite gestärkt. Freier Pick, Band gemäß Pick-Regel Aktie mind. +1,5% oben. Erwartung: +0,2% bis +1,5%. Quellen: n-tv Börsen-Tag 15.10., ad-hoc-news.de Tagesvorschau 16.10., XTB.",
+          "status": "open",
+          "reviews": []
+        }
+      ]
     }
   ]
 }
