@@ -1,53 +1,53 @@
 {
   "version": 4,
-  "updated": "2026-10-15T22:00:00+02:00",
+  "updated": "2026-10-16T21:01:55.012Z",
   "totals": {
-    "predictions": 128,
-    "hits": 68,
-    "partial": 18,
-    "misses": 42,
-    "overshoots": 11,
-    "directionCorrect": 79,
-    "hitRate": 0.5313
+    "predictions": 136,
+    "hits": 73,
+    "partial": 19,
+    "misses": 44,
+    "overshoots": 14,
+    "directionCorrect": 84,
+    "hitRate": 0.5368
   },
   "benchmark": {
-    "predictions": 33,
-    "hits": 14,
+    "predictions": 35,
+    "hits": 15,
     "partial": 9,
-    "misses": 10,
-    "overshoots": 2,
-    "directionCorrect": 18,
-    "hitRate": 0.4242,
+    "misses": 11,
+    "overshoots": 3,
+    "directionCorrect": 19,
+    "hitRate": 0.4286,
     "note": "Fix-Indizes DAX + S&P 500 — misst Markt-Lese-Qualität. Enge, realistische Bänder korrekt; kein Mut-Kriterium."
   },
   "picks": {
-    "predictions": 95,
-    "hits": 54,
-    "partial": 9,
-    "misses": 32,
-    "overshoots": 9,
-    "directionCorrect": 61,
-    "hitRate": 0.5684,
+    "predictions": 101,
+    "hits": 58,
+    "partial": 10,
+    "misses": 33,
+    "overshoots": 11,
+    "directionCorrect": 65,
+    "hitRate": 0.5743,
     "note": "Echte Picks: 2x Depot + 1 frei — misst Opportunity-Finding. Mindest-Band + Boldness gelten hier."
   },
   "byInstrumentType": {
     "index": {
-      "predictions": 76,
-      "hits": 37,
+      "predictions": 80,
+      "hits": 39,
       "partial": 14,
-      "misses": 25,
-      "overshoots": 3,
-      "directionCorrect": 44,
-      "hitRate": 0.4868
+      "misses": 27,
+      "overshoots": 5,
+      "directionCorrect": 46,
+      "hitRate": 0.4875
     },
     "equity_de": {
-      "predictions": 37,
-      "hits": 22,
-      "partial": 2,
+      "predictions": 41,
+      "hits": 25,
+      "partial": 3,
       "misses": 13,
-      "overshoots": 6,
-      "directionCorrect": 24,
-      "hitRate": 0.5946
+      "overshoots": 7,
+      "directionCorrect": 27,
+      "hitRate": 0.6098
     },
     "equity_us": {
       "predictions": 15,
@@ -61,37 +61,37 @@
   },
   "byPickClass": {
     "benchmark": {
-      "predictions": 33,
-      "hits": 14,
+      "predictions": 35,
+      "hits": 15,
       "partial": 9,
-      "misses": 10,
-      "overshoots": 2,
-      "directionCorrect": 18,
-      "hitRate": 0.4242
+      "misses": 11,
+      "overshoots": 3,
+      "directionCorrect": 19,
+      "hitRate": 0.4286
     },
     "portfolio": {
-      "predictions": 47,
-      "hits": 28,
+      "predictions": 50,
+      "hits": 31,
       "partial": 3,
       "misses": 16,
-      "overshoots": 7,
-      "directionCorrect": 31,
-      "hitRate": 0.5957
+      "overshoots": 8,
+      "directionCorrect": 34,
+      "hitRate": 0.62
     },
     "free": {
-      "predictions": 48,
-      "hits": 26,
-      "partial": 6,
-      "misses": 16,
-      "overshoots": 2,
-      "directionCorrect": 30,
-      "hitRate": 0.5417
+      "predictions": 51,
+      "hits": 27,
+      "partial": 7,
+      "misses": 17,
+      "overshoots": 3,
+      "directionCorrect": 31,
+      "hitRate": 0.5294
     }
   },
   "boldness": {
     "note": "Mut-Metrik gegen Tiefbieten — NUR echte Picks (Benchmark-Indizes ausgeschlossen).",
-    "avgBandHigh": 1.5568,
-    "avgActual": 0.2435,
+    "avgBandHigh": 1.5762,
+    "avgActual": 0.3207,
     "months": [
       {
         "month": "2026-09",
@@ -101,9 +101,9 @@
       },
       {
         "month": "2026-10",
-        "picks": 60,
-        "avgBandHigh": 1.5167,
-        "avgActual": 0.5428
+        "picks": 66,
+        "avgBandHigh": 1.55,
+        "avgActual": 0.6338
       }
     ]
   },
@@ -275,6 +275,10 @@
     {
       "date": "2026-10-16",
       "entry": "Korrektur-Vermerk 16.10.: Der vorangegangene Lern-Log-Eintrag enthält eine fehlerhafte Zeitangabe — der predictions-Commit des Morgen-Jobs erfolgte um ca. 07:45 Uhr Europe/Berlin und damit VOR der 09:00-Börsenbeginn-Grenze; die Formulierung 'Nach der 09:00-Grenze' beruhte auf einem Stempel-Lesefehler (UTC- Zeit mit +2h doppelt addiert). Kein verify-Befund zu erwarten; die Chain-Regel (Commit vor Börsenbeginn) ist erfüllt. Alle übrigen Aussagen des Eintrags (Screening, Auswahl-Begründung) bleiben unverändert gültig."
+    },
+    {
+      "date": "2026-10-16",
+      "entry": "Abend-Review 16.10. (5 Hits, 1 Partial, 2 Miss; 3 Übererfüllungen): Das Momentum-Muster des Tages (Zins-Entlastung + Vortags-Gewinner) wurde in der Band-Kalibrierung unterschätzt — DAX (+0,94 %), MDAX (+1,46 %) und Rheinmetall (+6,26 %) liefen klar über die oberen Bänder, obwohl das Morgen-Screening (feste Futures, MDAX +2,0 % zur Mittagszeit, Rheinmetall +4,7 % am Vormittag) die Stärke bereits zeigte. Kalibrierungs-Anpassung ab 19.10.: Bei bestätigtem Momentum-Signal (Vortags-Overshoot ODER Mittagsstand bereits >50 % des oberen Bandes) oberes Band um rund 50 % anheben statt enge Fortsetzungs-Bänder setzen — die Boldness-Zahlen (Ø actual Oktober steigt auf 0,63 % bei Ø bandHigh 1,55 %) stützen breitere Oberbänder. Zweite Lehre: Die US-Flat-Struktur war richtig angelegt, aber die untere Grenze (−0,4 %) wurde vom KI-Ausverkauf (Nasdaq −2,1 %) gerissen — Flat-Bänder der US-Benchmarks in Tech-Momentum-Wochen künftig asymmetrisch nach unten erweitern (Risiko-Skew dokumentieren). Dritte Lehre (Prozess): Barrick-Xetra-Schluss war um 22:15 Uhr noch nicht publiziert — L&S-Referenz (+1,40 %) plus Toronto-Schluss (+0,31 %) dokumentiert; Datenreferenz-Praxis vom 15.10. bewährt."
     }
   ]
 }
