@@ -3157,6 +3157,111 @@
           "actual": 0
         }
       ]
+    },
+    {
+      "date": "2026-10-19",
+      "title": "Zins-Entlastung, Öl nahe 110 Dollar und der Berliner KI-Gipfel: Deutschland-Momentum vor US-Rebound-Versuch",
+      "picks": [
+        {
+          "name": "DAX",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "up",
+          "bandLow": 0,
+          "bandHigh": 1,
+          "confidence": 55,
+          "reason": "Markt-Lage (Screening): DAX am Freitag +0,95 % auf 25.622,61 Punkte, Wochenplus gut 2 %, Zins- und KI-Sorgen nachgelassen (dpa-AFX via ARIVA, ad-hoc-news); Wall Street im KI-Ausverkauf: S&P 500 −1,1 %, Nasdaq −2,1 %, schwächste Woche seit Juni (AP); Brent +3,7 % auf 109,86 USD (Reuters via Finanzsuche); Gold 4.184,6 USD +0,46 % (Finanzdatensuche); Berliner Investitionsgipfel ab Mo 18:30 mit Nvidia-Chef Huang, Fokus KI, Halbleiter, Verteidigung, Energie (AFP). DAX-Pick: Die Zins-Entlastung (Warsh-Rede beruhigt Zinsdebatte, ad-hoc-news) trägt, das Wochenplus-Momentum (+2,1 %) und der Investitionsgipfel mit Nvidia-Kooperation geben Deutschland-Signal; Öl bei ~110 USD und die US-Chip-Schwäche begrenzen das Aufwärtsband auf +1,0 %. Quellen: ARIVA/dpa-AFX, ad-hoc-news, AFP (16./18.10.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "S&P 500",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "flat",
+          "bandLow": -1.2,
+          "bandHigh": 0.4,
+          "confidence": 45,
+          "reason": "Markt-Lage (Screening): DAX am Freitag +0,95 % auf 25.622,61 Punkte, Wochenplus gut 2 %, Zins- und KI-Sorgen nachgelassen (dpa-AFX via ARIVA, ad-hoc-news); Wall Street im KI-Ausverkauf: S&P 500 −1,1 %, Nasdaq −2,1 %, schwächste Woche seit Juni (AP); Brent +3,7 % auf 109,86 USD (Reuters via Finanzsuche); Gold 4.184,6 USD +0,46 % (Finanzdatensuche); Berliner Investitionsgipfel ab Mo 18:30 mit Nvidia-Chef Huang, Fokus KI, Halbleiter, Verteidigung, Energie (AFP). S&P-Pick: Nach −1,1 % am Freitag (schwächste Woche seit Juni, AP) bleibt die Flat-Lesart mit asymmetrischem Risikoskew nach unten (Lern-Log-Lehre vom 16.10.): KI-/Zins-Sorgen sind gedämpft, aber nicht verschwunden; Futures deuteten Freitag auf +0,2 % (AP), ein harte Rebound-Katalysator fehlt vor neuen US-Daten. Quellen: AP, ad-hoc-news (16.10.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Infineon",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "direction": "up",
+          "bandLow": -0.3,
+          "bandHigh": 2.5,
+          "confidence": 55,
+          "reason": "Markt-Lage (Screening): DAX am Freitag +0,95 % auf 25.622,61 Punkte, Wochenplus gut 2 %, Zins- und KI-Sorgen nachgelassen (dpa-AFX via ARIVA, ad-hoc-news); Wall Street im KI-Ausverkauf: S&P 500 −1,1 %, Nasdaq −2,1 %, schwächste Woche seit Juni (AP); Brent +3,7 % auf 109,86 USD (Reuters via Finanzsuche); Gold 4.184,6 USD +0,46 % (Finanzdatensuche); Berliner Investitionsgipfel ab Mo 18:30 mit Nvidia-Chef Huang, Fokus KI, Halbleiter, Verteidigung, Energie (AFP). Infineon-Pick: Halbleiter stehen im Fokus des Berliner Investitionsgipfels (AFP), geplante NVIDIA-Kooperation mit Deutschland + mögliche staatliche Investitionen — direkt adressiert Infineons Heimatmarkt; deutscher Chip-Sektor zuletzt besser gehalten als die US-Konkurrenz. Band bewusst weit mit leicht negativer Untergrenze (globale Chip-Stimmung nach wie volatil). Quellen: AFP (18.10.), dpa-AFX/ARIVA (16.10.2026).",
+          "status": "open",
+          "reviews": [],
+          "fromPortfolio": true
+        },
+        {
+          "name": "Rheinmetall AG",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "direction": "up",
+          "bandLow": 0,
+          "bandHigh": 3,
+          "confidence": 50,
+          "reason": "Markt-Lage (Screening): DAX am Freitag +0,95 % auf 25.622,61 Punkte, Wochenplus gut 2 %, Zins- und KI-Sorgen nachgelassen (dpa-AFX via ARIVA, ad-hoc-news); Wall Street im KI-Ausverkauf: S&P 500 −1,1 %, Nasdaq −2,1 %, schwächste Woche seit Juni (AP); Brent +3,7 % auf 109,86 USD (Reuters via Finanzsuche); Gold 4.184,6 USD +0,46 % (Finanzdatensuche); Berliner Investitionsgipfel ab Mo 18:30 mit Nvidia-Chef Huang, Fokus KI, Halbleiter, Verteidigung, Energie (AFP). Rheinmetall-Pick: Verteidigung ist Gipfel-Thema Nr. 1 in Berlin (AFP); Freitag +6,26 % auf 1.090,20 EUR als Übererfüllung (Finanzdatensuche) — Momentum-Anschluss möglich. Gemäß Lern-Log-Regel vom 16.10. (bestätigtes Momentum → oberes Band ~50 % anheben) setze ich ein weites Band 0–3 %; Gewinnmitnahme-Risiko nach der Serie drückt die Konfidenz. Quellen: AFP (18.10.), Finanzdatensuche (16.10.2026).",
+          "status": "open",
+          "reviews": [],
+          "fromPortfolio": true
+        },
+        {
+          "name": "Barrick Gold Corp",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "direction": "up",
+          "bandLow": 0,
+          "bandHigh": 2.5,
+          "confidence": 55,
+          "reason": "Markt-Lage (Screening): DAX am Freitag +0,95 % auf 25.622,61 Punkte, Wochenplus gut 2 %, Zins- und KI-Sorgen nachgelassen (dpa-AFX via ARIVA, ad-hoc-news); Wall Street im KI-Ausverkauf: S&P 500 −1,1 %, Nasdaq −2,1 %, schwächste Woche seit Juni (AP); Brent +3,7 % auf 109,86 USD (Reuters via Finanzsuche); Gold 4.184,6 USD +0,46 % (Finanzdatensuche); Berliner Investitionsgipfel ab Mo 18:30 mit Nvidia-Chef Huang, Fokus KI, Halbleiter, Verteidigung, Energie (AFP). Barrick-Pick: Gold bei 4.184,6 USD, +0,46 % im Tagesverlauf, 52-Wochen-Band 3.950–5.497 USD (Finanzdatensuche) — Edelmetall-Momentum intakt als Inflations-/Krisen-Hedge bei Öl über 109 USD und geopolitischen Spannungen; Barrick lief zuletzt eng mit dem Goldpreis. Quellen: Finanzdatensuche (19.10.), Reuters via Finanzsuche (16.10.2026).",
+          "status": "open",
+          "reviews": [],
+          "fromPortfolio": true
+        },
+        {
+          "name": "Nasdaq 100",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": -0.5,
+          "bandHigh": 1.5,
+          "confidence": 45,
+          "reason": "Markt-Lage (Screening): DAX am Freitag +0,95 % auf 25.622,61 Punkte, Wochenplus gut 2 %, Zins- und KI-Sorgen nachgelassen (dpa-AFX via ARIVA, ad-hoc-news); Wall Street im KI-Ausverkauf: S&P 500 −1,1 %, Nasdaq −2,1 %, schwächste Woche seit Juni (AP); Brent +3,7 % auf 109,86 USD (Reuters via Finanzsuche); Gold 4.184,6 USD +0,46 % (Finanzdatensuche); Berliner Investitionsgipfel ab Mo 18:30 mit Nvidia-Chef Huang, Fokus KI, Halbleiter, Verteidigung, Energie (AFP). Nasdaq-100-Pick (Rebound-Wette): Nach −2,1 % Nasdaq am Freitag (AP) sind die KI-Werte überverkauft; Fed-Chef Warsh betont die volkswirtschaftlichen Vorteile von KI (AP/AFP), US-Futures lagen zuletzt im Plus. Band mit negativer Untergrenze, weil ein Weiterlauf des Ausverkaufs (Kreditkosten-Sorgen) das Rebound-Szenario brechen kann. Quellen: AP, AFP (16.10.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "EuroStoxx 50",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0,
+          "bandHigh": 1.2,
+          "confidence": 55,
+          "reason": "Markt-Lage (Screening): DAX am Freitag +0,95 % auf 25.622,61 Punkte, Wochenplus gut 2 %, Zins- und KI-Sorgen nachgelassen (dpa-AFX via ARIVA, ad-hoc-news); Wall Street im KI-Ausverkauf: S&P 500 −1,1 %, Nasdaq −2,1 %, schwächste Woche seit Juni (AP); Brent +3,7 % auf 109,86 USD (Reuters via Finanzsuche); Gold 4.184,6 USD +0,46 % (Finanzdatensuche); Berliner Investitionsgipfel ab Mo 18:30 mit Nvidia-Chef Huang, Fokus KI, Halbleiter, Verteidigung, Energie (AFP). EuroStoxx-Pick: Europas Zins-Entlastung + Deutschland-Gipfel-Signale (AFP) stützen den breiten Euro-Raum; Öl ~110 USD belastet Importeure, aber Versicherer/Industrie profitieren von niedrigeren Renditen. Quellen: ARIVA/dpa-AFX, AFP (16./18.10.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "NVIDIA",
+          "type": "equity_us",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": -1,
+          "bandHigh": 2.5,
+          "confidence": 45,
+          "reason": "Markt-Lage (Screening): DAX am Freitag +0,95 % auf 25.622,61 Punkte, Wochenplus gut 2 %, Zins- und KI-Sorgen nachgelassen (dpa-AFX via ARIVA, ad-hoc-news); Wall Street im KI-Ausverkauf: S&P 500 −1,1 %, Nasdaq −2,1 %, schwächste Woche seit Juni (AP); Brent +3,7 % auf 109,86 USD (Reuters via Finanzsuche); Gold 4.184,6 USD +0,46 % (Finanzdatensuche); Berliner Investitionsgipfel ab Mo 18:30 mit Nvidia-Chef Huang, Fokus KI, Halbleiter, Verteidigung, Energie (AFP). NVIDIA-Pick: Doppelter Katalysator — Warsh stärkt das KI-Narrativ (AP) und Huang eröffnet Montagabend den Berliner Gipfel mit der Bundeskanzlerin; spekulierte Deutschland-Kooperation mit staatlichen Investitionen (AFP). Nach der Abgabewoche ist ein Messaging-Bounce wahrscheinlich, aber der Sektor-Trend ist fragil — weites Band, moderate Konfidenz. Quellen: AFP (18.10.), AP (16.10.2026).",
+          "status": "open",
+          "reviews": []
+        }
+      ]
     }
   ]
 }
