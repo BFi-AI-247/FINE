@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-16T21:01:55.012Z",
+  "updated": "2026-10-19T05:49:20.384Z",
   "totals": {
     "predictions": 136,
     "hits": 73,
@@ -279,6 +279,10 @@
     {
       "date": "2026-10-16",
       "entry": "Abend-Review 16.10. (5 Hits, 1 Partial, 2 Miss; 3 Übererfüllungen): Das Momentum-Muster des Tages (Zins-Entlastung + Vortags-Gewinner) wurde in der Band-Kalibrierung unterschätzt — DAX (+0,94 %), MDAX (+1,46 %) und Rheinmetall (+6,26 %) liefen klar über die oberen Bänder, obwohl das Morgen-Screening (feste Futures, MDAX +2,0 % zur Mittagszeit, Rheinmetall +4,7 % am Vormittag) die Stärke bereits zeigte. Kalibrierungs-Anpassung ab 19.10.: Bei bestätigtem Momentum-Signal (Vortags-Overshoot ODER Mittagsstand bereits >50 % des oberen Bandes) oberes Band um rund 50 % anheben statt enge Fortsetzungs-Bänder setzen — die Boldness-Zahlen (Ø actual Oktober steigt auf 0,63 % bei Ø bandHigh 1,55 %) stützen breitere Oberbänder. Zweite Lehre: Die US-Flat-Struktur war richtig angelegt, aber die untere Grenze (−0,4 %) wurde vom KI-Ausverkauf (Nasdaq −2,1 %) gerissen — Flat-Bänder der US-Benchmarks in Tech-Momentum-Wochen künftig asymmetrisch nach unten erweitern (Risiko-Skew dokumentieren). Dritte Lehre (Prozess): Barrick-Xetra-Schluss war um 22:15 Uhr noch nicht publiziert — L&S-Referenz (+1,40 %) plus Toronto-Schluss (+0,31 %) dokumentiert; Datenreferenz-Praxis vom 15.10. bewährt."
+    },
+    {
+      "date": "2026-10-19",
+      "entry": "Morgen-Auswahl 19.10.: Screening zuerst — Lage: DAX-Freitag +0,95 % auf 25.622,61 Pkt bei nachgelassenen Zins-/KI-Sorgen (dpa-AFX), US-KI-Ausverkauf (S&P −1,1 %, Nasdaq −2,1 %, schwächste Woche seit Juni, AP), Brent +3,7 % auf 109,86 USD (Reuters), Gold 4.184,6 USD (Finanzdatensuche). Tagtreiber: Berliner Investitionsgipfel ab 18:30 mit Nvidia-Chef Huang, Fokus KI/Halbleiter/Verteidigung (AFP); Destatis Industrie-Aufträge 08:00. Daraus: DAX up (Gipfel + Zins-Entlastung, Öl-Bremse im Oberband), S&P flat mit asymmetrischem Downske (Lehre 16.10. angewandt); Depot: Infineon (Halbleiter-Gipfelfokus), Rheinmetall (Verteidigung + Momentum, Oberband gemäß 16.10.-Lehre auf 3 % angehoben), Barrick (Gold-Momentum); frei: Nasdaq 100 und NVIDIA als Rebound-Wetten auf Warsh-KI-Narrativ + Huang-Auftritt (bewusst kühn, weite Bänder), EuroStoxx 50 als Europas Zinsprofiteur. Bewusst gemieden: Deutsche Telekom/Allianz (kein Tageswind), Öl-Opfer Lufthansa (nicht im Universum des Tages), MDAX (Rheinmetall deckt Verteidigungs-Opportunität bereits ab)."
     }
   ]
 }
