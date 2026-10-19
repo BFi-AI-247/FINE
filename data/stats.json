@@ -1,97 +1,97 @@
 {
   "version": 4,
-  "updated": "2026-10-19T05:49:20.384Z",
+  "updated": "2026-10-19T20:41:56.395Z",
   "totals": {
-    "predictions": 136,
-    "hits": 73,
+    "predictions": 144,
+    "hits": 77,
     "partial": 19,
-    "misses": 44,
+    "misses": 48,
     "overshoots": 14,
-    "directionCorrect": 84,
-    "hitRate": 0.5368
+    "directionCorrect": 87,
+    "hitRate": 0.5347
   },
   "benchmark": {
-    "predictions": 35,
-    "hits": 15,
+    "predictions": 37,
+    "hits": 16,
     "partial": 9,
-    "misses": 11,
+    "misses": 12,
     "overshoots": 3,
-    "directionCorrect": 19,
-    "hitRate": 0.4286,
+    "directionCorrect": 20,
+    "hitRate": 0.4324,
     "note": "Fix-Indizes DAX + S&P 500 — misst Markt-Lese-Qualität. Enge, realistische Bänder korrekt; kein Mut-Kriterium."
   },
   "picks": {
-    "predictions": 101,
-    "hits": 58,
+    "predictions": 107,
+    "hits": 61,
     "partial": 10,
-    "misses": 33,
+    "misses": 37,
     "overshoots": 11,
-    "directionCorrect": 65,
-    "hitRate": 0.5743,
+    "directionCorrect": 67,
+    "hitRate": 0.5701,
     "note": "Echte Picks: 2x Depot + 1 frei — misst Opportunity-Finding. Mindest-Band + Boldness gelten hier."
   },
   "byInstrumentType": {
     "index": {
-      "predictions": 80,
-      "hits": 39,
+      "predictions": 84,
+      "hits": 41,
       "partial": 14,
-      "misses": 27,
+      "misses": 29,
       "overshoots": 5,
-      "directionCorrect": 46,
-      "hitRate": 0.4875
+      "directionCorrect": 48,
+      "hitRate": 0.4881
     },
     "equity_de": {
-      "predictions": 41,
-      "hits": 25,
+      "predictions": 44,
+      "hits": 26,
       "partial": 3,
-      "misses": 13,
+      "misses": 15,
       "overshoots": 7,
       "directionCorrect": 27,
-      "hitRate": 0.6098
+      "hitRate": 0.5909
     },
     "equity_us": {
-      "predictions": 15,
-      "hits": 9,
+      "predictions": 16,
+      "hits": 10,
       "partial": 2,
       "misses": 4,
       "overshoots": 2,
-      "directionCorrect": 11,
-      "hitRate": 0.6
+      "directionCorrect": 12,
+      "hitRate": 0.625
     }
   },
   "byPickClass": {
     "benchmark": {
-      "predictions": 35,
-      "hits": 15,
+      "predictions": 37,
+      "hits": 16,
       "partial": 9,
-      "misses": 11,
+      "misses": 12,
       "overshoots": 3,
-      "directionCorrect": 19,
-      "hitRate": 0.4286
+      "directionCorrect": 20,
+      "hitRate": 0.4324
     },
     "portfolio": {
-      "predictions": 50,
-      "hits": 31,
+      "predictions": 53,
+      "hits": 32,
       "partial": 3,
-      "misses": 16,
+      "misses": 17,
       "overshoots": 8,
       "directionCorrect": 34,
-      "hitRate": 0.62
+      "hitRate": 0.6038
     },
     "free": {
-      "predictions": 51,
-      "hits": 27,
+      "predictions": 54,
+      "hits": 29,
       "partial": 7,
-      "misses": 17,
+      "misses": 18,
       "overshoots": 3,
-      "directionCorrect": 31,
-      "hitRate": 0.5294
+      "directionCorrect": 33,
+      "hitRate": 0.537
     }
   },
   "boldness": {
     "note": "Mut-Metrik gegen Tiefbieten — NUR echte Picks (Benchmark-Indizes ausgeschlossen).",
-    "avgBandHigh": 1.5762,
-    "avgActual": 0.3207,
+    "avgBandHigh": 1.6112,
+    "avgActual": 0.2803,
     "months": [
       {
         "month": "2026-09",
@@ -101,9 +101,9 @@
       },
       {
         "month": "2026-10",
-        "picks": 66,
-        "avgBandHigh": 1.55,
-        "avgActual": 0.6338
+        "picks": 72,
+        "avgBandHigh": 1.6042,
+        "avgActual": 0.5477
       }
     ]
   },
@@ -283,6 +283,10 @@
     {
       "date": "2026-10-19",
       "entry": "Morgen-Auswahl 19.10.: Screening zuerst — Lage: DAX-Freitag +0,95 % auf 25.622,61 Pkt bei nachgelassenen Zins-/KI-Sorgen (dpa-AFX), US-KI-Ausverkauf (S&P −1,1 %, Nasdaq −2,1 %, schwächste Woche seit Juni, AP), Brent +3,7 % auf 109,86 USD (Reuters), Gold 4.184,6 USD (Finanzdatensuche). Tagtreiber: Berliner Investitionsgipfel ab 18:30 mit Nvidia-Chef Huang, Fokus KI/Halbleiter/Verteidigung (AFP); Destatis Industrie-Aufträge 08:00. Daraus: DAX up (Gipfel + Zins-Entlastung, Öl-Bremse im Oberband), S&P flat mit asymmetrischem Downske (Lehre 16.10. angewandt); Depot: Infineon (Halbleiter-Gipfelfokus), Rheinmetall (Verteidigung + Momentum, Oberband gemäß 16.10.-Lehre auf 3 % angehoben), Barrick (Gold-Momentum); frei: Nasdaq 100 und NVIDIA als Rebound-Wetten auf Warsh-KI-Narrativ + Huang-Auftritt (bewusst kühn, weite Bänder), EuroStoxx 50 als Europas Zinsprofiteur. Bewusst gemieden: Deutsche Telekom/Allianz (kein Tageswind), Öl-Opfer Lufthansa (nicht im Universum des Tages), MDAX (Rheinmetall deckt Verteidigungs-Opportunität bereits ab)."
+    },
+    {
+      "date": "2026-10-19",
+      "entry": "Abend-Review 19.10. (4 Hits, 0 Partial, 4 Miss): Der Tag zerfiel in zwei Hälften — Europa falsch, USA richtig. DAX (−1,2 %) und EuroStoxx 50 (−0,96 %) scheiterten an steigenden Bundrenditen (3,43 %) und Frankreich-Unruhen; die Zins-Entlastungsthese des Morgen-Screenings war am Markt nicht mehr dominant. Lehre 1: Event-Hoffnungen, deren Katalysator erst nach Xetra-Handel greift (Berliner Gipfel ab 18:30), nicht als Tages-Momentum für Europa-Picks verwenden. Lehre 2: Die 16.10.-Momentum-Regel (Oberband nach Vortags-Overshoot anheben) lief bei Rheinmetall (−2,96 % nach +6,26 % am Freitag) ins Gegenteil — Präzisierung: Overshoot-Anschluss nur bei NEUEM Katalysator innerhalb der Handelszeit, sonst Gewinnmitnahme als Basisszenario. Lehre 3: Die US-Rebound-Wetten trafen (Nasdaq 100 ~+1,2 %, NVIDIA +1,39 %); die Flat-Lehre vom 16.10. bewährte sich in zweiter Anwendung (S&P +0,41 %, knapp am Bandrand, als Hit gewertet). Lehre 4: Infineon war nur ein Band-Treffer (−0,1 %, Band −0,3 bis +2,5 %) ohne gelieferte Richtung — bei Event-Hoffnungen ohne intraday bestätigtes Momentum Konfidenz senken. Boldness: Ø bandHigh der echten Picks steigt auf 1,61 %, Ø actual fällt auf 0,28 % (Oktober: 1,60 / 0,55) — weite Bänder schützten heute nicht vor dem Europa-Miss, wurden aber von den US-Wetten belohnt."
     }
   ]
 }
