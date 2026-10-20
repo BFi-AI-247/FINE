@@ -1,97 +1,98 @@
 {
   "version": 4,
-  "updated": "2026-10-20T05:49:23.100Z",
+  "updated": "2026-10-20T20:13:05.925Z",
   "totals": {
-    "predictions": 144,
-    "hits": 77,
+    "predictions": 152,
+    "hits": 79,
     "partial": 19,
-    "misses": 48,
+    "misses": 54,
     "overshoots": 14,
-    "directionCorrect": 87,
-    "hitRate": 0.5347
+    "directionCorrect": 89,
+    "hitRate": 0.5197
   },
   "benchmark": {
-    "predictions": 37,
-    "hits": 16,
+    "predictions": 39,
+    "hits": 17,
     "partial": 9,
-    "misses": 12,
+    "misses": 13,
     "overshoots": 3,
-    "directionCorrect": 20,
-    "hitRate": 0.4324,
+    "directionCorrect": 21,
+    "hitRate": 0.4359,
     "note": "Fix-Indizes DAX + S&P 500 — misst Markt-Lese-Qualität. Enge, realistische Bänder korrekt; kein Mut-Kriterium."
   },
   "picks": {
-    "predictions": 107,
-    "hits": 61,
+    "predictions": 113,
+    "hits": 62,
     "partial": 10,
-    "misses": 37,
+    "misses": 43,
     "overshoots": 11,
-    "directionCorrect": 67,
-    "hitRate": 0.5701,
+    "directionCorrect": 69,
+    "hitRate": 0.5487,
     "note": "Echte Picks: 2x Depot + 1 frei — misst Opportunity-Finding. Mindest-Band + Boldness gelten hier."
   },
   "byInstrumentType": {
     "index": {
-      "predictions": 84,
-      "hits": 41,
+      "predictions": 88,
+      "hits": 42,
       "partial": 14,
-      "misses": 29,
+      "misses": 32,
       "overshoots": 5,
-      "directionCorrect": 48,
-      "hitRate": 0.4881
+      "directionCorrect": 49,
+      "hitRate": 0.4773
     },
     "equity_de": {
-      "predictions": 44,
-      "hits": 26,
+      "predictions": 45,
+      "hits": 27,
       "partial": 3,
       "misses": 15,
       "overshoots": 7,
-      "directionCorrect": 27,
-      "hitRate": 0.5909
+      "directionCorrect": 28,
+      "hitRate": 0.6
     },
     "equity_us": {
-      "predictions": 16,
+      "predictions": 19,
       "hits": 10,
       "partial": 2,
-      "misses": 4,
+      "misses": 7,
       "overshoots": 2,
       "directionCorrect": 12,
-      "hitRate": 0.625
+      "hitRate": 0.5263
     }
   },
   "byPickClass": {
     "benchmark": {
-      "predictions": 37,
-      "hits": 16,
+      "predictions": 39,
+      "hits": 17,
       "partial": 9,
-      "misses": 12,
+      "misses": 13,
       "overshoots": 3,
-      "directionCorrect": 20,
-      "hitRate": 0.4324
+      "directionCorrect": 21,
+      "hitRate": 0.4359,
+      "note": "Fix-Indizes DAX + S&P 500 — misst Markt-Lese-Qualität. Enge, realistische Bänder korrekt; kein Mut-Kriterium."
     },
     "portfolio": {
-      "predictions": 53,
-      "hits": 32,
+      "predictions": 56,
+      "hits": 33,
       "partial": 3,
-      "misses": 17,
+      "misses": 18,
       "overshoots": 8,
-      "directionCorrect": 34,
-      "hitRate": 0.6038
+      "directionCorrect": 35,
+      "hitRate": 0.5893
     },
     "free": {
-      "predictions": 54,
+      "predictions": 57,
       "hits": 29,
       "partial": 7,
-      "misses": 18,
+      "misses": 21,
       "overshoots": 3,
       "directionCorrect": 33,
-      "hitRate": 0.537
+      "hitRate": 0.5088
     }
   },
   "boldness": {
     "note": "Mut-Metrik gegen Tiefbieten — NUR echte Picks (Benchmark-Indizes ausgeschlossen).",
-    "avgBandHigh": 1.6112,
-    "avgActual": 0.2803,
+    "avgBandHigh": 1.6292,
+    "avgActual": 0.2412,
     "months": [
       {
         "month": "2026-09",
@@ -101,9 +102,9 @@
       },
       {
         "month": "2026-10",
-        "picks": 72,
-        "avgBandHigh": 1.6042,
-        "avgActual": 0.5477
+        "picks": 78,
+        "avgBandHigh": 1.6308,
+        "avgActual": 0.4707
       }
     ]
   },
@@ -295,6 +296,10 @@
     {
       "date": "2026-10-20",
       "entry": "Korrektur-Vermerk 20.10. (Morgen-Job): Der vorherige Morgen-Eintrag nennt „predictions-Commit 08:41 Uhr Berlin\" — korrekt ist ca. 07:47 Uhr Berlin (Commit 94e069f, damit VOR der 09:00-Börsenbeginn-Grenze). Stempel-Schätzfehler beim Schreiben des Eintrags; Screening, Auswahl-Begründung und alle übrigen Angaben bleiben unverändert gültig. Signatur: FINE/Morgen-Job, gemessener Lauf-Stempel Erst 07:42 Berlin / Signatur 2026-10-20T05:49:58.573Z UTC."
+    },
+    {
+      "date": "2026-10-20",
+      "entry": "Abend-Review 20.10. (Abend-Job): 2/8 Treffer — nur S&P 500 (+0,30 %, Benchmark-Hit) und SAP (+0,86 %, Depot-Hit) lieferten; die KI-Rebound-Tag-2-These scheiterte breit (Nasdaq 100 −0,02 %, Nvidia −0,19 %, Alphabet −0,81 %, Meta −2,20 % vor Zahlen), Europa blieb schwach (DAX −0,06 % nach Aufholjagd, EuroStoxx 50 −0,38 %). Richtung korrekt nur 2/8 — schlechtester Richtungstag seit Bestehen. Kalibrierungs-Anpassung abgeleitet: (1) Momentum-Fortsetzungs-Picks nach einem Rebound-Tag nur noch bei morgens BESTÄTIGTEN Vorgaben (Asien/Futures klar positiv) — Rebound-Tag-1-Euphorie trägt seit 5 Beobachtungen in 4 Fällen nicht in Tag 2. (2) Pre-Earnings-Titel (Meta) nicht als Momentum-Wette zählen — Ereignisrisiko überlagert Drift. (3) SAP-Muster vertieft: rendite-resistente Software im defensiven Europa-Twist ist das verlässlichste Depot-Muster (dritte Bestätigung). Boldness: Ø bandHigh echte Picks 1,63 %, Ø actual +0,47 % (Oktober). Signatur: FINE/Abend-Job, Erst-Stempel 22:10 Berlin, Signatur-Stempel 2026-10-20T20:13:05.925Z."
     }
   ]
 }
