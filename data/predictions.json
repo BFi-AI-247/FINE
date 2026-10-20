@@ -3356,14 +3356,18 @@
           "bandHigh": 0.9,
           "confidence": 50,
           "reason": "Markt-Lage (Screening): DAX am Montag −1,18 % auf 25.319,77 Punkte (Nahost-Risiken, Frankreich-Unruhen, Bundrendite 3,43 %), hielt aber knapp die 21-Tage-Linie (25.297); US-Tech-Rebound Montagabend (Nasdaq +1,3 %, S&P +0,41 %, AP) und Kospi +1,8 % (AFP) geben positive Vorgaben. Heute: Erzeugerpreise 08:00, ZEW 11:00, Deutsche-Börse-Zahlen 19:00 (ad-hoc-news/IT-Boltwise). DAX-Pick: Nach Tag im Minus mit gehaltener Trendlinie ist ein Moderations-Bounce wahrscheinlich, aber Europa-Risiken (Frankreich, Renditen) bleiben — enge Benchmark-Bandbreite, mittlere Konfidenz. Quellen: ad-hoc-news.de/dpa-AFX, IT-Boltwise, AP (19.10.2026).",
-          "status": "open",
+          "status": "miss",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 Uhr: ca. 25.070 Punkte (−0,98 %) — KI-/Technik-Sorgen und steigende Anleiherenditen drücken, Index unter 21-Tage-Durchschnitt; Prognose-Band 0 bis +0,9 % bislang verfehlt, Richtung aktuell falsch. Quelle: tagesschau.de, comdirect (20.10.2026, 14:32–14:38 Uhr)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss: 25.304,42 Punkte (−0,06 %) — nach Tagstief unter 25.100 kehrte der DAX fast auf Vortagsniveau zurück (Nahost-Entspannungsgerüchte, Öl gab nach); Band 0 bis +0,9 % knapp verfehlt, Richtung knapp falsch. Quelle: dpa-AFX via Yahoo Finanzen/ARIVA, MarketScreener (20.10.2026, Xetra-Schluss 17:50)."
             }
           ],
-          "actual": -0.98
+          "actual": -0.06
         },
         {
           "name": "S&P 500",
@@ -3374,14 +3378,18 @@
           "bandHigh": 0.8,
           "confidence": 55,
           "reason": "Markt-Lage (Screening): Wall Street reboundierte Montag im KI-Sektor — S&P 500 +0,41 %, Nasdaq 100 +1,3 %, Nvidia +1,39 %, CoreWeave +2,9 % nach −25 % Vorwoche (AP); Gewinn-Erwartungen hoch (FactSet: +29 % YoY), aber Fed-Zinserhöhungs-Wetten für Ende Oktober bremsen (AFP). S&P-Pick: Rebound-Fortsetzung Tag 2 vor Meta-/Lam-Research-Zahlen Mittwoch — KI-Capex-Narrativ trägt, Zinsrisikum begrenzt das Tempo. Enge Benchmark-Bandbreite. Quellen: AP, AFP (19.10.2026).",
-          "status": "open",
+          "status": "hit",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 Uhr: US-Handel beginnt erst 15:30 MEZ — S&P-500-Futures leicht negativ (ca. −0,2 %, Niveau ~7.730 Punkte); Vortag +0,41 % (AI-/Chip-Rebound Montag). Band 0 bis +0,8 % bislang nicht erreicht. Quelle: regardsofwallstreet.com, AP via cryptodaily.co.uk (20.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss: 7.713,76 Punkte (+0,30 %) — Rebound-Tag 2 verlief schwach positiv, Dow +0,9 % stark; Band 0 bis +0,8 % getroffen. Quelle: Yahoo Finance, FT (20.10.2026)."
             }
           ],
-          "actual": -0.22
+          "actual": 0.3
         },
         {
           "name": "Nvidia",
@@ -3393,14 +3401,18 @@
           "bandHigh": 2.5,
           "confidence": 55,
           "reason": "Markt-Lage (Screening): KI-Rebound Montag (Nvidia +1,39 % auf 217,11 USD nach Messaging-Bounce vom Berliner Gipfel; Kospi +1,8 % über Nacht auf SK Hynix/Samsung-Stärke, AFP) — KI-Sorgen der Vorwoche (CoreWeave-Schulden) sind abgeflaut. Nvidia-Pick (Depot): Momentum-Tag 2 vor den Meta- und Lam-Research-Zahlen Mittwoch, die KI-Capex-Signale liefern (AP); größter S&P-Krafthebel. Anti-Tiefbieten: oberes Band 2,5 %. Risiken: Fed-Hike-Wetten nächste Woche. Quellen: AP, AFP, Finanzdatensuche (19.10.2026).",
-          "status": "open",
+          "status": "miss",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 Uhr: Pre-Market 215,31 USD (−0,92 % ggü. Vortagesschluss 217,09 USD); Vortag noch +1,39 %. Erneute AI-Schwäche (CoreWeave −4,7 %, Nebius −4,9 % Pre-Market, Reuters) belastet; Band 0 bis +2,5 % aktuell verfehlt. Quelle: Finanzsuche Nasdaq-Pre-Market (20.10.2026, 8:39 ET), Reuters via kitco.com."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss: 216,67 USD (−0,19 %) — die AI-Erholung trug nicht in Tag 2 fort; Band 0 bis +2,5 % verfehlt. Quelle: Yahoo Finance, FT (20.10.2026)."
             }
           ],
-          "actual": -0.92
+          "actual": -0.19
         },
         {
           "name": "SAP AG",
@@ -3412,14 +3424,18 @@
           "bandHigh": 2,
           "confidence": 50,
           "reason": "Markt-Lage (Screening): Europa war Montag der schwache Teil (DAX −1,18 %, EuroStoxx −0,96 %), aber der US-KI-Rebound lief über Nacht weiter; Deutschland-Momentum über Berliner Investitionsgipfel (Tag 2) und ZEW-Hoffnung; Bundrendite 3,43 % belastet Bewertung, Software bleibt rendite-resilienter als Industrie. SAP-Pick (Depot): KI-Narrativ (Enterprise-AI) + Rebound-Vorgaben aus USA/Asien sprechen für Catch-up des Tech-Schwergewichts im DAX nach gestrigem Rücksetzer. Oberes Band 2,0 % (Anti-Tiefbieten Aktie). Quellen: ad-hoc-news.de, IT-Boltwise, AP (19.10.2026).",
-          "status": "open",
+          "status": "hit",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 Uhr: ca. 201,20 EUR (+0,68 %) — einer der wenigen Gewinner im EuroStoxx 50, defensiver Markt-Twist hilft Software-Werten; Band 0 bis +2,0 %: auf Kurs. Quelle: finanzen.net (EuroStoxx-50-Gewinnerliste, 20.10.2026, Mittag)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss: 201,55 EUR (+0,86 %, Xetra) — defensiver Tech-Twist bestätigt, SAP lief im schwachen Europa vorn mit; Band 0 bis +2,0 % getroffen. Quelle: Yahoo Finance, Investing.com (20.10.2026)."
             }
           ],
-          "actual": 0.68
+          "actual": 0.86
         },
         {
           "name": "ALPHABET C",
@@ -3431,14 +3447,18 @@
           "bandHigh": 2,
           "confidence": 50,
           "reason": "Markt-Lage (Screening): AI-Aktien führen den Wall-Street-Rebound an (AP), Anthropics IPO-Plan (5 % Public-Benefit-Anteil) und SpaceX/AI-News halten das KI-Thema heiß (AP); Fed-Hike-Wetten Ende Oktober als Bremse (AFP). Alphabet-Pick (Depot): Als KI-Infrastruktur- und Cloud-Profiteur läuft die Aktie im Sog des Sektors-Momentums Tag 2; Capex-Lesezeichen kommen Mittwoch (Meta). Oberes Band 2,0 %. Quellen: AP, AFP (19.10.2026).",
-          "status": "open",
+          "status": "miss",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 Uhr: Pre-Market 342,82 USD (−0,49 % ggü. Vortagesschluss 344,18 USD); Band 0 bis +2,0 % aktuell knapp verfehlt. Quelle: Finanzsuche Nasdaq-Pre-Market (20.10.2026, 8:38 ET)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss: 341,40 USD (−0,81 %) — KI-Sektor schwach, Alphabet schwang mit ins Minus; Band 0 bis +2,0 % verfehlt. Quelle: Yahoo Finance, FT (20.10.2026)."
             }
           ],
-          "actual": -0.49
+          "actual": -0.81
         },
         {
           "name": "Nasdaq 100",
@@ -3449,14 +3469,18 @@
           "bandHigh": 1.5,
           "confidence": 55,
           "reason": "Markt-Lage (Screening): KI-Rebound Montag mit Nasdaq 100 +1,3 %, Kospi +1,8 % (Samsung/SK Hynix) als asiatische Vorstufe (AFP); Earnings-Hoffnungen vor Meta/Lam Wednesday (AP), CoreWeave-Erholung +2,9 % zeigt Short-Covering im Sektor. Nasdaq-100-Pick (frei): Der Sektor hat die stärkste Tages-Momentum-Wahrscheinlichkeit — Tag-2-Fortsetzung mit Vorgaben aus Asien. Oberes Band 1,5 % (Anti-Tiefbieten Index). Risiko: Zinssorgen kehren bei Fed-Hike-Wetten zurück. Quellen: AP, AFP (19./20.10.2026).",
-          "status": "open",
+          "status": "miss",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 Uhr: Futures ca. −0,4 bis −0,5 % (Reuters: erneute AI-Aktien-Schwäche + Öl-Rebound vor Quartalszahlen); Vortag +1,02 %. Band 0 bis +1,5 % aktuell verfehlt. Quelle: Reuters via kitco.com, regardsofwallstreet.com (20.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss: 29.524,44 Punkte (−0,02 %) — praktisch unverändert, kein Tag-2-Momentum; Band 0 bis +1,5 % verfehlt. Quelle: Yahoo Finance, Nasdaq (20.10.2026)."
             }
           ],
-          "actual": -0.45
+          "actual": -0.02
         },
         {
           "name": "Meta Platforms",
@@ -3467,14 +3491,18 @@
           "bandHigh": 2.5,
           "confidence": 45,
           "reason": "Markt-Lage (Screening): Meta berichtet Mittwoch Quartalszahlen (AP) — KI-Capex-Signale (Muse AI Agent) sind die zentrale Leseart für den gesamten Sektor; AI-Stocks führten Montags-Rebound an (AP). Meta-Pick (frei): Pre-Earnings-Drift ist typisch positiv, wenn der Sektor Momentum hat — steigende Wahrscheinlichkeit positiver Tagesbewegung Tag 2 vor Zahlen. Weites Band (2,5 %) wegen Ereignisvolatilität, reduzierte Konfidenz. Quellen: AP (19.10.2026).",
-          "status": "open",
+          "status": "miss",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 Uhr: Pre-Market 699,96 USD (−0,91 % ggü. Vortagesschluss 705,44 USD); Quartalszahlen erst Mittwoch — Pre-Earnings-Drift zeigt sich bislang nicht. Band 0 bis +2,5 % aktuell verfehlt. Quelle: Finanzsuche Nasdaq-Pre-Market (20.10.2026, 8:39 ET)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss: 689,88 USD (−2,20 %) — Pre-Earnings-Drift zeigte sich nach unten statt oben; Band 0 bis +2,5 % klar verfehlt. Quelle: Yahoo Finance, FT (20.10.2026)."
             }
           ],
-          "actual": -0.91
+          "actual": -2.2
         },
         {
           "name": "EuroStoxx 50",
@@ -3485,14 +3513,18 @@
           "bandHigh": 1.2,
           "confidence": 45,
           "reason": "Markt-Lage (Screening): EuroStoxx 50 Montag −0,96 % auf 6.144,81 Punkte (IT-Boltwise) — Renditeanstieg und Frankreich-Unruhen drückten; US-Stabilisierung Montag spät + Trump-Putin-Xi-Gipfel-Gerücht (AFP, Friedenshoffnung) und ZEW heute 11:00 sind Gegenkatalysatoren; Öl über 100 USD (AFP) stützt Energiewerte im Index. EuroStoxx-Pick (frei): Oversold-Bounce-These mit ZEW als Tageskatalysator; Europa blieb aber zwei Tage der schwache Teil — daher niedrige Konfidenz. Oberes Band 1,2 %. Quellen: AFP, IT-Boltwise, ad-hoc-news.de (19./20.10.2026).",
-          "status": "open",
+          "status": "miss",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00 Uhr: ca. 6.090 Punkte (−0,86 %) — Oversold-Bounce-These bislang nicht bestätigt, ZEW-Impuls verpufft, KI-Sorgen dominieren Europa; Band 0 bis +1,2 % verfehlt. Quelle: Börse Stuttgart, Trading Economics, Yahoo Finance (20.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss: 6.121,66 Punkte (−0,38 %) — Oversold-Bounce blieb aus, EuroStoxx gab nur moderat nach; Band 0 bis +1,2 % verfehlt. Quelle: dpa-AFX via Yahoo Finanzen/ARIVA (20.10.2026)."
             }
           ],
-          "actual": -0.86
+          "actual": -0.38
         }
       ]
     }
