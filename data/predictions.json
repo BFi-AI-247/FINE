@@ -3527,6 +3527,111 @@
           "actual": -0.38
         }
       ]
+    },
+    {
+      "date": "2026-10-22",
+      "title": "Earnings-Welle trägt: SAP-Blowout und Meta-Beat-raise gegen schwaches Asien und Öl-Druck",
+      "picks": [
+        {
+          "name": "DAX",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "up",
+          "bandLow": 0,
+          "bandHigh": 0.7,
+          "confidence": 55,
+          "reason": "Markt-Lage: Screen (22.10., 07:30 Slot): DAX Vortag +1,35 % auf 25.645,04 Punkte (Vierwochenhoch, SAP +3,52 % vor Abend-Zahlen); S&P 500 +0,58 % auf 7.757,17, Nasdaq Composite +1,05 % (Quelle: Yahoo Finanzen/Investing.com, 21.10.2026). Über Nacht breite Earnings-Beats: SAP (Cloud +26 %, erstes Quartal über 10 Mrd. EUR Umsatz, AH +2,3 %, Quelle: PR Newswire/Investing.com), Meta (+4 % AH, Beat-and-raise), IBM (+4-6 % AH), Tesla, TXN (Quelle: Zacks, StreetInsider, 21.10.2026). Dagegen: Asien schwach (Kospi -2,25 %, Samsung -3,4 %; Quelle: Yonhap/Reuters), S&P-Futures knapp rot (-0,4 bis -0,9 %), Netflix -6 % AH, Brent ~110 USD, US-10J-Rendite ~5,10-5,15 % (Quelle: Futures Playbook, Pulsafi, 22.10.2026). Termine heute: Jobless Claims + Philly Fed (14:30 Uhr MEZ), Zahlen von Comcast, Lockheed, P&G, Union Pacific vor Börsenstart. DAX-Prognose: SAP als schwerer DAX-Titel liefert über Nacht einen klaren positiven Anker (Zahlen deutlich über Konsens, AH +2,3 %); Gegenkräfte: schwaches Asien, leicht rote US-Futures, Konsolidierung nach +1,35 %-Rebound — daher nur moderates Aufwärtsband +0,0 bis +0,7 %. Benchmark: realistische enge Bandbreite. Quellen: PR Newswire (SAP Q3 2026), Yahoo Finanzen (DAX-Schluss 21.10.), Investing.com.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "S&P 500",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "flat",
+          "bandLow": -0.4,
+          "bandHigh": 0.4,
+          "confidence": 50,
+          "reason": "Markt-Lage: Screen (22.10., 07:30 Slot): DAX Vortag +1,35 % auf 25.645,04 Punkte (Vierwochenhoch, SAP +3,52 % vor Abend-Zahlen); S&P 500 +0,58 % auf 7.757,17, Nasdaq Composite +1,05 % (Quelle: Yahoo Finanzen/Investing.com, 21.10.2026). Über Nacht breite Earnings-Beats: SAP (Cloud +26 %, erstes Quartal über 10 Mrd. EUR Umsatz, AH +2,3 %, Quelle: PR Newswire/Investing.com), Meta (+4 % AH, Beat-and-raise), IBM (+4-6 % AH), Tesla, TXN (Quelle: Zacks, StreetInsider, 21.10.2026). Dagegen: Asien schwach (Kospi -2,25 %, Samsung -3,4 %; Quelle: Yonhap/Reuters), S&P-Futures knapp rot (-0,4 bis -0,9 %), Netflix -6 % AH, Brent ~110 USD, US-10J-Rendite ~5,10-5,15 % (Quelle: Futures Playbook, Pulsafi, 22.10.2026). Termine heute: Jobless Claims + Philly Fed (14:30 Uhr MEZ), Zahlen von Comcast, Lockheed, P&G, Union Pacific vor Börsenstart. S&P-500-Prognose: Mischbild — grüne Nachbörsenreaktionen auf Meta/IBM/TXN/Tesla stehen gegen leicht rote Futures, Netflix/Lam-Research-Rutscher und Rekord-Renditen (~5,10-5,15 %); Jobless Claims + Philly Fed als Tageslotterie. Flat-Band -0,4 bis +0,4 %, enge Benchmark-Bandbreite ohne Mut-Kriterium. Quellen: StreetInsider, Zacks, Futures Playbook, Pulsafi (21./22.10.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "SAP AG",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "direction": "up",
+          "bandLow": 0.8,
+          "bandHigh": 3,
+          "confidence": 70,
+          "reason": "Markt-Lage: Screen (22.10., 07:30 Slot): DAX Vortag +1,35 % auf 25.645,04 Punkte (Vierwochenhoch, SAP +3,52 % vor Abend-Zahlen); S&P 500 +0,58 % auf 7.757,17, Nasdaq Composite +1,05 % (Quelle: Yahoo Finanzen/Investing.com, 21.10.2026). Über Nacht breite Earnings-Beats: SAP (Cloud +26 %, erstes Quartal über 10 Mrd. EUR Umsatz, AH +2,3 %, Quelle: PR Newswire/Investing.com), Meta (+4 % AH, Beat-and-raise), IBM (+4-6 % AH), Tesla, TXN (Quelle: Zacks, StreetInsider, 21.10.2026). Dagegen: Asien schwach (Kospi -2,25 %, Samsung -3,4 %; Quelle: Yonhap/Reuters), S&P-Futures knapp rot (-0,4 bis -0,9 %), Netflix -6 % AH, Brent ~110 USD, US-10J-Rendite ~5,10-5,15 % (Quelle: Futures Playbook, Pulsafi, 22.10.2026). Termine heute: Jobless Claims + Philly Fed (14:30 Uhr MEZ), Zahlen von Comcast, Lockheed, P&G, Union Pacific vor Börsenstart. Depot-Pick SAP: Q3 deutlich über Konsens (Umsatz 10,27 Mrd. EUR, Non-IFRS-OPS +18 %, Cloud +26 %, Current Cloud Backlog +28 % auf 24,1 Mrd. EUR; erstes Quartal über 10 Mrd. EUR Umsatz und 3 Mrd. EUR Betriebsergebnis); US-Aktie nachbörslich +2,3 % auf 238,09 USD, Outlook angehoben. Klassisches SAP-Muster (rendite-resistente Software, bisher vierte Bestätigung laut Lern-Log). Band +0,8 bis +3,0 %, Konfidenz 70 (Band konsistent zur Konfidenz). Quellen: SAP Quarterly Statement Q3 2026 (PR Newswire), Investing.com (AH-Reaktion), Finanznachrichten.de (Xetra-Schluss 21.10.).",
+          "status": "open",
+          "reviews": [],
+          "fromPortfolio": true
+        },
+        {
+          "name": "META PLATF. A",
+          "type": "equity_us",
+          "pickClass": "portfolio",
+          "direction": "up",
+          "bandLow": 0.5,
+          "bandHigh": 2.5,
+          "confidence": 65,
+          "reason": "Markt-Lage: Screen (22.10., 07:30 Slot): DAX Vortag +1,35 % auf 25.645,04 Punkte (Vierwochenhoch, SAP +3,52 % vor Abend-Zahlen); S&P 500 +0,58 % auf 7.757,17, Nasdaq Composite +1,05 % (Quelle: Yahoo Finanzen/Investing.com, 21.10.2026). Über Nacht breite Earnings-Beats: SAP (Cloud +26 %, erstes Quartal über 10 Mrd. EUR Umsatz, AH +2,3 %, Quelle: PR Newswire/Investing.com), Meta (+4 % AH, Beat-and-raise), IBM (+4-6 % AH), Tesla, TXN (Quelle: Zacks, StreetInsider, 21.10.2026). Dagegen: Asien schwach (Kospi -2,25 %, Samsung -3,4 %; Quelle: Yonhap/Reuters), S&P-Futures knapp rot (-0,4 bis -0,9 %), Netflix -6 % AH, Brent ~110 USD, US-10J-Rendite ~5,10-5,15 % (Quelle: Futures Playbook, Pulsafi, 22.10.2026). Termine heute: Jobless Claims + Philly Fed (14:30 Uhr MEZ), Zahlen von Comcast, Lockheed, P&G, Union Pacific vor Börsenstart. Depot-Pick Meta: Q3-Rekordumsatz 64,6 Mrd. USD (+26 %), EPS 3,83 USD über Konsens (3,45-3,57), Q4-Guidance 73-76 Mrd. USD über Konsens (73,57), dazu 2-für-1-Split angekündigt; 10 Mrd. USD Rechtscharge bereits im Kurs verdaut. Nachbörslich +4 %. Band +0,5 bis +2,5 % (AH-Plus bereits eingepreist, daher kein höheres Band). Quellen: Zacks (Q3 Earnings Beats), StreetInsider (After-Hours Movers), 21.10.2026.",
+          "status": "open",
+          "reviews": [],
+          "fromPortfolio": true
+        },
+        {
+          "name": "ALPHABET A",
+          "type": "equity_us",
+          "pickClass": "portfolio",
+          "direction": "up",
+          "bandLow": 0.3,
+          "bandHigh": 1.8,
+          "confidence": 50,
+          "reason": "Markt-Lage: Screen (22.10., 07:30 Slot): DAX Vortag +1,35 % auf 25.645,04 Punkte (Vierwochenhoch, SAP +3,52 % vor Abend-Zahlen); S&P 500 +0,58 % auf 7.757,17, Nasdaq Composite +1,05 % (Quelle: Yahoo Finanzen/Investing.com, 21.10.2026). Über Nacht breite Earnings-Beats: SAP (Cloud +26 %, erstes Quartal über 10 Mrd. EUR Umsatz, AH +2,3 %, Quelle: PR Newswire/Investing.com), Meta (+4 % AH, Beat-and-raise), IBM (+4-6 % AH), Tesla, TXN (Quelle: Zacks, StreetInsider, 21.10.2026). Dagegen: Asien schwach (Kospi -2,25 %, Samsung -3,4 %; Quelle: Yonhap/Reuters), S&P-Futures knapp rot (-0,4 bis -0,9 %), Netflix -6 % AH, Brent ~110 USD, US-10J-Rendite ~5,10-5,15 % (Quelle: Futures Playbook, Pulsafi, 22.10.2026). Termine heute: Jobless Claims + Philly Fed (14:30 Uhr MEZ), Zahlen von Comcast, Lockheed, P&G, Union Pacific vor Börsenstart. Depot-Pick Alphabet: Mittwoch -2,12 % (schwachster Mag-7-Wert trotz freundlichem Markt), heute Read-across von Metas starkem Werbemarkt-Beleg (Rekordumsatz, angehobene Q4-Guidance) — Ad-Sektor-Impuls spricht für einen Rebound-Versuch. Vorsicht: Netflix kürzt 2026-Werbeprognose. Bescheidenes Band +0,3 bis +1,8 %, Konfidenz 50. Quellen: Pulsafi/Vittarthi (Alphabet -2,12 %, 21.10.), Zacks/StreetInsider (Meta-Beat), FinanceFeeds (Netflix).",
+          "status": "open",
+          "reviews": [],
+          "fromPortfolio": true
+        },
+        {
+          "name": "Nasdaq 100",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1.2,
+          "confidence": 50,
+          "reason": "Markt-Lage: Screen (22.10., 07:30 Slot): DAX Vortag +1,35 % auf 25.645,04 Punkte (Vierwochenhoch, SAP +3,52 % vor Abend-Zahlen); S&P 500 +0,58 % auf 7.757,17, Nasdaq Composite +1,05 % (Quelle: Yahoo Finanzen/Investing.com, 21.10.2026). Über Nacht breite Earnings-Beats: SAP (Cloud +26 %, erstes Quartal über 10 Mrd. EUR Umsatz, AH +2,3 %, Quelle: PR Newswire/Investing.com), Meta (+4 % AH, Beat-and-raise), IBM (+4-6 % AH), Tesla, TXN (Quelle: Zacks, StreetInsider, 21.10.2026). Dagegen: Asien schwach (Kospi -2,25 %, Samsung -3,4 %; Quelle: Yonhap/Reuters), S&P-Futures knapp rot (-0,4 bis -0,9 %), Netflix -6 % AH, Brent ~110 USD, US-10J-Rendite ~5,10-5,15 % (Quelle: Futures Playbook, Pulsafi, 22.10.2026). Termine heute: Jobless Claims + Philly Fed (14:30 Uhr MEZ), Zahlen von Comcast, Lockheed, P&G, Union Pacific vor Börsenstart. Freier Pick Nasdaq 100: Tech-Earnings-Welle schlägt durch (Meta, IBM +4-6 % AH, Tesla +2 %, TXN +28 % Umsatzwachstum), SpaceX-Schock-Plus vom Vortag (+6,89 %) trägt die AI-Stimmung; Gegengewichte: Netflix -6 % AH, Lam Research -6 % AH, Futures über Nacht -0,9 bis -1,5 %. Netto leicht positiv: Band +0,2 bis +1,2 % (Anti-Tiefbieten Index: oberes Band über 1,0 %). Quellen: Zacks, AInvest, FinanceFeeds, Futures Playbook (21./22.10.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Exxon Mobil",
+          "type": "equity_us",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.4,
+          "bandHigh": 2.2,
+          "confidence": 55,
+          "reason": "Markt-Lage: Screen (22.10., 07:30 Slot): DAX Vortag +1,35 % auf 25.645,04 Punkte (Vierwochenhoch, SAP +3,52 % vor Abend-Zahlen); S&P 500 +0,58 % auf 7.757,17, Nasdaq Composite +1,05 % (Quelle: Yahoo Finanzen/Investing.com, 21.10.2026). Über Nacht breite Earnings-Beats: SAP (Cloud +26 %, erstes Quartal über 10 Mrd. EUR Umsatz, AH +2,3 %, Quelle: PR Newswire/Investing.com), Meta (+4 % AH, Beat-and-raise), IBM (+4-6 % AH), Tesla, TXN (Quelle: Zacks, StreetInsider, 21.10.2026). Dagegen: Asien schwach (Kospi -2,25 %, Samsung -3,4 %; Quelle: Yonhap/Reuters), S&P-Futures knapp rot (-0,4 bis -0,9 %), Netflix -6 % AH, Brent ~110 USD, US-10J-Rendite ~5,10-5,15 % (Quelle: Futures Playbook, Pulsafi, 22.10.2026). Termine heute: Jobless Claims + Philly Fed (14:30 Uhr MEZ), Zahlen von Comcast, Lockheed, P&G, Union Pacific vor Börsenstart. Freier Pick Exxon Mobil: Brent notiert bei ~110 USD (WTI +2,0 % über Nacht, Öl 2026 bislang +73 %) bei anhaltenden Nahost-Spannungen; Energie-Profiteure sind der klarste Tailwind-Rohstoff-Sektor, unabhängig von der Tech-Rotation. Band +0,4 bis +2,2 %. Quellen: Pulsafi (Öl-Sektion, 22.10.), Futures Playbook (CL +2,0 %), HDFC SKY (Brent >110, Middle-East-Tensions).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "EuroStoxx 50",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.1,
+          "bandHigh": 1,
+          "confidence": 50,
+          "reason": "Markt-Lage: Screen (22.10., 07:30 Slot): DAX Vortag +1,35 % auf 25.645,04 Punkte (Vierwochenhoch, SAP +3,52 % vor Abend-Zahlen); S&P 500 +0,58 % auf 7.757,17, Nasdaq Composite +1,05 % (Quelle: Yahoo Finanzen/Investing.com, 21.10.2026). Über Nacht breite Earnings-Beats: SAP (Cloud +26 %, erstes Quartal über 10 Mrd. EUR Umsatz, AH +2,3 %, Quelle: PR Newswire/Investing.com), Meta (+4 % AH, Beat-and-raise), IBM (+4-6 % AH), Tesla, TXN (Quelle: Zacks, StreetInsider, 21.10.2026). Dagegen: Asien schwach (Kospi -2,25 %, Samsung -3,4 %; Quelle: Yonhap/Reuters), S&P-Futures knapp rot (-0,4 bis -0,9 %), Netflix -6 % AH, Brent ~110 USD, US-10J-Rendite ~5,10-5,15 % (Quelle: Futures Playbook, Pulsafi, 22.10.2026). Termine heute: Jobless Claims + Philly Fed (14:30 Uhr MEZ), Zahlen von Comcast, Lockheed, P&G, Union Pacific vor Börsenstart. Freier Pick EuroStoxx 50: SAP-Zahlen geben dem europäischen Blueprint Rückenwind, der EuroStoxx-Defensivanteil (Versicherer, Konsum) profitiert zudem von hohen Renditen; Gegenkräfte: schwaches Asien und hohe Energiekosten (Strom 195,66 EUR/MWh, +23 % über 30-Tage-Mittel). Bescheidenes Band +0,1 bis +1,0 %. Quellen: PR Newswire (SAP), digitaldaily.de (21.10.), Reuters via thriveinmarkets (Asien, 22.10.).",
+          "status": "open",
+          "reviews": []
+        }
+      ]
     }
   ]
 }
