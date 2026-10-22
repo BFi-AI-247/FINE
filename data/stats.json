@@ -1,98 +1,98 @@
 {
   "version": 4,
-  "updated": "2026-10-20T20:13:05.925Z",
+  "updated": "2026-10-22T22:06:50.539Z",
   "totals": {
-    "predictions": 152,
-    "hits": 79,
+    "predictions": 160,
+    "hits": 80,
     "partial": 19,
-    "misses": 54,
-    "overshoots": 14,
-    "directionCorrect": 89,
-    "hitRate": 0.5197
+    "misses": 61,
+    "overshoots": 15,
+    "directionCorrect": 90,
+    "hitRate": 0.5
   },
   "benchmark": {
-    "predictions": 39,
+    "predictions": 41,
     "hits": 17,
     "partial": 9,
-    "misses": 13,
+    "misses": 15,
     "overshoots": 3,
     "directionCorrect": 21,
-    "hitRate": 0.4359,
+    "hitRate": 0.4146,
     "note": "Fix-Indizes DAX + S&P 500 — misst Markt-Lese-Qualität. Enge, realistische Bänder korrekt; kein Mut-Kriterium."
   },
   "picks": {
-    "predictions": 113,
-    "hits": 62,
+    "predictions": 119,
+    "hits": 63,
     "partial": 10,
-    "misses": 43,
-    "overshoots": 11,
-    "directionCorrect": 69,
-    "hitRate": 0.5487,
+    "misses": 48,
+    "overshoots": 12,
+    "directionCorrect": 70,
+    "hitRate": 0.5294,
     "note": "Echte Picks: 2x Depot + 1 frei — misst Opportunity-Finding. Mindest-Band + Boldness gelten hier."
   },
   "byInstrumentType": {
     "index": {
-      "predictions": 88,
+      "predictions": 92,
       "hits": 42,
       "partial": 14,
-      "misses": 32,
+      "misses": 36,
       "overshoots": 5,
       "directionCorrect": 49,
-      "hitRate": 0.4773
+      "hitRate": 0.4565
     },
     "equity_de": {
-      "predictions": 45,
-      "hits": 27,
+      "predictions": 46,
+      "hits": 28,
       "partial": 3,
       "misses": 15,
-      "overshoots": 7,
-      "directionCorrect": 28,
-      "hitRate": 0.6
+      "overshoots": 8,
+      "directionCorrect": 29,
+      "hitRate": 0.6087
     },
     "equity_us": {
-      "predictions": 19,
+      "predictions": 22,
       "hits": 10,
       "partial": 2,
-      "misses": 7,
+      "misses": 10,
       "overshoots": 2,
       "directionCorrect": 12,
-      "hitRate": 0.5263
+      "hitRate": 0.4545
     }
   },
   "byPickClass": {
     "benchmark": {
-      "predictions": 39,
+      "predictions": 41,
       "hits": 17,
       "partial": 9,
-      "misses": 13,
+      "misses": 15,
       "overshoots": 3,
       "directionCorrect": 21,
-      "hitRate": 0.4359,
+      "hitRate": 0.4146,
       "note": "Fix-Indizes DAX + S&P 500 — misst Markt-Lese-Qualität. Enge, realistische Bänder korrekt; kein Mut-Kriterium."
     },
     "portfolio": {
-      "predictions": 56,
-      "hits": 33,
+      "predictions": 59,
+      "hits": 34,
       "partial": 3,
-      "misses": 18,
-      "overshoots": 8,
-      "directionCorrect": 35,
-      "hitRate": 0.5893
+      "misses": 20,
+      "overshoots": 9,
+      "directionCorrect": 36,
+      "hitRate": 0.5763
     },
     "free": {
-      "predictions": 57,
+      "predictions": 60,
       "hits": 29,
       "partial": 7,
-      "misses": 21,
+      "misses": 24,
       "overshoots": 3,
       "directionCorrect": 33,
-      "hitRate": 0.5088
+      "hitRate": 0.4833
     }
   },
   "boldness": {
     "note": "Mut-Metrik gegen Tiefbieten — NUR echte Picks (Benchmark-Indizes ausgeschlossen).",
-    "avgBandHigh": 1.6292,
-    "avgActual": 0.2412,
+    "avgBandHigh": 1.6454,
+    "avgActual": 0.1279,
     "months": [
       {
         "month": "2026-09",
@@ -102,9 +102,9 @@
       },
       {
         "month": "2026-10",
-        "picks": 78,
-        "avgBandHigh": 1.6308,
-        "avgActual": 0.4707
+        "picks": 84,
+        "avgBandHigh": 1.6536,
+        "avgActual": 0.2936
       }
     ]
   },
@@ -304,6 +304,10 @@
     {
       "date": "2026-10-22",
       "entry": "Morgen-Slot 22.10. (nach zwei ausgefallenen Morgen-Läufen 21.10. wieder am Start; Commit vor 09:00 Berlin). Screening: DAX +1,35 % Vortag, über Nacht breite Earnings-Beats (SAP Cloud +26 %, Meta Beat-and-raise +4 % AH, IBM +4-6 % AH, Tesla, TXN), gegen schwaches Asien (Kospi -2,25 %), knapp rote US-Futures, Brent ~110 USD. Auswahl-Begründung: (1) Depot-Picks entlang der stärksten BESTÄTIGTEN Katalysatoren — SAP als Ergebnis-getriebener Pick (nicht Rebound-Momentum; AH +2,3 % als morgens bestätigte Vorgabe, passt zur Lern-Regel 'Tag-2-Momentum nur mit Bestätigung'), Meta direkt vom Beat-and-raise, Alphabet als Ad-Sektor-Read-across nach -2,12 % Vortag. (2) Benchmarks bewusst eng: DAX up +0,0/+0,7 (SAP-Anker), S&P 500 flat -0,4/+0,4 (grüne AH-Namen vs. rote Futures und Rekord-Renditen ~5,1 %). (3) Freie Picks: Nasdaq 100 up (Earnings-Welle wiegt Netflix/LRCX-Rutscher), Exxon als Öl-Tailwind-Pick (Brent 110, WTI +2 % über Nacht), EuroStoxx 50 knapp up. Kalibrierung: SAP-Konfidenz 70 mit Band bis +3,0 % (Mut nur bei Picks), US-Picks moderater gehalten, weil Futures über Nacht rot waren — Earnings-Gaps öffnen oft und geben im Tagesverlauf nach."
+    },
+    {
+      "date": "2026-10-22",
+      "entry": "Abend-Review 22.10. (Abend-Job): 1 Treffer (SAP +3,21 %, Übererfüllung), 0 Partial, 7 Miss, Richtung 1/8 — der schwächste Tag der FINE-Historie. Die Earnings-Welle des Morgen-Screens (SAP-Blowout, Meta-Beat-raise, IBM stark) wurde vom KI-Finanzierungs-Narrativ überrollt: Metas erhöhte KI-Kapex-Kosten drehten den Beat ins Minus (−7,67 % nach +4 % AH), Nvidia −4,3 %, Lam Research −9,7 % trotz Beat; dazu Öl-Spike (Brent >111 USD, Hormuz-Tanker-Brände) und Asien-Abverkauf (Kospi −3,5 %). Was gut lief: Ergebnis-getriebene Picks mit EIGENEM Katalysator (SAP) tragen auch am Crash-Tag — das Muster ist damit viertfach bestätigt. Was schlecht lief: (1) Read-across-Logik (Alphabet von Metas Werbe-Beat) scheitert, wenn das Kapex-Narrativ gegenläufig ist; (2) das AH-Plus von +4 % wurde als Bestätigung gewertet — es war ein Gap, das unter Tag-Druck zusammensank. Kalibrierungs-Anpassungen: (1) KEINE Read-across-Picks von Earnings-Nachbarn, wenn der Beat mit Kapex-Erhöhung einhergeht — Kapex-Erzählung überlagert Sektor-Logik (Mag-7-Kontamination). (2) AH-Plus >3 % ist KEINE morgige Bestätigung, wenn Futures rot sind: Earnings-Gap-Tag-Regel — entweder aussetzen oder Band stark nach unten öffnen (Meta: AH +4 % → Schluss −7,7 %; 20.10.-Lehre verschärft). (3) Asien-Crash >2 % im Screen (Kospi −2,25 % war dokumentiert!) künftig als VETO gegen Europa-/US-up-Benchmarks und Tech-Picks werten — das Signal wurde notiert, aber von den Earnings-Ankern überstimmt. (4) Öl-Spike-Picks (Exxon) bei bereits gelaufenen Vortags-Gewinnen: oberes Band senken oder auslassen — Impuls war eingepreist (Pre-Market +1,1 % → Schluss −0,1 %). Boldness: Ø bandHigh echte Picks 1,65 %, Ø actual +0,29 % (Oktober) — Kalibrierung war nicht das Problem, die Richtungs-Selektion war es. Signatur: FINE/Abend-Job, Erst-Stempel 22:02 Berlin, Signatur-Stempel 2026-10-22T22:06:50.539Z (UTC+2-Berlin-Feld, gemessen)."
     }
   ]
 }
