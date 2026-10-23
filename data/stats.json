@@ -1,53 +1,51 @@
 {
   "version": 4,
-  "updated": "2026-10-22T22:06:50.539Z",
+  "updated": "2026-10-23T20:49:42.000Z",
   "totals": {
-    "predictions": 160,
-    "hits": 80,
-    "partial": 19,
-    "misses": 61,
+    "predictions": 168,
+    "hits": 81,
+    "partial": 20,
+    "misses": 67,
     "overshoots": 15,
-    "directionCorrect": 90,
-    "hitRate": 0.5
+    "directionCorrect": 92,
+    "hitRate": 0.4821
   },
   "benchmark": {
-    "predictions": 41,
+    "predictions": 43,
     "hits": 17,
     "partial": 9,
-    "misses": 15,
+    "misses": 17,
     "overshoots": 3,
     "directionCorrect": 21,
-    "hitRate": 0.4146,
-    "note": "Fix-Indizes DAX + S&P 500 — misst Markt-Lese-Qualität. Enge, realistische Bänder korrekt; kein Mut-Kriterium."
+    "hitRate": 0.3953
   },
   "picks": {
-    "predictions": 119,
-    "hits": 63,
-    "partial": 10,
-    "misses": 48,
+    "predictions": 127,
+    "hits": 64,
+    "partial": 11,
+    "misses": 52,
     "overshoots": 12,
-    "directionCorrect": 70,
-    "hitRate": 0.5294,
-    "note": "Echte Picks: 2x Depot + 1 frei — misst Opportunity-Finding. Mindest-Band + Boldness gelten hier."
+    "directionCorrect": 72,
+    "hitRate": 0.5039
   },
   "byInstrumentType": {
     "index": {
-      "predictions": 92,
-      "hits": 42,
+      "predictions": 97,
+      "hits": 43,
       "partial": 14,
-      "misses": 36,
+      "misses": 40,
       "overshoots": 5,
-      "directionCorrect": 49,
-      "hitRate": 0.4565
+      "directionCorrect": 51,
+      "hitRate": 0.4433
     },
     "equity_de": {
-      "predictions": 46,
+      "predictions": 49,
       "hits": 28,
-      "partial": 3,
-      "misses": 15,
+      "partial": 4,
+      "misses": 17,
       "overshoots": 8,
-      "directionCorrect": 29,
-      "hitRate": 0.6087
+      "directionCorrect": 30,
+      "hitRate": 0.5714
     },
     "equity_us": {
       "predictions": 22,
@@ -61,38 +59,36 @@
   },
   "byPickClass": {
     "benchmark": {
-      "predictions": 41,
+      "predictions": 43,
       "hits": 17,
       "partial": 9,
-      "misses": 15,
+      "misses": 17,
       "overshoots": 3,
       "directionCorrect": 21,
-      "hitRate": 0.4146,
-      "note": "Fix-Indizes DAX + S&P 500 — misst Markt-Lese-Qualität. Enge, realistische Bänder korrekt; kein Mut-Kriterium."
+      "hitRate": 0.3953
     },
     "portfolio": {
-      "predictions": 59,
+      "predictions": 62,
       "hits": 34,
-      "partial": 3,
-      "misses": 20,
+      "partial": 4,
+      "misses": 23,
       "overshoots": 9,
-      "directionCorrect": 36,
-      "hitRate": 0.5763
+      "directionCorrect": 37,
+      "hitRate": 0.5484
     },
     "free": {
-      "predictions": 60,
-      "hits": 29,
+      "predictions": 63,
+      "hits": 30,
       "partial": 7,
-      "misses": 24,
+      "misses": 27,
       "overshoots": 3,
-      "directionCorrect": 33,
-      "hitRate": 0.4833
+      "directionCorrect": 34,
+      "hitRate": 0.4762
     }
   },
   "boldness": {
-    "note": "Mut-Metrik gegen Tiefbieten — NUR echte Picks (Benchmark-Indizes ausgeschlossen).",
-    "avgBandHigh": 1.6454,
-    "avgActual": 0.1279,
+    "avgBandHigh": 1.608,
+    "avgActual": 0.0872,
     "months": [
       {
         "month": "2026-09",
@@ -102,9 +98,9 @@
       },
       {
         "month": "2026-10",
-        "picks": 84,
-        "avgBandHigh": 1.6536,
-        "avgActual": 0.2936
+        "picks": 90,
+        "avgBandHigh": 1.6001,
+        "avgActual": 0.226
       }
     ]
   },
@@ -312,6 +308,10 @@
     {
       "date": "2026-10-23",
       "entry": "Auswahl-Begründung 23.10. (Morgen-Job): Screen: Vortag war der schwächste Tag der FINE-Historie (1/8; DAX −1,07 %, EuroStoxx −1,94 %, S&P −1,21 %, Nasdaq −2,6 %, Dow +0,02 % als einziger Gewinner, Mehrheit der US-Aktien stieg) — Auslöser: KI-Kapex-Schock (Meta-Beat als Kapex-Alarm gelesen), Öl-Spike (Brent ~114 USD, Angriff auf saudisches Ölfeld, US/Israel-Angriffspläne auf Iran) und Asien-Abverkauf; dagegen starke Zinsentlastung (US 10J −19 Bp auf ~4,95 %). Asien heute nur mäßig gedrückt (Nikkei −0,6 %, Hang Seng +0,8 %) — das 2-%-VETO gegen Tech-up-Picks greift heute NICHT, aber der KI-Kapex-Schatten bleibt: keine Tech-up-Wetten, Nasdaq 100 und EuroStoxx 50 als bewusste Down-Picks (Tag-2-Fortsetzungsthese), Benchmarks DAX/S&P flat bei leicht roten Futures. Opportunity-Scan zeigt Defensiv-Rotation als klarstes Muster (US-Sektoren: Consumer Defensive +3,31 %, Utilities +2,07 %, Healthcare +1,32 %; Tech −3,29 %): Depot-Picks Münchener Rück (Zinsprofiteur-Muster, 15./16.10. bestätigt), Deutsche Telekom (Gegenzeichen-Muster vom Vortag, Zinsentlastung), Rheinmetall (Geopolitik-Katalysator; Öl-Spike-Lehre vom 22.10. beachtet: oberes Band maßvoll bei 2,0 %); Dow Jones als freier Pick derselben Defensiv-/Value-Rotation. Bewusst ausgelassen: P&G trotz gestrigem Beat (Organic +4 %, Core EPS 2,00 USD) wegen Öl-/Rohstoff-Kosten-Warnung und Tag-2-nach-Bericht-Risiko (Lehre 20.10.), Exxon/Öl-Aktien (Impuls eingepreist, Lehre 22.10.). Treiber heute: Flash-PMIs (DE 09:30, EZ 10:00, US 15:45 Uhr), American Express 13:00 Uhr, UMichigan 16:00 Uhr. Signatur: FINE/Morgen-Job, Erst-Stempel 08:00 Uhr Berlin (gemessen, Auftragsbeginn), Signatur-Stempel 2026-10-23T06:02:43.235Z (gemessen, UTC; +2 h Berlin)."
+    },
+    {
+      "date": "2026-10-23",
+      "entry": "Abend-Review 23.10. (Abend-Job): 1 Treffer (EuroStoxx 50 −0,31 %, im Down-Band), 1 Partial (Rheinmetall +0,39 %, knapp unter bandLow), 6 Miss, Richtung 2/8 — der zweite schwache Tag in Folge. Was gut lief: die Tag-2-Abwertungs-These für Europa (EuroStoxx-Down-Hit) und der Geopolitik-Katalysator Rheinmetall (Richtung richtig, UK Gun Hall). Was schlecht lief: (1) Die Defensiv-Rotation-Up-These (Dow, Telekom, Münchener Rück) wurde vom Öl-Spike überrollt — Brent +3,1 % auf >116 USD setzte am Ende auch Staples, Utilities und Healthcare unter Druck (Sell-off griff auf die meisten Sektoren über); (2) Telekom-Gegenzeichen-Muster nach +2,67 % Vortag kippte in Gewinnmitnahmen (−3,17 %); (3) Munich-Re-Prognoseanhebung nach starkem Q3 zündete im roten Markt nicht (0,00 %); (4) Nasdaq-100-Down nach −2,6 %-Crash: Tag 2 brachte Konsolidierung statt Fortsetzung — das im Morgen-Screen dokumentierte Rebound-Risiko hätte die Down-Position enger oder flat machen müssen. Kalibrierungs-Anpassungen: (1) Öl-Spike-Regel verschärfen: Bei Brent-Tagesgewinn >3 % sind up-Picks generell kritisch — auch Defensiv-Sektoren sind dann keine Sicherheitszone (Dow −1,23 % statt der erwarteten Outperformance). (2) Tag-2-nach-Crash-Regel: Nach einem Ein-Tages-Verlust >2,5 % künftig engeres/kürzeres Down-Band oder flat wählen (Konsolidierungsneigung dokumentiert: Nasdaq 100 ±0,0 %). (3) Vortags-Gewinner >2,5 % im schwachen Marktumfeld nicht als Gegenzeichen-Up-Pick wählen (Telekom-Lehre, 23.10.). Boldness: Ø bandHigh echte Picks 1,60 %, Ø actual +0,23 % (Oktober) — die Bänder bleiben ambitioniert; der Engpass ist die Richtungs-Selektion unter Öl-Spike-Bedingungen, nicht die Kalibrierung. Signatur: FINE/Abend-Job, Erst-Stempel 22:47:57 Uhr Berlin (gemessen, Auftragsbeginn), Signatur-Stempel 2026-10-23T20:50:03.000Z (gemessen, UTC; +2 h Berlin)."
     }
   ]
 }
