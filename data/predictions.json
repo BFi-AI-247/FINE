@@ -3728,7 +3728,13 @@
           "confidence": 45,
           "reason": "Markt-Lage: Risiko-Abverkauf am Vortag (DAX −1,07 % auf 25.371,75 Punkte, EuroStoxx 50 −1,94 %) bei Öl-Spike (Brent ~114 USD nach Angriff auf saudisches Ölfeld) und Berichten über neue US/Israel-Angriffspläne auf Iran; US-10J-Rendite fällt stark auf ~4,95 % (Flucht in Treasuries). Heute: DAX-Futures leicht rot (−0,2 %), finanzen.net erwartet den DAX tiefer; deutscher Flash-PMI um 09:30 Uhr mit 53,3 leicht rückläufig erwartet (weiter Wachstum); Zügel: VW-Tarifgespräche, Nachspiel Steuerschätzung. Flat zwischen Öl-/Tech-Belastung und Defensiv-Stütze. Quellen: investing.com (DAX/Futures), finanzen.net „Heute im Fokus“ 23.10., n-tv Börsen-Tag 22.10., dpa-AFX Tagesvorschau 23.10. (23.10.2026).",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 Uhr: DAX bei 25.170,95 Punkten (−0,79 %, comdirect 12:59 Uhr; zeitweise −0,86 %) — Flat-Band (−0,6 % bis +0,3 %) nach unten durchbrochen, Richtung aktuell nicht bestätigt; Öl-Spike (Brent ~114 USD) und Tech-Abverkauf wiegen schwerer als die Zinsentlastung. Quellen: comdirect Informer, Börse Stuttgart (23.10.2026)."
+            }
+          ],
+          "actual": -0.8
         },
         {
           "name": "S&P 500",
@@ -3740,7 +3746,13 @@
           "confidence": 45,
           "reason": "Markt-Lage: Schlechtester S&P-500-Tag seit Juli (−1,21 % auf 7.663,43; Nasdaq −2,6 %, Dow +0,02 %), aber die Mehrheit der US-Aktien stieg gestern — der Ausverkauf war ein Tech-/KI-Kapex-Problem, keine Breit-Misere; US 10J gibt auf ~4,95 % nach, VIX 19. Futures heute minimal rot (−0,1 bis −0,2 %). Treiber: Flash-PMI 15:45 Uhr, UMichigan 16:00 Uhr, American Express 13:00 Uhr. Flat-Band als realistische Fix-Benchmark ohne Mut-Kriterium. Quellen: AP via ABC News (Schlussdaten 22.10.), CNBC 22.10., Zacks 22.10., regardsofwallstreet.com (Futures 23.10.), dpa-AFX Tagesvorschau 23.10. (23.10.2026).",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 Uhr (Pre-Market/Futures): S&P-500-Futures −0,2 bis −0,27 % (Vortagesschluss 7.663,43, −1,21 %) — am unteren Rand bzw. knapp unter dem Flat-Band (−0,5 % bis +0,5 %); US-Handel beginnt erst 15:30 Uhr MEZ. Quellen: Yahoo Finance Live, regardsofwallstreet.com, Investrade Morning Preview (23.10.2026)."
+            }
+          ],
+          "actual": -0.25
         },
         {
           "name": "Münchener Rück",
@@ -3752,8 +3764,14 @@
           "confidence": 50,
           "reason": "Markt-Lage: Rotation in Defensives als klarstes Vortags-Muster (US-Sektoren: Consumer Defensive +3,31 %, Utilities +2,07 %, Healthcare +1,32 %; Tech −3,29 %) bei fallenden Renditen (US 10J ~4,95 %, −19 Bp) und Brent ~114 USD. Die Zinsentlastung begünstigt die Anleihebestände der Rückversicherer; das Zinsprofiteur-Muster traf zuletzt mehrfach (15.10. +2,59 %, 16.10. +0,44 %). Risiko: EuroStoxx-Schwäche (−1,94 % Vortag) könnte mitreißen. Quellen: nexqual.com (Sektoren 22.10.), bazaarwatch (Renditen 23.10.), ARIVA/dpa-AFX 22.10. (23.10.2026).",
           "status": "open",
-          "reviews": [],
-          "fromPortfolio": true
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 Uhr: Münchener Rück bei 555,20–555,40 Euro (−0,11 bis −0,14 %, comdirect 13:30 Uhr; Stuttgart +0,14 %) — leicht unter dem Band (+0,2 % bis +1,5 %), Richtung bislang nicht bestätigt. Positiv: Munich Re hat heute nach starkem Q3 die Gewinnprognose angehoben — Zündung steht noch aus. Quellen: comdirect, boerse.de, Börse Düsseldorf (23.10.2026)."
+            }
+          ],
+          "fromPortfolio": true,
+          "actual": -0.14
         },
         {
           "name": "Deutsche Telekom",
@@ -3765,8 +3783,14 @@
           "confidence": 50,
           "reason": "Markt-Lage: Tech-Abverkauf gestern, aber Telekom setzte als Defensiv-Titel ein Gegenzeichen (laut Frankfurter Schlussberichten gehörten Telekom und SAP zu den wenigen Gewinnern im DAX); Zinsentlastung (US 10J −19 Bp auf ~4,95 %) stützt dividendenstarke Defensiv-Titel im Risiko-Umfeld. Kein eigener Termin heute — bewusster Rotation-Pick statt Earnings-Wette. Risiko: Bremsender Leitindex. Quellen: ARIVA/dpa-AFX 22.10. (Aktien Frankfurt Schluss), bazaarwatch (Renditen 23.10.), n-tv Börsen-Tag 22.10. (23.10.2026).",
           "status": "open",
-          "reviews": [],
-          "fromPortfolio": true
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 Uhr: Deutsche Telekom bei 25,32 Euro (−3,28 %, comdirect/Xetra 14:06 Uhr) — klar unter dem Band (+0,2 % bis +1,5 %), Richtung aktuell falsch; nach dem starken Vortag (+2,67 %) dominieren Gewinnmitnahmen im schwachen Marktumfeld. Quelle: comdirect Informer (23.10.2026)."
+            }
+          ],
+          "fromPortfolio": true,
+          "actual": -3.28
         },
         {
           "name": "Rheinmetall",
@@ -3778,8 +3802,14 @@
           "confidence": 50,
           "reason": "Markt-Lage: Geopolitische Eskalation als Tages-Treiber — Brent ~114 USD nach Angriff auf ein saudisches Ölfeld, Medienberichte über neue US/Israel-Angriffspläne auf Iran (n-tv 22.10.); das stützt die Verteidigungsnachfrage. Rheinmetall-Momentum im Oktober intakt (~+15 % in der Woche zum 16.10.; Arminius-Programm laut Q3-Recap „fully on track“, Backlog-Ziel ≥100 Mrd. EUR). Unteres Band bewusst hoch angesetzt, weil der Geopolitik-Impuls über Nacht bereits läuft (Öl-Spike-Lehre vom 22.10.: oberes Band maßvoll). Quellen: n-tv Börsen-Tag 22.10., admiralmarkets.com (Rheinmetall-Oktober-Rally, 16.10.), rheinmetall.com Q3-Analysten-Recap (05.10.2026) (23.10.2026).",
           "status": "open",
-          "reviews": [],
-          "fromPortfolio": true
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 Uhr: Rheinmetall bei 1.016,00 Euro (+0,10 %, Xetra 13:57 Uhr; morgens +1,0 % auf 1.025,60 EUR) — Geopolitik-Impuls sichtbar (Öl-Spike, UK Gun Hall eröffnet), aber im schwachen Markt abgeflaut; aktuell unter dem Band (+0,5 % bis +2,0 %). Quellen: Börse Frankfurt live (Xetra), finanzen.net (23.10.2026)."
+            }
+          ],
+          "fromPortfolio": true,
+          "actual": 0.1
         },
         {
           "name": "Dow Jones",
@@ -3791,7 +3821,13 @@
           "confidence": 45,
           "reason": "Markt-Lage: Der Dow war gestern der einzige Gewinner unter den US-Indizes (+0,02 %), während S&P 500 −1,21 % und Nasdaq −2,6 % fielen — die Defensiv-/Value-Rotation läuft (Consumer Defensive +3,31 %, Utilities +2,07 %, Russell 2000 +0,1 %). Dow-Futures heute leicht rot (−0,28 %), aber Zinsentlastung (10J ~4,95 %) und die Marktbreite (Mehrheit der US-Aktien stieg gestern) stützen den value-lastigen Dow. Risiko: Fortsetzung des KI-Ausverkaufs zieht auch den Dow. Quellen: AP via ABC News 22.10., nexqual.com (Sektoren), regardsofwallstreet.com/investing.com (Futures 23.10.) (23.10.2026).",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 Uhr (Futures): Dow-Futures −0,5 bis −0,63 % (Vortagesschluss +0,02 %) — unter dem Band (+0,2 % bis +1,0 %), Richtung aktuell falsch; die Defensiv-Rotation reicht nicht gegen den Öl-Spike und breite Risiko-Abgaben. Quellen: Yahoo Finance Live, regardsofwallstreet.com (23.10.2026)."
+            }
+          ],
+          "actual": -0.5
         },
         {
           "name": "EuroStoxx 50",
@@ -3803,7 +3839,13 @@
           "confidence": 50,
           "reason": "Markt-Lage: Europa trug die Hauptlast des Vortags (EuroStoxx 50 −1,94 % auf 6.087 Punkte, knapp unter der 200-Tage-Linie) und die Belastungen bleiben: Brent ~114 USD, Tech-Abverkauf (Siemens Energy −8,6 %), französische 10J-Rendite über 5 %, DAX-Indikation tiefer; Flash-PMIs für DE/Eurozone werden leicht rückläufig erwartet. Down-Pick mit klaren Gegenargumenten gegen up (Tag-2-Fortsetzung des Risiko-Abverkaufs; Upside-Fokus greift hier nicht). Quellen: ARIVA/dpa-AFX 22.10. (EuroStoxx-Schluss), n-tv 22.10., investing.com (Öl/Futures), finanzen.net 23.10. (23.10.2026).",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 Uhr: EuroStoxx 50 bei ~6.044 Punkten (−0,71 % comdirect 11:43 Uhr; −0,78 % finanzen.net 12:09 Uhr) — innerhalb des Down-Bands (−1,5 % bis −0,3 %), Richtung bislang bestätigt; Tag-2-Risiko-Abverkauf bei Brent ~114 USD läuft weiter. Quellen: comdirect Informer, finanzen.net (23.10.2026)."
+            }
+          ],
+          "actual": -0.78
         },
         {
           "name": "Nasdaq 100",
@@ -3815,7 +3857,13 @@
           "confidence": 45,
           "reason": "Markt-Lage: KI-Kapex-Schock Tag 2 — Metas Beat-and-raise wurde als Kapex-Alarm gelesen (Meta −7,7 %), Nvidia −4,3 %, Lam Research −9,7 % trotz Beat; Nasdaq Composite −2,6 % (schlechtester Tag seit Juni). Zwar entlasten fallende Renditen (10J −19 Bp auf ~4,95 %) und Futures sind nur minimal rot (−0,1 %), aber das Kapex-Narrativ dominiert die Sektor-Logik (Mag-7-Kontamination, Lern-Log 22.10.) und Asiens Tech-Seite bleibt gedrückt. Down als Tag-2-Wette mit moderater Konfidenz wegen Rebound-Risiko bei Zinsentlastung. Quellen: CNBC 22.10., n-tv Börsen-Tag 22.10., investing.com (Nasdaq-Futures 23.10.), FINE-Lern-Log 22.10. (23.10.2026)",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 Uhr (Futures): Nasdaq-100-Futures −0,1 bis −0,12 % (Vortagesschluss −2,6 % im Composite) — konsolidiert nach dem Abverkauf, damit ÜBER dem Down-Band (−1,8 % bis −0,5 %): Richtung aktuell nicht bestätigt, Rebound-Tendenz nach der Zinsentlastung. Quellen: Yahoo Finance Live, regardsofwallstreet.com, aktien.news (23.10.2026)."
+            }
+          ],
+          "actual": -0.12
         }
       ]
     }
