@@ -3713,6 +3713,111 @@
           "actual": -1.94
         }
       ]
+    },
+    {
+      "date": "2026-10-23",
+      "title": "KI-Kapex-Schatten Tag 2: Defensive Rotation gegen Öl-Spike — Zinsentlastung als Rückhalt",
+      "picks": [
+        {
+          "name": "DAX",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "flat",
+          "bandLow": -0.6,
+          "bandHigh": 0.3,
+          "confidence": 45,
+          "reason": "Markt-Lage: Risiko-Abverkauf am Vortag (DAX −1,07 % auf 25.371,75 Punkte, EuroStoxx 50 −1,94 %) bei Öl-Spike (Brent ~114 USD nach Angriff auf saudisches Ölfeld) und Berichten über neue US/Israel-Angriffspläne auf Iran; US-10J-Rendite fällt stark auf ~4,95 % (Flucht in Treasuries). Heute: DAX-Futures leicht rot (−0,2 %), finanzen.net erwartet den DAX tiefer; deutscher Flash-PMI um 09:30 Uhr mit 53,3 leicht rückläufig erwartet (weiter Wachstum); Zügel: VW-Tarifgespräche, Nachspiel Steuerschätzung. Flat zwischen Öl-/Tech-Belastung und Defensiv-Stütze. Quellen: investing.com (DAX/Futures), finanzen.net „Heute im Fokus“ 23.10., n-tv Börsen-Tag 22.10., dpa-AFX Tagesvorschau 23.10. (23.10.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "S&P 500",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "flat",
+          "bandLow": -0.5,
+          "bandHigh": 0.5,
+          "confidence": 45,
+          "reason": "Markt-Lage: Schlechtester S&P-500-Tag seit Juli (−1,21 % auf 7.663,43; Nasdaq −2,6 %, Dow +0,02 %), aber die Mehrheit der US-Aktien stieg gestern — der Ausverkauf war ein Tech-/KI-Kapex-Problem, keine Breit-Misere; US 10J gibt auf ~4,95 % nach, VIX 19. Futures heute minimal rot (−0,1 bis −0,2 %). Treiber: Flash-PMI 15:45 Uhr, UMichigan 16:00 Uhr, American Express 13:00 Uhr. Flat-Band als realistische Fix-Benchmark ohne Mut-Kriterium. Quellen: AP via ABC News (Schlussdaten 22.10.), CNBC 22.10., Zacks 22.10., regardsofwallstreet.com (Futures 23.10.), dpa-AFX Tagesvorschau 23.10. (23.10.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Münchener Rück",
+          "type": "equity",
+          "pickClass": "portfolio",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1.5,
+          "confidence": 50,
+          "reason": "Markt-Lage: Rotation in Defensives als klarstes Vortags-Muster (US-Sektoren: Consumer Defensive +3,31 %, Utilities +2,07 %, Healthcare +1,32 %; Tech −3,29 %) bei fallenden Renditen (US 10J ~4,95 %, −19 Bp) und Brent ~114 USD. Die Zinsentlastung begünstigt die Anleihebestände der Rückversicherer; das Zinsprofiteur-Muster traf zuletzt mehrfach (15.10. +2,59 %, 16.10. +0,44 %). Risiko: EuroStoxx-Schwäche (−1,94 % Vortag) könnte mitreißen. Quellen: nexqual.com (Sektoren 22.10.), bazaarwatch (Renditen 23.10.), ARIVA/dpa-AFX 22.10. (23.10.2026).",
+          "status": "open",
+          "reviews": [],
+          "fromPortfolio": true
+        },
+        {
+          "name": "Deutsche Telekom",
+          "type": "equity",
+          "pickClass": "portfolio",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1.5,
+          "confidence": 50,
+          "reason": "Markt-Lage: Tech-Abverkauf gestern, aber Telekom setzte als Defensiv-Titel ein Gegenzeichen (laut Frankfurter Schlussberichten gehörten Telekom und SAP zu den wenigen Gewinnern im DAX); Zinsentlastung (US 10J −19 Bp auf ~4,95 %) stützt dividendenstarke Defensiv-Titel im Risiko-Umfeld. Kein eigener Termin heute — bewusster Rotation-Pick statt Earnings-Wette. Risiko: Bremsender Leitindex. Quellen: ARIVA/dpa-AFX 22.10. (Aktien Frankfurt Schluss), bazaarwatch (Renditen 23.10.), n-tv Börsen-Tag 22.10. (23.10.2026).",
+          "status": "open",
+          "reviews": [],
+          "fromPortfolio": true
+        },
+        {
+          "name": "Rheinmetall",
+          "type": "equity",
+          "pickClass": "portfolio",
+          "direction": "up",
+          "bandLow": 0.5,
+          "bandHigh": 2,
+          "confidence": 50,
+          "reason": "Markt-Lage: Geopolitische Eskalation als Tages-Treiber — Brent ~114 USD nach Angriff auf ein saudisches Ölfeld, Medienberichte über neue US/Israel-Angriffspläne auf Iran (n-tv 22.10.); das stützt die Verteidigungsnachfrage. Rheinmetall-Momentum im Oktober intakt (~+15 % in der Woche zum 16.10.; Arminius-Programm laut Q3-Recap „fully on track“, Backlog-Ziel ≥100 Mrd. EUR). Unteres Band bewusst hoch angesetzt, weil der Geopolitik-Impuls über Nacht bereits läuft (Öl-Spike-Lehre vom 22.10.: oberes Band maßvoll). Quellen: n-tv Börsen-Tag 22.10., admiralmarkets.com (Rheinmetall-Oktober-Rally, 16.10.), rheinmetall.com Q3-Analysten-Recap (05.10.2026) (23.10.2026).",
+          "status": "open",
+          "reviews": [],
+          "fromPortfolio": true
+        },
+        {
+          "name": "Dow Jones",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1,
+          "confidence": 45,
+          "reason": "Markt-Lage: Der Dow war gestern der einzige Gewinner unter den US-Indizes (+0,02 %), während S&P 500 −1,21 % und Nasdaq −2,6 % fielen — die Defensiv-/Value-Rotation läuft (Consumer Defensive +3,31 %, Utilities +2,07 %, Russell 2000 +0,1 %). Dow-Futures heute leicht rot (−0,28 %), aber Zinsentlastung (10J ~4,95 %) und die Marktbreite (Mehrheit der US-Aktien stieg gestern) stützen den value-lastigen Dow. Risiko: Fortsetzung des KI-Ausverkaufs zieht auch den Dow. Quellen: AP via ABC News 22.10., nexqual.com (Sektoren), regardsofwallstreet.com/investing.com (Futures 23.10.) (23.10.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "EuroStoxx 50",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "down",
+          "bandLow": -1.5,
+          "bandHigh": -0.3,
+          "confidence": 50,
+          "reason": "Markt-Lage: Europa trug die Hauptlast des Vortags (EuroStoxx 50 −1,94 % auf 6.087 Punkte, knapp unter der 200-Tage-Linie) und die Belastungen bleiben: Brent ~114 USD, Tech-Abverkauf (Siemens Energy −8,6 %), französische 10J-Rendite über 5 %, DAX-Indikation tiefer; Flash-PMIs für DE/Eurozone werden leicht rückläufig erwartet. Down-Pick mit klaren Gegenargumenten gegen up (Tag-2-Fortsetzung des Risiko-Abverkaufs; Upside-Fokus greift hier nicht). Quellen: ARIVA/dpa-AFX 22.10. (EuroStoxx-Schluss), n-tv 22.10., investing.com (Öl/Futures), finanzen.net 23.10. (23.10.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Nasdaq 100",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "down",
+          "bandLow": -1.8,
+          "bandHigh": -0.5,
+          "confidence": 45,
+          "reason": "Markt-Lage: KI-Kapex-Schock Tag 2 — Metas Beat-and-raise wurde als Kapex-Alarm gelesen (Meta −7,7 %), Nvidia −4,3 %, Lam Research −9,7 % trotz Beat; Nasdaq Composite −2,6 % (schlechtester Tag seit Juni). Zwar entlasten fallende Renditen (10J −19 Bp auf ~4,95 %) und Futures sind nur minimal rot (−0,1 %), aber das Kapex-Narrativ dominiert die Sektor-Logik (Mag-7-Kontamination, Lern-Log 22.10.) und Asiens Tech-Seite bleibt gedrückt. Down als Tag-2-Wette mit moderater Konfidenz wegen Rebound-Risiko bei Zinsentlastung. Quellen: CNBC 22.10., n-tv Börsen-Tag 22.10., investing.com (Nasdaq-Futures 23.10.), FINE-Lern-Log 22.10. (23.10.2026)",
+          "status": "open",
+          "reviews": []
+        }
+      ]
     }
   ]
 }
