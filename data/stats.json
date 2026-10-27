@@ -1,94 +1,112 @@
 {
   "version": 4,
-  "updated": "2026-10-23T20:49:42.000Z",
+  "updated": "2026-10-27T21:40:51.575Z",
   "totals": {
-    "predictions": 168,
-    "hits": 81,
+    "predictions": 176,
+    "hits": 88,
     "partial": 20,
-    "misses": 67,
-    "overshoots": 15,
-    "directionCorrect": 92,
-    "hitRate": 0.4821
+    "misses": 68,
+    "overshoots": 17,
+    "directionCorrect": 99,
+    "hitRate": 0.5
   },
   "benchmark": {
-    "predictions": 43,
-    "hits": 17,
+    "predictions": 45,
+    "hits": 19,
     "partial": 9,
     "misses": 17,
     "overshoots": 3,
-    "directionCorrect": 21,
-    "hitRate": 0.3953
+    "directionCorrect": 22,
+    "hitRate": 0.4222
   },
   "picks": {
-    "predictions": 127,
-    "hits": 64,
+    "predictions": 131,
+    "hits": 69,
     "partial": 11,
-    "misses": 52,
-    "overshoots": 12,
-    "directionCorrect": 72,
-    "hitRate": 0.5039
+    "misses": 51,
+    "overshoots": 14,
+    "directionCorrect": 77,
+    "hitRate": 0.5267
   },
   "byInstrumentType": {
     "index": {
-      "predictions": 97,
-      "hits": 43,
+      "predictions": 101,
+      "hits": 47,
       "partial": 14,
       "misses": 40,
       "overshoots": 5,
-      "directionCorrect": 51,
-      "hitRate": 0.4433
+      "directionCorrect": 54,
+      "hitRate": 0.4653
     },
     "equity_de": {
-      "predictions": 49,
-      "hits": 28,
-      "partial": 4,
-      "misses": 17,
-      "overshoots": 8,
-      "directionCorrect": 30,
-      "hitRate": 0.5714
+      "predictions": 42,
+      "hits": 26,
+      "partial": 3,
+      "misses": 13,
+      "overshoots": 9,
+      "directionCorrect": 27,
+      "hitRate": 0.619
     },
     "equity_us": {
-      "predictions": 22,
-      "hits": 10,
+      "predictions": 18,
+      "hits": 9,
+      "partial": 0,
+      "misses": 9,
+      "overshoots": 1,
+      "directionCorrect": 9,
+      "hitRate": 0.5
+    },
+    "stock": {
+      "predictions": 5,
+      "hits": 1,
+      "partial": 1,
+      "misses": 3,
+      "overshoots": 0,
+      "directionCorrect": 2,
+      "hitRate": 0.2
+    },
+    "equity": {
+      "predictions": 10,
+      "hits": 5,
       "partial": 2,
-      "misses": 10,
+      "misses": 3,
       "overshoots": 2,
-      "directionCorrect": 12,
-      "hitRate": 0.4545
+      "directionCorrect": 7,
+      "hitRate": 0.5
     }
   },
   "byPickClass": {
     "benchmark": {
-      "predictions": 43,
-      "hits": 17,
+      "predictions": 45,
+      "hits": 19,
       "partial": 9,
       "misses": 17,
       "overshoots": 3,
-      "directionCorrect": 21,
-      "hitRate": 0.3953
+      "directionCorrect": 22,
+      "hitRate": 0.4222
     },
     "portfolio": {
-      "predictions": 62,
-      "hits": 34,
+      "predictions": 65,
+      "hits": 36,
       "partial": 4,
-      "misses": 23,
-      "overshoots": 9,
-      "directionCorrect": 37,
-      "hitRate": 0.5484
+      "misses": 25,
+      "overshoots": 10,
+      "directionCorrect": 39,
+      "hitRate": 0.5538
     },
     "free": {
-      "predictions": 63,
-      "hits": 30,
+      "predictions": 66,
+      "hits": 33,
       "partial": 7,
-      "misses": 27,
-      "overshoots": 3,
-      "directionCorrect": 34,
-      "hitRate": 0.4762
+      "misses": 26,
+      "overshoots": 4,
+      "directionCorrect": 38,
+      "hitRate": 0.5
     }
   },
   "boldness": {
-    "avgBandHigh": 1.608,
-    "avgActual": 0.0872,
+    "avgBandHigh": 1.616,
+    "avgActual": 0.136,
     "months": [
       {
         "month": "2026-09",
@@ -98,9 +116,9 @@
       },
       {
         "month": "2026-10",
-        "picks": 90,
-        "avgBandHigh": 1.6001,
-        "avgActual": 0.226
+        "picks": 96,
+        "avgBandHigh": 1.6125,
+        "avgActual": 0.2839
       }
     ]
   },
@@ -316,6 +334,10 @@
     {
       "date": "2026-10-27",
       "entry": "Morgen-Auswahl 27.10. (Morgen-Job): Screen vor Pick — Tag-2-AI-Rebound-Konstellation, diesmal MIT Bestätigung im Sinne der 20.10.-Regel: Montag klarer Erholungstag (DAX +0,91 % auf 25.410,84 Punkte, Ifo-Geschäftsklima 90,2 = sechster Anstieg in Folge, höchster Stand seit Frühjahr 2023; S&P 500 +0,70 %, Nasdaq 100 +1,09 %, Technology +1,53 % als bester S&P-Sektor nach dem Anthropic-IPO-Filing), über Nacht ein eigener Deal-Katalysator (Nvidia investiert 3 Mrd. USD in Metas auf 25 Mrd. USD vergrößerte Aktienplatzierung, erweiterte Muse-AI-Partnerschaft, Vera-Rubin-Deployment), Asien risk-on (Nikkei Montag +1,73 %) — das 2-%-Asia-VETO der 22.10.-Regel greift NICHT. Gegen-Lage: Brent ~115,7 USD (+0,7 % — KEIN Spike-Tag per 22./23.10.-Regel, aber Kriegs-Niveau), DAX-Futures früh leicht rot (−0,15 % bzw. −36 Punkte auf 25.517), 10J-US-Rendite unverändert ~4,99 %, ereignisreiche Woche (Fed-Beschluss + Quartalszahlen von rund einem Drittel der S&P-Titel inkl. Microsoft/Alphabet/Amazon). Auswahl: Benchmarks konsequent flat (DAX −0,4/+0,6; S&P 500 −0,4/+0,7 per 06.10.-Regel 'kein up ohne harten Katalysator' — Beiersdorf 08:00 und Durable Goods 13:30 sind kein einseitiges Upside-Szenario). Depot-Picks nach Opportunität: Nvidia als Deal-getriebener Pick mit EIGENEM Katalysator (SAP-Muster vom 22.10., viertfach bestätigt; Mut-Regel: Band 0,5–3,0 % bei Konfidenz 65), Barrick Gold (Safe-Haven bei Gold +0,46 % auf ~4.026 USD und Geo-Öl-Lage; Zwei-Messungen-Regel vom 13.10. erfüllt — Vortagesimpuls positiv, Frühhandel ohne Gegenzeichen), Muenchener Rueck (validiertes Zinsprofiteur-/Defensiv-Muster bei ~5 % Renditen, Q3-Prognoseanhebung vom 23.10.). Freie Picks: Nasdaq 100 up 0,2–1,3 % (bestätigtes Tag-2-Momentum mit Futures/Sektor/Katalysator in gleicher Richtung — erstmals die 20.10.-Bestätigungsklausel positiv erfüllt), Siemens up 0,3–1,8 % (Ifo-Träger-These vom 24.09. wiederaufgelegt; MDAX +1,38 %, Siemens Energy +3,8 % als Industrie-Wind), EuroStoxx 50 knapp up 0,1–1,0 % (Oversold-Erholung Tag 2 nach −1,94 % am 22.10., Öl-Deckel bewusst im Oberband). Bewusst gemieden: Meta (95-Mrd.-USD-Kapitalerhöhung mit Verwässerung, −1,88 % Montag; Earnings-Gap-/Kapex-Regeln 22.10.), Lufthansa (Brent ~116 USD), Rheinmetall (Konsolidierungsrisiko nach Overshoot-Serie), Dow Jones (Fed-/Earnings-Ereignisrisiko ohne klareren Tageskatalysator als der Nasdaq 100), Read-across-Picks (22.10.-Lehre). KBI-Notiz: Erst-Stempel 08:19:45 Uhr Berlin (gemessen, Auftragsbeginn; Winterzeit UTC+1 seit 25.10.), predictions-Commit 385a649 VOR der 09:00-Börsenbeginn-Grenze, chain.json append-only-Eintrag (Commit 4296c58). Signatur: FINE/Morgen-Job, Signatur-Stempel 2026-10-27T07:24:13.146Z (gemessen, UTC; +1 h Berlin, Winterzeit)."
+    },
+    {
+      "date": "2026-10-27 (Abend)",
+      "entry": "Abend-Review 27.10.: 7 von 8 Picks im Ziel (87,5 % Tages-Hitquote), 2 Overshoots (Siemens +1,84 % vs. Oberband 1,8 %, Barrick Gold +2,67 % vs. 2,0 %) — Bänder bei Momentum-Titeln eher zu tief als zu hoch, Boldness dort erhöhen. Einziger Miss: Muenchener Rueck (−0,65 %) — das Barclays-Kursziel-Cap allein als Tages-Bear-Signal gewichtet, obwohl der Sektor freundlich stand (EuroStoxx +0,86 %). Abgeleitete Kalibrierungs-Anpassungen: (1) Einzeltitel-Analysten-Downgrades nur noch als Richtungs-Argument, wenn Sektor-/Index-Wind sie bestätigt — sonst Sektor-Momentum Vorrang. (2) Flat-Benchmark-Oberbänder: DAX +0,71 % rutschte knapp über das +0,6 %-Band (nach Flat-Präzedenz Toleranz-Treffer) — oberes Flat-Band künftig 0,7–0,8 % ansetzen. (3) Tag-2-Momentum-Bestätigungsklausel (Nasdaq 100 +1,29 %) erneut erfüllt (2/2) — beibehalten und bevorzugt, wenn Futures, Sektor und Katalysator gleichzeigen. Tagessummary: Europa-Erholung Tag 2 vor Fed-Entscheid 28.10., getragen von Tech (Infineon +4,8 %), Öl nachgebend. Quellen: ARIVA/dpa-AFX, ad-hoc-news.de, finanzen.net, indexes.nasdaq.com, investing.com, portfolio-terminal.com, Yahoo Finance, Tako-Finanzdatensuche (27.10.2026). KBI-Notiz: Erst-Stempel 22:35:52 Uhr Berlin (gemessen, Auftragsbeginn), Signatur-Stempel 22:40 Uhr Berlin (gemessen, Handlungs-Ende). Signatur: FINE/Abend-Job."
     }
   ]
 }
