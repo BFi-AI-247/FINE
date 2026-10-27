@@ -3913,7 +3913,13 @@
           "confidence": 50,
           "reason": "Markt-Lage: Montag klarer Erholungstag (+0,91 % auf 25.410,84 Punkte; Ifo-Geschäftsklima 90,2 = sechster Anstieg in Folge, höchster Stand seit Frühjahr 2023). Heute früh drehen die Futures aber leicht ins Minus (DAX-Future −0,15 % auf 25.437 Punkte, boerse.de 08:12 Uhr; EUREX-Kontrakt −36 Punkte auf 25.517, Dow Jones via finanznachrichten.de 06:39 Uhr), und Brent notiert mit ~115,7 USD (+0,7 %) weiter auf Kriegs-Niveau — Bremse für den Leitindex nach +0,91 % Vortag. Regel 'kein up-Benchmark ohne harten Tages-Katalysator' greift: Beiersdorf-Zahlen (08:00) und US-Durable-Goods (13:30) bieten kein einseitiges Upside-Szenario. Erwartung: −0,4 % bis +0,6 %. Quellen: ad-hoc-news.de und ARIVA/dpa-AFX 26.10.2026, boerse.de und finanznachrichten.de (EUREX-Futures) 27.10.2026, tradingeconomics.com (Brent) 27.10.2026.",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 13:49 Uhr: 25.492 Punkte, +0,32 % — im Flat-Band (−0,4 bis +0,6 %), Richtung passt bisher. Quelle: tagesschau.de 27.10.2026."
+            }
+          ],
+          "actual": 0.32
         },
         {
           "name": "S&P 500",
@@ -3925,7 +3931,13 @@
           "confidence": 50,
           "reason": "Markt-Lage: Montag +0,70 % auf 7.676,77 Punkte, getragen vom Anthropic-IPO-Filing (AI-Enthusiasmus zurück; Technology bester S&P-Sektor mit +1,53 %). Diese Woche jedoch maximales Ereignisrisiko: Fed-Beschluss und Quartalszahlen von rund einem Drittel der S&P-Titel (u. a. Microsoft, Alphabet, Amazon); 10-Jahres-Rendite unverändert ~4,99 % nahe der 5-%-Marke; Brent nach dem Montag-Rücksetzer heute wieder leicht erholt. Konsequente Flat-Lesart nach der 06.10.-Regel, oberseitig auf +0,7 % geweitet (16.10./12.10.-Kalibrierung: obere Flat-Bänder nicht zu eng). Erwartung: −0,4 % bis +0,7 %. Quellen: CNBC 26.10.2026, AP via Yahoo Finance 26.10.2026, UCapital 26.10.2026, stocksetups.com 26.10.2026.",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:00 MEZ (Futures/Pre-Market, Handel beginnt erst 15:30 MEZ): S&P-Future 7.742,75, +0,37 % — im Flat-Band (−0,4 bis +0,7 %). Quelle: spfutures.org 27.10.2026."
+            }
+          ],
+          "actual": 0.37
         },
         {
           "name": "Nvidia",
@@ -3937,8 +3949,14 @@
           "confidence": 65,
           "reason": "Markt-Lage: AI-Rebound mit BESTÄTIGTER Vorgabe (20.10.-Regel: Tag-2-Momentum nur mit Bestätigung): Montag +2,39 % auf 216,00 USD, After Hours +0,29 % — und über Nacht eigener harter Katalysator: Nvidia investiert 3 Mrd. USD in Metas auf 25 Mrd. USD vergrößerte Aktienplatzierung als Teil der erweiterten Muse-AI-Partnerschaft (Meta deployt Vera-Rubin-Infrastruktur und Vera-CPUs); dazu das Anthropic-IPO-Filing als Sektortreiber. Regelkonform als Deal-getriebener Pick mit EIGENEM Katalysator (SAP-Muster vom 22.10. — trägt auch an schwachen Markttagen), kein reiner Read-across (22.10.-Lehre: Kapex-Erzählung überlagert Sektor-Logik — hier ist Nvidia selbst der Profiteur). Band mutig 0,5–3,0 % (Mut nur bei echten Picks). Quellen: Investing.com/Reuters 27.10.2026, MarketScreener (Dow Jones/Reuters) 27.10.2026, CNBC 26.10.2026. (Depot-Titel — keine Bestandsangaben.)",
           "status": "open",
-          "reviews": [],
-          "fromPortfolio": true
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand (Pre-Market): 218,38 USD, +1,10 % ggü. Vortagesschluss 216,00 USD — im Band (0,5–3,0 %); Nvidia-Meta-Deal (3 Mrd. USD) trägt. Quelle: Finanzdatensuche (Tako-Kursdaten) 27.10.2026."
+            }
+          ],
+          "fromPortfolio": true,
+          "actual": 1.1
         },
         {
           "name": "Barrick Gold",
@@ -3950,8 +3968,14 @@
           "confidence": 55,
           "reason": "Markt-Lage: Safe-Haven-Setup intakt — Gold Montag +0,46 % auf ~4.026 USD/oz, Brent ~115–116 USD bei anhaltender Iran-Eskalation (US/Israel-Angriffspläne laut Reuters; Fortsetzung des Kriegsniveaus der Vorwoche). Zwei-Messungen-Regel vom 13.10. erfüllt: Gold-Vortagesimpuls positiv UND heutiger Frühhandel ohne Gegenzeichen (Öl-Niveau gehalten, Brent +0,7 % — kein Spike-Tag nach der 22./23.10.-Regel, aber stabiles Geo-Prämie). Barrick als Gold-Hebel; oberes Band maßvoll bei 2,0 % (kein >8 %-Ausnahmetag zuvor; Serie von Band-Hits Anfang Oktober als Belastbarkeit). Quellen: fool.com (Motley Fool Marktbericht) 26.10.2026, tradingeconomics.com und prix-carburant.eu (Brent) 27.10.2026, Zacks via Yahoo Finance 26.10.2026. (Depot-Titel — keine Bestandsangaben.)",
           "status": "open",
-          "reviews": [],
-          "fromPortfolio": true
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand (Pre-Market, NYSE: B): 38,13 USD, −0,30 % ggü. Vortagesschluss 38,24 USD — aktuell unter dem Band (0,3–2,0 %); Gold selbst unverändert (~4.036 USD/oz, −0,05 %). Quelle: stockmarketwatch.com 27.10.2026."
+            }
+          ],
+          "fromPortfolio": true,
+          "actual": -0.3
         },
         {
           "name": "Muenchener Rueck",
@@ -3963,8 +3987,14 @@
           "confidence": 55,
           "reason": "Markt-Lage: 10J-US-Rendite unverändert ~4,99 % — das validierte Zinsprofiteur-/Defensiv-Muster (24.09. erstmals, 15./16.10. bestätigt) trägt am stabilen Zinsniveau, dazu die Q3-Prognoseanhebung vom 23.10. als fundamentaler Rückhalt. Montag zeigte der DAX (+0,91 % bei Ifo-Überraschung) Breite-Erholung, die Versicherergewichte in Deutschland stützt; Öl-Spike-Regel greift nicht (kein Spike-Tag). Depot-Pick nach Opportunität, oberes Band 1,6 % knapp über dem Anti-Tiefbieten-Minimum für Aktien (1,5 %). Quellen: UCapital 26.10.2026, ARIVA/dpa-AFX 26.10.2026, ad-hoc-news.de 23.10.2026. (Depot-Titel — keine Bestandsangaben.)",
           "status": "open",
-          "reviews": [],
-          "fromPortfolio": true
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 13:38 Uhr (Xetra): 556,60 EUR, −0,14 % — knapp unter dem Band (0,2–1,6 %), Richtung bisher nicht bestätigt (Barclays kappt Kursziel). Quelle: munichre.com 27.10.2026."
+            }
+          ],
+          "fromPortfolio": true,
+          "actual": -0.14
         },
         {
           "name": "Nasdaq 100",
@@ -3976,7 +4006,13 @@
           "confidence": 55,
           "reason": "Markt-Lage: AI-Trade-Revival mit Bestätigungskette — Anthropic-IPO-Filing (S-1, Nasdaq 'ANT', 16,29 Mrd. USD Umsatz), Montag +1,09 % auf 29.273,4 Punkte, Technology +1,53 % als bester S&P-Sektor; über Nacht der Nvidia-Meta-Deal (3 Mrd. USD); Asien risk-on (Nikkei Montag +1,73 %, Yen gibt nach, Taiwans Zentralbank sieht starke Tech-Nachfrage bis 2027). Tag-2-Momentum-Regel (20.10.: Rebound-Fortsetzung nur mit morgens BESTÄTIGTER Vorgabe) ist diesmal erfüllt — anders als am 20.10. liegen Futures, Sektor und Katalysator in gleicher Richtung; Asien-VETO (22.10.: Asia-Crash >2 %) greift nicht. Band 0,2–1,3 % (Index-Pick ≥1,0 % Oberband); Risiko: BoK-Warnung (Chip-Exporte könnten bei AI-Abkühlung um bis zu 100 Mrd. USD fallen). Quellen: CNBC 26.10.2026, UCapital 26.10.2026, stocksetups.com 26.10.2026, MarketScreener 27.10.2026.",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand (Futures/Pre-Market, Handel beginnt 15:30 MEZ): Nasdaq-100-Futures ca. +0,34 % — im Band (0,2–1,3 %); Celestica-Sprung und AI-Enthusiasmus stützen. Quelle: TradingKey 27.10.2026."
+            }
+          ],
+          "actual": 0.34
         },
         {
           "name": "Siemens",
@@ -3988,7 +4024,13 @@
           "confidence": 55,
           "reason": "Markt-Lage: Ifo-Profiteur — Geschäftsklima auf 90,2 gestiegen (sechster Anstieg in Folge, höchster Stand seit Frühjahr 2023, entgegen erwarteter Stagnation): Die Konjunktur-These vom 24.09. (Siemens als Ifo-Träger) ist erneut anwendbar. Industrieller Rückenwind sichtbar: MDAX Montag +1,38 %, Siemens Energy als DAX-Spitze +3,8 %, MTU +3,3 %. Öl bei ~115 USD bleibt Zügel für das Oberband (0,3–1,8 %). Quellen: ARIVA/dpa-AFX 26.10.2026, ad-hoc-news.de 26.10.2026.",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand 14:01 Uhr: ca. 264,38 EUR, +1,14 % — im Band (0,3–1,8 %); Ifo-Momentum trägt. Quelle: tradingeconomics.com 27.10.2026."
+            }
+          ],
+          "actual": 1.14
         },
         {
           "name": "EuroStoxx 50",
@@ -4000,7 +4042,13 @@
           "confidence": 50,
           "reason": "Markt-Lage: Europa-Erholung Tag 2 nach der Oversold-Woche (DAX Montag +0,91 %, MDAX +1,38 %, Ifo-Überraschung als Konjunktur-Anker; EuroStoxx 50 trug die Hauptlast des Abverkaufs mit −1,94 % am 22.10. und −0,31 % am 23.10.). Versicherergewichte als Rückhalt; Oil-Deckel bewusst: Brent ~116 USD begrenzt das Oberband bei 1,0 % (Öl-Spike-Regeln 22./23.10. beachtet — heute KEIN Spike-Tag, Brent nur +0,7 %, daher up statt defensiv). Knappes up 0,1–1,0 %. Quellen: ARIVA/dpa-AFX 26.10.2026, ad-hoc-news.de 26.10.2026, tradingeconomics.com und prix-carburant.eu (Brent) 27.10.2026.",
           "status": "open",
-          "reviews": []
+          "reviews": [
+            {
+              "slot": "Mittag",
+              "text": "Zwischenstand: ca. 6.142 Punkte, +0,48 % — im Band (0,1–1,0 %); Siemens Energy als Spitze (+3,5 %). Quelle: tradingeconomics.com und ad-hoc-news.de 27.10.2026."
+            }
+          ],
+          "actual": 0.48
         }
       ]
     }
