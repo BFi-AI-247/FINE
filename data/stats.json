@@ -1,42 +1,42 @@
 {
   "version": 4,
-  "updated": "2026-10-28T07:25:45.085Z",
+  "updated": "2026-10-28T21:57:12.911Z",
   "totals": {
-    "predictions": 176,
-    "hits": 88,
-    "partial": 20,
-    "misses": 68,
+    "predictions": 184,
+    "hits": 94,
+    "partial": 21,
+    "misses": 69,
     "overshoots": 17,
-    "directionCorrect": 99,
-    "hitRate": 0.5
+    "directionCorrect": 106,
+    "hitRate": 0.5109
   },
   "benchmark": {
-    "predictions": 45,
-    "hits": 19,
+    "predictions": 47,
+    "hits": 21,
     "partial": 9,
     "misses": 17,
     "overshoots": 3,
-    "directionCorrect": 22,
-    "hitRate": 0.4222
+    "directionCorrect": 24,
+    "hitRate": 0.4468
   },
   "picks": {
-    "predictions": 131,
-    "hits": 69,
-    "partial": 11,
-    "misses": 51,
+    "predictions": 137,
+    "hits": 73,
+    "partial": 12,
+    "misses": 52,
     "overshoots": 14,
-    "directionCorrect": 77,
-    "hitRate": 0.5267
+    "directionCorrect": 82,
+    "hitRate": 0.5328
   },
   "byInstrumentType": {
     "index": {
-      "predictions": 101,
-      "hits": 47,
-      "partial": 14,
+      "predictions": 106,
+      "hits": 51,
+      "partial": 15,
       "misses": 40,
       "overshoots": 5,
-      "directionCorrect": 54,
-      "hitRate": 0.4653
+      "directionCorrect": 59,
+      "hitRate": 0.4811
     },
     "equity_de": {
       "predictions": 42,
@@ -66,47 +66,47 @@
       "hitRate": 0.2
     },
     "equity": {
-      "predictions": 10,
-      "hits": 5,
+      "predictions": 13,
+      "hits": 7,
       "partial": 2,
-      "misses": 3,
+      "misses": 4,
       "overshoots": 2,
-      "directionCorrect": 7,
-      "hitRate": 0.5
+      "directionCorrect": 9,
+      "hitRate": 0.5385
     }
   },
   "byPickClass": {
     "benchmark": {
-      "predictions": 45,
-      "hits": 19,
+      "predictions": 47,
+      "hits": 21,
       "partial": 9,
       "misses": 17,
       "overshoots": 3,
-      "directionCorrect": 22,
-      "hitRate": 0.4222
+      "directionCorrect": 24,
+      "hitRate": 0.4468
     },
     "portfolio": {
-      "predictions": 65,
-      "hits": 36,
+      "predictions": 68,
+      "hits": 38,
       "partial": 4,
-      "misses": 25,
+      "misses": 26,
       "overshoots": 10,
-      "directionCorrect": 39,
-      "hitRate": 0.5538
+      "directionCorrect": 41,
+      "hitRate": 0.5588
     },
     "free": {
-      "predictions": 66,
-      "hits": 33,
-      "partial": 7,
+      "predictions": 69,
+      "hits": 35,
+      "partial": 8,
       "misses": 26,
       "overshoots": 4,
-      "directionCorrect": 38,
-      "hitRate": 0.5
+      "directionCorrect": 41,
+      "hitRate": 0.5072
     }
   },
   "boldness": {
-    "avgBandHigh": 1.616,
-    "avgActual": 0.136,
+    "avgBandHigh": 1.6292,
+    "avgActual": 0.1489,
     "months": [
       {
         "month": "2026-09",
@@ -116,9 +116,9 @@
       },
       {
         "month": "2026-10",
-        "picks": 96,
-        "avgBandHigh": 1.6125,
-        "avgActual": 0.2839
+        "picks": 102,
+        "avgBandHigh": 1.6304,
+        "avgActual": 0.2925
       }
     ]
   },
@@ -342,6 +342,11 @@
     {
       "date": "2026-10-28 (Morgen)",
       "entry": "Morgen-Slot 28.10.: Screening vor Pick — AI-Rallye Tag 3 nach Anthropic-IPO-Filing und Broadcom-63-Mrd.-Deal; Asien-Bestätigung über Nacht (SK-Hynix-Rekordquartal, Kospi temporär +5,6 %, Samsung +8,5 %), Fed-Pause heute 19:00 MEZ erwartet (CME ~90 %), Öl nachgebend (Brent ~109–110 USD). Depot-Picks nach Tages-Opportunität (bewusster Halbleiter-Schwerpunkt, weil Futures, Sektor und Katalysator gleichzeigen — Tag-2-Klausel damit 3/3 erfüllt): Broadcom (Katalysator-Deal + 4,0 % Vortag), Infineon (Europa-Tech-Spitze +4,8 %, Asien-Semi-Wind), Nvidia (Meta-AI-Finanzierung, SK-Hynix-Bestätigung). Freie Picks bewusst nur Indizes, da sämtliche Universums-Einzelaktien zugleich Depot-Titel sind (Overlap-Vermeidung; Korrektur zur Praxis früherer Tage, bei denen z. B. Siemens als frei lief): Nasdaq 100 (Momentum-Klausel bevorzugt), EuroStoxx 50 (handelt vorm Fed-Entscheid), Dow (Aufholpotenzial nach Boeing-Bremse). Boldness bei Momentum-Titeln erhöht (Lern-Log 27.10.: Bänder dort zu tief). Benchmarks: DAX knapp up, S&P 500 flat vorm Fed-/Earnings-Doppelabend. KBI-Notiz: Erst-Stempel 08:22:36 Uhr Berlin (gemessen, Auftragsbeginn), Signatur-Stempel 08:25:41 Uhr Berlin (gemessen, Handlungs-Ende). Signatur: FINE/Morgen-Job."
+    },
+    {
+      "date": "2026-10-28 (Abend)",
+      "entry": "Abend-Slot 28.10.: 6 Treffer, 1 Partial, 1 Miss — Tagesbilanz über dem Schnitt, Gesamtquote steigt auf 51,1 % (94/184). Die Momentum-Tag-3-These griff bei Broadcom (+1,22 %) und Infineon (+1,77 %), verfehlte aber bei Nvidia (−1,17 %): Drei Tagesgewinne in Folge erhöhen die Konsolidierungswahrscheinlichkeit — Katalysator-Qualität künftig differenzieren (harter Deal/Quartalsbeat trägt, reine Kauf-Spekulation wie die Meta-Emissions-Hoffnung nicht). Fed-Pause um 19:00 MEZ wie erwartet (CME ~90 % lagen richtig), Markt reagierte moderat. Europäische Breite blieb hinter Asien zurück (EuroStoxx 50 +0,03 %, Partial): Kalibrierungs-Anpassung — EuroStoxx-Bänder an EZB/Fed-Wartetagen enger setzen (Oberband 1,0 % war für Wartetags-Realität zu ambitioniert, künftig 0,3–0,6 %). Boldness: Die nach Lern-Log 27.10. erhöhten Momentum-Oberbänder zahlten sich aus (4 von 6 echten Picks im Band) — erhöhte Bänder bei klarer Katalysator-Lage beibehalten. Benchmarks stark: DAX und S&P 500 beide im Band (Markt-Lese-Qualität am Wartetag sauber). KBI-Notiz: Erst-Stempel 22:57:12 Uhr Berlin (gemessen, Auftragsbeginn), Signatur-Stempel am Handlungs-Ende gemessen (s. Chat-Bericht). Signatur: FINE/Abend-Job."
     }
   ]
 }
+
