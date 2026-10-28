@@ -4085,6 +4085,111 @@
           "actual": 0.86
         }
       ]
+    },
+    {
+      "date": "2026-10-28",
+      "title": "Fed-Wartetag mit AI-Rallye Tag 3: SK-Hynix-Rekord und Anthropic-Wind",
+      "picks": [
+        {
+          "name": "DAX",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "up",
+          "bandLow": 0,
+          "bandHigh": 0.8,
+          "confidence": 55,
+          "reason": "Screening: Asien klar freundlich (Kospi temporär +5,6 %, Nikkei +1,3 %, SK-Hynix-Rekordquartal), Fed-Pause heute 19:00 MEZ erwartet (CME ~90 %) — Europa handelt den Tag über den AI-Tailwind, Fed-Entscheid erst nach Schluss. DAX gestern +0,71 % (Erholung Tag 2), Brent mit ~109–110 USD nachgebend. Knappes up 0,0–0,8 %. Quellen: AP (Asien-Märkte, 28.10.2026), AFP (Fed erwartet Pause, 28.10.2026), Tako-Finanzdatensuche (28.10.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "S&P 500",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "flat",
+          "bandLow": -0.4,
+          "bandHigh": 0.7,
+          "confidence": 50,
+          "reason": "Screening: S&P 500 gestern +0,6 % auf 7.722,60 Punkte (1,2 % unter Rekord), US-Futures heute leicht schwächer; Fed-Entscheid 19:00 MEZ und Alphabet-/Microsoft-Zahlen abends als Doppel-Event — Warteshaltung im engen Band, Optionen vor dem Event gedämpft. Flat −0,4 bis +0,7 %. Quellen: AP (Wall-Street-Schluss 27.10.2026), AFP (Tagesvorschau 28.10.2026), AFP (Fed 28.10.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Broadcom",
+          "type": "equity",
+          "pickClass": "portfolio",
+          "fromPortfolio": true,
+          "direction": "up",
+          "bandLow": 0.5,
+          "bandHigh": 3,
+          "confidence": 68,
+          "reason": "Screening: Halbleiter-Superzyklus als Tages-Treiber (SK-Hynix-Rekordgewinn, Samsung +8,5 %) plus Anthropic-IPO-Wind. Broadcom gestern +4,0 % auf 342,33 USD nach dem 63-Mrd.-USD-Finanzierungsdeal für Anthropic-XPU-Lieferungen; Tag-2-Momentum-Klausel erfüllt (Futures/Sektor/Katalysator gleichgerichtet). Up 0,5–3,0 %, Oberband nach Lern-Log 27.10. (Momentum-Bänder zu tief) erhöht. Quellen: AP (27./28.10.2026), AFP (27.10.2026), Tako-Finanzdatensuche (28.10.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Infineon",
+          "type": "equity",
+          "pickClass": "portfolio",
+          "fromPortfolio": true,
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 2.5,
+          "confidence": 60,
+          "reason": "Screening: Europa-Tech-Erholung Tag 2 gestern mit Infineon als DAX-Spitze (+4,8 % auf 52,59 EUR), über Nacht Asien-Halbleiter-Bestätigung (SK Hynix Rekord, Kioxia +9,6 %, Nikkei +1,3 %) — Momentum-Tag 3. Risiko: Konsolidierung nach dem starken Vortag, daher unteres Band bei +0,2 %. Up 0,2–2,5 %. Quellen: Tako-Finanzdatensuche (28.10.2026), AP (28.10.2026), AFP (27.10.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Nvidia",
+          "type": "equity",
+          "pickClass": "portfolio",
+          "fromPortfolio": true,
+          "direction": "up",
+          "bandLow": 0.3,
+          "bandHigh": 2.5,
+          "confidence": 62,
+          "reason": "Screening: Meta plant 35 Mrd. USD Aktienemission für AI-Investitionen mit Nvidia/AMD/Broadcom als signalisierte Käufer; SK-Hynix-Rekord bestätigt den AI-Chip-Zyklus. Nvidia gestern +0,9 % auf 217,94 USD. Erwartete Fed-Pause hält die Zinslast für Wachstumstitel heute niedrig. Up 0,3–2,5 %. Quellen: AP (27.10.2026), AFP (27.10.2026), Tako-Finanzdatensuche (28.10.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Nasdaq 100",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.3,
+          "bandHigh": 1.5,
+          "confidence": 65,
+          "reason": "Screening: AI-Titel tragen die Rallye (Nasdaq Composite gestern +1,2 %), Asien-Tech heute noch stärker (Kospi temporär +5,6 %, Samsung +8,5 %, SK-Hynix-Beat) — Tag-2-Momentum-Bestätigungsklausel erneut erfüllt und damit laut Lern-Log 27.10. bevorzugt. Up 0,3–1,5 % (Pick-Index-Mindestband 1,0 eingehalten). Quellen: AP (27./28.10.2026), Tako-Finanzdatensuche (28.10.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "EuroStoxx 50",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.1,
+          "bandHigh": 1,
+          "confidence": 55,
+          "reason": "Screening: Europa-Erholung Tag 2 gestern (EuroStoxx 50 +0,86 %), freundliche Asien-Vorgabe und nachgebendes Öl (Brent ~109–110 USD); Fed-Entscheid erst nach europäischem Schluss — die Eurozone handelt den AI-Tailwind ungestört. Einzelrisiko: Quartalszahlen BASF/Deutsche Bank/Mercedes am Vormittag. Up 0,1–1,0 %. Quellen: AP (27.10.2026), AFP (Tagesvorschau 28.10.2026), Tako-Finanzdatensuche (27.10.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Dow Jones",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0,
+          "bandHigh": 1,
+          "confidence": 50,
+          "reason": "Screening: Dow gestern +<0,1 % (52.377,57), von Boeing (−10,7 % nach Quartalszahl) gebremst — dieser Sondereffekt ist verdaut; breiter US-Markt mit S&P 500 nur 1,2 % unter Rekord, Fed-Pause erwartet, Apple-Event und Microsoft-/Alphabet-Zahlen erst abends. Vorsichtiges up 0,0–1,0 % (Pick-Index-Mindestband 1,0 eingehalten). Quellen: AP (27./28.10.2026), AFP (27.10.2026).",
+          "status": "open",
+          "reviews": []
+        }
+      ]
     }
   ]
 }
