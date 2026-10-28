@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-27T21:40:51.575Z",
+  "updated": "2026-10-28T07:25:45.085Z",
   "totals": {
     "predictions": 176,
     "hits": 88,
@@ -338,6 +338,10 @@
     {
       "date": "2026-10-27 (Abend)",
       "entry": "Abend-Review 27.10.: 7 von 8 Picks im Ziel (87,5 % Tages-Hitquote), 2 Overshoots (Siemens +1,84 % vs. Oberband 1,8 %, Barrick Gold +2,67 % vs. 2,0 %) — Bänder bei Momentum-Titeln eher zu tief als zu hoch, Boldness dort erhöhen. Einziger Miss: Muenchener Rueck (−0,65 %) — das Barclays-Kursziel-Cap allein als Tages-Bear-Signal gewichtet, obwohl der Sektor freundlich stand (EuroStoxx +0,86 %). Abgeleitete Kalibrierungs-Anpassungen: (1) Einzeltitel-Analysten-Downgrades nur noch als Richtungs-Argument, wenn Sektor-/Index-Wind sie bestätigt — sonst Sektor-Momentum Vorrang. (2) Flat-Benchmark-Oberbänder: DAX +0,71 % rutschte knapp über das +0,6 %-Band (nach Flat-Präzedenz Toleranz-Treffer) — oberes Flat-Band künftig 0,7–0,8 % ansetzen. (3) Tag-2-Momentum-Bestätigungsklausel (Nasdaq 100 +1,29 %) erneut erfüllt (2/2) — beibehalten und bevorzugt, wenn Futures, Sektor und Katalysator gleichzeigen. Tagessummary: Europa-Erholung Tag 2 vor Fed-Entscheid 28.10., getragen von Tech (Infineon +4,8 %), Öl nachgebend. Quellen: ARIVA/dpa-AFX, ad-hoc-news.de, finanzen.net, indexes.nasdaq.com, investing.com, portfolio-terminal.com, Yahoo Finance, Tako-Finanzdatensuche (27.10.2026). KBI-Notiz: Erst-Stempel 22:35:52 Uhr Berlin (gemessen, Auftragsbeginn), Signatur-Stempel 22:40 Uhr Berlin (gemessen, Handlungs-Ende). Signatur: FINE/Abend-Job."
+    },
+    {
+      "date": "2026-10-28 (Morgen)",
+      "entry": "Morgen-Slot 28.10.: Screening vor Pick — AI-Rallye Tag 3 nach Anthropic-IPO-Filing und Broadcom-63-Mrd.-Deal; Asien-Bestätigung über Nacht (SK-Hynix-Rekordquartal, Kospi temporär +5,6 %, Samsung +8,5 %), Fed-Pause heute 19:00 MEZ erwartet (CME ~90 %), Öl nachgebend (Brent ~109–110 USD). Depot-Picks nach Tages-Opportunität (bewusster Halbleiter-Schwerpunkt, weil Futures, Sektor und Katalysator gleichzeigen — Tag-2-Klausel damit 3/3 erfüllt): Broadcom (Katalysator-Deal + 4,0 % Vortag), Infineon (Europa-Tech-Spitze +4,8 %, Asien-Semi-Wind), Nvidia (Meta-AI-Finanzierung, SK-Hynix-Bestätigung). Freie Picks bewusst nur Indizes, da sämtliche Universums-Einzelaktien zugleich Depot-Titel sind (Overlap-Vermeidung; Korrektur zur Praxis früherer Tage, bei denen z. B. Siemens als frei lief): Nasdaq 100 (Momentum-Klausel bevorzugt), EuroStoxx 50 (handelt vorm Fed-Entscheid), Dow (Aufholpotenzial nach Boeing-Bremse). Boldness bei Momentum-Titeln erhöht (Lern-Log 27.10.: Bänder dort zu tief). Benchmarks: DAX knapp up, S&P 500 flat vorm Fed-/Earnings-Doppelabend. KBI-Notiz: Erst-Stempel 08:22:36 Uhr Berlin (gemessen, Auftragsbeginn), Signatur-Stempel 08:25:41 Uhr Berlin (gemessen, Handlungs-Ende). Signatur: FINE/Morgen-Job."
     }
   ]
 }
