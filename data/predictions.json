@@ -4270,7 +4270,111 @@
           "actual": 0.19
         }
       ]
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Morgenprognose: Microsoft-Beat gegen Alphabet-Dämpfer — DAX freundlich vor EZB-Entscheid",
+      "picks": [
+        {
+          "name": "DAX",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "up",
+          "bandLow": 0,
+          "bandHigh": 0.5,
+          "confidence": 55,
+          "reason": "Screening: Fed-Pause gestern wie erwartet (Leitzins 3,75–4,0 %, zwei Höhungs-Dissenter, Warsh: Inflation zu hoch), Unsicherheit vor US-Zwischenwahlen (3.11.) bleibt. DAX gestern +0,44 % auf 25.704 Punkte, IG-Indikation vor Xetra +0,2 % auf 25.765 Punkte; Asien gemischt (Nikkei ±0, Hang Seng +0,2 %, Shanghai −0,9 %). Treiber heute: Microsoft-Beat (Umsatz 92,3 Mrd. $, Azure +48 %) stützt KI-Sentiment; Bremse: hoher Ölpreis (Brent ~108 $) und EZB-Entscheid 14:45 MEZ (Pause erwartet, Inflation Eurozone 3,6 %). Up 0,0–0,5 %. Quellen: tagesschau Marktbericht 29.10.2026, AFP 28./29.10.2026, investing.com (29.10.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "S&P 500",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "up",
+          "bandLow": -0.1,
+          "bandHigh": 0.4,
+          "confidence": 50,
+          "reason": "Screening: S&P 500 gestern +0,28 % auf 7.743,98 Punkte nach Fed-Pause; Futures leicht negativ (−0,24 %), da Alphabet nach Quartalszahlen nachbörslich ca. −10 % gibt, während Microsoft ca. +3–5 % zulegt (Netto-Drag im Tech-Sektor). Tagsüber: erste US-BIP-Schätzung Q3 und PCE-Inflation 13:30 MEZ, Amazon-Zahlen erst nach Schluss (21:00). Enge Bandbreite wegen gegenläufiger Tech-Kräfte. Up −0,1 bis +0,4 %. Quellen: investing.com, stockmarketwatch (Afterhours 29.10.2026), AFP Tagesvorschau 29.10.2026.",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "SAP",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "fromPortfolio": true,
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1.5,
+          "confidence": 60,
+          "reason": "Screening: Europas AI-Spitze profitiert am stärksten vom Microsoft-Beat — Azure-Wachstum +48 % validiert das Cloud-/KI-Ausgaben-Theme auch für europäische Softwarespieler; tagesschau berichtet anhaltenden KI-Optimismus rund um SAP (Cloud-Geschäft punktet, Börse honoriert es). DAX-Indikation freundlich (+0,2 %). Risiko: Gewinnmitnahmen nach starker Woche, EZB-Entscheid mittags. Up 0,2–1,5 % (Pick-Aktien-Mindestoberband 1,5). Quellen: tagesschau Börse-Thema (28.10.2026), AFP (29.10.2026, Microsoft-Zahlen), investing.com (29.10.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Microsoft",
+          "type": "equity_us",
+          "pickClass": "portfolio",
+          "fromPortfolio": true,
+          "direction": "up",
+          "bandLow": 0.5,
+          "bandHigh": 2.5,
+          "confidence": 65,
+          "reason": "Screening: Härtester Tageskatalysator — Quartalsgewinn 36,6 Mrd. $ und Umsatz 92,3 Mrd. $ klar über Erwartungen (FactSet: 90,6/35,1 Mrd. $), Azure +48 %; Aktie Mittwochmittag +5 %, nachbörslich weiter ca. +2,7 % (531 $). Klarer Beat, kein reines Spekulationsthema (Lern-Log 28.10.: harte Katalysatoren tragen). Risiko: marktweites Tech-Risiko über Alphabet-Verkaufswelle, US-BIP-Daten 13:30 MEZ. Up 0,5–2,5 % (Mut-Kriterium bei klarem Katalysator). Quellen: AFP 29.10.2026, stockmarketwatch Afterhours (29.10.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Nvidia",
+          "type": "equity_us",
+          "pickClass": "portfolio",
+          "fromPortfolio": true,
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1.8,
+          "confidence": 55,
+          "reason": "Screening: AI-Capex-Bestätigung durch Microsoft (Azure +48 %, milliardenschwere KI-Investitionen) färbt auf AI-Chips ab; Pre-Market freundlich (NVDA ca. +0,9 %, Micron +3,6 %, AMD +2,1 % — Sektor-Wind). Gestern −1,17 %, also kein Seriengewinn-Konsolidierungsrisiko (Tag-2-Klausel). Risiko: Alphabet-Abverkauf könnte Stimmung kippen. Up 0,2–1,8 %. Quellen: stockmarketwatch PreMarket (29.10.2026), AFP (29.10.2026, Microsoft-Zahlen).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Dow Jones",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.1,
+          "bandHigh": 1,
+          "confidence": 55,
+          "reason": "Screening: Dow-Futures ca. +0,45 % (52.935 Punkte) — als einziger US-Index klar im Plus, weil Microsoft (Dow-Mitglied) nachbörslich stark ist und der Dow KEIN Alphabet enthält (−10 %); Vortag +0,19 % auf 52.475,10, Boeing-Sondereffekt verdaut, dritter Gewinntag nach Fed-Pause möglich. Wartetag vor BIP-Daten, aber Index-Konstruktion gibt heute Wind. Up 0,1–1,0 % (Pick-Index-Mindestband 1,0). Quellen: investing.com Futures (29.10.2026), stockmarketwatch (29.10.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Nasdaq 100",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "flat",
+          "bandLow": -0.6,
+          "bandHigh": 0.6,
+          "confidence": 45,
+          "reason": "Screening: Tech-Kräfte gegenläufig — Microsoft-Boost (nachbörslich +2,7 %) vs. Alphabet-Abverkauf (nachbörslich ca. −10 %); Futures ca. −0,9 %. Weder klarer Auf- noch Abwärtstag: Microsoft kann den Alphabet-Drag im Index teilweise auffangen, Sektor-Breite freundlich (Micron, AMD). Flat −0,6 bis +0,6 % (Konsolidierungs-Annahme nach gestern +0,55 %). Quellen: investing.com Futures, stockmarketwatch Afterhours (29.10.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "EuroStoxx 50",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0,
+          "bandHigh": 1,
+          "confidence": 50,
+          "reason": "Screening: Vortag nur +0,03 % (6.166,55) trotz Asien-AI-Wind — Europa war vor EZB zurückhaltend; heute EZB-Entscheid 14:45 MEZ (Pause erwartet, 71 %), danach Pressekonferenz: ausbleibende Straffung könnte Erleichterung auslösen. Frankreich-Unruhen (Proteste, Anleihe-Turbulenzen) bleiben Gegenwind. Nach Lern-Log 28.10. enge Kalibrierung an EZB-Tagen; Oberband 1,0 (Pick-Index-Regel). Up 0,0–1,0 %. Quellen: MarketScreener/Reuters (29.10.2026), der-investor.com (EZB-Wahrscheinlichkeiten), investing.com (29.10.2026).",
+          "status": "open",
+          "reviews": []
+        }
+      ]
     }
   ]
 }
-
