@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-10-28T21:57:12.911Z",
+  "updated": "2026-10-29T06:48:48.988Z",
   "totals": {
     "predictions": 184,
     "hits": 94,
@@ -346,7 +346,10 @@
     {
       "date": "2026-10-28 (Abend)",
       "entry": "Abend-Slot 28.10.: 6 Treffer, 1 Partial, 1 Miss — Tagesbilanz über dem Schnitt, Gesamtquote steigt auf 51,1 % (94/184). Die Momentum-Tag-3-These griff bei Broadcom (+1,22 %) und Infineon (+1,77 %), verfehlte aber bei Nvidia (−1,17 %): Drei Tagesgewinne in Folge erhöhen die Konsolidierungswahrscheinlichkeit — Katalysator-Qualität künftig differenzieren (harter Deal/Quartalsbeat trägt, reine Kauf-Spekulation wie die Meta-Emissions-Hoffnung nicht). Fed-Pause um 19:00 MEZ wie erwartet (CME ~90 % lagen richtig), Markt reagierte moderat. Europäische Breite blieb hinter Asien zurück (EuroStoxx 50 +0,03 %, Partial): Kalibrierungs-Anpassung — EuroStoxx-Bänder an EZB/Fed-Wartetagen enger setzen (Oberband 1,0 % war für Wartetags-Realität zu ambitioniert, künftig 0,3–0,6 %). Boldness: Die nach Lern-Log 27.10. erhöhten Momentum-Oberbänder zahlten sich aus (4 von 6 echten Picks im Band) — erhöhte Bänder bei klarer Katalysator-Lage beibehalten. Benchmarks stark: DAX und S&P 500 beide im Band (Markt-Lese-Qualität am Wartetag sauber). KBI-Notiz: Erst-Stempel 22:57:12 Uhr Berlin (gemessen, Auftragsbeginn), Signatur-Stempel am Handlungs-Ende gemessen (s. Chat-Bericht). Signatur: FINE/Abend-Job."
+    },
+    {
+      "date": "2026-10-29 (Morgen)",
+      "entry": "Morgen-Slot 29.10.: Screening vor Pick — Fed-Pause gestern wie erwartet (3,75–4,0 %, zwei Höhungs-Dissenter), heutiger Doppelkatalysator: Microsoft-Beat (Umsatz 92,3 Mrd. $, Azure +48 %, Aktie nachbörslich ca. +2,7 %) gegen Alphabet-Abverkauf (nachbörslich ca. −10 %) — erster Index-Konstruktions-Test des Schemas: Dow (enthält Microsoft, nicht Alphabet) als klarer Nutznießer, Nasdaq 100 neutralisiert (flat, bewusste Gegenposition zum Aufwärts-Fokus wegen Alphabet-Drag — gemäß Regel nur bei klaren Gegenargumenten). Depot-Picks nach Tages-Opportunität: Microsoft (härtester Katalysator, harte Beat-Qualität nach Lern-Log 28.10.), SAP (Europa-AI-Spitze, Azure-Beat validiert Cloud-Theme), Nvidia (AI-Capex-Bestätigung via Microsoft, gestern −1,17 % = kein Seriengewinn-Risiko). Freie Picks nur Indizes (Overlap-Vermeidung: sämtliche Universums-Aktien sind Depot-Titel): Dow, Nasdaq 100 (flat), EuroStoxx 50 (EZB-Pause 14:45 MEZ als Tageskatalysator, Band nach Lern-Log 28.10. konservativ, Oberband 1,0 der Pick-Index-Regel). Benchmarks: DAX knapp up (IG +0,2 %, 25.765 indiziert), S&P 500 knapp up (−0,1 bis +0,4 %, gegenläufige Tech-Kräfte, BIP/PCE 13:30 MEZ). KBI-Notiz: Erst-Stempel 07:44:47 Uhr Berlin (gemessen, Auftragsbeginn), Signatur-Stempel am Handlungs-Ende gemessen (s. Chat-Bericht). Signatur: FINE/Morgen-Job."
     }
   ]
 }
-
