@@ -1,60 +1,60 @@
 {
   "version": 4,
-  "updated": "2026-10-29T06:48:48.988Z",
+  "updated": "2026-10-29T21:22:41.043Z",
   "totals": {
-    "predictions": 184,
-    "hits": 94,
+    "predictions": 192,
+    "hits": 96,
     "partial": 21,
-    "misses": 69,
-    "overshoots": 17,
-    "directionCorrect": 106,
-    "hitRate": 0.5109
+    "misses": 75,
+    "overshoots": 18,
+    "directionCorrect": 108,
+    "hitRate": 0.5
   },
   "benchmark": {
-    "predictions": 47,
-    "hits": 21,
+    "predictions": 49,
+    "hits": 22,
     "partial": 9,
-    "misses": 17,
-    "overshoots": 3,
-    "directionCorrect": 24,
-    "hitRate": 0.4468
+    "misses": 19,
+    "overshoots": 4,
+    "directionCorrect": 25,
+    "hitRate": 0.449
   },
   "picks": {
-    "predictions": 137,
-    "hits": 73,
+    "predictions": 145,
+    "hits": 75,
     "partial": 12,
-    "misses": 52,
+    "misses": 58,
     "overshoots": 14,
-    "directionCorrect": 82,
-    "hitRate": 0.5328
+    "directionCorrect": 84,
+    "hitRate": 0.5172
   },
   "byInstrumentType": {
     "index": {
-      "predictions": 106,
-      "hits": 51,
+      "predictions": 114,
+      "hits": 53,
       "partial": 15,
-      "misses": 40,
-      "overshoots": 5,
-      "directionCorrect": 59,
-      "hitRate": 0.4811
+      "misses": 46,
+      "overshoots": 6,
+      "directionCorrect": 61,
+      "hitRate": 0.4649
     },
     "equity_de": {
-      "predictions": 42,
+      "predictions": 43,
       "hits": 26,
       "partial": 3,
-      "misses": 13,
+      "misses": 14,
       "overshoots": 9,
       "directionCorrect": 27,
-      "hitRate": 0.619
+      "hitRate": 0.6047
     },
     "equity_us": {
-      "predictions": 18,
+      "predictions": 21,
       "hits": 9,
       "partial": 0,
-      "misses": 9,
+      "misses": 12,
       "overshoots": 1,
       "directionCorrect": 9,
-      "hitRate": 0.5
+      "hitRate": 0.4286
     },
     "stock": {
       "predictions": 5,
@@ -77,36 +77,36 @@
   },
   "byPickClass": {
     "benchmark": {
-      "predictions": 47,
-      "hits": 21,
+      "predictions": 49,
+      "hits": 22,
       "partial": 9,
-      "misses": 17,
-      "overshoots": 3,
-      "directionCorrect": 24,
-      "hitRate": 0.4468
+      "misses": 19,
+      "overshoots": 4,
+      "directionCorrect": 25,
+      "hitRate": 0.449
     },
     "portfolio": {
-      "predictions": 68,
+      "predictions": 71,
       "hits": 38,
       "partial": 4,
-      "misses": 26,
+      "misses": 29,
       "overshoots": 10,
       "directionCorrect": 41,
-      "hitRate": 0.5588
+      "hitRate": 0.5352
     },
     "free": {
-      "predictions": 69,
-      "hits": 35,
+      "predictions": 72,
+      "hits": 36,
       "partial": 8,
-      "misses": 26,
+      "misses": 28,
       "overshoots": 4,
-      "directionCorrect": 41,
-      "hitRate": 0.5072
+      "directionCorrect": 42,
+      "hitRate": 0.5
     }
   },
   "boldness": {
-    "avgBandHigh": 1.6292,
-    "avgActual": 0.1489,
+    "avgBandHigh": 1.62,
+    "avgActual": 0.1187,
     "months": [
       {
         "month": "2026-09",
@@ -116,9 +116,9 @@
       },
       {
         "month": "2026-10",
-        "picks": 102,
-        "avgBandHigh": 1.6304,
-        "avgActual": 0.2925
+        "picks": 108,
+        "avgBandHigh": 1.6176,
+        "avgActual": 0.2446
       }
     ]
   },
@@ -350,6 +350,10 @@
     {
       "date": "2026-10-29 (Morgen)",
       "entry": "Morgen-Slot 29.10.: Screening vor Pick — Fed-Pause gestern wie erwartet (3,75–4,0 %, zwei Höhungs-Dissenter), heutiger Doppelkatalysator: Microsoft-Beat (Umsatz 92,3 Mrd. $, Azure +48 %, Aktie nachbörslich ca. +2,7 %) gegen Alphabet-Abverkauf (nachbörslich ca. −10 %) — erster Index-Konstruktions-Test des Schemas: Dow (enthält Microsoft, nicht Alphabet) als klarer Nutznießer, Nasdaq 100 neutralisiert (flat, bewusste Gegenposition zum Aufwärts-Fokus wegen Alphabet-Drag — gemäß Regel nur bei klaren Gegenargumenten). Depot-Picks nach Tages-Opportunität: Microsoft (härtester Katalysator, harte Beat-Qualität nach Lern-Log 28.10.), SAP (Europa-AI-Spitze, Azure-Beat validiert Cloud-Theme), Nvidia (AI-Capex-Bestätigung via Microsoft, gestern −1,17 % = kein Seriengewinn-Risiko). Freie Picks nur Indizes (Overlap-Vermeidung: sämtliche Universums-Aktien sind Depot-Titel): Dow, Nasdaq 100 (flat), EuroStoxx 50 (EZB-Pause 14:45 MEZ als Tageskatalysator, Band nach Lern-Log 28.10. konservativ, Oberband 1,0 der Pick-Index-Regel). Benchmarks: DAX knapp up (IG +0,2 %, 25.765 indiziert), S&P 500 knapp up (−0,1 bis +0,4 %, gegenläufige Tech-Kräfte, BIP/PCE 13:30 MEZ). KBI-Notiz: Erst-Stempel 07:44:47 Uhr Berlin (gemessen, Auftragsbeginn), Signatur-Stempel am Handlungs-Ende gemessen (s. Chat-Bericht). Signatur: FINE/Morgen-Job."
+    },
+    {
+      "date": "2026-10-29 (Abend)",
+      "entry": "Abend-Slot 29.10.: Schwerster Fehltag der Treffer-Bilanz — 2 Treffer (DAX mit Übererfüllung +1,31 % weit über dem 0,5-%-Oberband, EuroStoxx 50 +0,64 % sauber im EZB-Pause-Band), 6 Misses (S&P 500 −0,30, SAP ca. −1,2, Microsoft −0,12, Nvidia −1,13, Dow −0,25, Nasdaq 100 −1,38). Der Morgen-Screening-Fehler war strukturell: Die Neutralisierungsthese (Microsoft-Beat fängt Alphabet-Schock auf) unterschätzte die Sogwirkung eines historischen Einzelaktien-Absturzes auf den ganzen Tech-Sektor — der beatende Titel selbst gab sein Pre-Market-Plus auf (Microsoft +1,75 % vorbörslich → −0,12 % Schluss), der beat-freie Nachbar fiel härter (Nvidia −1,13 %). Kalibrierungs-Anpassungen: (1) Nach nachbörslichem Zwei-Stellen-Absturz eines Mega-Caps keine Neutralisations-/Flat-Thesen auf Indizes und Titel aus dessen Sogfeld — Flat-Bänder brechen bei −10-%-Einzelereignissen strukturell (Nasdaq-100-Lektion 29.10.). (2) Pre-Market-Plus nach Beat nicht als Tagesanker werten (Microsoft-Lektion: +1,75 % → −0,12 %). (3) Benchmark-Bänder an EZB-Entscheidtagen leicht anheben (DAX-Oberband 0,5 → 0,8 %; zweiter EZB-Tag-Overshoot in Folge — die Pause entfaltet mehr Erleichterung als enge Bänder tragen). (4) Aufwärts-Fokus bleibt Regelstand, aber Selektion verlangt Sektor-Breite-Rückhalt, wenn ein Mega-Cap-Desaster den Vortag dominiert. Boldness unverändert angemessen (Ø bandHigh 1,62 % echte Picks — Bänder mutig, der Sektor brach gesamt ein). Gesamtquote: exakt 50,0 % (96/192); Pick-Quote 51,7 %; Benchmark-Quote 44,9 %. KBI-Notiz: Erst-Stempel 22:19 Uhr Berlin (gemessen, Auftragsbeginn), Signatur-Stempel am Handlungs-Ende gemessen (s. Chat-Bericht). Signatur: FINE/Abend-Job."
     }
   ]
 }
