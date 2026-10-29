@@ -4284,14 +4284,19 @@
           "bandHigh": 0.5,
           "confidence": 55,
           "reason": "Screening: Fed-Pause gestern wie erwartet (Leitzins 3,75–4,0 %, zwei Höhungs-Dissenter, Warsh: Inflation zu hoch), Unsicherheit vor US-Zwischenwahlen (3.11.) bleibt. DAX gestern +0,44 % auf 25.704 Punkte, IG-Indikation vor Xetra +0,2 % auf 25.765 Punkte; Asien gemischt (Nikkei ±0, Hang Seng +0,2 %, Shanghai −0,9 %). Treiber heute: Microsoft-Beat (Umsatz 92,3 Mrd. $, Azure +48 %) stützt KI-Sentiment; Bremse: hoher Ölpreis (Brent ~108 $) und EZB-Entscheid 14:45 MEZ (Pause erwartet, Inflation Eurozone 3,6 %). Up 0,0–0,5 %. Quellen: tagesschau Marktbericht 29.10.2026, AFP 28./29.10.2026, investing.com (29.10.2026).",
-          "status": "open",
-          "actual": 1.05,
+          "status": "hit",
+          "actual": 1.31,
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 13:42 Uhr: 25.974,73 Punkte (+1,05 % vs. Vortag 25.704,02) — klar über dem Prognose-Band (0,0 bis +0,5 %). Adidas-Zahlen (+4 %) und Quartalszahlenflut treiben den DAX; EZB-Entscheid (14:15/14:45 Uhr) steht noch aus. Benchmark-Zwischenstand: +1,05 (Überschreiten, Bewertung am Abend). Quelle: comdirect Realtime (29.10.2026, 13:42), Börse Stuttgart."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 26.039,68 Punkte (Xetra), +1,31 % — klar über dem Band (0,0 bis +0,5 %): Hit mit Übererfüllung (overshoot). Die EZB-Pause und der Adidas-Rekordausblick (+5,8 % Spitze im DAX) trieben den vierten Gewinnstag in Folge; SAP zählte zu den Bremsern. Quelle: dpa-AFX via onvista.de (29.10.2026)."
             }
-          ]
+          ],
+          "overshoot": true
         },
         {
           "name": "S&P 500",
@@ -4302,12 +4307,16 @@
           "bandHigh": 0.4,
           "confidence": 50,
           "reason": "Screening: S&P 500 gestern +0,28 % auf 7.743,98 Punkte nach Fed-Pause; Futures leicht negativ (−0,24 %), da Alphabet nach Quartalszahlen nachbörslich ca. −10 % gibt, während Microsoft ca. +3–5 % zulegt (Netto-Drag im Tech-Sektor). Tagsüber: erste US-BIP-Schätzung Q3 und PCE-Inflation 13:30 MEZ, Amazon-Zahlen erst nach Schluss (21:00). Enge Bandbreite wegen gegenläufiger Tech-Kräfte. Up −0,1 bis +0,4 %. Quellen: investing.com, stockmarketwatch (Afterhours 29.10.2026), AFP Tagesvorschau 29.10.2026.",
-          "status": "open",
+          "status": "miss",
           "actual": -0.3,
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand: Vortages-Schluss 7.743,98 Punkte (+0,28 %); Futures aktuell ca. −0,3 % (S&P-Futures 7.762, −0,28 %) nach Alphabet-Abverkauf. Prognose-Band −0,1 bis +0,4 %: aktuell knapp darunter, Tag offen. Quelle: eOption Morning Preview, regardsofwallstreet.com, Yahoo Finance (29.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 7.720,39 Punkte, −0,30 % — unter dem Band (−0,1 bis +0,4 %) und im Minus: Miss. Der historische Alphabet-Absturz zog den Tech-Breitmarkt ins Minus; der Microsoft-Beat fing das nicht auf. Quelle: AP-Schlussbericht (29.10.2026)."
             }
           ]
         },
@@ -4321,12 +4330,16 @@
           "bandHigh": 1.5,
           "confidence": 60,
           "reason": "Screening: Europas AI-Spitze profitiert am stärksten vom Microsoft-Beat — Azure-Wachstum +48 % validiert das Cloud-/KI-Ausgaben-Theme auch für europäische Softwarespieler; tagesschau berichtet anhaltenden KI-Optimismus rund um SAP (Cloud-Geschäft punktet, Börse honoriert es). DAX-Indikation freundlich (+0,2 %). Risiko: Gewinnmitnahmen nach starker Woche, EZB-Entscheid mittags. Up 0,2–1,5 % (Pick-Aktien-Mindestoberband 1,5). Quellen: tagesschau Börse-Thema (28.10.2026), AFP (29.10.2026, Microsoft-Zahlen), investing.com (29.10.2026).",
-          "status": "open",
-          "actual": -1.28,
+          "status": "miss",
+          "actual": -1.18,
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 13:45 Uhr: 208,50 EUR (−1,28 % vs. Vortag 211,20) — entgegen der Prognose (up 0,2–1,5 %) aktuell deutlich negativ; die DAX-Breite trägt nicht auf SAP durch (Gewinnmitnahmen nach starker Woche, VW-Verlust belastet Sentiment). Zwischenstand: −1,28 %. Quelle: tagesschau Börsenkurse / live.deutsche-boerse.com (29.10.2026, 13:45)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Späthandel rund 208,70 Euro (Stuttgart 17:35 Uhr; Xetra-Notierung um 209 Euro), ca. −1,2 % ggü. Xetra-Vortag 211,20 Euro — negativ: Miss. SAP gehörte neben Vonovia zu den schwächsten DAX-Werten; der Azure-Beat von Microsoft half dem europäischen Software-Titel am Tech-Ausverkaufstag nicht. Quelle: boerse.de/finanzen.net (29.10.2026)."
             }
           ]
         },
@@ -4340,12 +4353,16 @@
           "bandHigh": 2.5,
           "confidence": 65,
           "reason": "Screening: Härtester Tageskatalysator — Quartalsgewinn 36,6 Mrd. $ und Umsatz 92,3 Mrd. $ klar über Erwartungen (FactSet: 90,6/35,1 Mrd. $), Azure +48 %; Aktie Mittwochmittag +5 %, nachbörslich weiter ca. +2,7 % (531 $). Klarer Beat, kein reines Spekulationsthema (Lern-Log 28.10.: harte Katalysatoren tragen). Risiko: marktweites Tech-Risiko über Alphabet-Verkaufswelle, US-BIP-Daten 13:30 MEZ. Up 0,5–2,5 % (Mut-Kriterium bei klarem Katalysator). Quellen: AFP 29.10.2026, stockmarketwatch Afterhours (29.10.2026).",
-          "status": "open",
-          "actual": 1.77,
+          "status": "miss",
+          "actual": -0.12,
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand: Pre-Market 540,40 USD (08:47 ET), +1,77 % vs. Vortagesschluss 531,01 USD — innerhalb des Prognose-Bands (up 0,5–2,5 %); Beat-Rally setzt sich fort, regulärer Handel beginnt 15:30 MEZ. Zwischenstand: +1,77 %. Quelle: Finanzdatensuche (Pre-Market-Quote 29.10.2026), Benzinga (+3,4 % früher)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 530,39 US-Dollar, −0,12 % — klar unter dem Band (+0,5 bis +2,5 %): Miss. Das Pre-Market-Plus von rund +1,75 % verflüchtigte sich; der Azure-Beat war eingepreist, der Alphabet-Sog riss die Aktie mit ins Minus. Quelle: ChartExchange/Nasdaq-Schlussdaten (29.10.2026)."
             }
           ]
         },
@@ -4359,12 +4376,16 @@
           "bandHigh": 1.8,
           "confidence": 55,
           "reason": "Screening: AI-Capex-Bestätigung durch Microsoft (Azure +48 %, milliardenschwere KI-Investitionen) färbt auf AI-Chips ab; Pre-Market freundlich (NVDA ca. +0,9 %, Micron +3,6 %, AMD +2,1 % — Sektor-Wind). Gestern −1,17 %, also kein Seriengewinn-Konsolidierungsrisiko (Tag-2-Klausel). Risiko: Alphabet-Abverkauf könnte Stimmung kippen. Up 0,2–1,8 %. Quellen: stockmarketwatch PreMarket (29.10.2026), AFP (29.10.2026, Microsoft-Zahlen).",
-          "status": "open",
-          "actual": -0.63,
+          "status": "miss",
+          "actual": -1.13,
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand: Pre-Market 214,02 USD (08:46 ET), −0,63 % vs. Vortagesschluss 215,38 USD — aktuell unter dem Prognose-Band (up 0,2–1,8 %); Alphabet-AI-Jitters und Semiconductor-Schwäche (SOX-Serie nach 4 Tagen gerissen) drücken. Zwischenstand: −0,63 %. Quelle: Finanzdatensuche (Pre-Market-Quote 29.10.2026), eOption (29.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 212,95 US-Dollar, −1,13 % — Miss. Die Microsoft-Capex-Bestätigung verlor gegen den sektorweiten Tech-Abverkauf und neue China-Schlagzeilen um den Nvidia-CEO. Richtung falsch. Quelle: Yahoo Finance Schlussdaten (29.10.2026)."
             }
           ]
         },
@@ -4377,12 +4398,16 @@
           "bandHigh": 1,
           "confidence": 55,
           "reason": "Screening: Dow-Futures ca. +0,45 % (52.935 Punkte) — als einziger US-Index klar im Plus, weil Microsoft (Dow-Mitglied) nachbörslich stark ist und der Dow KEIN Alphabet enthält (−10 %); Vortag +0,19 % auf 52.475,10, Boeing-Sondereffekt verdaut, dritter Gewinntag nach Fed-Pause möglich. Wartetag vor BIP-Daten, aber Index-Konstruktion gibt heute Wind. Up 0,1–1,0 % (Pick-Index-Mindestband 1,0). Quellen: investing.com Futures (29.10.2026), stockmarketwatch (29.10.2026).",
-          "status": "open",
-          "actual": -0.3,
+          "status": "miss",
+          "actual": -0.25,
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand: Dow-Futures ca. 52.680, leicht negativ (−0,03 % bis −0,3 %) — Prognose up 0,1–1,0 % aktuell gefährdet: Microsoft-Tailwind (Pre-Market +1,8 %) wird von Caterpillar-Enttäuschung (−8 %) und Alphabet-Drag neutralisiert. Zwischenstand: ca. −0,3 %. Quelle: eOption, Yahoo Finance, Benzinga (29.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 52.342,56 Punkte, −0,25 % — Miss. Die Index-Konstruktion schützte relativ (Dow hielt besser als Nasdaq Composite −1,38 %), doch der Alphabet-/Tech-Sog zog auch den Dow ins Minus; der Microsoft-Boost reichte nicht. Quelle: AP-Schlussbericht (29.10.2026)."
             }
           ]
         },
@@ -4395,12 +4420,16 @@
           "bandHigh": 0.6,
           "confidence": 45,
           "reason": "Screening: Tech-Kräfte gegenläufig — Microsoft-Boost (nachbörslich +2,7 %) vs. Alphabet-Abverkauf (nachbörslich ca. −10 %); Futures ca. −0,9 %. Weder klarer Auf- noch Abwärtstag: Microsoft kann den Alphabet-Drag im Index teilweise auffangen, Sektor-Breite freundlich (Micron, AMD). Flat −0,6 bis +0,6 % (Konsolidierungs-Annahme nach gestern +0,55 %). Quellen: investing.com Futures, stockmarketwatch Afterhours (29.10.2026).",
-          "status": "open",
-          "actual": -0.96,
+          "status": "miss",
+          "actual": -1.38,
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand: Futures ca. −0,96 % (29.686 Punkte), Infront-Indikation 29.500 (−0,33 %) — unter dem Flat-Band (−0,6 bis +0,6 %); Alphabet-Abverkauf (Pre-Market ca. −10 %) wiegt schwerer als Microsoft-Boost. Zwischenstand: ca. −0,96 %. Quelle: eOption Morning Preview, comdirect Infront-Indikation (29.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 29.402,51 Punkte, −1,38 % — klar unter dem Flat-Band (−0,6 bis +0,6 %): Miss. Das Neutralisierungsszenario (Microsoft gegen Alphabet) hielt der Realität nicht stand; der Alphabet-Schock schlug mehr als doppelt so hart durch, wie das Flat-Band breit war. Quelle: Nasdaq.com/Seeking Alpha (29.10.2026)."
             }
           ]
         },
@@ -4413,12 +4442,16 @@
           "bandHigh": 1,
           "confidence": 50,
           "reason": "Screening: Vortag nur +0,03 % (6.166,55) trotz Asien-AI-Wind — Europa war vor EZB zurückhaltend; heute EZB-Entscheid 14:45 MEZ (Pause erwartet, 71 %), danach Pressekonferenz: ausbleibende Straffung könnte Erleichterung auslösen. Frankreich-Unruhen (Proteste, Anleihe-Turbulenzen) bleiben Gegenwind. Nach Lern-Log 28.10. enge Kalibrierung an EZB-Tagen; Oberband 1,0 (Pick-Index-Regel). Up 0,0–1,0 %. Quellen: MarketScreener/Reuters (29.10.2026), der-investor.com (EZB-Wahrscheinlichkeiten), investing.com (29.10.2026).",
-          "status": "open",
-          "actual": 0.46,
+          "status": "hit",
+          "actual": 0.64,
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 13:57 Uhr: 6.199,37 Punkte (+0,46 % vs. Vortag 6.167,81) — im Prognose-Band (up 0,0–1,0 %); Ölwerte (Shell +3,6 %) stützen vor EZB-Entscheid (14:15/14:45 Uhr). Zwischenstand: +0,46 %. Quelle: boerse.de Realtime (29.10.2026, 13:57), live.deutsche-boerse.com (+0,44 %)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 6.207,45 Punkte (STOXX), +0,64 % — im Band (0,0 bis +1,0 %): Hit. Die EZB-Pause löste die erwartete Erleichterung aus, Ölwerte stützten. Quelle: finanzen.at (29.10.2026)."
             }
           ]
         }
