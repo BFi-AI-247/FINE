@@ -1,51 +1,51 @@
 {
   "version": 4,
-  "updated": "2026-10-29T21:22:41.043Z",
+  "updated": "2026-10-30T21:04:29.704Z",
   "totals": {
-    "predictions": 192,
-    "hits": 96,
-    "partial": 21,
-    "misses": 75,
-    "overshoots": 18,
-    "directionCorrect": 108,
-    "hitRate": 0.5
+    "predictions": 200,
+    "hits": 97,
+    "partial": 22,
+    "misses": 81,
+    "overshoots": 19,
+    "directionCorrect": 110,
+    "hitRate": 0.485
   },
   "benchmark": {
-    "predictions": 49,
+    "predictions": 51,
     "hits": 22,
-    "partial": 9,
-    "misses": 19,
+    "partial": 10,
+    "misses": 20,
     "overshoots": 4,
-    "directionCorrect": 25,
-    "hitRate": 0.449
+    "directionCorrect": 26,
+    "hitRate": 0.4314
   },
   "picks": {
-    "predictions": 145,
-    "hits": 75,
+    "predictions": 151,
+    "hits": 76,
     "partial": 12,
-    "misses": 58,
-    "overshoots": 14,
-    "directionCorrect": 84,
-    "hitRate": 0.5172
+    "misses": 63,
+    "overshoots": 15,
+    "directionCorrect": 85,
+    "hitRate": 0.5033
   },
   "byInstrumentType": {
     "index": {
-      "predictions": 114,
+      "predictions": 118,
       "hits": 53,
-      "partial": 15,
-      "misses": 46,
+      "partial": 16,
+      "misses": 49,
       "overshoots": 6,
-      "directionCorrect": 61,
-      "hitRate": 0.4649
+      "directionCorrect": 62,
+      "hitRate": 0.4492
     },
     "equity_de": {
-      "predictions": 43,
-      "hits": 26,
+      "predictions": 47,
+      "hits": 27,
       "partial": 3,
-      "misses": 14,
-      "overshoots": 9,
-      "directionCorrect": 27,
-      "hitRate": 0.6047
+      "misses": 17,
+      "overshoots": 10,
+      "directionCorrect": 28,
+      "hitRate": 0.5745
     },
     "equity_us": {
       "predictions": 21,
@@ -77,36 +77,36 @@
   },
   "byPickClass": {
     "benchmark": {
-      "predictions": 49,
+      "predictions": 51,
       "hits": 22,
-      "partial": 9,
-      "misses": 19,
+      "partial": 10,
+      "misses": 20,
       "overshoots": 4,
-      "directionCorrect": 25,
-      "hitRate": 0.449
+      "directionCorrect": 26,
+      "hitRate": 0.4314
     },
     "portfolio": {
-      "predictions": 71,
-      "hits": 38,
+      "predictions": 74,
+      "hits": 39,
       "partial": 4,
-      "misses": 29,
-      "overshoots": 10,
-      "directionCorrect": 41,
-      "hitRate": 0.5352
+      "misses": 31,
+      "overshoots": 11,
+      "directionCorrect": 42,
+      "hitRate": 0.527
     },
     "free": {
-      "predictions": 72,
+      "predictions": 75,
       "hits": 36,
       "partial": 8,
-      "misses": 28,
+      "misses": 31,
       "overshoots": 4,
       "directionCorrect": 42,
-      "hitRate": 0.5
+      "hitRate": 0.48
     }
   },
   "boldness": {
-    "avgBandHigh": 1.62,
-    "avgActual": 0.1187,
+    "avgBandHigh": 1.6107,
+    "avgActual": 0.0824,
     "months": [
       {
         "month": "2026-09",
@@ -116,9 +116,9 @@
       },
       {
         "month": "2026-10",
-        "picks": 108,
-        "avgBandHigh": 1.6176,
-        "avgActual": 0.2446
+        "picks": 114,
+        "avgBandHigh": 1.6061,
+        "avgActual": 0.1905
       }
     ]
   },
@@ -358,6 +358,10 @@
     {
       "date": "2026-10-30 (Morgen)",
       "entry": "Screen-vor-Pick 30.10.: Vortag brachte den Doppel-Schock — Alphabet mit stärkstem Tagesverlust seit Börsengang (-12,6 %, AI-Kapex-Sorge) und Amazon-Schwäche, während der DAX dank EZB-Pause +1,31 % auf 26.039,68 kletterte. Auswahl-Begründung: (1) S&P 500 als klarer Down-Benchmark (Futures -0,9 %, PCE 3,6 % hält Fed hawkish) — Richtung down mit klaren Gegenargumenten gemäß Regelstand. (2) DAX flat statt up: Futures nur leicht im Minus, Öl/MDAX-Stärke gegen SAP-Tech-Sog — 26.000-Verteidigung als Basis-Szenario. (3) Depot-Picks als Defensiv-Rotation ins Nicht-Tech: Rheinmetall (Verteidigung, Vortag +3,58 %), Deutsche Telekom (Defensiv-Rotation bei Tech-Flucht), Allianz (Zinsumfeld, Non-Tech) — bewusst KEINE US-Tech-Titel nach der 6/8-Miss-Lehre vom 29.10. (Microsoft -0,12 %, Nvidia down). (4) Frei: MDAX (Stärkezone Öl/Mittelstand, Hella/Fuchs/Puma-Zahlen), EuroStoxx 50 (EZB-Erleichterung, Öl-Werte), Siemens (Kapitalgüter statt AI-Cloud, Vortag +1,37 %). KBI-Notiz: Erst-Stempel 07:59 Uhr Berlin (frisch gemessen, Auftragsbeginn), Prognose-Commit 08:00:36 Uhr (vor 09:00-Grenze). Signatur: FINE/Morgen-Job."
+    },
+    {
+      "date": "2026-10-30 (Abend)",
+      "entry": "Abend-Slot 30.10.: Tech-Rout-Tag mit 1 Treffer, 1 Partial, 6 Misses. Treffer: Deutsche Telekom +1,83 % mit ÜBERERFÜLLUNG (Übererfüllung des 1,5-%-Oberbands) — die Defensiv-Rotations-These aus der Tech-Flucht war exakt richtig, Telekom zählte zu den Top-Werten im EuroStoxx 50. Partial: S&P 500 down −1,82 % (Band −1,6 bis −0,3 %) — Richtung korrekt, Band knapp zu eng für den größten US-Tagesverlust seit Juni. Sechs Misses teilen sich zwei Wurzeln: (1) Momentum-Fortsetzungs-Fehlschlüsse: Rheinmetall nach +3,58 % Vortag, Siemens nach +1,37 %, MDAX nach Öl-Rally — an Risk-off-Tagen mit Nasdaq-Futures um −2,5 % setzt nach starken Vortagesläufen systematisch Profit-Taking ein. (2) Überschätzter EZB-Erleichterungs-Schutz: EuroStoxx 50 (−1,23 %) und DAX flat (−0,85 %) zeigen, dass der US-Tech-Sog die EZB-Pause-Wirkung einen Tag später vollständig überlagert. Kalibrierungs-Anpassungen: (1) Nach einem Vortageslauf von mehr als +3 % KEINE Fortsetzungs-Up-These am Folgetag, wenn die US-Futures mit mehr als −1 % starten (Rheinmetall-Lektion 30.10.). (2) Down-Bänder für US-Benchmarks an Post-Schock-Tagen großzügiger spannen (bis −2,0 % statt −1,6 %; S&P-Partial war band-, nicht richtungsbedingt). (3) 'Nicht-Tech' reicht nicht als Schutz-Begründung: Siemens/Kapitalgüter und MDAX/Mittelstand brachen stärker als der DAX — Schutz gilt nur für echt defensive Netzwerk-/Versorgungswerte mit aktuellem Defensiv-Narrativ (Telekom-Lektion: Treffer). (4) DAX-Flat-Band an Tech-Schock-Nachtagen gegen Bildungsrisiko asymmetrisch: bei Futures −2,5 % im Tech-Umfeld kein Flat auf Indizes mit hohem Tech-Anteil. Boldness: Ø bandHigh echte Picks Oktober 1,61 %, Ø actual heute −0,62 % — Bänder waren mutig und regelkonform, die Auswahl-Heuristik (Sektor-Rückhalt) ist der Fehler-Hebel, nicht die Bandhöhe. Gesamtquote: 48,5 % (97/200); Pick-Quote 50,3 %; Benchmark-Quote 43,1 %. KBI-Notiz: Erst-Stempel 23:02 Uhr Berlin (frisch gemessen, Auftragsbeginn), Signatur-Stempel am Handlungs-Ende gemessen (s. Chat-Bericht). Signatur: FINE/Abend-Job."
     }
   ]
 }
