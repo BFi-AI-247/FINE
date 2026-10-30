@@ -4456,6 +4456,108 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-10-30",
+      "title": "Morgenprognose: Alphabet-Schock drückt US-Tech — DAX soll die 26.000 verteidigen",
+      "picks": [
+        {
+          "name": "DAX",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "flat",
+          "bandLow": -0.4,
+          "bandHigh": 0.4,
+          "confidence": 50,
+          "reason": "Screening: Vortag +1,31 % auf 26.039,68 Punkte (vierter Gewinnstag, EZB-Pause); Futures heute Morgen leicht im Minus (ca. -0,2 %, Tagesspanne 26.056-26.210). Treiber des Tages: US-Tech-Rout (Alphabet -12,6 %, Amazon schwach, Nasdaq-100-Futures -2,5 %) belastet über SAP den Tech-Anteil, während Öl (~110 USD), MDAX-Momentum (Öl/Banken/Adidas +5,8 %) und der EZB-Erleichterungseffekt stützen. Erwartung: Konsolidierung rund um die 26.000-Marke, -0,4 bis +0,4 %. Quellen: tagesschau.de Marktbericht (29./30.10.2026), finanzen.net, investing.com DAX-Futures (30.10.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "S&P 500",
+          "type": "index",
+          "pickClass": "benchmark",
+          "direction": "down",
+          "bandLow": -1.6,
+          "bandHigh": -0.3,
+          "confidence": 60,
+          "reason": "Screening: Vortag -0,30 % auf 7.720,39; Futures heute -0,9 % bis -1,0 %. Treiber: AI-Ausgaben-Schock — Alphabet mit stärkstem Tagesverlust seit Börsengang (-12,6 % auf 283,82 USD), Amazon -4,25 % nach Zahlen, ServiceNow/Fortinet/Caterpillar zweistellig im Abverkauf; Asien (Taiwan -2,5 %) gibt den Ton vor. Zügel: BIP +3,4 % und PCE 3,6 % (CNBC/BEA 29.10.) halten die Fed hawkish (Dezember-Hike eingepreist). Erwartung: fester Abgabetag, -1,6 bis -0,3 %. Quellen: investing.com Pre-Market (30.10.2026), goldesel.de Big-Tech-Zahlen, CNBC PCE-Report (29.10.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Rheinmetall",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1.6,
+          "confidence": 55,
+          "reason": "Screening: Risk-off-Tag mit klarer Gegenargumentation gegen Tech — Verteidigung ist vom AI-Kapex-Thema unberührt. Vortag +3,58 % auf 1.048,20 EUR als DAX-Top-Wert (tagesschau Tops/Flops 29.10.), MDAX-Momentum und Safe-Haven-Charakter bei US-Tech-Flucht. Erwartung: Fortsetzung +0,2 bis +1,6 %. Quellen: tagesschau.de Börsenkurse (29./30.10.2026), wallstreet-online.de Börsen-Tag (29.10.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Deutsche Telekom",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "direction": "up",
+          "bandLow": 0,
+          "bandHigh": 1.5,
+          "confidence": 55,
+          "reason": "Screening: Bei Tech-Flucht rotate Anleger in defensive Netzwerk-/Telekom-Werte; Telekom gestern +1,91 % auf 25,62 EUR (investing.com Komponenten, 29.10.) und ist im DAX einer der stabilsten Non-Tech-Titel. EZB-Pause stützt Euro-Aktien. Erwartung: +0,0 bis +1,5 %. Quellen: investing.com DAX-Futures-Komponenten (29./30.10.2026), tagesschau.de Börsenkurse (29.10.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Allianz",
+          "type": "equity_de",
+          "pickClass": "portfolio",
+          "direction": "up",
+          "bandLow": 0,
+          "bandHigh": 1.5,
+          "confidence": 50,
+          "reason": "Screening: Versicherer profitieren vom EZB-Zinsumfeld (Leitzins 2,5 %, höherer Zinspfad); Allianz gestern +0,21 % auf 439,90 EUR, Frühnotierung +0,99 % (tagesschau/investing, 29./30.10.). Klarer Non-Tech-Charakter schützt am Risk-off-Tag. Risikokenner: Dezember-Hike-Andeutung der EZB. Erwartung: +0,0 bis +1,5 %. Quellen: tagesschau.de Börsenkurse (29.10.2026), ariva.de EZB-Schlussbericht (29.10.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "MDAX",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.1,
+          "bandHigh": 1.2,
+          "confidence": 55,
+          "reason": "Screening: MDAX als Stärke-Zone der deutschen Börse — gestern +1,23 % auf 30.798,65, getragen von Öl-Werten, Salzgitter und Adidas (+5,8 %). Öl ~110 USD und Berichtssaison-Breite (Hella, Fuchs, Puma heute) sprechen für Mittelstände; Tech-Last ist im MDAX gering. Erwartung: +0,1 bis +1,2 %. Quellen: tagesschau.de/ariva.de Schlussberichte (29.10.2026), boersennews.de Tagesvorschau (30.10.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "EuroStoxx 50",
+          "type": "index",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.1,
+          "bandHigh": 1,
+          "confidence": 50,
+          "reason": "Screening: EZB-Pause (2,5 %, Lagarde-Rücktritt als Unsicherheitsfaktor) wirkt als Erleichterung, Vortag +0,64 % auf 6.207,45 (STOXX). Öl-Werte (Shell +3,6 % Vortag) stützen den Index; US-Sog begrenzt das Plus. Erwartung: milder Euro-Aufwärtstag +0,1 bis +1,0 %. Quellen: finanzen.at EuroStoxx-Schluss (29.10.2026), ariva.de EZB-Bericht (29.10.2026).",
+          "status": "open",
+          "reviews": []
+        },
+        {
+          "name": "Siemens",
+          "type": "equity_de",
+          "pickClass": "free",
+          "direction": "up",
+          "bandLow": 0.2,
+          "bandHigh": 1.6,
+          "confidence": 50,
+          "reason": "Screening: Kapitalgüter statt AI-Cloud — Siemens gestern +1,37 % auf 273,75 EUR (investing.com Komponenten 29.10.), Industrierallye im DAX-Umfeld (MDAX/Erholungstrend, Deutschland-Fokus nach EZB-Pause). Direktes AI-Kapex-Thema fern, ordergetriebenes Geschäft zyklisch gestützt. Erwartung: +0,2 bis +1,6 %. Quellen: investing.com DAX-Futures-Komponenten (29.10.2026), wallstreet-online.de Börsen-Tag (29.10.2026).",
+          "status": "open",
+          "reviews": []
+        }
+      ]
     }
   ]
 }
