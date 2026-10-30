@@ -4470,14 +4470,18 @@
           "bandHigh": 0.4,
           "confidence": 50,
           "reason": "Screening: Vortag +1,31 % auf 26.039,68 Punkte (vierter Gewinnstag, EZB-Pause); Futures heute Morgen leicht im Minus (ca. -0,2 %, Tagesspanne 26.056-26.210). Treiber des Tages: US-Tech-Rout (Alphabet -12,6 %, Amazon schwach, Nasdaq-100-Futures -2,5 %) belastet über SAP den Tech-Anteil, während Öl (~110 USD), MDAX-Momentum (Öl/Banken/Adidas +5,8 %) und der EZB-Erleichterungseffekt stützen. Erwartung: Konsolidierung rund um die 26.000-Marke, -0,4 bis +0,4 %. Quellen: tagesschau.de Marktbericht (29./30.10.2026), finanzen.net, investing.com DAX-Futures (30.10.2026).",
-          "status": "open",
+          "status": "miss",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00: 25.852 Punkte, −0,72 % (comdirect Realtime 14:02). Nach vier Gewinntagen (+1,31 % gestern auf 26.039,68) Luft nach oben — aktuell knapp UNTER dem Flat-Band (−0,4 bis +0,4 %). Der US-Tech-Sog (Alphabet-Rout) wiegt schwerer als der EZB-Erleichterungseffekt; die 26.000 wurde aufgegeben. Quelle: comdirect DAX-Kursdaten (30.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 25.818,75 Punkte, −0,85 % (Xetra) — Flat-Band (−0,4 bis +0,4 %) klar verfehlt: Nach vier Gewinntagen wurde die 26.000-Marke zum Wochenschluss aufgegeben, Ölpreis- und Tech-Sorgen wogen schwerer als die EZB-Erleichterung. Miss. Quellen: finanzen.net Xetra-Schluss (30.10.2026), tagesschau.de Marktbericht (30.10.2026)."
             }
           ],
-          "actual": -0.72
+          "actual": -0.85
         },
         {
           "name": "S&P 500",
@@ -4488,14 +4492,18 @@
           "bandHigh": -0.3,
           "confidence": 60,
           "reason": "Screening: Vortag -0,30 % auf 7.720,39; Futures heute -0,9 % bis -1,0 %. Treiber: AI-Ausgaben-Schock — Alphabet mit stärkstem Tagesverlust seit Börsengang (-12,6 % auf 283,82 USD), Amazon -4,25 % nach Zahlen, ServiceNow/Fortinet/Caterpillar zweistellig im Abverkauf; Asien (Taiwan -2,5 %) gibt den Ton vor. Zügel: BIP +3,4 % und PCE 3,6 % (CNBC/BEA 29.10.) halten die Fed hawkish (Dezember-Hike eingepreist). Erwartung: fester Abgabetag, -1,6 bis -0,3 %. Quellen: investing.com Pre-Market (30.10.2026), goldesel.de Big-Tech-Zahlen, CNBC PCE-Report (29.10.2026).",
-          "status": "open",
+          "status": "partial",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00: Futures vor US-Start ca. 7.684 Punkte, rund −0,9 % (Vortagesschluss 7.720,39). Prognose down (−1,6 bis −0,3 %) bisher IM BAND — schwache Amazon-/Intel-Ausblicke und Zweifel an den AI-Investitionen dominieren den Prämarkt (ad-hoc-news meldet Futures ~−1 %). Quelle: investing.com S&P-500-Futures (30.10.2026), ad-hoc-news Marktbericht (30.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 7.580,07 Punkte, −1,82 % — Richtung down korrekt, Schluss knapp unter der Banduntergrenze (−1,6 bis −0,3 %): Partial. Größter Tagesverlust seit Juni 2026; Nasdaq Composite −2,86 %, Nvidia −5,33 %. Quellen: Yahoo Finance ^SPX (30.10.2026), portfolio-terminal.com Stock Market Close (30.10.2026)."
             }
           ],
-          "actual": -0.9
+          "actual": -1.82
         },
         {
           "name": "Rheinmetall",
@@ -4506,14 +4514,18 @@
           "bandHigh": 1.6,
           "confidence": 55,
           "reason": "Screening: Risk-off-Tag mit klarer Gegenargumentation gegen Tech — Verteidigung ist vom AI-Kapex-Thema unberührt. Vortag +3,58 % auf 1.048,20 EUR als DAX-Top-Wert (tagesschau Tops/Flops 29.10.), MDAX-Momentum und Safe-Haven-Charakter bei US-Tech-Flucht. Erwartung: Fortsetzung +0,2 bis +1,6 %. Quellen: tagesschau.de Börsenkurse (29./30.10.2026), wallstreet-online.de Börsen-Tag (29.10.2026).",
-          "status": "open",
+          "status": "miss",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00: 1.036,40 EUR, −1,13 % (Xetra 13:48). Safe-Haven-These hält heute nicht: Profit-Taking nach dem gestrigen +3,58 %-Lauf auf 1.048,20 zieht den Titel unter die Prognose (up +0,2 bis +1,6 %) — Richtung aktuell verfehlt. Quelle: boerse.de/Xetra-Orderbuch Rheinmetall (30.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 1.037,60 EUR, −1,01 % (Xetra) — Safe-Haven-/Momentum-These (up +0,2 bis +1,6 %) verfehlt: Profit-Taking nach dem +3,58 %-Vortageslauf setzte sich fort; Verteidigung war heute kein Tech-Flucht-Kandidat. Miss. Quellen: Yahoo Finance RHM.DE (30.10.2026), de.investing.com Rheinmetall (30.10.2026)."
             }
           ],
-          "actual": -1.13
+          "actual": -1.01
         },
         {
           "name": "Deutsche Telekom",
@@ -4524,14 +4536,19 @@
           "bandHigh": 1.5,
           "confidence": 55,
           "reason": "Screening: Bei Tech-Flucht rotate Anleger in defensive Netzwerk-/Telekom-Werte; Telekom gestern +1,91 % auf 25,62 EUR (investing.com Komponenten, 29.10.) und ist im DAX einer der stabilsten Non-Tech-Titel. EZB-Pause stützt Euro-Aktien. Erwartung: +0,0 bis +1,5 %. Quellen: investing.com DAX-Futures-Komponenten (29./30.10.2026), tagesschau.de Börsenkurse (29.10.2026).",
-          "status": "open",
+          "status": "hit",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00: 25,94 EUR, +1,25 % (Xetra 14:06). Defensive Rotation aus Tech greift wie prognostiziert — aktuell IM BAND (0 bis +1,5 %), nahe am oberen Rand; Tageshoch 25,99. Quelle: boerse.de Deutsche Telekom Xetra (30.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 26,09 EUR, +1,83 % (Xetra) — Treffer mit Übererfüllung: actual über dem Oberband (+1,5 %). Die Defensiv-Rotation aus Tech griff exakt wie prognostiziert, Telekom zählte zu den Top-Werten im EuroStoxx 50. Quellen: finanzen.net EuroStoxx-Tops (30.10.2026), de.investing.com Telekom Xetra (30.10.2026)."
             }
           ],
-          "actual": 1.25
+          "actual": 1.83,
+          "overshoot": true
         },
         {
           "name": "Allianz",
@@ -4542,14 +4559,18 @@
           "bandHigh": 1.5,
           "confidence": 50,
           "reason": "Screening: Versicherer profitieren vom EZB-Zinsumfeld (Leitzins 2,5 %, höherer Zinspfad); Allianz gestern +0,21 % auf 439,90 EUR, Frühnotierung +0,99 % (tagesschau/investing, 29./30.10.). Klarer Non-Tech-Charakter schützt am Risk-off-Tag. Risikokenner: Dezember-Hike-Andeutung der EZB. Erwartung: +0,0 bis +1,5 %. Quellen: tagesschau.de Börsenkurse (29.10.2026), ariva.de EZB-Schlussbericht (29.10.2026).",
-          "status": "open",
+          "status": "miss",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00: 439,20 EUR, ca. −0,1 % ggü. Xetra-Vortagesschluss 439,60 (Allianz-IR 06:04-MEZ-Stand; Stuttgart-Notierung 14:11 leicht positiv bei +0,2 %, teils mit Vortag 438,30 referenziert). Aktuell seitwärts, knapp unter dem Band (0 bis +1,5 %) — up-Richtung bis Mittag nicht bestätigt. Quelle: allianz.de Investor Relations (30.10.2026), boerse.de Allianz Realtime (30.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 438,70 EUR, −0,20 % (Xetra; Vortag 439,60) — up-Band (0 bis +1,5 %) knapp verfehlt, Richtung falsch: Miss. Frühnotierung +0,99 % verflüchtigte sich wie bei Microsoft am Vortag. Quellen: MarketScreener Allianz Xetra (30.10.2026), boerse.de (30.10.2026)."
             }
           ],
-          "actual": -0.1
+          "actual": -0.2
         },
         {
           "name": "MDAX",
@@ -4560,14 +4581,18 @@
           "bandHigh": 1.2,
           "confidence": 55,
           "reason": "Screening: MDAX als Stärke-Zone der deutschen Börse — gestern +1,23 % auf 30.798,65, getragen von Öl-Werten, Salzgitter und Adidas (+5,8 %). Öl ~110 USD und Berichtssaison-Breite (Hella, Fuchs, Puma heute) sprechen für Mittelstände; Tech-Last ist im MDAX gering. Erwartung: +0,1 bis +1,2 %. Quellen: tagesschau.de/ariva.de Schlussberichte (29.10.2026), boersennews.de Tagesvorschau (30.10.2026).",
-          "status": "open",
+          "status": "miss",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00: ca. 30.448 Punkte, −1,14 % (comdirect-Ticker 14:02). Das Öl-/Mittelstands-Momentum von gestern (+1,23 %) dreht im europaweiten Abverkauf — Prognose up (+0,1 bis +1,2 %) aktuell klar verfehlt. Quelle: comdirect MDAX-Kursdaten (30.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 30.451,54 Punkte, −1,13 % (Xetra) — Öl-/Mittelstands-Momentum-Fortsetzung (up +0,1 bis +1,2 %) im europaweiten Abverkauf klar verfehlt: Miss. Quellen: finanzen.net MDAX-Schluss (30.10.2026), Yahoo Finance ^MDAXI (30.10.2026)."
             }
           ],
-          "actual": -1.14
+          "actual": -1.13
         },
         {
           "name": "EuroStoxx 50",
@@ -4578,14 +4603,18 @@
           "bandHigh": 1,
           "confidence": 50,
           "reason": "Screening: EZB-Pause (2,5 %, Lagarde-Rücktritt als Unsicherheitsfaktor) wirkt als Erleichterung, Vortag +0,64 % auf 6.207,45 (STOXX). Öl-Werte (Shell +3,6 % Vortag) stützen den Index; US-Sog begrenzt das Plus. Erwartung: milder Euro-Aufwärtstag +0,1 bis +1,0 %. Quellen: finanzen.at EuroStoxx-Schluss (29.10.2026), ariva.de EZB-Bericht (29.10.2026).",
-          "status": "open",
+          "status": "miss",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00: ca. 6.148 Punkte, −0,83 % (boerse.de/Ariva-Indikation 14:18; Vortag 6.207,07). Die US-Tech-Rout zieht den Euro-Index mit nach unten — up-Prognose (+0,1 bis +1,0 %) aktuell verfehlt. Quelle: boerse.de EuroStoxx 50 Realtime (30.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 6.131,02 Punkte, −1,23 % (STOXX) — EZB-Erleichterungs-These (up +0,1 bis +1,0 %) vom US-Tech-Sog vollständig überlagert: Miss. Quellen: finanzen.net EuroStoxx-Schluss (30.10.2026), countryeconomy.com STOXX 50 (30.10.2026)."
             }
           ],
-          "actual": -0.83
+          "actual": -1.23
         },
         {
           "name": "Siemens",
@@ -4596,17 +4625,20 @@
           "bandHigh": 1.6,
           "confidence": 50,
           "reason": "Screening: Kapitalgüter statt AI-Cloud — Siemens gestern +1,37 % auf 273,75 EUR (investing.com Komponenten 29.10.), Industrierallye im DAX-Umfeld (MDAX/Erholungstrend, Deutschland-Fokus nach EZB-Pause). Direktes AI-Kapex-Thema fern, ordergetriebenes Geschäft zyklisch gestützt. Erwartung: +0,2 bis +1,6 %. Quellen: investing.com DAX-Futures-Komponenten (29.10.2026), wallstreet-online.de Börsen-Tag (29.10.2026).",
-          "status": "open",
+          "status": "miss",
           "reviews": [
             {
               "slot": "Mittag",
               "text": "Zwischenstand 14:00: 266,65 EUR, −2,59 % (Xetra 14:04) — Kapitalgüter-These heute klar widerlegt; Siemens gibt im DAX überproportional ab (u. a. nach Jefferies-Downgrade auf Hold). Prognose up (+0,2 bis +1,6 %) aktuell deutlich verfehlt. Quelle: boerse.de/Xetra-Orderbuch Siemens (30.10.2026)."
+            },
+            {
+              "slot": "Abend",
+              "text": "Schluss 265,65 EUR, −2,96 % (Xetra) — Kapitalgüter-These (up +0,2 bis +1,6 %) am Tech-Rout-Tag klar widerlegt (u. a. nach Jefferies-Downgrade auf Hold): Miss. Quellen: finanzen.net DAX-Tops/Flops (30.10.2026)."
             }
           ],
-          "actual": -2.59
+          "actual": -2.96
         }
       ]
     }
   ]
 }
-
